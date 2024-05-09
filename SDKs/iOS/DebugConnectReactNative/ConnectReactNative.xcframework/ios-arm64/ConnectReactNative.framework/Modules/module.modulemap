@@ -1,0 +1,7 @@
+framework module ConnectReactNative {
+    umbrella header "/Users/omarhernandez/git/github/iOS-SDK/iOSSrc/Connect/Connect/PublicInterface/ConnectBridgingHeader.h"
+    
+    export *
+    module * { export * }
+}
+
