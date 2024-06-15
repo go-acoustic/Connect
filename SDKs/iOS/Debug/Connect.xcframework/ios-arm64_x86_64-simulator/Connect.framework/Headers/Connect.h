@@ -16,7 +16,7 @@ FOUNDATION_EXPORT const unsigned char ConnectVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <Connect/PublicHeader.h>
 
 #import "ConnectApplication.h"
-#import <Connect/ConnectApplicationHelper.h>
-#import <Connect/ConnectCustomEvent.h>
-#import <Connect/ConnectPublicDefinitions.h>
-#import <Connect/ConnectBridgingHeader.h>
+#import "ConnectApplicationHelper.h"
+#import "ConnectCustomEvent.h"
+#import "ConnectPublicDefinitions.h"
+#import "ConnectBridgingHeader.h"
