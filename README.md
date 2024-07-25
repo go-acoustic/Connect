@@ -13,23 +13,26 @@ For SDK prerequisites and documentation, please refer to the SDK documentation [
 
 Add following lines at the begining of your Podfile
 
->Set platform as iOS 12
->
->`platform :ios, '12.0'`
->
->Uncomment use_frameworks
->
->`use_frameworks!`
+Set platform as iOS 12
+```
+platform :ios, '12.0'
+```
+Uncomment use_frameworks
+```
+use_frameworks!
+```
 
 In the respective targets for your project in the Podfile add the following line if you want to use Connect SDK's release version which needs to be used in your production version of your application.
-
->`pod 'AcousticConnect'`
+```
+pod 'AcousticConnect'
+```
 
 In the respective targets for your project in the Podfile add the following line if you want to use Connect SDK's release version with version number. Otherwise you will get the beta version that might new feature or fixes which have not been full tested or approved.
+```
+pod 'AcousticConnectDebug'
+```
 
->`pod 'AcousticConnectDebug'`
-
-Remember you can use only one of  `pod 'AcousticConnect'` and `pod 'AcousticConnectDebug'`. Do not use both at the same time.
+**Note** that you can use only one of `pod 'AcousticConnect'` or `pod 'AcousticConnectDebug'`. Do not use both at the same time.
 
 ### Important Note
 Please do use $(inherited) flag in your application target's "Other Linker Settings" This will ensure all the pods are linked correctly.
