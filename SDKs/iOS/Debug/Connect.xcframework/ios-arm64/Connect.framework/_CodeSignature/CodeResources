@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		FLZfs7pWfJU0u0kW2keZn5td0xI=
+		gkTBdKINBSASMSqkNKYjFZQdrl8=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -42,15 +42,15 @@
 		</data>
 		<key>Headers/ConnectCustomEvent.h</key>
 		<data>
-		38Izm2TRqtEPM69EwgJbyRkWu00=
+		BMvX3lLAuN/BROEvBgtt3BmKRYs=
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		sFZ7niiP2db1ZUlpAGh8wDKlnC8=
+		STjnWSxrywi7OWQC6LEGx3EN8xI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aLTs4Bh5dz1pgnb1f1YrAmvBbV4=
+		HZfXFsACirXXqRjz/QnPE6SBd/k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y6ARmWGNz7ytq5QpifyaQlTpZGSvKO+2FkQf/dZWig0=
+			I1BJc8VHrYsKvWtKPXspjUUJ/r4D/FVsdtAbP8A2E3c=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iah0EIsGuW+mTWY29jnNH6oXt5PHJNxwtTEQOv8sK0A=
+			ouTMKcZnnroDmYgU4EKc8LtbIjBeiTyd4K3elQHKSYs=
 			</data>
 		</dict>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ORWozDR0QzeVhPKZ3ycugttEGzEQFWWwt19KAN/0uo=
+			pyGdPoL41pR95QRRNKhS38+0HbuGsVxB+erZHYGx8VI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
