@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		2Ta/wqbzVlKsrlJwe+c7Hvg1nGU=
+		yliVxsk8/CChDerubvWtVR3cLxM=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreAdvancedConfig.json</key>
 		<data>
-		kISfExCAZlhoUXvgNV9qSAPIG4c=
+		TNvijNUbQ1BQ/RHfUcXgbeI4FuA=
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		VtXOSUSz+Ts4y5/HcKbbd+5CEFE=
+		fkRS+E8LInX7wwgKcaAQcbCdisI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kFTdYPKgbexsA08p0Twnh9SQnXU=
+		23TV4YKC7zrSNrXhmB2b+qZoRBs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G8gtsW8KXbIX15LNyj/dw3BV56d1pJNntULVfRDgmKM=
+			jszgYCdpB7gfjjiRXJX/5LZDOBBmqn0PZIJYhnO9KSA=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+FAC9IhtQT/SbxU0gDS8+xjaQehFrcOm2k0z4Cj4ehI=
+			CjzKjI8C1sD+0pUpIWH4lYqCl18EAIMDq2lqNBz1qqs=
 			</data>
 		</dict>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pS/5A95Fmpu7Ia5LNkKFlsaAqRXmtG9ChpYVmhYCCz8=
+			M0Ww/i7aAEZYO6HGk7dv7Vy4chPurUTbo2OUACEiiUI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
