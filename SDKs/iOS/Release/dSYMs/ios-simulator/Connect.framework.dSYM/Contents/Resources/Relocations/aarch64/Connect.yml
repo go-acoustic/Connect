@@ -2,105 +2,114 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-gnnkeufzyvovlhgetcbmfmrdmqpz/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Connect.framework/Connect'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x592DE, size: 0x8, addend: 0x0, symName: _ConnectVersionString, symObjAddr: 0x0, symBinAddr: 0x6F40, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x59313, size: 0x8, addend: 0x0, symName: _ConnectVersionNumber, symObjAddr: 0x28, symBinAddr: 0x6F68, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x59350, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x3478, symSize: 0x74 }
-  - { offsetInCU: 0x35, offset: 0x5935E, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x3478, symSize: 0x74 }
-  - { offsetInCU: 0x5F, offset: 0x59388, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xB9E0, symBinAddr: 0xC620, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x5939E, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xB9E8, symBinAddr: 0xC628, symSize: 0x0 }
-  - { offsetInCU: 0x1FE, offset: 0x59527, size: 0x8, addend: 0x0, symName: '___36+[ConnectCustomEvent sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x34EC, symSize: 0x50 }
-  - { offsetInCU: 0x23D, offset: 0x59566, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:]', symObjAddr: 0xC4, symBinAddr: 0x353C, symSize: 0x10 }
-  - { offsetInCU: 0x280, offset: 0x595A9, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:values:]', symObjAddr: 0xD4, symBinAddr: 0x354C, symSize: 0x84 }
-  - { offsetInCU: 0x2D3, offset: 0x595FC, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:values:level:]', symObjAddr: 0x158, symBinAddr: 0x35D0, symSize: 0xA8 }
-  - { offsetInCU: 0x33A, offset: 0x59663, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSExceptionEvent:]', symObjAddr: 0x200, symBinAddr: 0x3678, symSize: 0x68 }
-  - { offsetInCU: 0x37D, offset: 0x596A6, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSExceptionEvent:dataDictionary:]', symObjAddr: 0x268, symBinAddr: 0x36E0, symSize: 0x84 }
-  - { offsetInCU: 0x3D0, offset: 0x596F9, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSExceptionEvent:dataDictionary:isUnhandled:]', symObjAddr: 0x2EC, symBinAddr: 0x3764, symSize: 0x8C }
-  - { offsetInCU: 0x433, offset: 0x5975C, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSErrorEvent:message:level:]', symObjAddr: 0x378, symBinAddr: 0x37F0, symSize: 0xB4 }
-  - { offsetInCU: 0x49A, offset: 0x597C3, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSErrorEvent:message:file:line:level:]', symObjAddr: 0x42C, symBinAddr: 0x38A4, symSize: 0xC0 }
-  - { offsetInCU: 0x521, offset: 0x5984A, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logAssertErrorEvent:condition:message:file:line:]', symObjAddr: 0x4EC, symBinAddr: 0x3964, symSize: 0xA4 }
-  - { offsetInCU: 0x5A4, offset: 0x598CD, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logPreconditionErrorEvent:condition:message:file:line:]', symObjAddr: 0x590, symBinAddr: 0x3A08, symSize: 0xA4 }
-  - { offsetInCU: 0x627, offset: 0x59950, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logAssertionFailureErrorEvent:message:file:line:]', symObjAddr: 0x634, symBinAddr: 0x3AAC, symSize: 0x9C }
-  - { offsetInCU: 0x69A, offset: 0x599C3, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logPreconditionFailureErrorEvent:message:file:line:]', symObjAddr: 0x6D0, symBinAddr: 0x3B48, symSize: 0x9C }
-  - { offsetInCU: 0x70D, offset: 0x59A36, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logFatalErrorEvent:message:file:line:]', symObjAddr: 0x76C, symBinAddr: 0x3BE4, symSize: 0x9C }
-  - { offsetInCU: 0x780, offset: 0x59AA9, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSURLSession:error:]', symObjAddr: 0x808, symBinAddr: 0x3C80, symSize: 0x84 }
-  - { offsetInCU: 0x7D3, offset: 0x59AFC, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSURLSession:response:responseTimeInMilliseconds:]', symObjAddr: 0x88C, symBinAddr: 0x3D04, symSize: 0x8C }
-  - { offsetInCU: 0x836, offset: 0x59B5F, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSURLSession:request:]', symObjAddr: 0x918, symBinAddr: 0x3D90, symSize: 0x84 }
-  - { offsetInCU: 0x889, offset: 0x59BB2, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logConnectionWithInitTime:loadTime:connection:request:response:error:]', symObjAddr: 0x99C, symBinAddr: 0x3E14, symSize: 0x104 }
-  - { offsetInCU: 0x91C, offset: 0x59C45, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logConnectionWithInitTime:loadTime:connection:request:response:data:error:]', symObjAddr: 0xAA0, symBinAddr: 0x3F18, symSize: 0x130 }
-  - { offsetInCU: 0x9BF, offset: 0x59CE8, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logLocation:]', symObjAddr: 0xBD0, symBinAddr: 0x4048, symSize: 0x68 }
-  - { offsetInCU: 0xA02, offset: 0x59D2B, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logLocationUpdateEventWithLatitude:longitude:level:]', symObjAddr: 0xC38, symBinAddr: 0x40B0, symSize: 0x80 }
-  - { offsetInCU: 0xA69, offset: 0x59D92, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logUILabelTextChange:]', symObjAddr: 0xCB8, symBinAddr: 0x4130, symSize: 0x68 }
-  - { offsetInCU: 0xAAC, offset: 0x59DD5, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logUILabelTextChange:controlId:]', symObjAddr: 0xD20, symBinAddr: 0x4198, symSize: 0x84 }
-  - { offsetInCU: 0xAFF, offset: 0x59E28, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logTextChangeEvent:data:]', symObjAddr: 0xDA4, symBinAddr: 0x421C, symSize: 0x84 }
-  - { offsetInCU: 0xB52, offset: 0x59E7B, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logTextChangeEvent:controlId:data:]', symObjAddr: 0xE28, symBinAddr: 0x42A0, symSize: 0xA8 }
-  - { offsetInCU: 0xBB5, offset: 0x59EDE, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logValueChangeEvent:data:]', symObjAddr: 0xED0, symBinAddr: 0x4348, symSize: 0x84 }
-  - { offsetInCU: 0xC08, offset: 0x59F31, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logValueChangeEvent:controlId:data:]', symObjAddr: 0xF54, symBinAddr: 0x43CC, symSize: 0xA8 }
-  - { offsetInCU: 0xC6B, offset: 0x59F94, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logClickEvent:data:]', symObjAddr: 0xFFC, symBinAddr: 0x4474, symSize: 0x84 }
-  - { offsetInCU: 0xCBE, offset: 0x59FE7, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logClickEvent:controlId:data:]', symObjAddr: 0x1080, symBinAddr: 0x44F8, symSize: 0xA8 }
-  - { offsetInCU: 0xD21, offset: 0x5A04A, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenViewPageName:]', symObjAddr: 0x1128, symBinAddr: 0x45A0, symSize: 0x68 }
-  - { offsetInCU: 0xD64, offset: 0x5A08D, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenViewContext:withClass:applicationContext:referrer:]', symObjAddr: 0x1190, symBinAddr: 0x4608, symSize: 0xC4 }
-  - { offsetInCU: 0xDDB, offset: 0x5A104, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logPrintScreenEvent]', symObjAddr: 0x1254, symBinAddr: 0x46CC, symSize: 0x44 }
-  - { offsetInCU: 0xE0E, offset: 0x5A137, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithImage:]', symObjAddr: 0x1298, symBinAddr: 0x4710, symSize: 0x68 }
-  - { offsetInCU: 0xE51, offset: 0x5A17A, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:]', symObjAddr: 0x1300, symBinAddr: 0x4778, symSize: 0x68 }
-  - { offsetInCU: 0xE94, offset: 0x5A1BD, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andName:]', symObjAddr: 0x1368, symBinAddr: 0x47E0, symSize: 0x84 }
-  - { offsetInCU: 0xEE7, offset: 0x5A210, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andDelay:]', symObjAddr: 0x13EC, symBinAddr: 0x4864, symSize: 0x78 }
-  - { offsetInCU: 0xF3A, offset: 0x5A263, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andDelay:andName:]', symObjAddr: 0x1464, symBinAddr: 0x48DC, symSize: 0x94 }
-  - { offsetInCU: 0xF9D, offset: 0x5A2C6, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andRelatedViews:]', symObjAddr: 0x14F8, symBinAddr: 0x4970, symSize: 0x84 }
-  - { offsetInCU: 0xFF0, offset: 0x5A319, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andRelatedViews:andDelay:]', symObjAddr: 0x157C, symBinAddr: 0x49F4, symSize: 0x94 }
-  - { offsetInCU: 0x1053, offset: 0x5A37C, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andRelatedViews:andName:]', symObjAddr: 0x1610, symBinAddr: 0x4A88, symSize: 0xA8 }
-  - { offsetInCU: 0x10B6, offset: 0x5A3DF, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andRelatedViews:andDelay:andName:]', symObjAddr: 0x16B8, symBinAddr: 0x4B30, symSize: 0xB8 }
-  - { offsetInCU: 0x1129, offset: 0x5A452, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logFormCompletion:]', symObjAddr: 0x1770, symBinAddr: 0x4BE8, symSize: 0x4C }
-  - { offsetInCU: 0x116C, offset: 0x5A495, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logFormCompletion:withValidData:]', symObjAddr: 0x17BC, symBinAddr: 0x4C34, symSize: 0x5C }
-  - { offsetInCU: 0x11BF, offset: 0x5A4E8, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logJSONMessagePayloadStr:]', symObjAddr: 0x1818, symBinAddr: 0x4C90, symSize: 0x68 }
-  - { offsetInCU: 0x1202, offset: 0x5A52B, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logImageUrl:withUrl:]', symObjAddr: 0x1880, symBinAddr: 0x4CF8, symSize: 0x84 }
-  - { offsetInCU: 0x1255, offset: 0x5A57E, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logPerformance:unloadEventStart:unloadEventEnd:redirectStart:redirectEnd:fetchStart:domainLookupStart:domainLookupEnd:connectStart:connectEnd:secureConnectionStart:requestStart:responseStart:responseEnd:domLoading:domInteractive:domContentLoadedEventStart:domContentLoadedEventEnd:domComplete:loadEventStart:loadEventEnd:renderTime:perNavType:redirectCount:]', symObjAddr: 0x1904, symBinAddr: 0x4D7C, symSize: 0x34C }
-  - { offsetInCU: 0x140C, offset: 0x5A735, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent convertToTLFScreenViewType:]', symObjAddr: 0x1C50, symBinAddr: 0x50C8, symSize: 0x10 }
-  - { offsetInCU: 0x144D, offset: 0x5A776, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent convertTokTLFMonitoringLevelType:]', symObjAddr: 0x1C60, symBinAddr: 0x50D8, symSize: 0x18 }
-  - { offsetInCU: 0x148E, offset: 0x5A7B7, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent convertToTLFPerformanceNavigationType:]', symObjAddr: 0x1C78, symBinAddr: 0x50F0, symSize: 0x10 }
-  - { offsetInCU: 0x27, offset: 0x5A987, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendEvent:]', symObjAddr: 0x0, symBinAddr: 0x5100, symSize: 0x4 }
-  - { offsetInCU: 0x6C, offset: 0x5A9CC, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendEvent:]', symObjAddr: 0x0, symBinAddr: 0x5100, symSize: 0x4 }
-  - { offsetInCU: 0xA7, offset: 0x5AA07, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendAction:to:from:forEvent:]', symObjAddr: 0x4, symBinAddr: 0x5104, symSize: 0x8 }
-  - { offsetInCU: 0x27, offset: 0x5AAE3, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x510C, symSize: 0x74 }
-  - { offsetInCU: 0x35, offset: 0x5AAF1, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x510C, symSize: 0x74 }
-  - { offsetInCU: 0x5F, offset: 0x5AB1B, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x6448, symBinAddr: 0xC630, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x5AB31, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6450, symBinAddr: 0xC638, symSize: 0x0 }
-  - { offsetInCU: 0x18A, offset: 0x5AC46, size: 0x8, addend: 0x0, symName: '___42+[ConnectApplicationHelper sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x5180, symSize: 0x2C }
-  - { offsetInCU: 0x1C9, offset: 0x5AC85, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper init]', symObjAddr: 0xA0, symBinAddr: 0x51AC, symSize: 0xB0 }
-  - { offsetInCU: 0x200, offset: 0x5ACBC, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableFramework]', symObjAddr: 0x150, symBinAddr: 0x525C, symSize: 0x44 }
-  - { offsetInCU: 0x233, offset: 0x5ACEF, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableFramework:withPostMessageUrl:]', symObjAddr: 0x194, symBinAddr: 0x52A0, symSize: 0x84 }
-  - { offsetInCU: 0x286, offset: 0x5AD42, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableTealeafFrameworkForUnitTests]', symObjAddr: 0x218, symBinAddr: 0x5324, symSize: 0x5C }
-  - { offsetInCU: 0x2F8, offset: 0x5ADB4, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper disableFramework]', symObjAddr: 0x274, symBinAddr: 0x5380, symSize: 0x44 }
-  - { offsetInCU: 0x32B, offset: 0x5ADE7, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper disableTealeafFrameworkForUnitTests]', symObjAddr: 0x2B8, symBinAddr: 0x53C4, symSize: 0x44 }
-  - { offsetInCU: 0x35E, offset: 0x5AE1A, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper pause]', symObjAddr: 0x2FC, symBinAddr: 0x5408, symSize: 0x44 }
-  - { offsetInCU: 0x391, offset: 0x5AE4D, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper resume]', symObjAddr: 0x340, symBinAddr: 0x544C, symSize: 0x44 }
-  - { offsetInCU: 0x3C4, offset: 0x5AE80, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper resume:]', symObjAddr: 0x384, symBinAddr: 0x5490, symSize: 0x68 }
-  - { offsetInCU: 0x407, offset: 0x5AEC3, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper isReactNative:]', symObjAddr: 0x3EC, symBinAddr: 0x54F8, symSize: 0x4C }
-  - { offsetInCU: 0x44A, offset: 0x5AF06, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper currentSessionId]', symObjAddr: 0x438, symBinAddr: 0x5544, symSize: 0x4C }
-  - { offsetInCU: 0x47D, offset: 0x5AF39, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper startNewTLFSession]', symObjAddr: 0x484, symBinAddr: 0x5590, symSize: 0x44 }
-  - { offsetInCU: 0x4B0, offset: 0x5AF6C, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper isTLFEnabled]', symObjAddr: 0x4C8, symBinAddr: 0x55D4, symSize: 0x44 }
-  - { offsetInCU: 0x4E3, offset: 0x5AF9F, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setDeviceId:]', symObjAddr: 0x50C, symBinAddr: 0x5618, symSize: 0x68 }
-  - { offsetInCU: 0x526, offset: 0x5AFE2, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper getDeviceId]', symObjAddr: 0x574, symBinAddr: 0x5680, symSize: 0x4C }
-  - { offsetInCU: 0x559, offset: 0x5B015, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setCXAAdvertisingId:]', symObjAddr: 0x5C0, symBinAddr: 0x56CC, symSize: 0x68 }
-  - { offsetInCU: 0x59C, offset: 0x5B058, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper getCXAAdvertisingId]', symObjAddr: 0x628, symBinAddr: 0x5734, symSize: 0x4C }
-  - { offsetInCU: 0x5CF, offset: 0x5B08B, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper applicationContextName]', symObjAddr: 0x674, symBinAddr: 0x5780, symSize: 0x4C }
-  - { offsetInCU: 0x602, offset: 0x5B0BE, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper frameworkVersion]', symObjAddr: 0x6C0, symBinAddr: 0x57CC, symSize: 0xC }
-  - { offsetInCU: 0x635, offset: 0x5B0F1, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper requestManualServerPost]', symObjAddr: 0x6CC, symBinAddr: 0x57D8, symSize: 0x38 }
-  - { offsetInCU: 0x664, offset: 0x5B120, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setLogLevel:forEvent:]', symObjAddr: 0x704, symBinAddr: 0x5810, symSize: 0x70 }
-  - { offsetInCU: 0x6B7, offset: 0x5B173, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper logLevelForEvent:]', symObjAddr: 0x774, symBinAddr: 0x5880, symSize: 0x68 }
-  - { offsetInCU: 0x6FA, offset: 0x5B1B6, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setKillSwitchUrl:]', symObjAddr: 0x7DC, symBinAddr: 0x58E8, symSize: 0x54 }
-  - { offsetInCU: 0x739, offset: 0x5B1F5, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setPostMessageUrl:]', symObjAddr: 0x830, symBinAddr: 0x593C, symSize: 0x54 }
-  - { offsetInCU: 0x778, offset: 0x5B234, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setConfigurableItem:value:]', symObjAddr: 0x884, symBinAddr: 0x5990, symSize: 0x84 }
-  - { offsetInCU: 0x7CB, offset: 0x5B287, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper valueForConfigurableItem:]', symObjAddr: 0x908, symBinAddr: 0x5A14, symSize: 0x70 }
-  - { offsetInCU: 0x80E, offset: 0x5B2CA, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper sendEvent:]', symObjAddr: 0x978, symBinAddr: 0x5A84, symSize: 0x54 }
-  - { offsetInCU: 0x84D, offset: 0x5B309, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper sendAction:to:from:forEvent:]', symObjAddr: 0x9CC, symBinAddr: 0x5AD8, symSize: 0xA4 }
-  - { offsetInCU: 0x8BC, offset: 0x5B378, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setAdditionalHttpHeaders:]', symObjAddr: 0xA70, symBinAddr: 0x5B7C, symSize: 0x54 }
-  - { offsetInCU: 0x8FB, offset: 0x5B3B7, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper addAdditionalHttpHeader:forName:]', symObjAddr: 0xAC4, symBinAddr: 0x5BD0, symSize: 0x78 }
-  - { offsetInCU: 0x94A, offset: 0x5B406, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setAdditionalHttpCookies:]', symObjAddr: 0xB3C, symBinAddr: 0x5C48, symSize: 0x54 }
-  - { offsetInCU: 0x989, offset: 0x5B445, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper addAdditionalHttpCookie:]', symObjAddr: 0xB90, symBinAddr: 0x5C9C, symSize: 0x54 }
-  - { offsetInCU: 0x9C8, offset: 0x5B484, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper getAdditionalHttpHeaders]', symObjAddr: 0xBE4, symBinAddr: 0x5CF0, symSize: 0x4C }
-  - { offsetInCU: 0x9FB, offset: 0x5B4B7, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper getAdditionalHttpCookies]', symObjAddr: 0xC30, symBinAddr: 0x5D3C, symSize: 0x4C }
-  - { offsetInCU: 0xA2E, offset: 0x5B4EA, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper sessionizeRequest:]', symObjAddr: 0xC7C, symBinAddr: 0x5D88, symSize: 0x68 }
-  - { offsetInCU: 0xA71, offset: 0x5B52D, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper isConnectHybridBridgeRequest:webView:]', symObjAddr: 0xCE4, symBinAddr: 0x5DF0, symSize: 0x84 }
-  - { offsetInCU: 0xAC4, offset: 0x5B580, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper InjectConnectHybridBridgeOnWebViewDidFinishLoad:]', symObjAddr: 0xD68, symBinAddr: 0x5E74, symSize: 0x68 }
-  - { offsetInCU: 0xB07, offset: 0x5B5C3, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper layoutConfigItems]', symObjAddr: 0xDD0, symBinAddr: 0x5EDC, symSize: 0x4C }
+  - { offset: 0x5F371, size: 0x8, addend: 0x0, symName: _ConnectVersionString, symObjAddr: 0x0, symBinAddr: 0x6D70, symSize: 0x0 }
+  - { offset: 0x5F3A6, size: 0x8, addend: 0x0, symName: _ConnectVersionNumber, symObjAddr: 0x28, symBinAddr: 0x6D98, symSize: 0x0 }
+  - { offset: 0x5F3E3, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2CEC, symSize: 0x74 }
+  - { offset: 0x5F3F1, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2CEC, symSize: 0x74 }
+  - { offset: 0x5F41B, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC278, symBinAddr: 0xC810, symSize: 0x0 }
+  - { offset: 0x5F431, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC280, symBinAddr: 0xC818, symSize: 0x0 }
+  - { offset: 0x5F566, size: 0x8, addend: 0x0, symName: '___36+[ConnectCustomEvent sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x2D60, symSize: 0x50 }
+  - { offset: 0x5F5A5, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:]', symObjAddr: 0xC4, symBinAddr: 0x2DB0, symSize: 0x10 }
+  - { offset: 0x5F5E8, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:values:]', symObjAddr: 0xD4, symBinAddr: 0x2DC0, symSize: 0x84 }
+  - { offset: 0x5F63B, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:values:level:]', symObjAddr: 0x158, symBinAddr: 0x2E44, symSize: 0xA8 }
+  - { offset: 0x5F6A2, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logSignal:]', symObjAddr: 0x200, symBinAddr: 0x2EEC, symSize: 0x8 }
+  - { offset: 0x5F6E5, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logSignal:level:]', symObjAddr: 0x208, symBinAddr: 0x2EF4, symSize: 0xB4 }
+  - { offset: 0x5F73C, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSExceptionEvent:]', symObjAddr: 0x2BC, symBinAddr: 0x2FA8, symSize: 0x68 }
+  - { offset: 0x5F77F, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSExceptionEvent:dataDictionary:]', symObjAddr: 0x324, symBinAddr: 0x3010, symSize: 0x84 }
+  - { offset: 0x5F7D2, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSExceptionEvent:dataDictionary:isUnhandled:]', symObjAddr: 0x3A8, symBinAddr: 0x3094, symSize: 0x8C }
+  - { offset: 0x5F835, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSErrorEvent:message:level:]', symObjAddr: 0x434, symBinAddr: 0x3120, symSize: 0xB4 }
+  - { offset: 0x5F89C, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSErrorEvent:message:file:line:level:]', symObjAddr: 0x4E8, symBinAddr: 0x31D4, symSize: 0xC0 }
+  - { offset: 0x5F923, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logAssertErrorEvent:condition:message:file:line:]', symObjAddr: 0x5A8, symBinAddr: 0x3294, symSize: 0xA4 }
+  - { offset: 0x5F9A6, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logPreconditionErrorEvent:condition:message:file:line:]', symObjAddr: 0x64C, symBinAddr: 0x3338, symSize: 0xA4 }
+  - { offset: 0x5FA29, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logAssertionFailureErrorEvent:message:file:line:]', symObjAddr: 0x6F0, symBinAddr: 0x33DC, symSize: 0x9C }
+  - { offset: 0x5FA9C, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logPreconditionFailureErrorEvent:message:file:line:]', symObjAddr: 0x78C, symBinAddr: 0x3478, symSize: 0x9C }
+  - { offset: 0x5FB0F, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logFatalErrorEvent:message:file:line:]', symObjAddr: 0x828, symBinAddr: 0x3514, symSize: 0x9C }
+  - { offset: 0x5FB82, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSURLSession:error:]', symObjAddr: 0x8C4, symBinAddr: 0x35B0, symSize: 0x84 }
+  - { offset: 0x5FBD5, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSURLSession:response:responseTimeInMilliseconds:]', symObjAddr: 0x948, symBinAddr: 0x3634, symSize: 0x8C }
+  - { offset: 0x5FC38, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logNSURLSession:request:]', symObjAddr: 0x9D4, symBinAddr: 0x36C0, symSize: 0x84 }
+  - { offset: 0x5FC8B, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logConnectionWithInitTime:loadTime:connection:request:response:error:]', symObjAddr: 0xA58, symBinAddr: 0x3744, symSize: 0x104 }
+  - { offset: 0x5FD1E, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logConnectionWithInitTime:loadTime:connection:request:response:data:error:]', symObjAddr: 0xB5C, symBinAddr: 0x3848, symSize: 0x130 }
+  - { offset: 0x5FDC1, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logLocation:]', symObjAddr: 0xC8C, symBinAddr: 0x3978, symSize: 0x68 }
+  - { offset: 0x5FE04, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logLocationUpdateEventWithLatitude:longitude:level:]', symObjAddr: 0xCF4, symBinAddr: 0x39E0, symSize: 0x80 }
+  - { offset: 0x5FE6B, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logUILabelTextChange:]', symObjAddr: 0xD74, symBinAddr: 0x3A60, symSize: 0x68 }
+  - { offset: 0x5FEAE, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logUILabelTextChange:controlId:]', symObjAddr: 0xDDC, symBinAddr: 0x3AC8, symSize: 0x84 }
+  - { offset: 0x5FF01, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logTextChangeEvent:data:]', symObjAddr: 0xE60, symBinAddr: 0x3B4C, symSize: 0x84 }
+  - { offset: 0x5FF54, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logTextChangeEvent:controlId:data:]', symObjAddr: 0xEE4, symBinAddr: 0x3BD0, symSize: 0xA8 }
+  - { offset: 0x5FFB7, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logValueChangeEvent:data:]', symObjAddr: 0xF8C, symBinAddr: 0x3C78, symSize: 0x84 }
+  - { offset: 0x6000A, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logValueChangeEvent:controlId:data:]', symObjAddr: 0x1010, symBinAddr: 0x3CFC, symSize: 0xA8 }
+  - { offset: 0x6006D, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logClickEvent:data:]', symObjAddr: 0x10B8, symBinAddr: 0x3DA4, symSize: 0x84 }
+  - { offset: 0x600C0, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logClickEvent:controlId:data:]', symObjAddr: 0x113C, symBinAddr: 0x3E28, symSize: 0xA8 }
+  - { offset: 0x60123, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenViewPageName:]', symObjAddr: 0x11E4, symBinAddr: 0x3ED0, symSize: 0x68 }
+  - { offset: 0x60166, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenViewContext:withClass:applicationContext:referrer:]', symObjAddr: 0x124C, symBinAddr: 0x3F38, symSize: 0xC4 }
+  - { offset: 0x601DD, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logPrintScreenEvent]', symObjAddr: 0x1310, symBinAddr: 0x3FFC, symSize: 0x44 }
+  - { offset: 0x60210, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithImage:]', symObjAddr: 0x1354, symBinAddr: 0x4040, symSize: 0x68 }
+  - { offset: 0x60253, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:]', symObjAddr: 0x13BC, symBinAddr: 0x40A8, symSize: 0x68 }
+  - { offset: 0x60296, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andName:]', symObjAddr: 0x1424, symBinAddr: 0x4110, symSize: 0x84 }
+  - { offset: 0x602E9, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andDelay:]', symObjAddr: 0x14A8, symBinAddr: 0x4194, symSize: 0x78 }
+  - { offset: 0x6033C, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andDelay:andName:]', symObjAddr: 0x1520, symBinAddr: 0x420C, symSize: 0x94 }
+  - { offset: 0x6039F, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andRelatedViews:]', symObjAddr: 0x15B4, symBinAddr: 0x42A0, symSize: 0x84 }
+  - { offset: 0x603F2, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andRelatedViews:andDelay:]', symObjAddr: 0x1638, symBinAddr: 0x4324, symSize: 0x94 }
+  - { offset: 0x60455, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andRelatedViews:andName:]', symObjAddr: 0x16CC, symBinAddr: 0x43B8, symSize: 0xA8 }
+  - { offset: 0x604B8, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logScreenLayoutWithViewController:andRelatedViews:andDelay:andName:]', symObjAddr: 0x1774, symBinAddr: 0x4460, symSize: 0xB8 }
+  - { offset: 0x6052B, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logFormCompletion:]', symObjAddr: 0x182C, symBinAddr: 0x4518, symSize: 0x4C }
+  - { offset: 0x6056E, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logFormCompletion:withValidData:]', symObjAddr: 0x1878, symBinAddr: 0x4564, symSize: 0x5C }
+  - { offset: 0x605C1, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logJSONMessagePayloadStr:]', symObjAddr: 0x18D4, symBinAddr: 0x45C0, symSize: 0x68 }
+  - { offset: 0x60604, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logImageUrl:withUrl:]', symObjAddr: 0x193C, symBinAddr: 0x4628, symSize: 0x84 }
+  - { offset: 0x60657, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logPerformance:unloadEventStart:unloadEventEnd:redirectStart:redirectEnd:fetchStart:domainLookupStart:domainLookupEnd:connectStart:connectEnd:secureConnectionStart:requestStart:responseStart:responseEnd:domLoading:domInteractive:domContentLoadedEventStart:domContentLoadedEventEnd:domComplete:loadEventStart:loadEventEnd:renderTime:perNavType:redirectCount:]', symObjAddr: 0x19C0, symBinAddr: 0x46AC, symSize: 0x34C }
+  - { offset: 0x6080E, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent convertToTLFScreenViewType:]', symObjAddr: 0x1D0C, symBinAddr: 0x49F8, symSize: 0x10 }
+  - { offset: 0x6084F, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent convertTokTLFMonitoringLevelType:]', symObjAddr: 0x1D1C, symBinAddr: 0x4A08, symSize: 0x18 }
+  - { offset: 0x60890, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent convertToTLFPerformanceNavigationType:]', symObjAddr: 0x1D34, symBinAddr: 0x4A20, symSize: 0x10 }
+  - { offset: 0x60AC4, size: 0x8, addend: 0x0, symName: '-[CTSignalMessage init]', symObjAddr: 0x0, symBinAddr: 0x4A30, symSize: 0x84 }
+  - { offset: 0x60B02, size: 0x8, addend: 0x0, symName: '-[CTSignalMessage init]', symObjAddr: 0x0, symBinAddr: 0x4A30, symSize: 0x84 }
+  - { offset: 0x60B39, size: 0x8, addend: 0x0, symName: '-[CTSignalMessage initWithValues:level:]', symObjAddr: 0x84, symBinAddr: 0x4AB4, symSize: 0x74 }
+  - { offset: 0x60B90, size: 0x8, addend: 0x0, symName: '-[CTSignalMessage jsonDictionary]', symObjAddr: 0xF8, symBinAddr: 0x4B28, symSize: 0x1C4 }
+  - { offset: 0x60C06, size: 0x8, addend: 0x0, symName: '-[CTSignalMessage values]', symObjAddr: 0x2BC, symBinAddr: 0x4CEC, symSize: 0x10 }
+  - { offset: 0x60C3D, size: 0x8, addend: 0x0, symName: '-[CTSignalMessage setValues:]', symObjAddr: 0x2CC, symBinAddr: 0x4CFC, symSize: 0x14 }
+  - { offset: 0x60C7E, size: 0x8, addend: 0x0, symName: '-[CTSignalMessage .cxx_destruct]', symObjAddr: 0x2E0, symBinAddr: 0x4D10, symSize: 0x14 }
+  - { offset: 0x60D54, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendEvent:]', symObjAddr: 0x0, symBinAddr: 0x4D24, symSize: 0x4 }
+  - { offset: 0x60D73, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendEvent:]', symObjAddr: 0x0, symBinAddr: 0x4D24, symSize: 0x4 }
+  - { offset: 0x60DAE, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendAction:to:from:forEvent:]', symObjAddr: 0x4, symBinAddr: 0x4D28, symSize: 0x8 }
+  - { offset: 0x60EB0, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4D30, symSize: 0x74 }
+  - { offset: 0x60EBE, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4D30, symSize: 0x74 }
+  - { offset: 0x60EE8, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x6738, symBinAddr: 0xC820, symSize: 0x0 }
+  - { offset: 0x60EFE, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6740, symBinAddr: 0xC828, symSize: 0x0 }
+  - { offset: 0x60FC9, size: 0x8, addend: 0x0, symName: '___42+[ConnectApplicationHelper sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x4DA4, symSize: 0x28 }
+  - { offset: 0x61008, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper init]', symObjAddr: 0x9C, symBinAddr: 0x4DCC, symSize: 0xB0 }
+  - { offset: 0x6103F, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableFramework]', symObjAddr: 0x14C, symBinAddr: 0x4E7C, symSize: 0x44 }
+  - { offset: 0x61072, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableFramework:withPostMessageUrl:]', symObjAddr: 0x190, symBinAddr: 0x4EC0, symSize: 0x84 }
+  - { offset: 0x610C5, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableTealeafFrameworkForUnitTests]', symObjAddr: 0x214, symBinAddr: 0x4F44, symSize: 0x5C }
+  - { offset: 0x61137, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper disableFramework]', symObjAddr: 0x270, symBinAddr: 0x4FA0, symSize: 0x44 }
+  - { offset: 0x6116A, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper disableTealeafFrameworkForUnitTests]', symObjAddr: 0x2B4, symBinAddr: 0x4FE4, symSize: 0x44 }
+  - { offset: 0x6119D, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper pause]', symObjAddr: 0x2F8, symBinAddr: 0x5028, symSize: 0x44 }
+  - { offset: 0x611D0, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper resume]', symObjAddr: 0x33C, symBinAddr: 0x506C, symSize: 0x44 }
+  - { offset: 0x61203, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper resume:]', symObjAddr: 0x380, symBinAddr: 0x50B0, symSize: 0x68 }
+  - { offset: 0x61246, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper isReactNative:]', symObjAddr: 0x3E8, symBinAddr: 0x5118, symSize: 0x4C }
+  - { offset: 0x61289, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper currentSessionId]', symObjAddr: 0x434, symBinAddr: 0x5164, symSize: 0x4C }
+  - { offset: 0x612BC, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper startNewTLFSession]', symObjAddr: 0x480, symBinAddr: 0x51B0, symSize: 0x44 }
+  - { offset: 0x612EF, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper isTLFEnabled]', symObjAddr: 0x4C4, symBinAddr: 0x51F4, symSize: 0x44 }
+  - { offset: 0x61322, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setDeviceId:]', symObjAddr: 0x508, symBinAddr: 0x5238, symSize: 0x68 }
+  - { offset: 0x61365, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper getDeviceId]', symObjAddr: 0x570, symBinAddr: 0x52A0, symSize: 0x4C }
+  - { offset: 0x61398, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setCXAAdvertisingId:]', symObjAddr: 0x5BC, symBinAddr: 0x52EC, symSize: 0x68 }
+  - { offset: 0x613DB, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper getCXAAdvertisingId]', symObjAddr: 0x624, symBinAddr: 0x5354, symSize: 0x4C }
+  - { offset: 0x6140E, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper applicationContextName]', symObjAddr: 0x670, symBinAddr: 0x53A0, symSize: 0x4C }
+  - { offset: 0x61441, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper frameworkVersion]', symObjAddr: 0x6BC, symBinAddr: 0x53EC, symSize: 0xC }
+  - { offset: 0x61474, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper requestManualServerPost]', symObjAddr: 0x6C8, symBinAddr: 0x53F8, symSize: 0x38 }
+  - { offset: 0x614A3, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setLogLevel:forEvent:]', symObjAddr: 0x700, symBinAddr: 0x5430, symSize: 0x70 }
+  - { offset: 0x614F6, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper logLevelForEvent:]', symObjAddr: 0x770, symBinAddr: 0x54A0, symSize: 0x68 }
+  - { offset: 0x61539, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setKillSwitchUrl:]', symObjAddr: 0x7D8, symBinAddr: 0x5508, symSize: 0x54 }
+  - { offset: 0x61578, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setPostMessageUrl:]', symObjAddr: 0x82C, symBinAddr: 0x555C, symSize: 0x54 }
+  - { offset: 0x615B7, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setConfigurableItem:value:]', symObjAddr: 0x880, symBinAddr: 0x55B0, symSize: 0x84 }
+  - { offset: 0x6160A, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper valueForConfigurableItem:]', symObjAddr: 0x904, symBinAddr: 0x5634, symSize: 0x70 }
+  - { offset: 0x6164D, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper sendEvent:]', symObjAddr: 0x974, symBinAddr: 0x56A4, symSize: 0x54 }
+  - { offset: 0x6168C, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper sendAction:to:from:forEvent:]', symObjAddr: 0x9C8, symBinAddr: 0x56F8, symSize: 0xA4 }
+  - { offset: 0x616FB, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setAdditionalHttpHeaders:]', symObjAddr: 0xA6C, symBinAddr: 0x579C, symSize: 0x54 }
+  - { offset: 0x6173A, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper addAdditionalHttpHeader:forName:]', symObjAddr: 0xAC0, symBinAddr: 0x57F0, symSize: 0x78 }
+  - { offset: 0x61789, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper setAdditionalHttpCookies:]', symObjAddr: 0xB38, symBinAddr: 0x5868, symSize: 0x54 }
+  - { offset: 0x617C8, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper addAdditionalHttpCookie:]', symObjAddr: 0xB8C, symBinAddr: 0x58BC, symSize: 0x54 }
+  - { offset: 0x61807, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper getAdditionalHttpHeaders]', symObjAddr: 0xBE0, symBinAddr: 0x5910, symSize: 0x4C }
+  - { offset: 0x6183A, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper getAdditionalHttpCookies]', symObjAddr: 0xC2C, symBinAddr: 0x595C, symSize: 0x4C }
+  - { offset: 0x6186D, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper sessionizeRequest:]', symObjAddr: 0xC78, symBinAddr: 0x59A8, symSize: 0x68 }
+  - { offset: 0x618B0, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper isConnectHybridBridgeRequest:webView:]', symObjAddr: 0xCE0, symBinAddr: 0x5A10, symSize: 0x84 }
+  - { offset: 0x61903, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper InjectConnectHybridBridgeOnWebViewDidFinishLoad:]', symObjAddr: 0xD64, symBinAddr: 0x5A94, symSize: 0x68 }
+  - { offset: 0x61946, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper layoutConfigItems]', symObjAddr: 0xDCC, symBinAddr: 0x5AFC, symSize: 0x4C }
 ...
