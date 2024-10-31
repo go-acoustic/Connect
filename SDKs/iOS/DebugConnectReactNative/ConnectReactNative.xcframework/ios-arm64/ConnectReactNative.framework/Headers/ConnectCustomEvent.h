@@ -64,6 +64,23 @@
  */
 - (BOOL)logEvent:(NSString *)eventName values:(NSDictionary *)values level:(kConnectMonitoringLevelType)level;
 
+/*!
+ @brief logSignal allows for the logging of signal event and data.
+ @discussion When logging an event the event will be posted with the log level posted in "EventLevels" (configured in EOCoreSettings.bundle > BasicConfig.plist) will be used. If the event is not configured in EventLevels the default logging level "LoggingLevel" (configured in EOCoreSettings.bundle > AdvancedConfig.plist)\nWhen connected to a Cellular network only events with a log level less than or equal to the PostMessageLevelCellular level (configured in EOCoreSettings.bundle > BasicConfig.plist) will be posted. When connected to a Wifi network only events with a log level less than or equal to the PostMessageLevelWifi level (configured in EOCoreSettings.bundle > BasicConfig.plist) will be posted. If the network state cannot be determined then PostMessageLevelCellular will be used by default.
+ @param values - additional key value pairs to be logged with the message
+ @return BOOL Whether the message was successfully logged or not
+ */
+- (BOOL)logSignal:(NSDictionary *)values;
+
+/*!
+ @brief logEvent allows for the logging of signal event, data, and level.
+ @discussion When connected to a Cellular network only events with a log level less than or equal to the PostMessageLevelCellular level (configured in EOCoreSettings.bundle > BasicConfig.plist) will be posted. When connected to a Wifi network only events with a log level less than or equal to the PostMessageLevelWifi level (configured in EOCoreSettings.bundle > BasicConfig.plist) will be posted. If the network state cannot be determined then PostMessageLevelCellular will be used by default.
+ @param values - additional key value pairs to be logged with the message
+ @param level - set a custom log level to the event. This will override the configured log level for that event.
+ @return BOOL Whether the message was successfully logged or not
+ */
+- (BOOL)logSignal:(NSDictionary *)values level:(kConnectMonitoringLevelType)level;
+
 #pragma mark - Errors and Exceptions
 /*!
  @brief Log an NSException
