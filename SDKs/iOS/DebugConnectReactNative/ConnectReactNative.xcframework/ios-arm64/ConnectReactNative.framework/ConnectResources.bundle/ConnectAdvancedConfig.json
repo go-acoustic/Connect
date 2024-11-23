@@ -16,7 +16,7 @@
     "FilterMessageTypes": false,
     "InitialZIndex": 500,
     "IpPlaceholder": "N/A",
-    "LibraryVersion": "1.0.36",
+    "LibraryVersion": "1.0.37",
     "LogFullRequestResponsePayloads": false,
     "LogViewLayoutOnScreenTransition": true,
     "MessageTypeHeader": "WorklightHit",
