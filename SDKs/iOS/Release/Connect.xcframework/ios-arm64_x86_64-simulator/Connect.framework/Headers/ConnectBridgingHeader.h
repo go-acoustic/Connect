@@ -16,10 +16,10 @@
 #ifndef ConnectBridgingHeader_h
 #define ConnectBridgingHeader_h
 
-#import <Connect/Connect.h>
-#import <Connect/ConnectApplication.h>
-#import <Connect/ConnectApplicationHelper.h>
-#import <Connect/ConnectCustomEvent.h>
-#import <Connect/ConnectPublicDefinitions.h>
+#import "Connect.h"
+#import "ConnectApplication.h"
+#import "ConnectApplicationHelper.h"
+#import "ConnectCustomEvent.h"
+#import "ConnectPublicDefinitions.h"
 
 #endif /* ConnectBridgingHeader_h */

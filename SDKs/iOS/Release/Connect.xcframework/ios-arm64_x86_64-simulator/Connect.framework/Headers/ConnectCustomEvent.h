@@ -22,7 +22,8 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 #import <UIKit/UIKit.h>
-#import <Connect/ConnectPublicDefinitions.h>
+#import "ConnectPublicDefinitions.h"
+
 /*!
  @class ConnectCustomEvent
  @brief ConnectCustomEvent is a singleton class providing API method calls to the logging interface in the Tealeaf module.
