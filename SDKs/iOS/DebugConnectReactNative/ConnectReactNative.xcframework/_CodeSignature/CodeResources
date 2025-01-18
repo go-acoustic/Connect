@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/ConnectReactNative.framework/ConnectReactNative</key>
 		<data>
-		iptokUxLldytK1d8/K3FxCJNqJI=
+		WpIkpNriiHw68xRUxJA2EVrhSTQ=
 		</data>
 		<key>ios-arm64/ConnectReactNative.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		KhxHpogFJOwVUqYYjTJa/eLQ44s=
+		kE4Wh4L3lg2bEwvik/p/qY4Gf44=
 		</data>
 		<key>ios-arm64/ConnectReactNative.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ios-arm64/ConnectReactNative.framework/Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		qM6Dq6eO6dTjfJO5gBXHCzz3uMI=
+		rSmUryiARsgwR9nGCv825VJ3voo=
 		</data>
 		<key>ios-arm64/ConnectReactNative.framework/Info.plist</key>
 		<data>
-		6jMSfW7Q6p3/76tapA7u0fMNdbU=
+		sFeqwT7RRk0QbV9k3Jf021lHDhM=
 		</data>
 		<key>ios-arm64/ConnectReactNative.framework/Modules/module.modulemap</key>
 		<data>
@@ -58,15 +58,15 @@
 		</data>
 		<key>ios-arm64/ConnectReactNative.framework/_CodeSignature/CodeResources</key>
 		<data>
-		sdQruovqa3FdkTqPbIPitUqvr0A=
+		201Pmnn7KbOitgxZov6xVK6f8us=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/ConnectReactNative</key>
 		<data>
-		59Osqx76KiEwVpTczf4HM6rveks=
+		2MPHoyKm+4R+Tw41okGGiNO9IG4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		KhxHpogFJOwVUqYYjTJa/eLQ44s=
+		kE4Wh4L3lg2bEwvik/p/qY4Gf44=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		qM6Dq6eO6dTjfJO5gBXHCzz3uMI=
+		rSmUryiARsgwR9nGCv825VJ3voo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/Info.plist</key>
 		<data>
-		yAtTLrb6aKddRof51Nrk2xAVmio=
+		l+WUAgM+hgx46BhQ75KZvdLftyk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/Modules/module.modulemap</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/_CodeSignature/CodeResources</key>
 		<data>
-		cMeDp5oHBQdameI5ScGr54jCRUk=
+		te6Or3C0Gi08aePhC++7Lm5b3g0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -123,22 +123,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iptokUxLldytK1d8/K3FxCJNqJI=
+			WpIkpNriiHw68xRUxJA2EVrhSTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			FlmdLj1HhKa0GxKAFMuYZ0Sg5YDXdybTtTwZ8lLkvZ4=
+			Z57J4eiHdcFNaC4/uuutdRYu1VlxAFsNbCB/O0WCgBw=
 			</data>
 		</dict>
 		<key>ios-arm64/ConnectReactNative.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KhxHpogFJOwVUqYYjTJa/eLQ44s=
+			kE4Wh4L3lg2bEwvik/p/qY4Gf44=
 			</data>
 			<key>hash2</key>
 			<data>
-			qcOrhZ7k4mORPZBbuio9TjTBzxZrgtSXq1hXZcyPMBE=
+			tlPg6V9XTZMYQ2wrUzL0bvWecZ8ce1OpIP/+QNzd/2E=
 			</data>
 		</dict>
 		<key>ios-arm64/ConnectReactNative.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -222,22 +222,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qM6Dq6eO6dTjfJO5gBXHCzz3uMI=
+			rSmUryiARsgwR9nGCv825VJ3voo=
 			</data>
 			<key>hash2</key>
 			<data>
-			NSGmQqq6IKXqgNU/6WTPSgYLDSP+TuvOVNTQepN4DY8=
+			nG6IEhpIntiP4HlOggSZRDE5M0Pvkwj/Tne76EDP3k4=
 			</data>
 		</dict>
 		<key>ios-arm64/ConnectReactNative.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6jMSfW7Q6p3/76tapA7u0fMNdbU=
+			sFeqwT7RRk0QbV9k3Jf021lHDhM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0VGCNflH7r3UnnPMY6kXmFDS7/JrZ/6Dlqjcs7BRctI=
+			9snzxtvOtu0UZvgHj7NFWEWF4c1cmJ3CbJn4tmVsUvA=
 			</data>
 		</dict>
 		<key>ios-arm64/ConnectReactNative.framework/Modules/module.modulemap</key>
@@ -266,33 +266,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sdQruovqa3FdkTqPbIPitUqvr0A=
+			201Pmnn7KbOitgxZov6xVK6f8us=
 			</data>
 			<key>hash2</key>
 			<data>
-			USIa1Kes+ZH2UBuD1++ammo5zQAe3q6TvjtNUyLYagA=
+			SFeahx3dYX0pwknsFLDJebwgMwB/0RXI0MhLSOgROu8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/ConnectReactNative</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			59Osqx76KiEwVpTczf4HM6rveks=
+			2MPHoyKm+4R+Tw41okGGiNO9IG4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+AvYxf2C2vlHiFo6o1jrgmKPTKQWRQWwig5ONnsQfhM=
+			bUlhUQnLOXQm1Otw67BHQ9qWzBjUQ8ubvOziCwiqK2Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KhxHpogFJOwVUqYYjTJa/eLQ44s=
+			kE4Wh4L3lg2bEwvik/p/qY4Gf44=
 			</data>
 			<key>hash2</key>
 			<data>
-			qcOrhZ7k4mORPZBbuio9TjTBzxZrgtSXq1hXZcyPMBE=
+			tlPg6V9XTZMYQ2wrUzL0bvWecZ8ce1OpIP/+QNzd/2E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -376,22 +376,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qM6Dq6eO6dTjfJO5gBXHCzz3uMI=
+			rSmUryiARsgwR9nGCv825VJ3voo=
 			</data>
 			<key>hash2</key>
 			<data>
-			NSGmQqq6IKXqgNU/6WTPSgYLDSP+TuvOVNTQepN4DY8=
+			nG6IEhpIntiP4HlOggSZRDE5M0Pvkwj/Tne76EDP3k4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yAtTLrb6aKddRof51Nrk2xAVmio=
+			l+WUAgM+hgx46BhQ75KZvdLftyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			4RnXEHU/qdtXiuZLpyrMlZ0+1JRK3l4+5OIFSCr2Gbo=
+			5oL2ddzO9dn9jILuHsuvCXcWR1qSbiX0e6HOZxYkamk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ConnectReactNative.framework/Modules/module.modulemap</key>
@@ -420,11 +420,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cMeDp5oHBQdameI5ScGr54jCRUk=
+			te6Or3C0Gi08aePhC++7Lm5b3g0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZFnNBWeM6qN2uxJC1bHv6t34u/0YlvPLWTHB0LbRf2o=
+			uXd3GrzZFPIWggGswbpO3ctH6jromLxqIUecucG4qpQ=
 			</data>
 		</dict>
 	</dict>
