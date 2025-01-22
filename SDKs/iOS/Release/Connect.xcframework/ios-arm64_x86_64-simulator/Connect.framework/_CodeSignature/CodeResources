@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		cp2SgiTqKCaPh+lN6ZVsuLM0lK0=
+		QwO3pO5FP3TA93m0Xc8RD+LtbTg=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreAdvancedConfig.json</key>
 		<data>
-		kRlflFYFZboVz9idoaZVsh2RqWI=
+		IRyET9zn2t3SwGH5P2dMwerc+oA=
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		gmE5UTfkAZEMk3QoSEZHQ1gk1j8=
+		REWntb1+ATTJmAsLYggmoIIr0XU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		69Ut9JvoZgBJmWfy5zNlx/wD7HM=
+		t1vdCj3Ki0Iyy98/VobtXCU+6JE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		HyJZ6XN1GKzVxMpl8hQDoULNjUw=
+		2w1o8arXx1r4tuXJZKsDbObDZ5A=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l5+qKCPRs2wBBdkqp5oY4VjWN1CkrYQ8DT5apWVTwjQ=
+			+7XOhgyO3nvjtrKfTCCSbBpyNj11LhwNG/Z1/pmuRTI=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hr7Umi0f93rNjmlPGz/gEbcYp+ZDc8PHyHLmDFSSnpA=
+			PCRWRHXOszLbEK5nidopUSkIM3fjtnB916YpzxU78Bc=
 			</data>
 		</dict>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OodqcYAH5+/3Ujtnk7EflpHq3M0LJWmOdlZIcL4Najk=
+			8kmC9mMhQrwCK3JBmjKNEqZKL87Udb5XRNx4jEoB4Xc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			03caklOQCdW9YXHsy/FtnLX6cnYdSCBxPP7AeOjfJ50=
+			0IgrrGSgMbBYeSQ4qagNdBmfFiCjFUhxxO5G3PIiy+I=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
