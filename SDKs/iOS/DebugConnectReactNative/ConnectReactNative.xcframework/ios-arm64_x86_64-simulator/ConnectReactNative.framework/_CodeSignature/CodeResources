@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		UN0Bl3lEm4g5YOmGMe2pggT29Rs=
+		k2Nw8k0+whuUhuM6qRug55APg7M=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		0Y5S5qgF8YSUJzkxJfnY4el5e74=
+		lBgU44IhGIEqe392DZfnRurGQTs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kJv4Uz0Hbv5OxGV9NX1R2eu5ZxI=
+		WwZ2t4n6Mp9JqHCBLscoF4r+qks=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		5sW78knQm7iBvB2ps9lPlUKzGP0=
+		+yVo1YAd1cWRcgYifeNRLO9sBWo=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uh1R8sIWpUmQ/QxEdOGfqTiNEv4uUJRN7t2FT4AZFXM=
+			MOTq3Fe5jZSdicLgEIiT38N8UN999/TJoAeHrzwEigw=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jy9ZzjwmXk0NrlguHpvIZWNEdjD/d/hBEqavsG6mW8s=
+			3EfP9PYSu0Fh8qxltBnu4WEatoAyMRVQmZYOuxazWVw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2I2ALOc4AquLeKP51Q010Pu7AUxztgRCdB5zM6fK8I=
+			YZNr8Lcb1W0qQzU2X7BManj/ZOz7gWXZNi0Ek9ls5jw=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
