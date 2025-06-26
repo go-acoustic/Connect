@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2024 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2025 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -15,14 +15,8 @@
 
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
-
-//#if TEALEAF_USE_REACT
-//#import <TealeafReactNative/TLFPublicDefinitions.h>
-//#import <TealeafReactNative/TLFApplicationHelper.h>
-//#else
-//#import <Tealeaf/TLFPublicDefinitions.h>
-//#import <Tealeaf/TLFApplicationHelper.h>
-//#endif
+#import <Tealeaf/TLFPublicDefinitions.h>
+#import <Tealeaf/TLFApplicationHelper.h>
 
 @interface ConnectApplicationHelper : NSObject//TLFApplicationHelper
 
@@ -69,7 +63,9 @@
  * @param isReactN - Whether it is a react native application.
  * @return Returns YES or NO based on whether it is react native.
  */
-- (BOOL)isReactNative:(BOOL)isReactN;
+- (BOOL)isReactNative:(BOOL)isReactN wrapNavigationContainer:(BOOL)usesWrapNavCon;
+
+- (BOOL)setCurrentScreenName:(NSString*)logicalPageName;
 
 /*!
  * @abstract Pauses capture of data on the Connect framework

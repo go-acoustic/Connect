@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		aSIpIRIeIG4tRNaQjVzzWllOmck=
+		+k63iJaAgOz01PUbP0cMlP+TSp8=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/ConnectApplication.h</key>
 		<data>
-		NuSEejpAFh7Sg7169A720+xSL+k=
+		xdapEs8CRQx8kw4FWAycQ0urzWg=
 		</data>
 		<key>Headers/ConnectApplicationHelper.h</key>
 		<data>
-		iFoZmocKU3kypo16z5szppIXzNY=
+		ESeqSYMOQAjjehYNLuvQvZe4Usk=
 		</data>
 		<key>Headers/ConnectBridgingHeader.h</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		KC5dpjHtXvwI8sasS7Vj/tp1yGM=
+		IzOp/asxCkdfr2f+r0nxNSqk1kk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AxzJYj5jbCaquK+YmhnPSJAeTLQ=
+		QOpmukiLrBfLtYWMwq6snyaYb4o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DaMPWH9TDMoZleFW6WjQNyBlnH+BlyYgi+hrj0SKNCc=
+			l+qhxj2TFsr3OmchqvnSk6nAmZaA9+5bMPn21JNmXLU=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -121,14 +121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ICYOBLHZqxgyYOnn8nY7xhqwIvw4rDYcEWAqnPCGTY=
+			Gc/WbBnpWuXARYLVI0/kj5mAds119/Cn+AWb1g1KAHA=
 			</data>
 		</dict>
 		<key>Headers/ConnectApplicationHelper.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vT7HtXhq+e1Pv+eyp3b51cf78KwK3KUgyr5dUpPGZ2g=
+			Q5O5mdQj1xYT7B/UGKMUJ65Z7Ad0HcEISKIngdxDrjY=
 			</data>
 		</dict>
 		<key>Headers/ConnectBridgingHeader.h</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B0JQcBvIaQG2npdl41CruLXvS0yxi1hP/k50Gs3NhGE=
+			jHKT9pt5Cr50jBGxtBgYh5NgqebFni3iEyWLEkUoV4w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
