@@ -61,10 +61,16 @@
 /*!
  * @abstract Set up react native flag.
  * @param isReactN - Whether it is a react native application.
+ * @param usesWrapNavCon - Whether it uses Connect wrapper from react native plugin.
  * @return Returns YES or NO based on whether it is react native.
  */
 - (BOOL)isReactNative:(BOOL)isReactN wrapNavigationContainer:(BOOL)usesWrapNavCon;
 
+/*!
+ * @abstract Set current logical page name.
+ * @param logicalPageName - Logical page name.
+ * @return Returns YES or NO it was able to update.
+ */
 - (BOOL)setCurrentScreenName:(NSString*)logicalPageName;
 
 /*!

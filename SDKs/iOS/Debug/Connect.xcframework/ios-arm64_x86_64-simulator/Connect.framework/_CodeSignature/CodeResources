@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		jws64rA5hvHbqhLUzx0/GSvqQNQ=
+		SxoaKOfu0FP3L7FsOfvfQqwnrkY=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/ConnectApplicationHelper.h</key>
 		<data>
-		ESeqSYMOQAjjehYNLuvQvZe4Usk=
+		J6gWsUPj9195+2DnK5lkEqS368g=
 		</data>
 		<key>Headers/ConnectBridgingHeader.h</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		wTtPt0FppAteBZG6jLFGkwyjzGk=
+		O6eQt07nMQOPRQaIx4a9AslJqTc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		185hupOjoPOj7hLR0IRwunckH84=
+		5XdFpUvMaKBG3RRzWL4A4+dnIPo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JAZiRJB1Xjp3GnG6JmNLC7LUp0HRrgw4p3AhBg0610o=
+			gTfC4M5dTUIfKBTB/mmA7XJr2ocNDPsF4njZTFDvbr0=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q5O5mdQj1xYT7B/UGKMUJ65Z7Ad0HcEISKIngdxDrjY=
+			YLwpDTxUYMcJyqZCZ/3c27oDL4RYFy8/p24D6EGysyk=
 			</data>
 		</dict>
 		<key>Headers/ConnectBridgingHeader.h</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kn/feP0V/rGuLryYFGvA06EzmfHxFjVTAasvw78cDA0=
+			cebTpzKC8RAScKnPmQC+9TYKljCHhqNl0cVbjqr5Cfg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
