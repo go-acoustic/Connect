@@ -6,8 +6,8 @@ relocations:
   - { offset: 0xAA0B6, size: 0x8, addend: 0x0, symName: _ConnectVersionNumber, symObjAddr: 0x28, symBinAddr: 0x80A8, symSize: 0x0 }
   - { offset: 0xAA0F3, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x74 }
   - { offset: 0xAA101, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x74 }
-  - { offset: 0xAA12B, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC368, symBinAddr: 0x107B0, symSize: 0x0 }
-  - { offset: 0xAA141, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC370, symBinAddr: 0x107B8, symSize: 0x0 }
+  - { offset: 0xAA12B, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC358, symBinAddr: 0x107B0, symSize: 0x0 }
+  - { offset: 0xAA141, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC360, symBinAddr: 0x107B8, symSize: 0x0 }
   - { offset: 0xAA279, size: 0x8, addend: 0x0, symName: '___36+[ConnectCustomEvent sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x4074, symSize: 0x50 }
   - { offset: 0xAA2B8, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:]', symObjAddr: 0xC4, symBinAddr: 0x40C4, symSize: 0xC }
   - { offset: 0xAA2FB, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:values:]', symObjAddr: 0xD0, symBinAddr: 0x40D0, symSize: 0x84 }
