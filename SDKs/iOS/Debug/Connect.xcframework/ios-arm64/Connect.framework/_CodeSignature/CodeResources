@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		tfjRbmLpEvw9s0dNT21akl91YOk=
+		/5ny+72KBV+jJMGnJtH+oY1g+uA=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		0hUjPVtNxzT/KjB59NWyfnTwWL4=
+		pzmMsBaKRML7EQfo9ywFTauC4gY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mVIy8BdeZrwkn42utJM5UP5Qfbc=
+		gbl1C7Zh4fRz8s7CwULuYIN8ZEo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qaD/NqaMEA+qKIbRxNwHJe9M5CAJhsHs0uDbgbKHZ6I=
+			WuAnpa82qsT12nNzhMsMoZfrFOmtVpa5GtCULAtSqiM=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c5qBUJmUicbofF3waUN9ontKB6UPGyuBjsQUd1LpjR0=
+			0k0MRahteYno41fj/QoRqgoJ0oOwheGqLKqSbPbzikY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
