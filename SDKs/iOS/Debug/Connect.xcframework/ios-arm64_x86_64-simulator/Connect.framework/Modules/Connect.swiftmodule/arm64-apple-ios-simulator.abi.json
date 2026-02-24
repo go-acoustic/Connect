@@ -1,0 +1,1251 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Connect",
+    "printedName": "Connect",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectError",
+        "printedName": "ConnectError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pushNotEnabled",
+            "printedName": "pushNotEnabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Connect.ConnectError.Type) -> Connect.ConnectError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectError",
+                    "printedName": "Connect.ConnectError",
+                    "usr": "s:7Connect0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Connect.ConnectError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectError",
+                        "printedName": "Connect.ConnectError",
+                        "usr": "s:7Connect0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Connect0A5ErrorO14pushNotEnabledyA2CmF",
+            "mangledName": "$s7Connect0A5ErrorO14pushNotEnabledyA2CmF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectError",
+                "printedName": "Connect.ConnectError",
+                "usr": "s:7Connect0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectError",
+                "printedName": "Connect.ConnectError",
+                "usr": "s:7Connect0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7Connect0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "Connect",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A5ErrorO9hashValueSivp",
+            "mangledName": "$s7Connect0A5ErrorO9hashValueSivp",
+            "moduleName": "Connect",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A5ErrorO9hashValueSivg",
+                "mangledName": "$s7Connect0A5ErrorO9hashValueSivg",
+                "moduleName": "Connect",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7Connect0A5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "Connect",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Connect0A5ErrorO",
+        "mangledName": "$s7Connect0A5ErrorO",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Connect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectPush",
+        "printedName": "ConnectPush",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "config",
+            "printedName": "config",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushConfig",
+                "printedName": "Connect.ConnectPushConfig",
+                "usr": "s:7Connect0A10PushConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A4PushC6configAA0aB6ConfigVvp",
+            "mangledName": "$s7Connect0A4PushC6configAA0aB6ConfigVvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushConfig",
+                    "printedName": "Connect.ConnectPushConfig",
+                    "usr": "s:7Connect0A10PushConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A4PushC6configAA0aB6ConfigVvg",
+                "mangledName": "$s7Connect0A4PushC6configAA0aB6ConfigVvg",
+                "moduleName": "Connect",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPush",
+                "printedName": "Connect.ConnectPush",
+                "usr": "s:7Connect0A4PushC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushConfig",
+                "printedName": "Connect.ConnectPushConfig",
+                "usr": "s:7Connect0A10PushConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A4PushC6configAcA0aB6ConfigV_tcfc",
+            "mangledName": "$s7Connect0A4PushC6configAcA0aB6ConfigV_tcfc",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveAuthorization",
+            "printedName": "didReceiveAuthorization(granted:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtF",
+            "mangledName": "$s7Connect0A4PushC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRegisterWithToken",
+            "printedName": "didRegisterWithToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC20didRegisterWithTokenyy10Foundation4DataVF",
+            "mangledName": "$s7Connect0A4PushC20didRegisterWithTokenyy10Foundation4DataVF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToRegisterWithError",
+            "printedName": "didFailToRegisterWithError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC26didFailToRegisterWithErroryys0H0_pF",
+            "mangledName": "$s7Connect0A4PushC26didFailToRegisterWithErroryys0H0_pF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerDevice",
+            "printedName": "registerDevice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC14registerDeviceyyF",
+            "mangledName": "$s7Connect0A4PushC14registerDeviceyyF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect0A4PushC",
+        "mangledName": "$s7Connect0A4PushC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Connect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectSDK",
+        "printedName": "ConnectSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectSDK",
+                "printedName": "Connect.ConnectSDK",
+                "usr": "s:7Connect0A3SDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A3SDKC6sharedACvpZ",
+            "mangledName": "$s7Connect0A3SDKC6sharedACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectSDK",
+                    "printedName": "Connect.ConnectSDK",
+                    "usr": "s:7Connect0A3SDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A3SDKC6sharedACvgZ",
+                "mangledName": "$s7Connect0A3SDKC6sharedACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "push",
+            "printedName": "push",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPush",
+                "printedName": "Connect.ConnectPush",
+                "usr": "s:7Connect0A4PushC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A3SDKC4pushAA0A4PushCvp",
+            "mangledName": "$s7Connect0A3SDKC4pushAA0A4PushCvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPush",
+                    "printedName": "Connect.ConnectPush",
+                    "usr": "s:7Connect0A4PushC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A3SDKC4pushAA0A4PushCvg",
+                "mangledName": "$s7Connect0A3SDKC4pushAA0A4PushCvg",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "Final"
+                ],
+                "throwing": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enable",
+            "printedName": "enable(appKey:postURL:push:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushConfig",
+                "printedName": "Connect.ConnectPushConfig",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect0A10PushConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A3SDKC6enable6appKey7postURL4pushySS_SSAA0A10PushConfigVtF",
+            "mangledName": "$s7Connect0A3SDKC6enable6appKey7postURL4pushySS_SSAA0A10PushConfigVtF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disable",
+            "printedName": "disable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A3SDKC7disableyyF",
+            "mangledName": "$s7Connect0A3SDKC7disableyyF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A3SDKC9isEnabledSbvp",
+            "mangledName": "$s7Connect0A3SDKC9isEnabledSbvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A3SDKC9isEnabledSbvg",
+                "mangledName": "$s7Connect0A3SDKC9isEnabledSbvg",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frameworkVersion",
+            "printedName": "frameworkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A3SDKC16frameworkVersionSSvp",
+            "mangledName": "$s7Connect0A3SDKC16frameworkVersionSSvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A3SDKC16frameworkVersionSSvg",
+                "mangledName": "$s7Connect0A3SDKC16frameworkVersionSSvg",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect0A3SDKC",
+        "mangledName": "$s7Connect0A3SDKC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectPushConfig",
+        "printedName": "ConnectPushConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "off",
+            "printedName": "off",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushConfig",
+                "printedName": "Connect.ConnectPushConfig",
+                "usr": "s:7Connect0A10PushConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A10PushConfigV3offACvpZ",
+            "mangledName": "$s7Connect0A10PushConfigV3offACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushConfig",
+                    "printedName": "Connect.ConnectPushConfig",
+                    "usr": "s:7Connect0A10PushConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A10PushConfigV3offACvgZ",
+                "mangledName": "$s7Connect0A10PushConfigV3offACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "automatic",
+            "printedName": "automatic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushConfig",
+                "printedName": "Connect.ConnectPushConfig",
+                "usr": "s:7Connect0A10PushConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A10PushConfigV9automaticACvpZ",
+            "mangledName": "$s7Connect0A10PushConfigV9automaticACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushConfig",
+                    "printedName": "Connect.ConnectPushConfig",
+                    "usr": "s:7Connect0A10PushConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A10PushConfigV9automaticACvgZ",
+                "mangledName": "$s7Connect0A10PushConfigV9automaticACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "manual",
+            "printedName": "manual",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushConfig",
+                "printedName": "Connect.ConnectPushConfig",
+                "usr": "s:7Connect0A10PushConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A10PushConfigV6manualACvpZ",
+            "mangledName": "$s7Connect0A10PushConfigV6manualACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushConfig",
+                    "printedName": "Connect.ConnectPushConfig",
+                    "usr": "s:7Connect0A10PushConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A10PushConfigV6manualACvgZ",
+                "mangledName": "$s7Connect0A10PushConfigV6manualACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Mode",
+            "printedName": "Mode",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "off",
+                "printedName": "off",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Connect.ConnectPushConfig.Mode.Type) -> Connect.ConnectPushConfig.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "Connect.ConnectPushConfig.Mode",
+                        "usr": "s:7Connect0A10PushConfigV4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Connect.ConnectPushConfig.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "Connect.ConnectPushConfig.Mode",
+                            "usr": "s:7Connect0A10PushConfigV4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Connect0A10PushConfigV4ModeO3offyA2EmF",
+                "mangledName": "$s7Connect0A10PushConfigV4ModeO3offyA2EmF",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "automatic",
+                "printedName": "automatic",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Connect.ConnectPushConfig.Mode.Type) -> Connect.ConnectPushConfig.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "Connect.ConnectPushConfig.Mode",
+                        "usr": "s:7Connect0A10PushConfigV4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Connect.ConnectPushConfig.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "Connect.ConnectPushConfig.Mode",
+                            "usr": "s:7Connect0A10PushConfigV4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Connect0A10PushConfigV4ModeO9automaticyA2EmF",
+                "mangledName": "$s7Connect0A10PushConfigV4ModeO9automaticyA2EmF",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "manual",
+                "printedName": "manual",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Connect.ConnectPushConfig.Mode.Type) -> Connect.ConnectPushConfig.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "Connect.ConnectPushConfig.Mode",
+                        "usr": "s:7Connect0A10PushConfigV4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Connect.ConnectPushConfig.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "Connect.ConnectPushConfig.Mode",
+                            "usr": "s:7Connect0A10PushConfigV4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Connect0A10PushConfigV4ModeO6manualyA2EmF",
+                "mangledName": "$s7Connect0A10PushConfigV4ModeO6manualyA2EmF",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "Connect.ConnectPushConfig.Mode",
+                    "usr": "s:7Connect0A10PushConfigV4ModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "Connect.ConnectPushConfig.Mode",
+                    "usr": "s:7Connect0A10PushConfigV4ModeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7Connect0A10PushConfigV4ModeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s7Connect0A10PushConfigV4ModeO2eeoiySbAE_AEtFZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7Connect0A10PushConfigV4ModeO9hashValueSivp",
+                "mangledName": "$s7Connect0A10PushConfigV4ModeO9hashValueSivp",
+                "moduleName": "Connect",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7Connect0A10PushConfigV4ModeO9hashValueSivg",
+                    "mangledName": "$s7Connect0A10PushConfigV4ModeO9hashValueSivg",
+                    "moduleName": "Connect",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7Connect0A10PushConfigV4ModeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s7Connect0A10PushConfigV4ModeO4hash4intoys6HasherVz_tF",
+                "moduleName": "Connect",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7Connect0A10PushConfigV4ModeO",
+            "mangledName": "$s7Connect0A10PushConfigV4ModeO",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mode",
+            "printedName": "mode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mode",
+                "printedName": "Connect.ConnectPushConfig.Mode",
+                "usr": "s:7Connect0A10PushConfigV4ModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A10PushConfigV4modeAC4ModeOvp",
+            "mangledName": "$s7Connect0A10PushConfigV4modeAC4ModeOvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "Connect.ConnectPushConfig.Mode",
+                    "usr": "s:7Connect0A10PushConfigV4ModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A10PushConfigV4modeAC4ModeOvg",
+                "mangledName": "$s7Connect0A10PushConfigV4modeAC4ModeOvg",
+                "moduleName": "Connect",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushConfig",
+                "printedName": "Connect.ConnectPushConfig",
+                "usr": "s:7Connect0A10PushConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Mode",
+                "printedName": "Connect.ConnectPushConfig.Mode",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect0A10PushConfigV4ModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A10PushConfigV4modeA2C4ModeO_tcfc",
+            "mangledName": "$s7Connect0A10PushConfigV4modeA2C4ModeO_tcfc",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Connect0A10PushConfigV",
+        "mangledName": "$s7Connect0A10PushConfigV",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
