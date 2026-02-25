@@ -20,6 +20,7 @@
 #import "ConnectApplication.h"
 #import "ConnectApplicationHelper.h"
 #import "ConnectApplicationHelperInternal.h"
+#import "ConnectDelegateProxy.h"
 #import "ConnectCustomEvent.h"
 #import "ConnectPublicDefinitions.h"
 

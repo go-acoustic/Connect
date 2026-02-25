@@ -270,7 +270,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(config:)",
+            "printedName": "init(config:pushRegistering:pushDelegateProxy:pushEventHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -283,11 +283,32 @@
                 "name": "ConnectPushConfig",
                 "printedName": "Connect.ConnectPushConfig",
                 "usr": "s:7Connect0A10PushConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APNSRegistering",
+                "printedName": "any Connect.APNSRegistering",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect15APNSRegisteringP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushDelegateProxy",
+                "printedName": "any Connect.PushDelegateProxy",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect17PushDelegateProxyP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushEventHandling",
+                "printedName": "any Connect.PushEventHandling",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect17PushEventHandlingP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A4PushC6configAcA0aB6ConfigV_tcfc",
-            "mangledName": "$s7Connect0A4PushC6configAcA0aB6ConfigV_tcfc",
+            "usr": "s:7Connect0A4PushC6config15pushRegistering0D13DelegateProxy0D12EventHandlerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA0bH8Handling_ptcfc",
+            "mangledName": "$s7Connect0A4PushC6config15pushRegistering0D13DelegateProxy0D12EventHandlerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA0bH8Handling_ptcfc",
             "moduleName": "Connect",
             "declAttributes": [
               "AccessControl",
@@ -731,6 +752,693 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Connect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APNSRegistering",
+        "printedName": "APNSRegistering",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "registerForRemoteNotifications",
+            "printedName": "registerForRemoteNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect15APNSRegisteringP30registerForRemoteNotificationsyyF",
+            "mangledName": "$s7Connect15APNSRegisteringP30registerForRemoteNotificationsyyF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.APNSRegistering>",
+            "sugared_genericSig": "<Self where Self : Connect.APNSRegistering>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Connect15APNSRegisteringP",
+        "mangledName": "$s7Connect15APNSRegisteringP",
+        "moduleName": "Connect",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushDelegateProxy",
+        "printedName": "PushDelegateProxy",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "install",
+            "printedName": "install(tokenHandler:failureHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect17PushDelegateProxyP7install12tokenHandler07failureG0yy10Foundation4DataVc_ys5Error_pctF",
+            "mangledName": "$s7Connect17PushDelegateProxyP7install12tokenHandler07failureG0yy10Foundation4DataVc_ys5Error_pctF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushDelegateProxy>",
+            "sugared_genericSig": "<Self where Self : Connect.PushDelegateProxy>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uninstall",
+            "printedName": "uninstall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect17PushDelegateProxyP9uninstallyyF",
+            "mangledName": "$s7Connect17PushDelegateProxyP9uninstallyyF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushDelegateProxy>",
+            "sugared_genericSig": "<Self where Self : Connect.PushDelegateProxy>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Connect17PushDelegateProxyP",
+        "mangledName": "$s7Connect17PushDelegateProxyP",
+        "moduleName": "Connect",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushEventHandling",
+        "printedName": "PushEventHandling",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didRegisterWithToken",
+            "printedName": "didRegisterWithToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect17PushEventHandlingP20didRegisterWithTokenyy10Foundation4DataVF",
+            "mangledName": "$s7Connect17PushEventHandlingP20didRegisterWithTokenyy10Foundation4DataVF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushEventHandling>",
+            "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToRegisterWithError",
+            "printedName": "didFailToRegisterWithError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect17PushEventHandlingP26didFailToRegisterWithErroryys0J0_pF",
+            "mangledName": "$s7Connect17PushEventHandlingP26didFailToRegisterWithErroryys0J0_pF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushEventHandling>",
+            "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveAuthorization",
+            "printedName": "didReceiveAuthorization(granted:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect17PushEventHandlingP23didReceiveAuthorization7granted5errorySb_s5Error_pSgtF",
+            "mangledName": "$s7Connect17PushEventHandlingP23didReceiveAuthorization7granted5errorySb_s5Error_pSgtF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushEventHandling>",
+            "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Connect17PushEventHandlingP",
+        "mangledName": "$s7Connect17PushEventHandlingP",
+        "moduleName": "Connect",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectPushEventHandler",
+        "printedName": "ConnectPushEventHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didRegisterWithToken",
+            "printedName": "didRegisterWithToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A16PushEventHandlerC20didRegisterWithTokenyy10Foundation4DataVF",
+            "mangledName": "$s7Connect0A16PushEventHandlerC20didRegisterWithTokenyy10Foundation4DataVF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToRegisterWithError",
+            "printedName": "didFailToRegisterWithError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A16PushEventHandlerC26didFailToRegisterWithErroryys0J0_pF",
+            "mangledName": "$s7Connect0A16PushEventHandlerC26didFailToRegisterWithErroryys0J0_pF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveAuthorization",
+            "printedName": "didReceiveAuthorization(granted:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A16PushEventHandlerC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtF",
+            "mangledName": "$s7Connect0A16PushEventHandlerC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushEventHandler",
+                "printedName": "Connect.ConnectPushEventHandler",
+                "usr": "s:7Connect0A16PushEventHandlerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A16PushEventHandlerCACycfc",
+            "mangledName": "$s7Connect0A16PushEventHandlerCACycfc",
+            "moduleName": "Connect",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect0A16PushEventHandlerC",
+        "mangledName": "$s7Connect0A16PushEventHandlerC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PushEventHandling",
+            "printedName": "PushEventHandling",
+            "usr": "s:7Connect17PushEventHandlingP",
+            "mangledName": "$s7Connect17PushEventHandlingP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectDelegateProxyManager",
+        "printedName": "ConnectDelegateProxyManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "application",
+            "printedName": "application",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A20DelegateProxyManagerC11application33_570D572B59C55F5256961525BE6D07B1LLSo13UIApplicationCvp",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC11application33_570D572B59C55F5256961525BE6D07B1LLSo13UIApplicationCvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "proxy",
+            "printedName": "proxy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Connect.ConnectDelegateProxy?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectDelegateProxy",
+                    "printedName": "Connect.ConnectDelegateProxy",
+                    "usr": "c:objc(cs)ConnectDelegateProxy"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A20DelegateProxyManagerC5proxy33_570D572B59C55F5256961525BE6D07B1LLSo0abC0CSgvp",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC5proxy33_570D572B59C55F5256961525BE6D07B1LLSo0abC0CSgvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(application:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectDelegateProxyManager",
+                "printedName": "Connect.ConnectDelegateProxyManager",
+                "usr": "s:7Connect0A20DelegateProxyManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A20DelegateProxyManagerC11applicationACSo13UIApplicationC_tcfc",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC11applicationACSo13UIApplicationC_tcfc",
+            "moduleName": "Connect",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "registerForRemoteNotifications",
+            "printedName": "registerForRemoteNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A20DelegateProxyManagerC30registerForRemoteNotificationsyyF",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC30registerForRemoteNotificationsyyF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "install",
+            "printedName": "install(tokenHandler:failureHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A20DelegateProxyManagerC7install12tokenHandler07failureG0yy10Foundation4DataVc_ys5Error_pctF",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC7install12tokenHandler07failureG0yy10Foundation4DataVc_ys5Error_pctF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uninstall",
+            "printedName": "uninstall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A20DelegateProxyManagerC9uninstallyyF",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC9uninstallyyF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect0A20DelegateProxyManagerC",
+        "mangledName": "$s7Connect0A20DelegateProxyManagerC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "APNSRegistering",
+            "printedName": "APNSRegistering",
+            "usr": "s:7Connect15APNSRegisteringP",
+            "mangledName": "$s7Connect15APNSRegisteringP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PushDelegateProxy",
+            "printedName": "PushDelegateProxy",
+            "usr": "s:7Connect17PushDelegateProxyP",
+            "mangledName": "$s7Connect17PushDelegateProxyP"
           }
         ]
       },
@@ -1241,6 +1949,104 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "APNSRegistering",
+            "printedName": "APNSRegistering",
+            "usr": "s:7Connect15APNSRegisteringP",
+            "mangledName": "$s7Connect15APNSRegisteringP"
           }
         ]
       }

@@ -18,12 +18,12 @@ public enum ConnectError : Swift.Error {
 }
 @_hasMissingDesignatedInitializers final public class ConnectPush {
   final public let config: Connect.ConnectPushConfig
+  @objc deinit
   #if compiler(>=5.3) && $NonescapableTypes
   final public func didReceiveAuthorization(granted: Swift.Bool, error: (any Swift.Error)?)
   #endif
   final public func didRegisterWithToken(_ token: Foundation.Data)
   final public func didFailToRegisterWithError(_ error: any Swift.Error)
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class ConnectSDK {
   public static let shared: Connect.ConnectSDK
