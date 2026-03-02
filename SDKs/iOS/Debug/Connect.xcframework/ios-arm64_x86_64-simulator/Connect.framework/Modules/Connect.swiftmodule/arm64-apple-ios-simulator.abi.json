@@ -15,6 +15,597 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Tealeaf",
+        "printedName": "Tealeaf",
+        "declKind": "Import",
+        "moduleName": "Connect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectIdentityMessage",
+        "printedName": "ConnectIdentityMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifierType",
+            "printedName": "identifierType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdentifierType",
+                "printedName": "Connect.ConnectIdentity.IdentifierType",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A15IdentityMessageC14identifierType33_026F2CBF8C41EC2E47EB6CD234518347LLAA0aB0C010IdentifierE0Ovp",
+            "mangledName": "$s7Connect0A15IdentityMessageC14identifierType33_026F2CBF8C41EC2E47EB6CD234518347LLAA0aB0C010IdentifierE0Ovp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "identifierValue",
+            "printedName": "identifierValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A15IdentityMessageC15identifierValue33_026F2CBF8C41EC2E47EB6CD234518347LLSSvp",
+            "mangledName": "$s7Connect0A15IdentityMessageC15identifierValue33_026F2CBF8C41EC2E47EB6CD234518347LLSSvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "optIn",
+            "printedName": "optIn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A15IdentityMessageC5optIn33_026F2CBF8C41EC2E47EB6CD234518347LLSbvp",
+            "mangledName": "$s7Connect0A15IdentityMessageC5optIn33_026F2CBF8C41EC2E47EB6CD234518347LLSbvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "identificationFromLogin",
+            "printedName": "identificationFromLogin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A15IdentityMessageC23identificationFromLogin33_026F2CBF8C41EC2E47EB6CD234518347LLSbvp",
+            "mangledName": "$s7Connect0A15IdentityMessageC23identificationFromLogin33_026F2CBF8C41EC2E47EB6CD234518347LLSbvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(identifierType:identifierValue:optIn:identificationFromLogin:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectIdentityMessage",
+                "printedName": "Connect.ConnectIdentityMessage",
+                "usr": "c:@M@Connect@objc(cs)ConnectIdentityMessage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IdentifierType",
+                "printedName": "Connect.ConnectIdentity.IdentifierType",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A15IdentityMessageC14identifierType0D5Value5optIn23identificationFromLoginAcA0aB0C010IdentifierE0O_SSS2btcfc",
+            "mangledName": "$s7Connect0A15IdentityMessageC14identifierType0D5Value5optIn23identificationFromLoginAcA0aB0C010IdentifierE0O_SSS2btcfc",
+            "moduleName": "Connect",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "jsonDictionary",
+            "printedName": "jsonDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableDictionary",
+                "printedName": "Foundation.NSMutableDictionary",
+                "usr": "c:objc(cs)NSMutableDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Connect@objc(cs)ConnectIdentityMessage(im)jsonDictionary",
+            "mangledName": "$s7Connect0A15IdentityMessageC14jsonDictionarySo09NSMutableE0CyF",
+            "moduleName": "Connect",
+            "overriding": true,
+            "objc_name": "jsonDictionary",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Connect.ConnectIdentityMessage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectIdentityMessage",
+                    "printedName": "Connect.ConnectIdentityMessage",
+                    "usr": "c:@M@Connect@objc(cs)ConnectIdentityMessage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSCoder?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Connect@objc(cs)ConnectIdentityMessage(im)initWithCoder:",
+            "mangledName": "$s7Connect0A15IdentityMessageC5coderACSgSo7NSCoderCSg_tcfc",
+            "moduleName": "Connect",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectIdentityMessage",
+                "printedName": "Connect.ConnectIdentityMessage",
+                "usr": "c:@M@Connect@objc(cs)ConnectIdentityMessage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Connect@objc(cs)ConnectIdentityMessage(im)init",
+            "mangledName": "$s7Connect0A15IdentityMessageCACycfc",
+            "moduleName": "Connect",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Connect@objc(cs)ConnectIdentityMessage",
+        "mangledName": "$s7Connect0A15IdentityMessageC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)TLFMessage",
+        "superclassNames": [
+          "Tealeaf.TLFMessage",
+          "EOCore.EOMessage",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdentitySignalLogging",
+        "printedName": "IdentitySignalLogging",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "logIdentity",
+            "printedName": "logIdentity(identifierType:identifierValue:optIn:identificationFromLogin:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IdentifierType",
+                "printedName": "Connect.ConnectIdentity.IdentifierType",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect21IdentitySignalLoggingP03logB014identifierType0F5Value5optIn23identificationFromLoginSbAA0aB0C010IdentifierG0O_SSS2btF",
+            "mangledName": "$s7Connect21IdentitySignalLoggingP03logB014identifierType0F5Value5optIn23identificationFromLoginSbAA0aB0C010IdentifierG0O_SSS2btF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.IdentitySignalLogging>",
+            "sugared_genericSig": "<Self where Self : Connect.IdentitySignalLogging>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Connect21IdentitySignalLoggingP",
+        "mangledName": "$s7Connect21IdentitySignalLoggingP",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Tealeaf",
+        "printedName": "Tealeaf",
+        "declKind": "Import",
+        "moduleName": "Connect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectIdentitySignalLogger",
+        "printedName": "ConnectIdentitySignalLogger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dispatcher",
+            "printedName": "dispatcher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MessageDispatching",
+                "printedName": "any Connect.MessageDispatching",
+                "usr": "s:7Connect18MessageDispatchingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A20IdentitySignalLoggerC10dispatcher33_409ABCEC0618C6A412228436E21EBB65LLAA18MessageDispatching_pvp",
+            "mangledName": "$s7Connect0A20IdentitySignalLoggerC10dispatcher33_409ABCEC0618C6A412228436E21EBB65LLAA18MessageDispatching_pvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dispatcher:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectIdentitySignalLogger",
+                "printedName": "Connect.ConnectIdentitySignalLogger",
+                "usr": "s:7Connect0A20IdentitySignalLoggerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MessageDispatching",
+                "printedName": "any Connect.MessageDispatching",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect18MessageDispatchingP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A20IdentitySignalLoggerC10dispatcherAcA18MessageDispatching_p_tcfc",
+            "mangledName": "$s7Connect0A20IdentitySignalLoggerC10dispatcherAcA18MessageDispatching_p_tcfc",
+            "moduleName": "Connect",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "logIdentity",
+            "printedName": "logIdentity(identifierType:identifierValue:optIn:identificationFromLogin:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IdentifierType",
+                "printedName": "Connect.ConnectIdentity.IdentifierType",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A20IdentitySignalLoggerC03logB014identifierType0F5Value5optIn23identificationFromLoginSbAA0aB0C010IdentifierG0O_SSS2btF",
+            "mangledName": "$s7Connect0A20IdentitySignalLoggerC03logB014identifierType0F5Value5optIn23identificationFromLoginSbAA0aB0C010IdentifierG0O_SSS2btF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect0A20IdentitySignalLoggerC",
+        "mangledName": "$s7Connect0A20IdentitySignalLoggerC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IdentitySignalLogging",
+            "printedName": "IdentitySignalLogging",
+            "usr": "s:7Connect21IdentitySignalLoggingP",
+            "mangledName": "$s7Connect21IdentitySignalLoggingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "PushRegistrationStore",
         "printedName": "PushRegistrationStore",
@@ -1627,6 +2218,76 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(messageFlusher:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectSDK",
+                "printedName": "Connect.ConnectSDK",
+                "usr": "s:7Connect0A3SDKC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QueueFlushing",
+                "printedName": "any Connect.QueueFlushing",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect13QueueFlushingP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A3SDKC14messageFlusherAcA13QueueFlushing_p_tcfc",
+            "mangledName": "$s7Connect0A3SDKC14messageFlusherAcA13QueueFlushing_p_tcfc",
+            "moduleName": "Connect",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "identity",
+            "printedName": "identity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectIdentity",
+                "printedName": "Connect.ConnectIdentity",
+                "usr": "s:7Connect0A8IdentityC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A3SDKC8identityAA0A8IdentityCvp",
+            "mangledName": "$s7Connect0A3SDKC8identityAA0A8IdentityCvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectIdentity",
+                    "printedName": "Connect.ConnectIdentity",
+                    "usr": "s:7Connect0A8IdentityC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A3SDKC8identityAA0A8IdentityCvg",
+                "mangledName": "$s7Connect0A3SDKC8identityAA0A8IdentityCvg",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Var",
             "name": "push",
             "printedName": "push",
@@ -1727,6 +2388,28 @@
             "declKind": "Func",
             "usr": "s:7Connect0A3SDKC7disableyyF",
             "mangledName": "$s7Connect0A3SDKC7disableyyF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flush",
+            "printedName": "flush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A3SDKC5flushyyF",
+            "mangledName": "$s7Connect0A3SDKC5flushyyF",
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
@@ -2375,6 +3058,426 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ConnectIdentity",
+        "printedName": "ConnectIdentity",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "IdentifierType",
+            "printedName": "IdentifierType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "contactKey",
+                "printedName": "contactKey",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Connect.ConnectIdentity.IdentifierType.Type) -> Connect.ConnectIdentity.IdentifierType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdentifierType",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType",
+                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IdentifierType",
+                            "printedName": "Connect.ConnectIdentity.IdentifierType",
+                            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO10contactKeyyA2EmF",
+                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO10contactKeyyA2EmF",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "email",
+                "printedName": "email",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Connect.ConnectIdentity.IdentifierType.Type) -> Connect.ConnectIdentity.IdentifierType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdentifierType",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType",
+                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IdentifierType",
+                            "printedName": "Connect.ConnectIdentity.IdentifierType",
+                            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO5emailyA2EmF",
+                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO5emailyA2EmF",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "sms",
+                "printedName": "sms",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Connect.ConnectIdentity.IdentifierType.Type) -> Connect.ConnectIdentity.IdentifierType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdentifierType",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType",
+                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IdentifierType",
+                            "printedName": "Connect.ConnectIdentity.IdentifierType",
+                            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO3smsyA2EmF",
+                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO3smsyA2EmF",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "whatsapp",
+                "printedName": "whatsapp",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Connect.ConnectIdentity.IdentifierType.Type) -> Connect.ConnectIdentity.IdentifierType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdentifierType",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType",
+                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IdentifierType",
+                            "printedName": "Connect.ConnectIdentity.IdentifierType",
+                            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO8whatsappyA2EmF",
+                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO8whatsappyA2EmF",
+                "moduleName": "Connect",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Connect.ConnectIdentity.IdentifierType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdentifierType",
+                        "printedName": "Connect.ConnectIdentity.IdentifierType",
+                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO8rawValueAESgSS_tcfc",
+                "moduleName": "Connect",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO8rawValueSSvp",
+                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO8rawValueSSvp",
+                "moduleName": "Connect",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7Connect0A8IdentityC14IdentifierTypeO8rawValueSSvg",
+                    "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO8rawValueSSvg",
+                    "moduleName": "Connect",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO",
+            "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(signalLogger:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectIdentity",
+                "printedName": "Connect.ConnectIdentity",
+                "usr": "s:7Connect0A8IdentityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IdentitySignalLogging",
+                "printedName": "any Connect.IdentitySignalLogging",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect21IdentitySignalLoggingP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A8IdentityC12signalLoggerAcA0B13SignalLogging_p_tcfc",
+            "mangledName": "$s7Connect0A8IdentityC12signalLoggerAcA0B13SignalLogging_p_tcfc",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(identifierName:identifierValue:optIn:identificationFromLogin:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IdentifierType",
+                "printedName": "Connect.ConnectIdentity.IdentifierType",
+                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A8IdentityC3log14identifierName0D5Value5optIn23identificationFromLoginSbAC14IdentifierTypeO_SSS2btF",
+            "mangledName": "$s7Connect0A8IdentityC3log14identifierName0D5Value5optIn23identificationFromLoginSbAC14IdentifierTypeO_SSS2btF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect0A8IdentityC",
+        "mangledName": "$s7Connect0A8IdentityC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ConnectPushEventHandler",
         "printedName": "ConnectPushEventHandler",
         "children": [
@@ -2828,6 +3931,137 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "QueueFlushing",
+        "printedName": "QueueFlushing",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "flushAllQueues",
+            "printedName": "flushAllQueues()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect13QueueFlushingP14flushAllQueuesyyF",
+            "mangledName": "$s7Connect13QueueFlushingP14flushAllQueuesyyF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.QueueFlushing>",
+            "sugared_genericSig": "<Self where Self : Connect.QueueFlushing>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Connect13QueueFlushingP",
+        "mangledName": "$s7Connect13QueueFlushingP",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TLFMessageQueueFlusher",
+        "printedName": "TLFMessageQueueFlusher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "flushAllQueues",
+            "printedName": "flushAllQueues()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect22TLFMessageQueueFlusherC14flushAllQueuesyyF",
+            "mangledName": "$s7Connect22TLFMessageQueueFlusherC14flushAllQueuesyyF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TLFMessageQueueFlusher",
+                "printedName": "Connect.TLFMessageQueueFlusher",
+                "usr": "s:7Connect22TLFMessageQueueFlusherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect22TLFMessageQueueFlusherCACycfc",
+            "mangledName": "$s7Connect22TLFMessageQueueFlusherCACycfc",
+            "moduleName": "Connect",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect22TLFMessageQueueFlusherC",
+        "mangledName": "$s7Connect22TLFMessageQueueFlusherC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "QueueFlushing",
+            "printedName": "QueueFlushing",
+            "usr": "s:7Connect13QueueFlushingP",
+            "mangledName": "$s7Connect13QueueFlushingP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3016,6 +4250,74 @@
         "moduleName": "Connect",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Tealeaf",
+        "printedName": "Tealeaf",
+        "declKind": "Import",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MessageDispatching",
+        "printedName": "MessageDispatching",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "logMessage",
+            "printedName": "logMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TLFMessage",
+                "printedName": "Tealeaf.TLFMessage",
+                "usr": "c:objc(cs)TLFMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect18MessageDispatchingP03logB0ySbSo10TLFMessageCF",
+            "mangledName": "$s7Connect18MessageDispatchingP03logB0ySbSo10TLFMessageCF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.MessageDispatching>",
+            "sugared_genericSig": "<Self where Self : Connect.MessageDispatching>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Connect18MessageDispatchingP",
+        "mangledName": "$s7Connect18MessageDispatchingP",
+        "moduleName": "Connect",
         "declAttributes": [
           "RawDocComment"
         ],
@@ -3283,21 +4585,21 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ConnectPushRegistrationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1312,
       "length": 5,
       "value": "\"FCM\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ConnectPushRegistrationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1326,
+      "offset": 1337,
       "length": 5,
       "value": "\"HMS\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ConnectPushRegistrationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1362,
       "length": 5,
       "value": "\"APN\""
     }

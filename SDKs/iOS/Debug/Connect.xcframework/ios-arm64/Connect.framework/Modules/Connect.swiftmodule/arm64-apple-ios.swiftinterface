@@ -30,11 +30,15 @@ public enum ConnectError : Swift.Error {
 }
 @_hasMissingDesignatedInitializers final public class ConnectSDK {
   public static let shared: Connect.ConnectSDK
+  final public var identity: Connect.ConnectIdentity {
+    get
+  }
   final public var push: Connect.ConnectPush {
     get throws
   }
   final public func enable(appKey: Swift.String, postURL: Swift.String, push: Connect.ConnectPushConfig = .off)
   final public func disable()
+  final public func flush()
   final public var isEnabled: Swift.Bool {
     get
   }
@@ -60,7 +64,28 @@ public struct ConnectPushConfig {
   public let mode: Connect.ConnectPushConfig.Mode
   public init(mode: Connect.ConnectPushConfig.Mode = .off)
 }
+@_hasMissingDesignatedInitializers final public class ConnectIdentity {
+  public enum IdentifierType : Swift.String {
+    case contactKey
+    case email
+    case sms
+    case whatsapp
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  @discardableResult
+  final public func log(identifierName: Connect.ConnectIdentity.IdentifierType, identifierValue: Swift.String, optIn: Swift.Bool, identificationFromLogin: Swift.Bool) -> Swift.Bool
+  @objc deinit
+}
 extension Connect.ConnectError : Swift.Equatable {}
 extension Connect.ConnectError : Swift.Hashable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Equatable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Hashable {}
+extension Connect.ConnectIdentity.IdentifierType : Swift.Equatable {}
+extension Connect.ConnectIdentity.IdentifierType : Swift.Hashable {}
+extension Connect.ConnectIdentity.IdentifierType : Swift.RawRepresentable {}
