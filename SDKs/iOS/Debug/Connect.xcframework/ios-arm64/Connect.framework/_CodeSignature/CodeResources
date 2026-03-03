@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		LtG3YBnBLazYWQM6FE8QSddOC2k=
+		jM7WHTgLyBEEF6901nPAdgBZKy0=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/Connect.h</key>
 		<data>
-		UmZTWzxUho6+U8xgF0Ss+c6+JCI=
+		0YQitGtm7sbCrtNcair8FZ7xCXk=
 		</data>
 		<key>Headers/ConnectApplication.h</key>
 		<data>
@@ -36,6 +36,10 @@
 		<data>
 		J6gWsUPj9195+2DnK5lkEqS368g=
 		</data>
+		<key>Headers/ConnectApplicationHelperInternal.h</key>
+		<data>
+		G2pzDaHM7buzUUkxrRAgbBzusy0=
+		</data>
 		<key>Headers/ConnectBridgingHeader.h</key>
 		<data>
 		d/yn067YZW9sD9bjDgpGXYJkcX4=
@@ -44,33 +48,37 @@
 		<data>
 		oL1VhaCtp4j3q2LoC0BpbQ4Z58Y=
 		</data>
+		<key>Headers/ConnectDelegateProxy.h</key>
+		<data>
+		gbNQwOb2zu8s5aoZMEAx7bDJbZA=
+		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		9rjqIKiGxCKG5bvmQDtT5F0t6Zs=
+		Z3fBu9vnAXpXDZ0BtzF6+p3S0Ys=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SGV60AW5rITYNZ7sfGQNDrvsUbc=
+		uKHShsphf+Se1CA5TquhV64AJdM=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Ko7yv1aCGGoKTyM2GnpxQxXkVYg=
+		o+mF0CQ0MOAn5Ay0VHLxL+FDLJI=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		z5AFaCKh5IrRUVYmIdTk+ajP2+Q=
+		dXmcGaZOqxIT0DsHljJomZKf9Kk=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		sdrvzovcmB+3h9mRcplsL7SR+tE=
+		/sxuCPIkxTijKQ0g6lBx/hKL3Oo=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		z5AFaCKh5IrRUVYmIdTk+ajP2+Q=
+		dXmcGaZOqxIT0DsHljJomZKf9Kk=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		V+y7NeHpx9jb8oWWX/PHBj8F0rA=
+		zPpsJ7Jwvd8D0jD36PVacd31g3Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,10 +87,6 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		RAnTPZU6cNDuCexJl5pB5am0brY=
-		</data>
-		<key>PrivateHeaders/ConnectDelegateProxy.h</key>
-		<data>
-		gbNQwOb2zu8s5aoZMEAx7bDJbZA=
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
@@ -103,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0IvY48C933v4/rINQVcbbWlj7cE4Gehtjmbzsy/14U=
+			JKdRAbivwZo6Jw5ZPB/PlT4xojjhqhPnSQaqsB+WNAY=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -138,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VAfjQatbAqo7zVVnS2KSV91L7BUkwd8E2u2deCVIFgA=
+			O6/Nft6jIcK5f7399WpFSkxYbrz7bjXmdgxXJLqgQRM=
 			</data>
 		</dict>
 		<key>Headers/ConnectApplication.h</key>
@@ -155,6 +159,13 @@
 			YLwpDTxUYMcJyqZCZ/3c27oDL4RYFy8/p24D6EGysyk=
 			</data>
 		</dict>
+		<key>Headers/ConnectApplicationHelperInternal.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D7IWEJfQUUuzkvuUGHZLIEGD+w+pG4NrS7fqsZ1NmlI=
+			</data>
+		</dict>
 		<key>Headers/ConnectBridgingHeader.h</key>
 		<dict>
 			<key>hash2</key>
@@ -169,46 +180,53 @@
 			bkIj7r7kvwbiJKQeIvd5xqGLO/pPN+C/VMTb1jV7yGY=
 			</data>
 		</dict>
+		<key>Headers/ConnectDelegateProxy.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Oj3BlygoXmOtsZND8shfZO58EF2s+dzf66Ke0blFiAg=
+			</data>
+		</dict>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			20wSnM6JeqQXRtOBMCceaDpa8mi3qsvMGw4Qe/YROik=
+			YWphPBoRZe3RjHiyG3W7ahUj5GvJ5bFTtKMiucFZzUU=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h2iMC6Gy8BqWS9H6fhjHWFb5JIZ4gkxFQbNSxaThcCk=
+			nMLiZVWt0TcTxD8N8nloeJzRuC7DXgOgz179gJBN5a8=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nVz/GHvxfYk6oTJLmfaN8GqwInGsf+nCRs5n1udqmOg=
+			8daXlymkh7hN3ThwyUaKAqZ1AHZnJ6y4u6rMy6AZk+I=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyUkzW1A95oZ6h3tHn8Gh+7HBBtfpgVEjzG/XTLGRb0=
+			HXoOdUSwmwVPwdQVbkErZ2LgM4Y3x7ELZ8L/iZDDaUE=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nVz/GHvxfYk6oTJLmfaN8GqwInGsf+nCRs5n1udqmOg=
+			8daXlymkh7hN3ThwyUaKAqZ1AHZnJ6y4u6rMy6AZk+I=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yj8PofZHXgsEUHb6OtuH5P/kDvX3xa2mHFkcBl8QtzU=
+			pbEw1AAUk6KQe0n2cMTThiKtcWdZEJa/SdXt8BhYz4E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -223,13 +241,6 @@
 			<key>hash2</key>
 			<data>
 			0yxJQwXVj1jujy3TeM/0XaVYSlLTCw0nBnLDrCGJahs=
-			</data>
-		</dict>
-		<key>PrivateHeaders/ConnectDelegateProxy.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Oj3BlygoXmOtsZND8shfZO58EF2s+dzf66Ke0blFiAg=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>

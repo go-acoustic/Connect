@@ -11,8 +11,24 @@ import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum ConnectPushActionIdentifier : Swift.String {
+  case openURL
+  case openDialer
+  case openApp
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ConnectPushCategoryIdentifier {
+  public static let acousticActions: Swift.String
+}
 public enum ConnectError : Swift.Error {
   case pushNotEnabled
+  case pushModeNotManual
   public static func == (a: Connect.ConnectError, b: Connect.ConnectError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -27,6 +43,8 @@ public enum ConnectError : Swift.Error {
   #endif
   final public func didRegisterWithToken(_ token: Foundation.Data)
   final public func didFailToRegisterWithError(_ error: any Swift.Error)
+  final public func didReceive(_ response: any Connect.ConnectNotificationResponse) throws
+  final public func registerNotificationCategories()
 }
 @_hasMissingDesignatedInitializers final public class ConnectSDK {
   public static let shared: Connect.ConnectSDK
@@ -82,6 +100,18 @@ public struct ConnectPushConfig {
   final public func log(identifierName: Connect.ConnectIdentity.IdentifierType, identifierValue: Swift.String, optIn: Swift.Bool, identificationFromLogin: Swift.Bool) -> Swift.Bool
   @objc deinit
 }
+public protocol ConnectNotificationResponse {
+  var actionIdentifier: Swift.String { get }
+  var userInfo: [Swift.AnyHashable : Any] { get }
+}
+extension UserNotifications.UNNotificationResponse : Connect.ConnectNotificationResponse {
+  public var userInfo: [Swift.AnyHashable : Any] {
+    get
+  }
+}
+extension Connect.ConnectPushActionIdentifier : Swift.Equatable {}
+extension Connect.ConnectPushActionIdentifier : Swift.Hashable {}
+extension Connect.ConnectPushActionIdentifier : Swift.RawRepresentable {}
 extension Connect.ConnectError : Swift.Equatable {}
 extension Connect.ConnectError : Swift.Hashable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Equatable {}
