@@ -35,6 +35,17 @@
 /// Equivalent to the public `isTLFEnabled` without deprecation.
 - (BOOL)_connectIsEnabled;
 
+/// Returns whether the framework is both enabled AND ready to log messages.
+///
+/// This is a stronger check than `_connectIsEnabled`. The underlying framework
+/// sets `isEnabled = YES` before the asynchronous kill-switch check completes.
+/// Calling `TLFSessionManager.getCurrentSessionId()` in that window spawns a
+/// spurious session that does not match the one created by `startNewSession()`.
+/// This method additionally checks `hasKillSwitchCompleted`, which is only set
+/// to `YES` inside `startTealeafLibrary` — after `startNewSession()` has run —
+/// guaranteeing a valid session ID exists before any message is logged.
+- (BOOL)_connectIsReadyForLogging;
+
 /// Returns the Connect framework version string.
 /// Equivalent to the public `frameworkVersion` without deprecation.
 - (NSString *)_connectFrameworkVersion;

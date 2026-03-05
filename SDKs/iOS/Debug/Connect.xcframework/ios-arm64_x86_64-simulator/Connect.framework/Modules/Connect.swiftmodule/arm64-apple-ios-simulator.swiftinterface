@@ -26,6 +26,14 @@ public enum ConnectPushActionIdentifier : Swift.String {
 public struct ConnectPushCategoryIdentifier {
   public static let acousticActions: Swift.String
 }
+public protocol ConnectNotification {
+  var userInfo: [Swift.AnyHashable : Any] { get }
+}
+extension UserNotifications.UNNotification : Connect.ConnectNotification {
+  public var userInfo: [Swift.AnyHashable : Any] {
+    get
+  }
+}
 public enum ConnectError : Swift.Error {
   case pushNotEnabled
   case pushModeNotManual
@@ -44,6 +52,7 @@ public enum ConnectError : Swift.Error {
   final public func didRegisterWithToken(_ token: Foundation.Data)
   final public func didFailToRegisterWithError(_ error: any Swift.Error)
   final public func didReceive(_ response: any Connect.ConnectNotificationResponse) throws
+  final public func didReceiveNotification(_ notification: any Connect.ConnectNotification) throws
   final public func registerNotificationCategories()
 }
 @_hasMissingDesignatedInitializers final public class ConnectSDK {
