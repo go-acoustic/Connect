@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		h93rlPDJJZZ9RNJ5wstYhJGEFtc=
+		E4lMYlIXpcvtCGSyWpZToeS9e4o=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		lNNx2N7BRPju59J1GhLwl7uf/+Y=
+		CcCsDm3af/H8UdcQyx5cjbzQm68=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p2cfpSSw9pSj6hyf72tj0906tnU=
+		dmaxIm7bSUPOh/ZYmxi+v5Wh+qA=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		LE3Xm9O1cuOdDb+DjBkZkCho/98=
+		9EpRvteqHOP0ziuCC2afD1MK65E=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		HF6Wj/lXIbHl2ewCsY04b/DMfdE=
+		24llA6BwEftmUInzApYzV+le/ZM=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		aT0NZCC8Lz1pZJxLKkjjTCBue6o=
+		P8SicYqIu5LDgK3ciPBKDKvcZgM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		RISRj8MDKrZhWYR9RuPKVTgnqUE=
+		w4fp7ns7katDfbAYytXFZl0jP+c=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			51xgoU05JlgHSOnQ7UYp2Giwx1EZl1tjN8AjMEAqhFs=
+			3XLd+PC3qUSYcfhgm4db/wHVaWEeKLYa6cHNlP8ZWuw=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -191,14 +191,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8x+qAxk1k8bU1e8UqFpgALJ/wn776wU8lglELuT4hA=
+			LLp8c7Lfjk3s1mF8zFWIL8FoP9BIZUxNBWSTIUe+iOg=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZyzpL2ODeYv8h65vcc2oM7xvH7bQG77yWExAxdWnSc=
+			CGa2VmfbiW/MAEyTyQuy16CLetqIPJD4M9+IeTyS/JA=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -212,7 +212,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CGQ0Cni1dVV+eHWOYHs449W8vVIkHVhvmjJ0l+PSyjI=
+			fdbvDy8Ec7+I72eBGvYroD3Q0YS4y/3pcKTAMKbRn5o=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftinterface</key>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ExMQ9lJYsqM1bEkrZYF6A+8qQPFrr/x/SxZs4zxmu1E=
+			1Zc4Cr3DvlHZn3dk4tmchCzNk0OmmyBwJXUvS6MzLsc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gik83UrXqGoVgySVpl+dDqg92GYyZwC3bpabHFfbj+Y=
+			gPo1EvNVd2Uelk8QtiZl2YDi8KbyBpw75tkMMKk/Ub4=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>

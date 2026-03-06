@@ -940,8 +940,8 @@ relocations:
   - { offset: 0x3CCBD, size: 0x8, addend: 0x0, symName: '+[TLFCustomEventLogger logPerformance:unloadEventStart:unloadEventEnd:redirectStart:redirectEnd:fetchStart:domainLookupStart:domainLookupEnd:connectStart:connectEnd:secureConnectionStart:requestStart:responseStart:responseEnd:domLoading:domInteractive:domContentLoadedEventStart:domContentLoadedEventEnd:domComplete:loadEventStart:loadEventEnd:renderTime:perNavType:redirectCount:]', symObjAddr: 0x10C0, symBinAddr: 0x56810, symSize: 0x7C6 }
   - { offset: 0x3D76B, size: 0x8, addend: 0x0, symName: '+[TLFMessageQueue sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x56FE0, symSize: 0xA0 }
   - { offset: 0x3D778, size: 0x8, addend: 0x0, symName: '+[TLFMessageQueue sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x56FE0, symSize: 0xA0 }
-  - { offset: 0x3D7A1, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1C958, symBinAddr: 0x1EEF90, symSize: 0x0 }
-  - { offset: 0x3D7B6, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1C960, symBinAddr: 0x1EEF98, symSize: 0x0 }
+  - { offset: 0x3D7A1, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1C970, symBinAddr: 0x1EEF90, symSize: 0x0 }
+  - { offset: 0x3D7B6, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1C978, symBinAddr: 0x1EEF98, symSize: 0x0 }
   - { offset: 0x3E6F9, size: 0x8, addend: 0x0, symName: '-[TLFMessageQueue updateSessionId:forSessionId:]', symObjAddr: 0x220, symBinAddr: 0x57200, symSize: 0xA60 }
   - { offset: 0x3E722, size: 0x8, addend: 0x0, symName: '_updateSessionId:forSessionId:.connectDebug', symObjAddr: 0x100D0, symBinAddr: 0x1ED460, symSize: 0x0 }
   - { offset: 0x3E737, size: 0x8, addend: 0x0, symName: '_updateSessionId:forSessionId:.tlfDebug', symObjAddr: 0x100D4, symBinAddr: 0x1ED464, symSize: 0x0 }
@@ -4053,8 +4053,8 @@ relocations:
   - { offset: 0x109BE6, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection load]', symObjAddr: 0x0, symBinAddr: 0x166040, symSize: 0x50 }
   - { offset: 0x10A1AB, size: 0x8, addend: 0x0, symName: '+[TLFUICPayloadMessage sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x16AAE0, symSize: 0xA0 }
   - { offset: 0x10A1B8, size: 0x8, addend: 0x0, symName: '+[TLFUICPayloadMessage sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x16AAE0, symSize: 0xA0 }
-  - { offset: 0x10A1E1, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xCE28, symBinAddr: 0x1EF160, symSize: 0x0 }
-  - { offset: 0x10A1F6, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xCE30, symBinAddr: 0x1EF168, symSize: 0x0 }
+  - { offset: 0x10A1E1, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xCE48, symBinAddr: 0x1EF160, symSize: 0x0 }
+  - { offset: 0x10A1F6, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xCE50, symBinAddr: 0x1EF168, symSize: 0x0 }
   - { offset: 0x10A3C7, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage initWithPayload:]', symObjAddr: 0x2E0, symBinAddr: 0x16ADC0, symSize: 0xAE0 }
   - { offset: 0x10A3F0, size: 0x8, addend: 0x0, symName: '_initWithPayload:.connectDebug', symObjAddr: 0x7370, symBinAddr: 0x1EEDA8, symSize: 0x0 }
   - { offset: 0x10A405, size: 0x8, addend: 0x0, symName: '_initWithPayload:.tlfDebug', symObjAddr: 0x7374, symBinAddr: 0x1EEDAC, symSize: 0x0 }

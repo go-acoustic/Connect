@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		h93rlPDJJZZ9RNJ5wstYhJGEFtc=
+		E4lMYlIXpcvtCGSyWpZToeS9e4o=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		lNNx2N7BRPju59J1GhLwl7uf/+Y=
+		CcCsDm3af/H8UdcQyx5cjbzQm68=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kCYb48TfLp7IV6CZmNuKoQ0yqZ8=
+		CSeCF5vgw244o7uNHkFoKzMyTuc=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LE3Xm9O1cuOdDb+DjBkZkCho/98=
+		9EpRvteqHOP0ziuCC2afD1MK65E=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		B6tlUX24a/dZSrXX5CO8KpBlZS8=
+		WAQx7fByiNDy+6z3ydmiXy7iChc=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x9gp8vGNf08dfOsqIKBgCvO7F/M=
+		sH9yBmwSApOYDIsvVPP+hRFAG/8=
 		</data>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LE3Xm9O1cuOdDb+DjBkZkCho/98=
+		9EpRvteqHOP0ziuCC2afD1MK65E=
 		</data>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gDSewVYA9OmguiYL9XRWlVKXRBQ=
+		VjkPr8Q4EvpQQfv1pN1X6yk2o9o=
 		</data>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IXyObNW0gSrYhAgW8FDTeKdbU28=
+		njscjAuL7KKb0BQVTGGEDC2qrYw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		RISRj8MDKrZhWYR9RuPKVTgnqUE=
+		w4fp7ns7katDfbAYytXFZl0jP+c=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			51xgoU05JlgHSOnQ7UYp2Giwx1EZl1tjN8AjMEAqhFs=
+			3XLd+PC3qUSYcfhgm4db/wHVaWEeKLYa6cHNlP8ZWuw=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -211,14 +211,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8x+qAxk1k8bU1e8UqFpgALJ/wn776wU8lglELuT4hA=
+			LLp8c7Lfjk3s1mF8zFWIL8FoP9BIZUxNBWSTIUe+iOg=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZyzpL2ODeYv8h65vcc2oM7xvH7bQG77yWExAxdWnSc=
+			CGa2VmfbiW/MAEyTyQuy16CLetqIPJD4M9+IeTyS/JA=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kIMaB6YYYCMLQLP1r3D5xkrgTROcrcnULSBGUfGW3CA=
+			PcRLFpKnnCaQrlryHni1qEhhhsdx7i//xYp3MH0NwTM=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -246,14 +246,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			irw372CUAbkUnAsMyE7BXFQ+3hQnkSZvVDYqAqZEHyQ=
+			+CvmcHE5Bffq83tpbKo58ZVhMsDojQ7M/WJ+sCl6+oE=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZyzpL2ODeYv8h65vcc2oM7xvH7bQG77yWExAxdWnSc=
+			CGa2VmfbiW/MAEyTyQuy16CLetqIPJD4M9+IeTyS/JA=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -267,7 +267,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BHUaU4ifZx6Cv6ot9d5eV/iHg/CvWl3wFcNamBHISr8=
+			QxLmYTYOcoLAm0UQQuatHv4JWjq1cZLW/U/58qwcwZM=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JFNrFIc1KuVGhmFfBPmbvofNgaAAAKPEf50xx81Byfs=
+			6r6JuxaTTPOZ/7jyJl4kpdMIeIcUEd9bzF+APS0ZiDk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -302,7 +302,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gik83UrXqGoVgySVpl+dDqg92GYyZwC3bpabHFfbj+Y=
+			gPo1EvNVd2Uelk8QtiZl2YDi8KbyBpw75tkMMKk/Ub4=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>

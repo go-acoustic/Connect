@@ -858,6 +858,590 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Tealeaf",
+        "printedName": "Tealeaf",
+        "declKind": "Import",
+        "moduleName": "Connect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectPushActionMessage",
+        "printedName": "ConnectPushActionMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "actionType",
+            "printedName": "actionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushActionIdentifier",
+                "printedName": "Connect.ConnectPushActionIdentifier",
+                "usr": "s:7Connect0A20PushActionIdentifierO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A17PushActionMessageC10actionType33_56E24E526BB4B7A110B0E04FAFD6A4D1LLAA0abC10IdentifierOvp",
+            "mangledName": "$s7Connect0A17PushActionMessageC10actionType33_56E24E526BB4B7A110B0E04FAFD6A4D1LLAA0abC10IdentifierOvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "contactId",
+            "printedName": "contactId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A17PushActionMessageC9contactId33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSSSgvp",
+            "mangledName": "$s7Connect0A17PushActionMessageC9contactId33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSSSgvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "sendJobId",
+            "printedName": "sendJobId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A17PushActionMessageC9sendJobId33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSSSgvp",
+            "mangledName": "$s7Connect0A17PushActionMessageC9sendJobId33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSSSgvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "joId",
+            "printedName": "joId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A17PushActionMessageC4joId33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSSSgvp",
+            "mangledName": "$s7Connect0A17PushActionMessageC4joId33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSSSgvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "joStepId",
+            "printedName": "joStepId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A17PushActionMessageC8joStepId33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSSSgvp",
+            "mangledName": "$s7Connect0A17PushActionMessageC8joStepId33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSSSgvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "testSend",
+            "printedName": "testSend",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A17PushActionMessageC8testSend33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSbSgvp",
+            "mangledName": "$s7Connect0A17PushActionMessageC8testSend33_56E24E526BB4B7A110B0E04FAFD6A4D1LLSbSgvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(actionType:contactId:sendJobId:joId:joStepId:testSend:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushActionMessage",
+                "printedName": "Connect.ConnectPushActionMessage",
+                "usr": "c:@M@Connect@objc(cs)ConnectPushActionMessage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushActionIdentifier",
+                "printedName": "Connect.ConnectPushActionIdentifier",
+                "usr": "s:7Connect0A20PushActionIdentifierO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A17PushActionMessageC10actionType9contactId07sendJobH002joH00k4StepH08testSendAcA0abC10IdentifierO_SSSgA3LSbSgtcfc",
+            "mangledName": "$s7Connect0A17PushActionMessageC10actionType9contactId07sendJobH002joH00k4StepH08testSendAcA0abC10IdentifierO_SSSgA3LSbSgtcfc",
+            "moduleName": "Connect",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "jsonDictionary",
+            "printedName": "jsonDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableDictionary",
+                "printedName": "Foundation.NSMutableDictionary",
+                "usr": "c:objc(cs)NSMutableDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Connect@objc(cs)ConnectPushActionMessage(im)jsonDictionary",
+            "mangledName": "$s7Connect0A17PushActionMessageC14jsonDictionarySo09NSMutableF0CyF",
+            "moduleName": "Connect",
+            "overriding": true,
+            "objc_name": "jsonDictionary",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Connect.ConnectPushActionMessage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushActionMessage",
+                    "printedName": "Connect.ConnectPushActionMessage",
+                    "usr": "c:@M@Connect@objc(cs)ConnectPushActionMessage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSCoder?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Connect@objc(cs)ConnectPushActionMessage(im)initWithCoder:",
+            "mangledName": "$s7Connect0A17PushActionMessageC5coderACSgSo7NSCoderCSg_tcfc",
+            "moduleName": "Connect",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushActionMessage",
+                "printedName": "Connect.ConnectPushActionMessage",
+                "usr": "c:@M@Connect@objc(cs)ConnectPushActionMessage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Connect@objc(cs)ConnectPushActionMessage(im)init",
+            "mangledName": "$s7Connect0A17PushActionMessageCACycfc",
+            "moduleName": "Connect",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Connect@objc(cs)ConnectPushActionMessage",
+        "mangledName": "$s7Connect0A17PushActionMessageC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)TLFMessage",
+        "superclassNames": [
+          "Tealeaf.TLFMessage",
+          "EOCore.EOMessage",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectPushActionLogger",
+        "printedName": "ConnectPushActionLogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "logPushAction",
+            "printedName": "logPushAction(actionType:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushActionIdentifier",
+                "printedName": "Connect.ConnectPushActionIdentifier",
+                "usr": "s:7Connect0A20PushActionIdentifierO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushMetadata",
+                "printedName": "Connect.ConnectPushMetadata",
+                "usr": "s:7Connect0A12PushMetadataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A16PushActionLoggerC03logbC010actionType8metadataSbAA0abC10IdentifierO_AA0aB8MetadataVtF",
+            "mangledName": "$s7Connect0A16PushActionLoggerC03logbC010actionType8metadataSbAA0abC10IdentifierO_AA0aB8MetadataVtF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushActionLogger",
+                "printedName": "Connect.ConnectPushActionLogger",
+                "usr": "s:7Connect0A16PushActionLoggerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A16PushActionLoggerCACycfc",
+            "mangledName": "$s7Connect0A16PushActionLoggerCACycfc",
+            "moduleName": "Connect",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect0A16PushActionLoggerC",
+        "mangledName": "$s7Connect0A16PushActionLoggerC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PushActionLogging",
+            "printedName": "PushActionLogging",
+            "usr": "s:7Connect17PushActionLoggingP",
+            "mangledName": "$s7Connect17PushActionLoggingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
         "declKind": "Import",
@@ -1117,6 +1701,86 @@
             "printedName": "IdentitySignalLogging",
             "usr": "s:7Connect21IdentitySignalLoggingP",
             "mangledName": "$s7Connect21IdentitySignalLoggingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushActionLogging",
+        "printedName": "PushActionLogging",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "logPushAction",
+            "printedName": "logPushAction(actionType:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushActionIdentifier",
+                "printedName": "Connect.ConnectPushActionIdentifier",
+                "usr": "s:7Connect0A20PushActionIdentifierO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushMetadata",
+                "printedName": "Connect.ConnectPushMetadata",
+                "usr": "s:7Connect0A12PushMetadataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect17PushActionLoggingP03logbC010actionType8metadataSbAA0abC10IdentifierO_AA0aB8MetadataVtF",
+            "mangledName": "$s7Connect17PushActionLoggingP03logbC010actionType8metadataSbAA0abC10IdentifierO_AA0aB8MetadataVtF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushActionLogging>",
+            "sugared_genericSig": "<Self where Self : Connect.PushActionLogging>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Connect17PushActionLoggingP",
+        "mangledName": "$s7Connect17PushActionLoggingP",
+        "moduleName": "Connect",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -1426,7 +2090,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(config:pushRegistering:pushDelegateProxy:notificationCenterProxy:pushEventHandler:categoryRegistrar:urlOpener:)",
+            "printedName": "init(config:pushRegistering:pushDelegateProxy:categoryRegistrar:urlOpener:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1456,20 +2120,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "NotificationCenterDelegateProxy",
-                "printedName": "any Connect.NotificationCenterDelegateProxy",
-                "hasDefaultArg": true,
-                "usr": "s:7Connect31NotificationCenterDelegateProxyP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PushEventHandling",
-                "printedName": "any Connect.PushEventHandling",
-                "hasDefaultArg": true,
-                "usr": "s:7Connect17PushEventHandlingP"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "PushNotificationCategoryRegistering",
                 "printedName": "any Connect.PushNotificationCategoryRegistering",
                 "hasDefaultArg": true,
@@ -1480,6 +2130,71 @@
                 "name": "URLOpening",
                 "printedName": "any Connect.URLOpening",
                 "hasDefaultArg": true,
+                "usr": "s:7Connect10URLOpeningP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A4PushC6config15pushRegistering0D13DelegateProxy17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA0b20NotificationCategoryE0_pAA10URLOpening_ptcfc",
+            "mangledName": "$s7Connect0A4PushC6config15pushRegistering0D13DelegateProxy17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA0b20NotificationCategoryE0_pAA10URLOpening_ptcfc",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:pushRegistering:pushDelegateProxy:notificationCenterProxy:pushEventHandler:categoryRegistrar:urlOpener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPush",
+                "printedName": "Connect.ConnectPush",
+                "usr": "s:7Connect0A4PushC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushConfig",
+                "printedName": "Connect.ConnectPushConfig",
+                "usr": "s:7Connect0A10PushConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APNSRegistering",
+                "printedName": "any Connect.APNSRegistering",
+                "usr": "s:7Connect15APNSRegisteringP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushDelegateProxy",
+                "printedName": "any Connect.PushDelegateProxy",
+                "usr": "s:7Connect17PushDelegateProxyP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationCenterDelegateProxy",
+                "printedName": "any Connect.NotificationCenterDelegateProxy",
+                "usr": "s:7Connect31NotificationCenterDelegateProxyP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushEventHandling",
+                "printedName": "any Connect.PushEventHandling",
+                "usr": "s:7Connect17PushEventHandlingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushNotificationCategoryRegistering",
+                "printedName": "any Connect.PushNotificationCategoryRegistering",
+                "usr": "s:7Connect35PushNotificationCategoryRegisteringP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLOpening",
+                "printedName": "any Connect.URLOpening",
                 "usr": "s:7Connect10URLOpeningP"
               }
             ],
@@ -6081,6 +6796,32 @@
           },
           {
             "kind": "Var",
+            "name": "actionLogger",
+            "printedName": "actionLogger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushActionLogging",
+                "printedName": "any Connect.PushActionLogging",
+                "usr": "s:7Connect17PushActionLoggingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A16PushEventHandlerC12actionLogger33_9491BBF4C4AC7FA2E800619D5EAB04FALLAA0B13ActionLogging_pvp",
+            "mangledName": "$s7Connect0A16PushEventHandlerC12actionLogger33_9491BBF4C4AC7FA2E800619D5EAB04FALLAA0B13ActionLogging_pvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "receivedLogger",
             "printedName": "receivedLogger",
             "children": [
@@ -6101,7 +6842,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "isLet": true,
             "hasStorage": true
           },
@@ -6139,7 +6880,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "isLet": true,
             "hasStorage": true
           },
@@ -6174,7 +6915,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true
           },
           {
@@ -6221,7 +6962,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true
           },
           {
@@ -6256,13 +6997,13 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(registrationLogger:registrationStore:authorizationChecker:receivedLogger:readinessCheck:)",
+            "printedName": "init(registrationLogger:registrationStore:authorizationChecker:actionLogger:receivedLogger:readinessCheck:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6293,6 +7034,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "PushActionLogging",
+                "printedName": "any Connect.PushActionLogging",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect17PushActionLoggingP"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "PushReceivedLogging",
                 "printedName": "any Connect.PushReceivedLogging",
                 "hasDefaultArg": true,
@@ -6319,8 +7067,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A16PushEventHandlerC18registrationLogger0E5Store20authorizationChecker08receivedF014readinessCheckAcA0B19RegistrationLogging_p_AA0bmG0_pAA0B21AuthorizationChecking_pAA0b8ReceivedN0_pSbyctcfc",
-            "mangledName": "$s7Connect0A16PushEventHandlerC18registrationLogger0E5Store20authorizationChecker08receivedF014readinessCheckAcA0B19RegistrationLogging_p_AA0bmG0_pAA0B21AuthorizationChecking_pAA0b8ReceivedN0_pSbyctcfc",
+            "usr": "s:7Connect0A16PushEventHandlerC18registrationLogger0E5Store20authorizationChecker06actionF008receivedF014readinessCheckAcA0B19RegistrationLogging_p_AA0bnG0_pAA0B21AuthorizationChecking_pAA0b6ActionO0_pAA0b8ReceivedO0_pSbyctcfc",
+            "mangledName": "$s7Connect0A16PushEventHandlerC18registrationLogger0E5Store20authorizationChecker06actionF008receivedF014readinessCheckAcA0B19RegistrationLogging_p_AA0bnG0_pAA0B21AuthorizationChecking_pAA0b6ActionO0_pAA0b8ReceivedO0_pSbyctcfc",
             "moduleName": "Connect",
             "init_kind": "Designated"
           },
@@ -6449,6 +7197,38 @@
             "declKind": "Func",
             "usr": "s:7Connect0A16PushEventHandlerC22didReceiveNotification8userInfoySDys11AnyHashableVypG_tF",
             "mangledName": "$s7Connect0A16PushEventHandlerC22didReceiveNotification8userInfoySDys11AnyHashableVypG_tF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveAction",
+            "printedName": "didReceiveAction(payload:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushPayload",
+                "printedName": "Connect.ConnectPushPayload",
+                "usr": "s:7Connect0A11PushPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushMetadata",
+                "printedName": "Connect.ConnectPushMetadata",
+                "usr": "s:7Connect0A12PushMetadataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A16PushEventHandlerC16didReceiveAction7payload8metadatayAA0aB7PayloadV_AA0aB8MetadataVtF",
+            "mangledName": "$s7Connect0A16PushEventHandlerC16didReceiveAction7payload8metadatayAA0aB7PayloadV_AA0aB8MetadataVtF",
             "moduleName": "Connect",
             "declAttributes": [
               "Final"
@@ -6848,8 +7628,8 @@
           },
           {
             "kind": "Var",
-            "name": "eventHandler",
-            "printedName": "eventHandler",
+            "name": "pushEventHandler",
+            "printedName": "pushEventHandler",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6859,8 +7639,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7Connect0A23NotificationCenterProxyC12eventHandler33_A5941E4B70A5C74980929F43FA608229LLAA17PushEventHandling_pvp",
-            "mangledName": "$s7Connect0A23NotificationCenterProxyC12eventHandler33_A5941E4B70A5C74980929F43FA608229LLAA17PushEventHandling_pvp",
+            "usr": "s:7Connect0A23NotificationCenterProxyC16pushEventHandler33_A5941E4B70A5C74980929F43FA608229LLAA04PushF8Handling_pvp",
+            "mangledName": "$s7Connect0A23NotificationCenterProxyC16pushEventHandler33_A5941E4B70A5C74980929F43FA608229LLAA04PushF8Handling_pvp",
             "moduleName": "Connect",
             "isInternal": true,
             "declAttributes": [
@@ -6875,7 +7655,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(notificationCenter:application:eventHandler:)",
+            "printedName": "init(notificationCenter:application:pushEventHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6906,8 +7686,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A23NotificationCenterProxyC012notificationC011application12eventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA17PushEventHandling_ptcfc",
-            "mangledName": "$s7Connect0A23NotificationCenterProxyC012notificationC011application12eventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA17PushEventHandling_ptcfc",
+            "usr": "s:7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA04PushH8Handling_ptcfc",
+            "mangledName": "$s7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA04PushH8Handling_ptcfc",
             "moduleName": "Connect",
             "init_kind": "Designated"
           },
@@ -7080,6 +7860,33 @@
             "declAttributes": [
               "Final",
               "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleDidReceive",
+            "printedName": "handleDidReceive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectNotificationResponse",
+                "printedName": "any Connect.ConnectNotificationResponse",
+                "usr": "s:7Connect0A20NotificationResponseP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A23NotificationCenterProxyC16handleDidReceiveyyAA0aB8Response_pF",
+            "mangledName": "$s7Connect0A23NotificationCenterProxyC16handleDidReceiveyyAA0aB8Response_pF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7382,6 +8189,42 @@
             "declKind": "Func",
             "usr": "s:7Connect17PushEventHandlingP22didReceiveNotification8userInfoySDys11AnyHashableVypG_tF",
             "mangledName": "$s7Connect17PushEventHandlingP22didReceiveNotification8userInfoySDys11AnyHashableVypG_tF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushEventHandling>",
+            "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveAction",
+            "printedName": "didReceiveAction(payload:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushPayload",
+                "printedName": "Connect.ConnectPushPayload",
+                "usr": "s:7Connect0A11PushPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushMetadata",
+                "printedName": "Connect.ConnectPushMetadata",
+                "usr": "s:7Connect0A12PushMetadataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect17PushEventHandlingP16didReceiveAction7payload8metadatayAA0aB7PayloadV_AA0aB8MetadataVtF",
+            "mangledName": "$s7Connect17PushEventHandlingP16didReceiveAction7payload8metadatayAA0aB7PayloadV_AA0aB8MetadataVtF",
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushEventHandling>",
             "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
@@ -9049,6 +9892,32 @@
           },
           {
             "kind": "Var",
+            "name": "pushEventHandler",
+            "printedName": "pushEventHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushEventHandling",
+                "printedName": "any Connect.PushEventHandling",
+                "usr": "s:7Connect17PushEventHandlingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A20DelegateProxyManagerC16pushEventHandler33_5D359FA6F9BD33F7361D2E8631CCB2AALLAA04PushF8Handling_pvp",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC16pushEventHandler33_5D359FA6F9BD33F7361D2E8631CCB2AALLAA04PushF8Handling_pvp",
+            "moduleName": "Connect",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "proxy",
             "printedName": "proxy",
             "children": [
@@ -9078,7 +9947,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 2,
             "hasStorage": true
           },
           {
@@ -9112,13 +9981,13 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 3,
             "hasStorage": true
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(application:)",
+            "printedName": "init(application:pushEventHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9132,11 +10001,18 @@
                 "printedName": "UIKit.UIApplication",
                 "hasDefaultArg": true,
                 "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PushEventHandling",
+                "printedName": "any Connect.PushEventHandling",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect17PushEventHandlingP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A20DelegateProxyManagerC11applicationACSo13UIApplicationC_tcfc",
-            "mangledName": "$s7Connect0A20DelegateProxyManagerC11applicationACSo13UIApplicationC_tcfc",
+            "usr": "s:7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationC_AA04PushG8Handling_ptcfc",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationC_AA04PushG8Handling_ptcfc",
             "moduleName": "Connect",
             "init_kind": "Designated"
           },
@@ -9880,6 +10756,27 @@
       "value": "\"ACTIONABLE_NOTIFICATION\""
     },
     {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushActionMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1343,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushActionMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1371,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushActionMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1399,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 687,
@@ -9945,21 +10842,21 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 749,
       "length": 5,
       "value": "\"FCM\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
-      "offset": 745,
+      "offset": 770,
       "length": 5,
       "value": "\"HMS\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
-      "offset": 766,
+      "offset": 791,
       "length": 5,
       "value": "\"APN\""
     }
