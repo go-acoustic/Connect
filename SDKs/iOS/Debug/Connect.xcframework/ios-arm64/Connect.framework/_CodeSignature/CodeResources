@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		E4lMYlIXpcvtCGSyWpZToeS9e4o=
+		Kbm0qF5B/epWzImksb6JJCB++Mw=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		CcCsDm3af/H8UdcQyx5cjbzQm68=
+		Mk4XUqKUmPzr71zY8KxprhFXIJM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dmaxIm7bSUPOh/ZYmxi+v5Wh+qA=
+		BEg6Z+7P7LYbYxrq3OVsUdPJqVU=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3XLd+PC3qUSYcfhgm4db/wHVaWEeKLYa6cHNlP8ZWuw=
+			605n+ZmuI+KfDpOtTn0PekqsQKlb67cdi+ysLkST3Yo=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -191,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LLp8c7Lfjk3s1mF8zFWIL8FoP9BIZUxNBWSTIUe+iOg=
+			cjhK2oGOrMjqsfe9okNtQnXzvMQo99h4iL97slULn+M=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
