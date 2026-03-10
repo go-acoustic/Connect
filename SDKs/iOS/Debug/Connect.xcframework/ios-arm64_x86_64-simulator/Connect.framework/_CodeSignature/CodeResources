@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		Kbm0qF5B/epWzImksb6JJCB++Mw=
+		oezIotRUshGPXUm7JCapAjD9CKg=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		Mk4XUqKUmPzr71zY8KxprhFXIJM=
+		DqaDcLgJLyr/zcHhfoSBOs4L8d4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KVQLDM0P5QU15yvf5EvTHoXgp88=
+		h6JxVrR5l6AMIKD+4trRlP2UMdU=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		w4fp7ns7katDfbAYytXFZl0jP+c=
+		SwZDRflOeusP83242xnA1gxxwjs=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			605n+ZmuI+KfDpOtTn0PekqsQKlb67cdi+ysLkST3Yo=
+			w4dhVJAonZlCr1QSdR+60juByTTTTe6mo5nMoyRnc4s=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -211,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cjhK2oGOrMjqsfe9okNtQnXzvMQo99h4iL97slULn+M=
+			oTWL9Q72Y83l+vgM0+diMaAtU3MM3ICeyOzKjaaW+Qg=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -302,7 +302,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gPo1EvNVd2Uelk8QtiZl2YDi8KbyBpw75tkMMKk/Ub4=
+			2e5XhPnL0e9XR3QVwfj4z82jWHi2q82sBcmDDdeIAOs=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
