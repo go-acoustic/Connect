@@ -102,19 +102,19 @@
         "children": [
           {
             "kind": "Var",
-            "name": "identifierType",
-            "printedName": "identifierType",
+            "name": "identifierName",
+            "printedName": "identifierName",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IdentifierType",
-                "printedName": "Connect.ConnectIdentity.IdentifierType",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7Connect0A15IdentityMessageC14identifierType33_026F2CBF8C41EC2E47EB6CD234518347LLAA0aB0C010IdentifierE0Ovp",
-            "mangledName": "$s7Connect0A15IdentityMessageC14identifierType33_026F2CBF8C41EC2E47EB6CD234518347LLAA0aB0C010IdentifierE0Ovp",
+            "usr": "s:7Connect0A15IdentityMessageC14identifierName33_026F2CBF8C41EC2E47EB6CD234518347LLSSvp",
+            "mangledName": "$s7Connect0A15IdentityMessageC14identifierName33_026F2CBF8C41EC2E47EB6CD234518347LLSSvp",
             "moduleName": "Connect",
             "isInternal": true,
             "declAttributes": [
@@ -154,19 +154,19 @@
           },
           {
             "kind": "Var",
-            "name": "optIn",
-            "printedName": "optIn",
+            "name": "signalType",
+            "printedName": "signalType",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7Connect0A15IdentityMessageC5optIn33_026F2CBF8C41EC2E47EB6CD234518347LLSbvp",
-            "mangledName": "$s7Connect0A15IdentityMessageC5optIn33_026F2CBF8C41EC2E47EB6CD234518347LLSbvp",
+            "usr": "s:7Connect0A15IdentityMessageC10signalType33_026F2CBF8C41EC2E47EB6CD234518347LLSSvp",
+            "mangledName": "$s7Connect0A15IdentityMessageC10signalType33_026F2CBF8C41EC2E47EB6CD234518347LLSSvp",
             "moduleName": "Connect",
             "isInternal": true,
             "declAttributes": [
@@ -180,19 +180,33 @@
           },
           {
             "kind": "Var",
-            "name": "identificationFromLogin",
-            "printedName": "identificationFromLogin",
+            "name": "additionalParameters",
+            "printedName": "additionalParameters",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7Connect0A15IdentityMessageC23identificationFromLogin33_026F2CBF8C41EC2E47EB6CD234518347LLSbvp",
-            "mangledName": "$s7Connect0A15IdentityMessageC23identificationFromLogin33_026F2CBF8C41EC2E47EB6CD234518347LLSbvp",
+            "usr": "s:7Connect0A15IdentityMessageC20additionalParameters33_026F2CBF8C41EC2E47EB6CD234518347LLSDyS2SGvp",
+            "mangledName": "$s7Connect0A15IdentityMessageC20additionalParameters33_026F2CBF8C41EC2E47EB6CD234518347LLSDyS2SGvp",
             "moduleName": "Connect",
             "isInternal": true,
             "declAttributes": [
@@ -207,7 +221,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(identifierType:identifierValue:optIn:identificationFromLogin:)",
+            "printedName": "init(identifierName:identifierValue:signalType:additionalParameters:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -217,9 +231,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentifierType",
-                "printedName": "Connect.ConnectIdentity.IdentifierType",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -229,20 +243,35 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A15IdentityMessageC14identifierType0D5Value5optIn23identificationFromLoginAcA0aB0C010IdentifierE0O_SSS2btcfc",
-            "mangledName": "$s7Connect0A15IdentityMessageC14identifierType0D5Value5optIn23identificationFromLoginAcA0aB0C010IdentifierE0O_SSS2btcfc",
+            "usr": "s:7Connect0A15IdentityMessageC14identifierName0D5Value10signalType20additionalParametersACSS_S2SSDyS2SGtcfc",
+            "mangledName": "$s7Connect0A15IdentityMessageC14identifierName0D5Value10signalType20additionalParametersACSS_S2SSDyS2SGtcfc",
             "moduleName": "Connect",
             "init_kind": "Designated"
           },
@@ -784,7 +813,7 @@
           {
             "kind": "Function",
             "name": "logIdentity",
-            "printedName": "logIdentity(identifierType:identifierValue:optIn:identificationFromLogin:)",
+            "printedName": "logIdentity(identifierName:identifierValue:signalType:additionalParameters:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -794,9 +823,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentifierType",
-                "printedName": "Connect.ConnectIdentity.IdentifierType",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -806,20 +835,34 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect21IdentitySignalLoggingP03logB014identifierType0F5Value5optIn23identificationFromLoginSbAA0aB0C010IdentifierG0O_SSS2btF",
-            "mangledName": "$s7Connect21IdentitySignalLoggingP03logB014identifierType0F5Value5optIn23identificationFromLoginSbAA0aB0C010IdentifierG0O_SSS2btF",
+            "usr": "s:7Connect21IdentitySignalLoggingP03logB014identifierName0F5Value10signalType20additionalParametersSbSS_S2SSDyS2SGtF",
+            "mangledName": "$s7Connect21IdentitySignalLoggingP03logB014identifierName0F5Value10signalType20additionalParametersSbSS_S2SSDyS2SGtF",
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.IdentitySignalLogging>",
             "sugared_genericSig": "<Self where Self : Connect.IdentitySignalLogging>",
@@ -1628,7 +1671,7 @@
           {
             "kind": "Function",
             "name": "logIdentity",
-            "printedName": "logIdentity(identifierType:identifierValue:optIn:identificationFromLogin:)",
+            "printedName": "logIdentity(identifierName:identifierValue:signalType:additionalParameters:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1638,9 +1681,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentifierType",
-                "printedName": "Connect.ConnectIdentity.IdentifierType",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -1650,20 +1693,34 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect0A20IdentitySignalLoggerC03logB014identifierType0F5Value5optIn23identificationFromLoginSbAA0aB0C010IdentifierG0O_SSS2btF",
-            "mangledName": "$s7Connect0A20IdentitySignalLoggerC03logB014identifierType0F5Value5optIn23identificationFromLoginSbAA0aB0C010IdentifierG0O_SSS2btF",
+            "usr": "s:7Connect0A20IdentitySignalLoggerC03logB014identifierName0F5Value10signalType20additionalParametersSbSS_S2SSDyS2SGtF",
+            "mangledName": "$s7Connect0A20IdentitySignalLoggerC03logB014identifierName0F5Value10signalType20additionalParametersSbSS_S2SSDyS2SGtF",
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
@@ -8546,306 +8603,6 @@
         "printedName": "ConnectIdentity",
         "children": [
           {
-            "kind": "TypeDecl",
-            "name": "IdentifierType",
-            "printedName": "IdentifierType",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "contactKey",
-                "printedName": "contactKey",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Connect.ConnectIdentity.IdentifierType.Type) -> Connect.ConnectIdentity.IdentifierType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IdentifierType",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType",
-                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "IdentifierType",
-                            "printedName": "Connect.ConnectIdentity.IdentifierType",
-                            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO10contactKeyyA2EmF",
-                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO10contactKeyyA2EmF",
-                "moduleName": "Connect",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "email",
-                "printedName": "email",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Connect.ConnectIdentity.IdentifierType.Type) -> Connect.ConnectIdentity.IdentifierType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IdentifierType",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType",
-                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "IdentifierType",
-                            "printedName": "Connect.ConnectIdentity.IdentifierType",
-                            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO5emailyA2EmF",
-                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO5emailyA2EmF",
-                "moduleName": "Connect",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "sms",
-                "printedName": "sms",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Connect.ConnectIdentity.IdentifierType.Type) -> Connect.ConnectIdentity.IdentifierType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IdentifierType",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType",
-                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "IdentifierType",
-                            "printedName": "Connect.ConnectIdentity.IdentifierType",
-                            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO3smsyA2EmF",
-                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO3smsyA2EmF",
-                "moduleName": "Connect",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "whatsapp",
-                "printedName": "whatsapp",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Connect.ConnectIdentity.IdentifierType.Type) -> Connect.ConnectIdentity.IdentifierType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IdentifierType",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType",
-                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "IdentifierType",
-                            "printedName": "Connect.ConnectIdentity.IdentifierType",
-                            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO8whatsappyA2EmF",
-                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO8whatsappyA2EmF",
-                "moduleName": "Connect",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Connect.ConnectIdentity.IdentifierType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IdentifierType",
-                        "printedName": "Connect.ConnectIdentity.IdentifierType",
-                        "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO8rawValueAESgSS_tcfc",
-                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO8rawValueAESgSS_tcfc",
-                "moduleName": "Connect",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO8rawValueSSvp",
-                "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO8rawValueSSvp",
-                "moduleName": "Connect",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7Connect0A8IdentityC14IdentifierTypeO8rawValueSSvg",
-                    "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO8rawValueSSvg",
-                    "moduleName": "Connect",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:7Connect0A8IdentityC14IdentifierTypeO",
-            "mangledName": "$s7Connect0A8IdentityC14IdentifierTypeO",
-            "moduleName": "Connect",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "enumRawTypeName": "String",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(signalLogger:)",
@@ -8877,7 +8634,7 @@
           {
             "kind": "Function",
             "name": "log",
-            "printedName": "log(identifierName:identifierValue:optIn:identificationFromLogin:)",
+            "printedName": "log(identifierName:identifierValue:signalType:additionalParameters:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8887,9 +8644,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentifierType",
-                "printedName": "Connect.ConnectIdentity.IdentifierType",
-                "usr": "s:7Connect0A8IdentityC14IdentifierTypeO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -8899,20 +8656,36 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect0A8IdentityC3log14identifierName0D5Value5optIn23identificationFromLoginSbAC14IdentifierTypeO_SSS2btF",
-            "mangledName": "$s7Connect0A8IdentityC3log14identifierName0D5Value5optIn23identificationFromLoginSbAC14IdentifierTypeO_SSS2btF",
+            "usr": "s:7Connect0A8IdentityC3log14identifierName0D5Value10signalType20additionalParametersSbSS_S2SSDyS2SGtF",
+            "mangledName": "$s7Connect0A8IdentityC3log14identifierName0D5Value10signalType20additionalParametersSbSS_S2SSDyS2SGtF",
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
@@ -10728,6 +10501,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Identity\/ConnectIdentityMessage.swift",
+      "kind": "Dictionary",
+      "offset": 1807,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2180,
@@ -10859,6 +10639,20 @@
       "offset": 791,
       "length": 5,
       "value": "\"APN\""
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
+      "kind": "StringLiteral",
+      "offset": 3665,
+      "length": 10,
+      "value": "\"pageView\""
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
+      "kind": "Dictionary",
+      "offset": 3726,
+      "length": 3,
+      "value": "[]"
     }
   ]
 }
