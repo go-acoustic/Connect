@@ -11,6 +11,7 @@ import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os
 public enum ConnectPushActionIdentifier : Swift.String {
   case openURL
   case openDialer
@@ -90,6 +91,17 @@ public struct ConnectPushConfig {
   }
   public let mode: Connect.ConnectPushConfig.Mode
   public init(mode: Connect.ConnectPushConfig.Mode = .off)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ConnectNotificationService : UserNotifications.UNNotificationServiceExtension {
+  #if compiler(>=5.3) && $NonescapableTypes
+  open var appGroupIdentifier: Swift.String? {
+    get
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc override dynamic public func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic public func serviceExtensionTimeWillExpire()
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class ConnectIdentity {
   @discardableResult
