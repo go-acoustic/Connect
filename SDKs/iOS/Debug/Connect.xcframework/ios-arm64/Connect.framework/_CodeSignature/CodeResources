@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		y7EoBH4+N5BbNw+LLbYboYgr3nk=
+		ONT6Bo7VYk/JUVtG/asZUgbduJ8=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreAdvancedConfig.json</key>
 		<data>
-		Obd60Hn86DG1SQOKamYPFe1PnO4=
+		1eGhHriZo61nxGTHmwuTD/kDjR4=
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
 		<data>
@@ -54,31 +54,31 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		cxtGiaND6ErBLdIQq5pnT2dNWb0=
+		STidckMzZ3zjx4rlccf2+xPwolw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zNDYJTxcx1ymMMEeFIAHDdUCp7c=
+		CGbLMjQh4b4A5FvXI9K3aCIIymw=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		h2iVRAAA5ikaR9upD0tlkmUjYSw=
+		kuG35/ILM8OEydtdT1MbF1AXZgE=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		si/w3BbHnwsR4jNgR8CDzwvQgVM=
+		k1AwQ19COk2+nCGG+uqFVNn8nFw=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WMdAkdSrdqpG3HxKLJ8u2bnfVPg=
+		grfybFqIKs6CjzhKOkAl8osQwQs=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		si/w3BbHnwsR4jNgR8CDzwvQgVM=
+		k1AwQ19COk2+nCGG+uqFVNn8nFw=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PN/8ZJ6KmpPXZwT/ce3tt5uk40k=
+		Jo6W7VUdK7BW0XTLMO55DXnUjm8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qhtwwURLUSltBm+Iw/191vQ/IGTrFgVc1KGY8tUsgDc=
+			CmH7/4UG+Jpjap4YbuwBXg8pZmf28zsdyXCKr6i4QlQ=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajxo9BnpPSFOpA7BZ7uvqPb6cpwQazIWjkrDIpsdt7A=
+			3xs2rLpfFQavKytgw5NagCEN3VO174vwsr9gATGb4h8=
 			</data>
 		</dict>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
@@ -191,42 +191,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tlgkR/ZEQgfPH1ThOz0IU01d3FpEeq29aXqovwSHxrI=
+			auu3bvILg/53NOPOGUAVhTk0pwlMBRCE5Xl2fZ65OI4=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ufkFpnyyiM8jEt+DUa4vcvtd7GHVSDV/6iEbfn4uynM=
+			yhfWWC1QOKu5opcIfLsr237kL0THPmbmXFCaj1y8b14=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4VbANO15+XN3m4eyl5gLXtnx8iyyivhLGuFXfmAA7bY=
+			xFuntZUYgr121dADh/ycYwOXg/40drC21bZra/GDoPc=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			seyVpZPuOEH3C6t0aN4/t1netI9kFldDWNdSLUu1WtM=
+			n9k7QKPjFm4w+6bv9t7j5lSeCE9OGxScVj/lAaapfBY=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4VbANO15+XN3m4eyl5gLXtnx8iyyivhLGuFXfmAA7bY=
+			xFuntZUYgr121dADh/ycYwOXg/40drC21bZra/GDoPc=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JqZLx0N7YWClVaTRByomveydKlT3OMmzVieiPyG4Yqs=
+			e+eksNFQRK2xfGQ/ispJ9BFeuih0T2lzX7VlxIVM6qc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
