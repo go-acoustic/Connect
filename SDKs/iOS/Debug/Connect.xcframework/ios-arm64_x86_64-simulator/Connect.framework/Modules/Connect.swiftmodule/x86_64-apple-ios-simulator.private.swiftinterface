@@ -92,7 +92,10 @@ public struct ConnectPushConfig {
     }
   }
   public let mode: Connect.ConnectPushConfig.Mode
-  public init(mode: Connect.ConnectPushConfig.Mode = .off)
+  public let appGroupIdentifier: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(mode: Connect.ConnectPushConfig.Mode = .off, appGroupIdentifier: Swift.String? = nil)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ConnectNotificationService : UserNotifications.UNNotificationServiceExtension {
   #if compiler(>=5.3) && $NonescapableTypes
