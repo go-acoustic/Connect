@@ -9,6 +9,7 @@ import Tealeaf
 import UIKit
 import UserNotifications
 import UserNotificationsUI
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -67,6 +68,7 @@ public enum ConnectError : Swift.Error {
     get throws
   }
   final public func enable(appKey: Swift.String, postURL: Swift.String, push: Connect.ConnectPushConfig = .off)
+  final public func enable(with config: Connect.ConnectConfig)
   final public func disable()
   final public func flush()
   final public var isEnabled: Swift.Bool {
@@ -96,6 +98,91 @@ public struct ConnectPushConfig {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(mode: Connect.ConnectPushConfig.Mode = .off, appGroupIdentifier: Swift.String? = nil)
   #endif
+}
+extension Connect.ConnectSDK {
+  final public func isHybridBridgeRequest(_ request: Foundation.URLRequest, webView: WebKit.WKWebView) -> Swift.Bool
+  @discardableResult
+  final public func injectHybridBridge(into webView: WebKit.WKWebView) -> Swift.Bool
+  final public func sendEvent(_ event: UIKit.UIEvent)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func sendAction(_ action: ObjectiveC.Selector, to target: Any?, from sender: Any?, for event: UIKit.UIEvent?)
+  #endif
+}
+extension Connect.ConnectSDK {
+  final public func setHTTPHeaders(_ headers: [Swift.String : Swift.String])
+  final public func addHTTPHeader(_ value: Swift.String, forName name: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var httpHeaders: [Swift.AnyHashable : Any]? {
+    get
+  }
+  #endif
+  final public func setHTTPCookies(_ cookies: [Foundation.HTTPCookie])
+  final public func addHTTPCookie(_ cookie: Foundation.HTTPCookie)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var httpCookies: [Foundation.HTTPCookie]? {
+    get
+  }
+  #endif
+  @discardableResult
+  final public func sessionize(request: inout Foundation.URLRequest) -> Swift.Bool
+}
+extension Connect.ConnectSDK {
+  @discardableResult
+  final public func setDeviceId(_ deviceId: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var deviceId: Swift.String? {
+    get
+  }
+  #endif
+  @discardableResult
+  final public func setCXAAdvertisingId(_ advertisingId: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var cxaAdvertisingId: Swift.String? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var applicationContextName: Swift.String? {
+    get
+  }
+  #endif
+}
+extension Connect.ConnectSDK {
+  @discardableResult
+  final public func setLogLevel(_ logLevel: Swift.UInt, forEvent event: Swift.String) -> Swift.Bool
+  final public func logLevel(forEvent event: Swift.String) -> Swift.UInt
+  @discardableResult
+  final public func setConfigurableItem(_ key: Swift.String, value: Any) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func valueForConfigurableItem(_ key: Swift.String) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var layoutConfigItems: [Swift.AnyHashable : Any]? {
+    get
+  }
+  #endif
+}
+extension Connect.ConnectSDK {
+  @discardableResult
+  final public func pause() -> Swift.Bool
+  @discardableResult
+  final public func resume() -> Swift.Bool
+  @discardableResult
+  final public func resume(pageName: Swift.String) -> Swift.Bool
+  @discardableResult
+  final public func setCurrentScreen(pageName: Swift.String) -> Swift.Bool
+  @discardableResult
+  final public func startNewSession() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var currentSessionId: Swift.String? {
+    get
+  }
+  #endif
+  final public func setKillSwitchURL(_ url: Swift.String)
+  final public func setPostMessageURL(_ url: Swift.String)
+  final public func requestManualPost()
+  @discardableResult
+  final public func setReactNative(_ isReactNative: Swift.Bool, wrapNavigationContainer: Swift.Bool) -> Swift.Bool
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ConnectNotificationService : UserNotifications.UNNotificationServiceExtension {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -137,6 +224,69 @@ public protocol ConnectNotificationResponse {
 extension UserNotifications.UNNotificationResponse : Connect.ConnectNotificationResponse {
   public var userInfo: [Swift.AnyHashable : Any] {
     get
+  }
+}
+public struct ConnectConfig {
+  public let appKey: Swift.String
+  public let postURL: Swift.String
+  public var push: Connect.ConnectPushConfig
+  public var layout: Connect.ConnectConfig.Layout
+  public var ui: Connect.ConnectConfig.UI
+  public var logging: Connect.ConnectConfig.Logging
+  public var network: Connect.ConnectConfig.Network
+  public var advanced: [Connect.ConnectConfig.AdvancedKey : Any]
+  public init(appKey: Swift.String, postURL: Swift.String, push: Connect.ConnectPushConfig = .off, layout: Connect.ConnectConfig.Layout = .loadFromBundle(), ui: Connect.ConnectConfig.UI = UI(), logging: Connect.ConnectConfig.Logging = Logging(), network: Connect.ConnectConfig.Network = Network(), advanced: [Connect.ConnectConfig.AdvancedKey : Any] = [:])
+}
+extension Connect.ConnectConfig {
+  public struct Layout {
+    public var autoLayout: [Swift.AnyHashable : Any]?
+    public var appendMapIds: [Swift.AnyHashable : Any]?
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(autoLayout: [Swift.AnyHashable : Any]? = nil, appendMapIds: [Swift.AnyHashable : Any]? = nil)
+    #endif
+    public static func loadFromBundle() -> Connect.ConnectConfig.Layout
+    public static let none: Connect.ConnectConfig.Layout
+  }
+}
+extension Connect.ConnectConfig {
+  public struct UI {
+    public var removeSwiftUIDuplicates: Swift.Bool
+    public var captureKeyboardTouches: Swift.Bool
+    public var captureSwiftUINonVariadic: Swift.Bool
+    public init(removeSwiftUIDuplicates: Swift.Bool = true, captureKeyboardTouches: Swift.Bool = false, captureSwiftUINonVariadic: Swift.Bool = true)
+  }
+}
+extension Connect.ConnectConfig {
+  public struct Logging {
+    public var logFullPayloads: Swift.Bool
+    public var logLocationEnabled: Swift.Bool
+    public init(logFullPayloads: Swift.Bool = false, logLocationEnabled: Swift.Bool = false)
+  }
+}
+extension Connect.ConnectConfig {
+  public struct Network {
+    public var postTimeoutSeconds: Foundation.TimeInterval?
+    public var cachingLevel: Swift.Int?
+    public var compressPayloads: Swift.Bool
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(postTimeoutSeconds: Foundation.TimeInterval? = nil, cachingLevel: Swift.Int? = nil, compressPayloads: Swift.Bool = true)
+    #endif
+  }
+}
+extension Connect.ConnectConfig {
+  public struct AdvancedKey : Swift.RawRepresentable, Swift.Hashable {
+    public let rawValue: Swift.String
+    public init(_ rawValue: Swift.String)
+    public init(rawValue: Swift.String)
+    public static let killSwitchURL: Connect.ConnectConfig.AdvancedKey
+    public static let sessionTimeout: Connect.ConnectConfig.AdvancedKey
+    public static let manualPostEnabled: Connect.ConnectConfig.AdvancedKey
+    public static let dynamicConfigEnabled: Connect.ConnectConfig.AdvancedKey
+    public static let maxBytesPerActivation: Connect.ConnectConfig.AdvancedKey
+    public static let maxPostsPerActivation: Connect.ConnectConfig.AdvancedKey
+    public static let postIntervalSeconds: Connect.ConnectConfig.AdvancedKey
+    public static let maxPostBytesSize: Connect.ConnectConfig.AdvancedKey
+    public typealias RawValue = Swift.String
   }
 }
 extension Connect.ConnectPushActionIdentifier : Swift.Equatable {}
