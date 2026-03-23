@@ -2892,6 +2892,20 @@
             "printedName": "NSESystemObserving",
             "usr": "s:7Connect18NSESystemObservingP",
             "mangledName": "$s7Connect18NSESystemObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4435,6 +4449,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -4469,7 +4484,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(config:pushRegistering:pushDelegateProxy:categoryRegistrar:urlOpener:)",
+            "printedName": "init(config:categoryRegistrar:urlOpener:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4482,20 +4497,6 @@
                 "name": "ConnectPushConfig",
                 "printedName": "Connect.ConnectPushConfig",
                 "usr": "s:7Connect0A10PushConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "APNSRegistering",
-                "printedName": "any Connect.APNSRegistering",
-                "hasDefaultArg": true,
-                "usr": "s:7Connect15APNSRegisteringP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PushDelegateProxy",
-                "printedName": "any Connect.PushDelegateProxy",
-                "hasDefaultArg": true,
-                "usr": "s:7Connect17PushDelegateProxyP"
               },
               {
                 "kind": "TypeNominal",
@@ -4513,10 +4514,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A4PushC6config15pushRegistering0D13DelegateProxy17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA0b20NotificationCategoryE0_pAA10URLOpening_ptcfc",
-            "mangledName": "$s7Connect0A4PushC6config15pushRegistering0D13DelegateProxy17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA0b20NotificationCategoryE0_pAA10URLOpening_ptcfc",
+            "usr": "s:7Connect0A4PushC6config17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA0B31NotificationCategoryRegistering_pAA10URLOpening_ptcfc",
+            "mangledName": "$s7Connect0A4PushC6config17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA0B31NotificationCategoryRegistering_pAA10URLOpening_ptcfc",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Convenience",
               "AccessControl",
               "RawDocComment"
@@ -4582,6 +4584,7 @@
             "mangledName": "$s7Connect0A4PushC6config15pushRegistering0D13DelegateProxy018notificationCenterG00D12EventHandler17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA012NotificationifG0_pAA0bJ8Handling_pAA0br8CategoryE0_pAA10URLOpening_ptcfc",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -4624,6 +4627,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Nonisolated",
               "AccessControl",
               "RawDocComment"
             ],
@@ -4652,6 +4656,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Nonisolated",
               "AccessControl",
               "RawDocComment"
             ],
@@ -4680,6 +4685,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Nonisolated",
               "AccessControl",
               "RawDocComment"
             ],
@@ -4707,6 +4713,7 @@
             "mangledName": "$s7Connect0A4PushC10didReceiveyyAA0A20NotificationResponse_pKF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -4736,6 +4743,7 @@
             "mangledName": "$s7Connect0A4PushC22didReceiveNotificationyyAA0aE0_pKF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -4759,6 +4767,7 @@
             "mangledName": "$s7Connect0A4PushC30registerNotificationCategoriesyyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -4781,6 +4790,7 @@
             "mangledName": "$s7Connect0A4PushC14registerDeviceyyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -4795,6 +4805,7 @@
         "declAttributes": [
           "Final",
           "AccessControl",
+          "Custom",
           "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
@@ -4812,6 +4823,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4848,6 +4866,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -4902,6 +4921,9 @@
             "usr": "s:7Connect0A3SDKC14messageFlusherAcA13QueueFlushing_p_tcfc",
             "mangledName": "$s7Connect0A3SDKC14messageFlusherAcA13QueueFlushing_p_tcfc",
             "moduleName": "Connect",
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "init_kind": "Designated"
           },
           {
@@ -4922,6 +4944,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -4967,6 +4990,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5031,6 +5055,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5058,6 +5083,7 @@
             "mangledName": "$s7Connect0A3SDKC6enable4withyAA0A6ConfigV_tF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5080,6 +5106,7 @@
             "mangledName": "$s7Connect0A3SDKC7disableyyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5102,6 +5129,7 @@
             "mangledName": "$s7Connect0A3SDKC5flushyyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5126,6 +5154,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5171,6 +5200,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5227,6 +5257,7 @@
             "mangledName": "$s7Connect0A3SDKC21isHybridBridgeRequest_7webViewSb10Foundation10URLRequestV_So05WKWebH0CtF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5257,6 +5288,7 @@
             "mangledName": "$s7Connect0A3SDKC18injectHybridBridge4intoSbSo9WKWebViewC_tF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -5287,6 +5319,7 @@
             "mangledName": "$s7Connect0A3SDKC9sendEventyySo7UIEventCF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5356,6 +5389,7 @@
             "mangledName": "$s7Connect0A3SDKC10sendAction_2to4from3fory10ObjectiveC8SelectorV_ypSgAKSo7UIEventCSgtF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5399,6 +5433,7 @@
             "mangledName": "$s7Connect0A3SDKC14setHTTPHeadersyySDyS2SGF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5434,6 +5469,7 @@
             "mangledName": "$s7Connect0A3SDKC13addHTTPHeader_7forNameySS_SStF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5480,6 +5516,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5560,6 +5597,7 @@
             "mangledName": "$s7Connect0A3SDKC14setHTTPCookiesyySaySo12NSHTTPCookieCGF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5589,6 +5627,7 @@
             "mangledName": "$s7Connect0A3SDKC13addHTTPCookieyySo12NSHTTPCookieCF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -5630,6 +5669,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5699,6 +5739,7 @@
             "mangledName": "$s7Connect0A3SDKC10sessionize7requestSb10Foundation10URLRequestVz_tF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -5730,6 +5771,7 @@
             "mangledName": "$s7Connect0A3SDKC11setDeviceIdySbSSF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -5764,6 +5806,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5824,6 +5867,7 @@
             "mangledName": "$s7Connect0A3SDKC19setCXAAdvertisingIdySbSSF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -5858,6 +5902,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5921,6 +5966,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5987,6 +6033,7 @@
             "mangledName": "$s7Connect0A3SDKC11setLogLevel_8forEventSbSu_SStF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -6018,6 +6065,7 @@
             "mangledName": "$s7Connect0A3SDKC8logLevel8forEventSuSS_tF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -6053,6 +6101,7 @@
             "mangledName": "$s7Connect0A3SDKC19setConfigurableItem_5valueSbSS_yptF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -6091,6 +6140,7 @@
             "mangledName": "$s7Connect0A3SDKC24valueForConfigurableItemyypSgSSF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -6137,6 +6187,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -6204,6 +6255,7 @@
             "mangledName": "$s7Connect0A3SDKC5pauseSbyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -6229,6 +6281,7 @@
             "mangledName": "$s7Connect0A3SDKC6resumeSbyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -6260,6 +6313,7 @@
             "mangledName": "$s7Connect0A3SDKC6resume8pageNameSbSS_tF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -6291,6 +6345,7 @@
             "mangledName": "$s7Connect0A3SDKC16setCurrentScreen8pageNameSbSS_tF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -6316,6 +6371,7 @@
             "mangledName": "$s7Connect0A3SDKC15startNewSessionSbyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -6350,6 +6406,7 @@
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -6409,6 +6466,7 @@
             "mangledName": "$s7Connect0A3SDKC16setKillSwitchURLyySSF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -6438,6 +6496,7 @@
             "mangledName": "$s7Connect0A3SDKC17setPostMessageURLyySSF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -6461,6 +6520,7 @@
             "mangledName": "$s7Connect0A3SDKC17requestManualPostyyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -6497,6 +6557,7 @@
             "mangledName": "$s7Connect0A3SDKC14setReactNative_23wrapNavigationContainerS2b_SbtF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "DiscardableResult",
@@ -6513,6 +6574,7 @@
         "declAttributes": [
           "Final",
           "AccessControl",
+          "Custom",
           "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
@@ -6530,6 +6592,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -6940,6 +7009,20 @@
                 "printedName": "Hashable",
                 "usr": "s:SH",
                 "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -7116,6 +7199,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -8845,6 +8942,7 @@
             "sugared_genericSig": "<Self where Self : Connect.NotificationCenterDelegateProxy>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -8869,6 +8967,7 @@
             "sugared_genericSig": "<Self where Self : Connect.NotificationCenterDelegateProxy>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -8882,6 +8981,7 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
+          "Custom",
           "RawDocComment"
         ],
         "conformances": [
@@ -8964,13 +9064,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect17PushDelegateProxyP7install12tokenHandler07failureG0yy10Foundation4DataVc_ys5Error_pctF",
-            "mangledName": "$s7Connect17PushDelegateProxyP7install12tokenHandler07failureG0yy10Foundation4DataVc_ys5Error_pctF",
+            "usr": "s:7Connect17PushDelegateProxyP7install12tokenHandler07failureG0yy10Foundation4DataVYbc_ys5Error_pYbctF",
+            "mangledName": "$s7Connect17PushDelegateProxyP7install12tokenHandler07failureG0yy10Foundation4DataVYbc_ys5Error_pYbctF",
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushDelegateProxy>",
             "sugared_genericSig": "<Self where Self : Connect.PushDelegateProxy>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -8995,6 +9096,7 @@
             "sugared_genericSig": "<Self where Self : Connect.PushDelegateProxy>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -9008,6 +9110,7 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
+          "Custom",
           "RawDocComment"
         ],
         "conformances": [
@@ -9101,13 +9204,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect25PushAuthorizationCheckingP012checkCurrentC6Status10completionyySbSgc_tF",
-            "mangledName": "$s7Connect25PushAuthorizationCheckingP012checkCurrentC6Status10completionyySbSgc_tF",
+            "usr": "s:7Connect25PushAuthorizationCheckingP012checkCurrentC6Status10completionyySbSgScMYcc_tF",
+            "mangledName": "$s7Connect25PushAuthorizationCheckingP012checkCurrentC6Status10completionyySbSgScMYcc_tF",
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushAuthorizationChecking>",
             "sugared_genericSig": "<Self where Self : Connect.PushAuthorizationChecking>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -9183,11 +9287,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect29UNCurrentAuthorizationCheckerC012checkCurrentC6Status10completionyySbSgc_tF",
-            "mangledName": "$s7Connect29UNCurrentAuthorizationCheckerC012checkCurrentC6Status10completionyySbSgc_tF",
+            "usr": "s:7Connect29UNCurrentAuthorizationCheckerC012checkCurrentC6Status10completionyySbSgScMYcc_tF",
+            "mangledName": "$s7Connect29UNCurrentAuthorizationCheckerC012checkCurrentC6Status10completionyySbSgScMYcc_tF",
             "moduleName": "Connect",
             "declAttributes": [
-              "Final"
+              "Final",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -9628,6 +9733,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -9688,6 +9800,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -11257,6 +11376,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.URLOpening>",
             "sugared_genericSig": "<Self where Self : Connect.URLOpening>",
             "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -11283,6 +11405,9 @@
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.URLOpening>",
             "sugared_genericSig": "<Self where Self : Connect.URLOpening>",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -11292,6 +11417,7 @@
         "mangledName": "$s7Connect10URLOpeningP",
         "moduleName": "Connect",
         "declAttributes": [
+          "Custom",
           "RawDocComment"
         ],
         "conformances": [
@@ -11344,6 +11470,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.APNSRegistering>",
             "sugared_genericSig": "<Self where Self : Connect.APNSRegistering>",
             "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
@@ -11355,6 +11484,7 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
+          "Custom",
           "RawDocComment"
         ],
         "conformances": [
@@ -11405,6 +11535,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11431,6 +11562,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11457,6 +11589,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11483,6 +11616,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11509,6 +11643,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11543,6 +11678,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11578,7 +11714,9 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "Nonisolated",
+              "RawDocComment"
             ],
             "fixedbinaryorder": 6,
             "isLet": true,
@@ -11615,6 +11753,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11650,6 +11789,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11697,6 +11837,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -11731,6 +11872,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -11768,6 +11910,7 @@
               "Final",
               "HasStorage",
               "AccessControl",
+              "Nonisolated",
               "RawDocComment"
             ],
             "fixedbinaryorder": 11,
@@ -11873,6 +12016,9 @@
             "usr": "s:7Connect0A16PushEventHandlerC18registrationLogger0E5Store20authorizationChecker06actionF008receivedF0010nsePendingG014systemObserver14readinessCheckAcA0B19RegistrationLogging_p_AA0brG0_pAA0B21AuthorizationChecking_pAA0b6ActionS0_pAA0b8ReceivedS0_pAA07NSEPushwG0_pSgAA18NSESystemObserving_pSgSbyctcfc",
             "mangledName": "$s7Connect0A16PushEventHandlerC18registrationLogger0E5Store20authorizationChecker06actionF008receivedF0010nsePendingG014systemObserver14readinessCheckAcA0B19RegistrationLogging_p_AA0brG0_pAA0B21AuthorizationChecking_pAA0b6ActionS0_pAA0b8ReceivedS0_pAA07NSEPushwG0_pSgAA18NSESystemObserving_pSgSbyctcfc",
             "moduleName": "Connect",
+            "declAttributes": [
+              "Custom"
+            ],
             "init_kind": "Designated"
           },
           {
@@ -11897,6 +12043,7 @@
             "mangledName": "$s7Connect0A16PushEventHandlerC20didRegisterWithTokenyy10Foundation4DataVF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -11923,6 +12070,7 @@
             "mangledName": "$s7Connect0A16PushEventHandlerC26didFailToRegisterWithErroryys0J0_pF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -11963,6 +12111,7 @@
             "mangledName": "$s7Connect0A16PushEventHandlerC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -12002,6 +12151,7 @@
             "mangledName": "$s7Connect0A16PushEventHandlerC22didReceiveNotification8userInfoySDys11AnyHashableVypG_tF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -12034,6 +12184,7 @@
             "mangledName": "$s7Connect0A16PushEventHandlerC16didReceiveAction7payload8metadatayAA0aB7PayloadV_AA0aB8MetadataVtF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -12054,6 +12205,7 @@
             "mangledName": "$s7Connect0A16PushEventHandlerC29flushPendingNSEReceivedEventsyyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "RawDocComment"
             ],
@@ -12066,6 +12218,7 @@
         "moduleName": "Connect",
         "declAttributes": [
           "Final",
+          "Custom",
           "RawDocComment"
         ],
         "conformances": [
@@ -12089,6 +12242,13 @@
             "printedName": "PushEventHandling",
             "usr": "s:7Connect17PushEventHandlingP",
             "mangledName": "$s7Connect17PushEventHandlingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -12417,6 +12577,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -12443,6 +12604,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -12469,6 +12631,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -12503,16 +12666,27 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PushEventHandling",
-                "printedName": "any Connect.PushEventHandling",
+                "name": "Optional",
+                "printedName": "(any Connect.PushEventHandling)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushEventHandling",
+                    "printedName": "any Connect.PushEventHandling",
+                    "usr": "s:7Connect17PushEventHandlingP"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:7Connect17PushEventHandlingP"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA04PushH8Handling_ptcfc",
-            "mangledName": "$s7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA04PushH8Handling_ptcfc",
+            "usr": "s:7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA04PushH8Handling_pSgtcfc",
+            "mangledName": "$s7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA04PushH8Handling_pSgtcfc",
             "moduleName": "Connect",
+            "declAttributes": [
+              "Custom"
+            ],
             "init_kind": "Designated"
           },
           {
@@ -12531,6 +12705,7 @@
             "mangledName": "$s7Connect0A23NotificationCenterProxyC07installbD0yyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "RawDocComment"
             ],
@@ -12552,6 +12727,7 @@
             "mangledName": "$s7Connect0A23NotificationCenterProxyC09uninstallbD0yyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -12605,6 +12781,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Custom",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -12631,6 +12808,7 @@
             "mangledName": "$s7Connect0A23NotificationCenterProxyC17handleWillPresentyyAA0aB0_pF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "RawDocComment"
             ],
@@ -12683,7 +12861,8 @@
             "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
             "declAttributes": [
               "Final",
-              "ObjC"
+              "ObjC",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -12709,6 +12888,7 @@
             "mangledName": "$s7Connect0A23NotificationCenterProxyC16handleDidReceiveyyAA0aB8Response_pF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final",
               "RawDocComment"
             ],
@@ -12743,6 +12923,7 @@
             "moduleName": "Connect",
             "static": true,
             "declAttributes": [
+              "Custom",
               "Final",
               "RawDocComment"
             ],
@@ -12770,6 +12951,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Custom",
               "Override"
             ],
             "init_kind": "Designated"
@@ -12781,6 +12963,7 @@
         "moduleName": "Connect",
         "declAttributes": [
           "Final",
+          "Custom",
           "RawDocComment",
           "ObjC"
         ],
@@ -12858,6 +13041,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -12901,6 +13091,7 @@
             "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -12931,6 +13122,7 @@
             "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -12975,6 +13167,7 @@
             "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -13018,6 +13211,7 @@
             "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -13054,6 +13248,7 @@
             "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -13067,6 +13262,7 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
+          "Custom",
           "RawDocComment"
         ],
         "conformances": [
@@ -15561,11 +15757,11 @@
                 "mangledName": "$s7Connect0A6ConfigV6LayoutV04autoC0SDys11AnyHashableVypGSgvp",
                 "moduleName": "Connect",
                 "declAttributes": [
-                  "HasInitialValue",
                   "HasStorage",
                   "AccessControl",
                   "RawDocComment"
                 ],
+                "isLet": true,
                 "hasStorage": true,
                 "accessors": [
                   {
@@ -15607,69 +15803,6 @@
                     "moduleName": "Connect",
                     "implicit": true,
                     "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "[Swift.AnyHashable : Any]?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.AnyHashable : Any]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "AnyHashable",
-                                "printedName": "Swift.AnyHashable",
-                                "usr": "s:s11AnyHashableV"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProtocolComposition",
-                                "printedName": "Any"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7Connect0A6ConfigV6LayoutV04autoC0SDys11AnyHashableVypGSgvs",
-                    "mangledName": "$s7Connect0A6ConfigV6LayoutV04autoC0SDys11AnyHashableVypGSgvs",
-                    "moduleName": "Connect",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7Connect0A6ConfigV6LayoutV04autoC0SDys11AnyHashableVypGSgvM",
-                    "mangledName": "$s7Connect0A6ConfigV6LayoutV04autoC0SDys11AnyHashableVypGSgvM",
-                    "moduleName": "Connect",
-                    "implicit": true,
-                    "accessorKind": "_modify"
                   }
                 ]
               },
@@ -15711,11 +15844,11 @@
                 "mangledName": "$s7Connect0A6ConfigV6LayoutV12appendMapIdsSDys11AnyHashableVypGSgvp",
                 "moduleName": "Connect",
                 "declAttributes": [
-                  "HasInitialValue",
                   "HasStorage",
                   "AccessControl",
                   "RawDocComment"
                 ],
+                "isLet": true,
                 "hasStorage": true,
                 "accessors": [
                   {
@@ -15757,69 +15890,6 @@
                     "moduleName": "Connect",
                     "implicit": true,
                     "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "[Swift.AnyHashable : Any]?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.AnyHashable : Any]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "AnyHashable",
-                                "printedName": "Swift.AnyHashable",
-                                "usr": "s:s11AnyHashableV"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProtocolComposition",
-                                "printedName": "Any"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7Connect0A6ConfigV6LayoutV12appendMapIdsSDys11AnyHashableVypGSgvs",
-                    "mangledName": "$s7Connect0A6ConfigV6LayoutV12appendMapIdsSDys11AnyHashableVypGSgvs",
-                    "moduleName": "Connect",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:7Connect0A6ConfigV6LayoutV12appendMapIdsSDys11AnyHashableVypGSgvM",
-                    "mangledName": "$s7Connect0A6ConfigV6LayoutV12appendMapIdsSDys11AnyHashableVypGSgvM",
-                    "moduleName": "Connect",
-                    "implicit": true,
-                    "accessorKind": "_modify"
                   }
                 ]
               },
@@ -15996,6 +16066,20 @@
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -17517,10 +17601,24 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           }
@@ -17547,6 +17645,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -17581,6 +17693,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -17607,6 +17720,7 @@
             "isInternal": true,
             "declAttributes": [
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -17642,6 +17756,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -17676,6 +17791,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -17702,16 +17818,27 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PushEventHandling",
-                "printedName": "any Connect.PushEventHandling",
+                "name": "Optional",
+                "printedName": "(any Connect.PushEventHandling)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushEventHandling",
+                    "printedName": "any Connect.PushEventHandling",
+                    "usr": "s:7Connect17PushEventHandlingP"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:7Connect17PushEventHandlingP"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationC_AA04PushG8Handling_ptcfc",
-            "mangledName": "$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationC_AA04PushG8Handling_ptcfc",
+            "usr": "s:7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationC_AA04PushG8Handling_pSgtcfc",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationC_AA04PushG8Handling_pSgtcfc",
             "moduleName": "Connect",
+            "declAttributes": [
+              "Custom"
+            ],
             "init_kind": "Designated"
           },
           {
@@ -17730,6 +17857,7 @@
             "mangledName": "$s7Connect0A20DelegateProxyManagerC30registerForRemoteNotificationsyyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -17782,10 +17910,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect0A20DelegateProxyManagerC7install12tokenHandler07failureG0yy10Foundation4DataVc_ys5Error_pctF",
-            "mangledName": "$s7Connect0A20DelegateProxyManagerC7install12tokenHandler07failureG0yy10Foundation4DataVc_ys5Error_pctF",
+            "usr": "s:7Connect0A20DelegateProxyManagerC7install12tokenHandler07failureG0yy10Foundation4DataVYbc_ys5Error_pYbctF",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC7install12tokenHandler07failureG0yy10Foundation4DataVYbc_ys5Error_pYbctF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -17806,6 +17935,7 @@
             "mangledName": "$s7Connect0A20DelegateProxyManagerC9uninstallyyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -17826,6 +17956,7 @@
             "mangledName": "$s7Connect0A20DelegateProxyManagerC019installNotificationC0yyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -17846,6 +17977,7 @@
             "mangledName": "$s7Connect0A20DelegateProxyManagerC021uninstallNotificationC0yyF",
             "moduleName": "Connect",
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "funcSelfKind": "NonMutating"
@@ -17857,6 +17989,7 @@
         "moduleName": "Connect",
         "declAttributes": [
           "Final",
+          "Custom",
           "RawDocComment"
         ],
         "conformances": [
@@ -17894,6 +18027,13 @@
             "printedName": "NotificationCenterDelegateProxy",
             "usr": "s:7Connect31NotificationCenterDelegateProxyP",
             "mangledName": "$s7Connect31NotificationCenterDelegateProxyP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -18899,7 +19039,7 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/UserDefaultsNSEPushReceivedStore.swift",
       "kind": "StringLiteral",
-      "offset": 1131,
+      "offset": 1186,
       "length": 46,
       "value": "\"com.acoustic.connect.nse.pendingPushReceived\""
     },
@@ -19018,21 +19158,21 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
-      "offset": 3621,
+      "offset": 4002,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
-      "offset": 3655,
+      "offset": 4036,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4400,
+      "offset": 4781,
       "length": 5,
       "value": "false"
     },
@@ -19193,105 +19333,105 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Dictionary",
-      "offset": 3942,
+      "offset": 4377,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 9075,
+      "offset": 9531,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 9124,
+      "offset": 9580,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 9177,
+      "offset": 9633,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 10696,
+      "offset": 11152,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 10742,
+      "offset": 11198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 12608,
+      "offset": 13064,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 14495,
+      "offset": 14961,
       "length": 15,
       "value": "\"KillSwitchUrl\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 14702,
+      "offset": 15168,
       "length": 16,
       "value": "\"SessionTimeout\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 14970,
+      "offset": 15436,
       "length": 19,
       "value": "\"ManualPostEnabled\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15185,
+      "offset": 15651,
       "length": 29,
       "value": "\"DynamicConfigurationEnabled\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15399,
+      "offset": 15865,
       "length": 31,
       "value": "\"MaxNumberOfBytesPerActivation\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15615,
+      "offset": 16081,
       "length": 31,
       "value": "\"MaxNumberOfPostsPerActivation\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15821,
+      "offset": 16287,
       "length": 26,
       "value": "\"PostMessageTimeIntervals\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16016,
+      "offset": 16482,
       "length": 25,
       "value": "\"PostMessageMaxBytesSize\""
     }
