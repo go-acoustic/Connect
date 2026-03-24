@@ -19283,21 +19283,21 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
-      "offset": 4002,
+      "offset": 4207,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
-      "offset": 4036,
+      "offset": 4241,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4781,
+      "offset": 4986,
       "length": 5,
       "value": "false"
     },
