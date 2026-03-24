@@ -19073,23 +19073,23 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 2180,
-      "length": 5,
-      "value": "\"url\""
+      "offset": 2190,
+      "length": 10,
+      "value": "\"OPEN_URL\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
-      "length": 12,
-      "value": "\"openDialer\""
+      "offset": 2417,
+      "length": 13,
+      "value": "\"OPEN_DIALER\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 2545,
-      "length": 9,
-      "value": "\"openApp\""
+      "offset": 2563,
+      "length": 10,
+      "value": "\"OPEN_APP\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
@@ -19167,27 +19167,6 @@
       "offset": 1186,
       "length": 46,
       "value": "\"com.acoustic.connect.nse.pendingPushReceived\""
-    },
-    {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushActionMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1343,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushActionMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1371,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushActionMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1399,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
