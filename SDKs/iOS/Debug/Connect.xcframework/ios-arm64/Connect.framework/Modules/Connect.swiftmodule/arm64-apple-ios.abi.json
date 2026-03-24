@@ -1065,8 +1065,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect16ImageDownloadingP08downloadB04from10completionAA0B19DownloadCancellable_p10Foundation3URLV_yAH4DataVSgctF",
-            "mangledName": "$s7Connect16ImageDownloadingP08downloadB04from10completionAA0B19DownloadCancellable_p10Foundation3URLV_yAH4DataVSgctF",
+            "usr": "s:7Connect16ImageDownloadingP08downloadB04from10completionAA0B19DownloadCancellable_p10Foundation3URLV_yAH4DataVSgYbctF",
+            "mangledName": "$s7Connect16ImageDownloadingP08downloadB04from10completionAA0B19DownloadCancellable_p10Foundation3URLV_yAH4DataVSgYbctF",
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.ImageDownloading>",
             "sugared_genericSig": "<Self where Self : Connect.ImageDownloading>",
@@ -1229,8 +1229,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect25URLSessionImageDownloaderV08downloadC04from10completionAA0C19DownloadCancellable_p10Foundation3URLV_yAH4DataVSgctF",
-            "mangledName": "$s7Connect25URLSessionImageDownloaderV08downloadC04from10completionAA0C19DownloadCancellable_p10Foundation3URLV_yAH4DataVSgctF",
+            "usr": "s:7Connect25URLSessionImageDownloaderV08downloadC04from10completionAA0C19DownloadCancellable_p10Foundation3URLV_yAH4DataVSgYbctF",
+            "mangledName": "$s7Connect25URLSessionImageDownloaderV08downloadC04from10completionAA0C19DownloadCancellable_p10Foundation3URLV_yAH4DataVSgYbctF",
             "moduleName": "Connect",
             "declAttributes": [
               "DiscardableResult"
@@ -4507,15 +4507,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "URLOpening",
-                "printedName": "any Connect.URLOpening",
+                "name": "Optional",
+                "printedName": "(any Connect.URLOpening)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLOpening",
+                    "printedName": "any Connect.URLOpening",
+                    "usr": "s:7Connect10URLOpeningP"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:7Connect10URLOpeningP"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A4PushC6config17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA0B31NotificationCategoryRegistering_pAA10URLOpening_ptcfc",
-            "mangledName": "$s7Connect0A4PushC6config17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA0B31NotificationCategoryRegistering_pAA10URLOpening_ptcfc",
+            "usr": "s:7Connect0A4PushC6config17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA0B31NotificationCategoryRegistering_pAA10URLOpening_pSgtcfc",
+            "mangledName": "$s7Connect0A4PushC6config17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA0B31NotificationCategoryRegistering_pAA10URLOpening_pSgtcfc",
             "moduleName": "Connect",
             "declAttributes": [
               "Custom",
@@ -4635,6 +4643,49 @@
           },
           {
             "kind": "Function",
+            "name": "didReceiveAuthorization",
+            "printedName": "didReceiveAuthorization(granted:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtYaF",
+            "mangledName": "$s7Connect0A4PushC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didRegisterWithToken",
             "printedName": "didRegisterWithToken(_:)",
             "children": [
@@ -4664,6 +4715,35 @@
           },
           {
             "kind": "Function",
+            "name": "didRegisterWithToken",
+            "printedName": "didRegisterWithToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC20didRegisterWithTokenyy10Foundation4DataVYaF",
+            "mangledName": "$s7Connect0A4PushC20didRegisterWithTokenyy10Foundation4DataVYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didFailToRegisterWithError",
             "printedName": "didFailToRegisterWithError(_:)",
             "children": [
@@ -4686,6 +4766,35 @@
             "declAttributes": [
               "Final",
               "Nonisolated",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToRegisterWithError",
+            "printedName": "didFailToRegisterWithError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC26didFailToRegisterWithErroryys0H0_pYaF",
+            "mangledName": "$s7Connect0A4PushC26didFailToRegisterWithErroryys0H0_pYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Custom",
+              "Final",
               "AccessControl",
               "RawDocComment"
             ],
@@ -9204,8 +9313,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect25PushAuthorizationCheckingP012checkCurrentC6Status10completionyySbSgScMYcc_tF",
-            "mangledName": "$s7Connect25PushAuthorizationCheckingP012checkCurrentC6Status10completionyySbSgScMYcc_tF",
+            "usr": "s:7Connect25PushAuthorizationCheckingP012checkCurrentC6Status10completionyySbSgYbScMYcc_tF",
+            "mangledName": "$s7Connect25PushAuthorizationCheckingP012checkCurrentC6Status10completionyySbSgYbScMYcc_tF",
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushAuthorizationChecking>",
             "sugared_genericSig": "<Self where Self : Connect.PushAuthorizationChecking>",
@@ -9287,8 +9396,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect29UNCurrentAuthorizationCheckerC012checkCurrentC6Status10completionyySbSgScMYcc_tF",
-            "mangledName": "$s7Connect29UNCurrentAuthorizationCheckerC012checkCurrentC6Status10completionyySbSgScMYcc_tF",
+            "usr": "s:7Connect29UNCurrentAuthorizationCheckerC012checkCurrentC6Status10completionyySbSgYbScMYcc_tF",
+            "mangledName": "$s7Connect29UNCurrentAuthorizationCheckerC012checkCurrentC6Status10completionyySbSgYbScMYcc_tF",
             "moduleName": "Connect",
             "declAttributes": [
               "Final",
@@ -12659,10 +12768,18 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "URLOpening",
-                "printedName": "any Connect.URLOpening",
+                "name": "Optional",
+                "printedName": "(any Connect.URLOpening)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLOpening",
+                    "printedName": "any Connect.URLOpening",
+                    "usr": "s:7Connect10URLOpeningP"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:7Connect10URLOpeningP"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -12681,8 +12798,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA04PushH8Handling_pSgtcfc",
-            "mangledName": "$s7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pAA04PushH8Handling_pSgtcfc",
+            "usr": "s:7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pSgAA04PushH8Handling_pSgtcfc",
+            "mangledName": "$s7Connect0A23NotificationCenterProxyC012notificationC011application16pushEventHandlerACSo06UNUserbC0C_AA10URLOpening_pSgAA04PushH8Handling_pSgtcfc",
             "moduleName": "Connect",
             "declAttributes": [
               "Custom"
@@ -17811,10 +17928,18 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIApplication",
-                "printedName": "UIKit.UIApplication",
+                "name": "Optional",
+                "printedName": "UIKit.UIApplication?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIApplication",
+                    "printedName": "UIKit.UIApplication",
+                    "usr": "c:objc(cs)UIApplication"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "c:objc(cs)UIApplication"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -17833,8 +17958,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationC_AA04PushG8Handling_pSgtcfc",
-            "mangledName": "$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationC_AA04PushG8Handling_pSgtcfc",
+            "usr": "s:7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_pSgtcfc",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_pSgtcfc",
             "moduleName": "Connect",
             "declAttributes": [
               "Custom"
@@ -18983,35 +19108,35 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
-      "offset": 2121,
+      "offset": 2131,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
-      "offset": 2126,
+      "offset": 2136,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
-      "offset": 2133,
+      "offset": 2143,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "StringLiteral",
-      "offset": 2182,
+      "offset": 2192,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "StringLiteral",
-      "offset": 2216,
+      "offset": 2226,
       "length": 21,
       "value": "\"NotificationService\""
     },
