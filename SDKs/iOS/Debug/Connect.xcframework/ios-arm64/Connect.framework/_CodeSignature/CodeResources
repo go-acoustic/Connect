@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		HMOMDNaiFSb5LUvsZRE5YJ/HqHA=
+		CsxXUIj3+db/cSIqz74Opa3uBfE=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -50,15 +50,15 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		OaULvoQVxwMWGcWkSFfClj5DJLg=
+		j8jonvsz++8C32lCcUBB5gxe7Cc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fiMbLOzYhr159VZuo5X1A0U5jN0=
+		srN0FOR0zyn7u2RHm1BNupXanlA=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hj+pncnM/ahkkx/o9tZoqUz4Fxk=
+		DrZzIoXhLbLJVNwWpl/lBzaudlY=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		lq8BmXCPtrScMmkWbnhPZnBExzc=
+		Zos9B+zuyDm7pLLygHuQsOWyPQU=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lt3pcw8pTazITsyyy4BjJHmvstY=
+		6VUgGbfybBy2N494Qu/o+SF/DDw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rl7MmCzHlqG312oRmtw4jJBeM9qUC1+x4MgmqU21KRw=
+			wWsDCFr7lvexYJymPTxn7E/NPw2aY67oIQlHxuorVxY=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -180,14 +180,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JTjHip2z5SPsiCNAhvKDgCftcUalHyhdQbnGd3LQGY4=
+			Cmq4kdGawzq3pQjs+b4PRJUNbc6Fi2P4pehyrhqdb6Q=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t+wCglz8rTdjHZF73lUg4S3dkFgiRC8O7f/lZ51MhpA=
+			p/EDwg3XS2hn5uOzOpPPgnAtR4VFYw3k1OsyNuUGiOU=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -201,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			txTmQuTEBkpDRsyskGgS05qSrr4qqZZGGFqM40qk6HI=
+			8m/Cr4GPSnuZdToFsNt9ZEXYv38aZTB8upfTcVlCCD8=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftinterface</key>
@@ -215,7 +215,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CGnirn0OlLrdjzBgEnLA5Ud1d84Odk0ThZywYZ1atLc=
+			2T2pejvIJRpEiDPPiVz1XRIv14DZlQrJg9N2MAutCow=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
