@@ -1314,13 +1314,158 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ConnectPushAttachmentIdentifier",
+        "printedName": "ConnectPushAttachmentIdentifier",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "expandedImage",
+            "printedName": "expandedImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAttachmentIdentifierO13expandedImageSSvpZ",
+            "mangledName": "$s7Connect0A24PushAttachmentIdentifierO13expandedImageSSvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAttachmentIdentifierO13expandedImageSSvgZ",
+                "mangledName": "$s7Connect0A24PushAttachmentIdentifierO13expandedImageSSvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "largeIcon",
+            "printedName": "largeIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAttachmentIdentifierO9largeIconSSvpZ",
+            "mangledName": "$s7Connect0A24PushAttachmentIdentifierO9largeIconSSvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAttachmentIdentifierO9largeIconSSvgZ",
+                "mangledName": "$s7Connect0A24PushAttachmentIdentifierO9largeIconSSvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Connect0A24PushAttachmentIdentifierO",
+        "mangledName": "$s7Connect0A24PushAttachmentIdentifierO",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "NotificationAttachmentMaking",
         "printedName": "NotificationAttachmentMaking",
         "children": [
           {
             "kind": "Function",
             "name": "makeAttachment",
-            "printedName": "makeAttachment(from:originalURL:groupIdentifier:)",
+            "printedName": "makeAttachment(from:originalURL:identifier:groupIdentifier:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1350,6 +1495,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
@@ -1364,8 +1515,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect28NotificationAttachmentMakingP04makeC04from11originalURL15groupIdentifierSo014UNNotificationC0CSg10Foundation4DataV_AK0H0VSSSgtF",
-            "mangledName": "$s7Connect28NotificationAttachmentMakingP04makeC04from11originalURL15groupIdentifierSo014UNNotificationC0CSg10Foundation4DataV_AK0H0VSSSgtF",
+            "usr": "s:7Connect28NotificationAttachmentMakingP04makeC04from11originalURL10identifier15groupIdentifierSo014UNNotificationC0CSg10Foundation4DataV_AL0H0VS2SSgtF",
+            "mangledName": "$s7Connect28NotificationAttachmentMakingP04makeC04from11originalURL10identifier15groupIdentifierSo014UNNotificationC0CSg10Foundation4DataV_AL0H0VS2SSgtF",
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.NotificationAttachmentMaking>",
             "sugared_genericSig": "<Self where Self : Connect.NotificationAttachmentMaking>",
@@ -1435,7 +1586,7 @@
           {
             "kind": "Function",
             "name": "makeAttachment",
-            "printedName": "makeAttachment(from:originalURL:groupIdentifier:)",
+            "printedName": "makeAttachment(from:originalURL:identifier:groupIdentifier:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1465,6 +1616,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
@@ -1479,8 +1636,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7Connect34DefaultNotificationAttachmentMakerV04makeD04from11originalURL15groupIdentifierSo014UNNotificationD0CSg10Foundation4DataV_AK0I0VSSSgtF",
-            "mangledName": "$s7Connect34DefaultNotificationAttachmentMakerV04makeD04from11originalURL15groupIdentifierSo014UNNotificationD0CSg10Foundation4DataV_AK0I0VSSSgtF",
+            "usr": "s:7Connect34DefaultNotificationAttachmentMakerV04makeD04from11originalURL10identifier15groupIdentifierSo014UNNotificationD0CSg10Foundation4DataV_AL0I0VS2SSgtF",
+            "mangledName": "$s7Connect34DefaultNotificationAttachmentMakerV04makeD04from11originalURL10identifier15groupIdentifierSo014UNNotificationD0CSg10Foundation4DataV_AL0I0VS2SSgtF",
             "moduleName": "Connect",
             "funcSelfKind": "NonMutating"
           },
@@ -19143,14 +19300,28 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
-      "offset": 1655,
+      "offset": 1044,
+      "length": 16,
+      "value": "\"acoustic-image\""
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "kind": "StringLiteral",
+      "offset": 1187,
+      "length": 21,
+      "value": "\"acoustic-large-icon\""
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "kind": "StringLiteral",
+      "offset": 2587,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
-      "offset": 1689,
+      "offset": 2621,
       "length": 21,
       "value": "\"NotificationService\""
     },
@@ -19262,21 +19433,42 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
-      "offset": 4207,
+      "offset": 4688,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
-      "offset": 4241,
+      "offset": 4722,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "kind": "Array",
+      "offset": 5176,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4986,
+      "offset": 5619,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6319,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6543,
       "length": 5,
       "value": "false"
     },
@@ -19381,21 +19573,21 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 5757,
+      "offset": 5767,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "StringLiteral",
-      "offset": 5889,
+      "offset": 6312,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "StringLiteral",
-      "offset": 5923,
+      "offset": 6346,
       "length": 30,
       "value": "\"NotificationContentExtension\""
     },
