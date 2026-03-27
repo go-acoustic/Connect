@@ -18698,23 +18698,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Connect.PushEventHandling)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PushEventHandling",
-                    "printedName": "any Connect.PushEventHandling",
-                    "usr": "s:7Connect17PushEventHandlingP"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "name": "PushEventHandling",
+                "printedName": "any Connect.PushEventHandling",
+                "usr": "s:7Connect17PushEventHandlingP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_pSgtcfc",
-            "mangledName": "$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_pSgtcfc",
+            "usr": "s:7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_ptcfc",
+            "mangledName": "$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_ptcfc",
             "moduleName": "Connect",
             "declAttributes": [
               "Custom"
