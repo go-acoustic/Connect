@@ -10274,6 +10274,35 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sanitizeBodyURLs",
+            "printedName": "sanitizeBodyURLs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A19NotificationServiceC16sanitizeBodyURLsyS2SFZ",
+            "mangledName": "$s7Connect0A19NotificationServiceC16sanitizeBodyURLsyS2SFZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
