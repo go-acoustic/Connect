@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		4qg2w8UJkU6LLbM1BjDCj3hMCek=
+		PAfmI7cZaZ/2WdWKS+94f1VWWac=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreAdvancedConfig.json</key>
 		<data>
-		1eGhHriZo61nxGTHmwuTD/kDjR4=
+		ZcCVPeGG0HBOkkUofNM40bqwL3s=
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		4HFcLsctSc3CvTsZlBzNN5fhuFE=
+		3G5o6DDR8mSv79xfPy2kGUe74kg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3Ox5B7WxAxTUDV9/hPLlDCjAdcc=
+		A45lMqDnxsjjSXbKgf4hf8xOHb0=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>TLFResources.bundle/TealeafAdvancedConfig.json</key>
 		<data>
-		SwZDRflOeusP83242xnA1gxxwjs=
+		RlB6tgOKyghl61277fjwsnoxyVw=
 		</data>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
 		<data>
@@ -123,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			04k9ezlYBSiGmjHs6Rk3ZG1SqMkDVX1dAtxX2Xztkt4=
+			3fI59BxKrfgzpLek5g/DAF4hP6d8hGTlmxyx/XyQbWM=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xs2rLpfFQavKytgw5NagCEN3VO174vwsr9gATGb4h8=
+			W6jGPSiko+a03Vev/kzs1tlHYTvDmiTYTuj8xsyUfis=
 			</data>
 		</dict>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
@@ -200,7 +200,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yAApk4RwsEksVc5XIQk3mz5RYXE2mHoZxDEh71TU/ZE=
+			nwILSz2olQFhvAw6EH+rKPDbe+4Xw+Z39BezPT8k82I=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -291,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2e5XhPnL0e9XR3QVwfj4z82jWHi2q82sBcmDDdeIAOs=
+			2cVC+X/zLZwhn39CUPr4lyAP3LI+TDhVy/Z9kRK7ZRg=
 			</data>
 		</dict>
 		<key>TLFResources.bundle/TealeafBasicConfig.plist</key>
