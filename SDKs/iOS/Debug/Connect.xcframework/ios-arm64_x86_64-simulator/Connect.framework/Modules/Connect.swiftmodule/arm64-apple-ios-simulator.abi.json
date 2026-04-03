@@ -19839,511 +19839,511 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Identity\/ConnectIdentityMessage.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Identity\/ConnectIdentityMessage.swift",
       "kind": "Dictionary",
       "offset": 1807,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2190,
       "length": 10,
       "value": "\"OPEN_URL\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2417,
       "length": 13,
       "value": "\"OPEN_DIALER\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2563,
       "length": 10,
       "value": "\"OPEN_APP\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2280,
       "length": 25,
       "value": "\"ACTIONABLE_NOTIFICATION\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2850,
       "length": 28,
       "value": "\"ACOUSTIC_RICH_NOTIFICATION\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1022,
       "length": 14,
       "value": "\"notification\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1124,
       "length": 8,
       "value": "\"action\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 11,
       "value": "\"largeIcon\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1453,
       "length": 17,
       "value": "\"expansionOption\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1554,
       "length": 14,
       "value": "\"expandedBody\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1759,
       "length": 15,
       "value": "\"expandedImage\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 2013,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 2101,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 2224,
       "length": 19,
       "value": "\"phoneNumberPrefix\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 2344,
       "length": 7,
       "value": "\"label\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/FrameworkReadinessObserving.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/FrameworkReadinessObserving.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 25,
       "value": "\"TLF_Framework_DidEnable\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
       "offset": 2131,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
       "offset": 2136,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
       "offset": 2143,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "StringLiteral",
       "offset": 2192,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "StringLiteral",
       "offset": 2226,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
       "offset": 1044,
       "length": 16,
       "value": "\"acoustic-image\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
       "offset": 1187,
       "length": 21,
       "value": "\"acoustic-large-icon\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
       "offset": 2587,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
       "offset": 2621,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NSESystemNotifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NSESystemNotifier.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 39,
       "value": "\"com.acoustic.connect.nse.pushReceived\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/UserDefaultsNSEPushReceivedStore.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/UserDefaultsNSEPushReceivedStore.swift",
       "kind": "StringLiteral",
       "offset": 1186,
       "length": 46,
       "value": "\"com.acoustic.connect.nse.pendingPushReceived\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
       "offset": 4688,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
       "offset": 4722,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "Array",
       "offset": 5176,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "BooleanLiteral",
       "offset": 5619,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "IntegerLiteral",
       "offset": 6319,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "BooleanLiteral",
       "offset": 6543,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/PushRegistrationStore.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/PushRegistrationStore.swift",
       "kind": "StringLiteral",
       "offset": 1125,
       "length": 41,
       "value": "\"com.acoustic.connect.push.hasRegistered\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4149,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4195,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4364,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4369,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4381,
       "length": 2,
       "value": "93"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4386,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4397,
       "length": 3,
       "value": "119"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4403,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4415,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "BooleanLiteral",
       "offset": 5159,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 5501,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "BooleanLiteral",
       "offset": 5561,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 5767,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "StringLiteral",
       "offset": 6312,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "StringLiteral",
       "offset": 6346,
       "length": 30,
       "value": "\"NotificationContentExtension\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
       "offset": 749,
       "length": 5,
       "value": "\"FCM\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 5,
       "value": "\"HMS\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
       "offset": 791,
       "length": 5,
       "value": "\"APN\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
       "kind": "StringLiteral",
       "offset": 3665,
       "length": 10,
       "value": "\"pageView\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
       "kind": "Dictionary",
       "offset": 3726,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Dictionary",
       "offset": 4377,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 9531,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 9580,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 9633,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 11152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 11198,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 13064,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 14961,
       "length": 15,
       "value": "\"KillSwitchUrl\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15168,
       "length": 16,
       "value": "\"SessionTimeout\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15436,
       "length": 19,
       "value": "\"ManualPostEnabled\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15651,
       "length": 29,
       "value": "\"DynamicConfigurationEnabled\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15865,
       "length": 31,
       "value": "\"MaxNumberOfBytesPerActivation\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 16081,
       "length": 31,
       "value": "\"MaxNumberOfPostsPerActivation\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 16287,
       "length": 26,
       "value": "\"PostMessageTimeIntervals\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop@2\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 16482,
       "length": 25,
