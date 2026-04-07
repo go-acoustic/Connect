@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		JrVsLZLGMPQNkYhZdD1djhCLdXE=
+		yKZnlwjWYX5e1Llcbqz4BPoSYy8=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/ConnectApplicationHelper.h</key>
 		<data>
-		T7Ix7pkN6OvrvjAbzORSSAr3Hjo=
+		4NccVIFwXeFhl429S/sbVpaeslE=
 		</data>
 		<key>Headers/ConnectBridgingHeader.h</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		42Yf/RbFgVFOjKg+MmfcP0krd4o=
+		9BTEq446e8nWjzSaS1MMP9w55ZU=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WsdbsYcfEAnTySsXkl5NyoVsskc=
+		0eLX+ZT2g5jpHPyDcVg6xwozo2s=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Be+UrAB3kvILXQQij2DppSdtT+0=
+		abd/eto37QDFMFYQuF0CTzcPFE0=
 		</data>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WsdbsYcfEAnTySsXkl5NyoVsskc=
+		0eLX+ZT2g5jpHPyDcVg6xwozo2s=
 		</data>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zla167ifoOeDXl3ERmyVLchnT8s=
+		8NV2K+UrljVI1iplevxCjfyEy7Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -123,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IwNQRcndnAYL6kzAOtR6JM4erZFszfWBzaMJmtassjQ=
+			oX8NC+b1VY6RymP9duf3T+xDruuFalO5I6atl+Q8q6Y=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -172,7 +172,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qr5cEYMfxSZoNYgg0nNydclfWtTwpxum3ShCqYHSiSs=
+			gkHvtPytaUYv9ycgpIz/YriCODDgBGyfl5KPTv7BGvg=
 			</data>
 		</dict>
 		<key>Headers/ConnectBridgingHeader.h</key>
@@ -207,7 +207,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tTSy/bNipVgzC8vi44LFJc0jX65QzKtUEoGyioBmHYo=
+			Sh4SUZrlA5Z51v9XBUQH0HUDpbK6OZw+i+jKsWc7+dk=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -235,14 +235,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			APberWQJBCbgCUQcyIRdXaqo3n/Ip8kaK0wddwynmL4=
+			xJMj2/JZPOg2fGG1lPWYPPLrAzlVtwEAjhZrse3G/2A=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tTSy/bNipVgzC8vi44LFJc0jX65QzKtUEoGyioBmHYo=
+			Sh4SUZrlA5Z51v9XBUQH0HUDpbK6OZw+i+jKsWc7+dk=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -270,7 +270,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uaDcQtSgI7KVhk5bJ0aZX3CtDsAQBC/k+pm4ZZaEhpg=
+			6sy74mwfhwGwOlblK2qBut5x7Jl4JJR0pGLQ3hUaH4o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

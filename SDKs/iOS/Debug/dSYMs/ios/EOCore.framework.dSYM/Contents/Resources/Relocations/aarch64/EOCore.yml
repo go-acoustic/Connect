@@ -1,9 +1,9 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-gdqiritkdywbphbudeajfiemiflr/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/EOCore.framework/EOCore'
+binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-gnnkeufzyvovlhgetcbmfmrdmqpz/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/EOCore.framework/EOCore'
 relocations:
-  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _EOCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x837D8, symSize: 0x0 }
-  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _EOCoreVersionNumber, symObjAddr: 0x28, symBinAddr: 0x83800, symSize: 0x0 }
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _EOCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x83598, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _EOCoreVersionNumber, symObjAddr: 0x28, symBinAddr: 0x835C0, symSize: 0x0 }
   - { offset: 0xA3, size: 0x8, addend: 0x0, symName: '+[EOTestingHelper logForTesting:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x1A4 }
   - { offset: 0x119, size: 0x8, addend: 0x0, symName: '+[EOTestingHelper logForTesting:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x1A4 }
   - { offset: 0x16D, size: 0x8, addend: 0x0, symName: '___33+[EOTestingHelper logForTesting:]_block_invoke', symObjAddr: 0x1A4, symBinAddr: 0x41A4, symSize: 0xA8 }
@@ -42,8 +42,8 @@ relocations:
   - { offset: 0x11A9, size: 0x8, addend: 0x0, symName: '-[EOApplicationLifecycleManager setIsBackgroundPostingRunning:]', symObjAddr: 0x2288, symBinAddr: 0x6C58, symSize: 0x28 }
   - { offset: 0x1A4C, size: 0x8, addend: 0x0, symName: '+[EOApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6C80, symSize: 0xB0 }
   - { offset: 0x1A59, size: 0x8, addend: 0x0, symName: '+[EOApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6C80, symSize: 0xB0 }
-  - { offset: 0x1A82, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x92A0, symBinAddr: 0xACBE8, symSize: 0x0 }
-  - { offset: 0x1A97, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x92A8, symBinAddr: 0xACBF0, symSize: 0x0 }
+  - { offset: 0x1A82, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9298, symBinAddr: 0xACBE8, symSize: 0x0 }
+  - { offset: 0x1A97, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x92A0, symBinAddr: 0xACBF0, symSize: 0x0 }
   - { offset: 0x2120, size: 0x8, addend: 0x0, symName: '___37+[EOApplicationHelper sharedInstance]_block_invoke', symObjAddr: 0xB0, symBinAddr: 0x6D30, symSize: 0x70 }
   - { offset: 0x215D, size: 0x8, addend: 0x0, symName: '-[EOApplicationHelper configurationCheck]', symObjAddr: 0x120, symBinAddr: 0x6DA0, symSize: 0x68 }
   - { offset: 0x21A1, size: 0x8, addend: 0x0, symName: '-[EOApplicationHelper updateConfigWithData:forModuleName:]', symObjAddr: 0x188, symBinAddr: 0x6E08, symSize: 0xF8 }
@@ -71,8 +71,8 @@ relocations:
   - { offset: 0x4141, size: 0x8, addend: 0x0, symName: '_daQueryItemsForCharset:.eoMiCloudSDKMachine', symObjAddr: 0x2984, symBinAddr: 0xABE10, symSize: 0x0 }
   - { offset: 0x4ADD, size: 0x8, addend: 0x0, symName: '+[EONetworkManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x9C38, symSize: 0xB0 }
   - { offset: 0x4AEA, size: 0x8, addend: 0x0, symName: '+[EONetworkManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x9C38, symSize: 0xB0 }
-  - { offset: 0x4B13, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x81D8, symBinAddr: 0xACBF8, symSize: 0x0 }
-  - { offset: 0x4B28, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x81E0, symBinAddr: 0xACC00, symSize: 0x0 }
+  - { offset: 0x4B13, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x81D0, symBinAddr: 0xACBF8, symSize: 0x0 }
+  - { offset: 0x4B28, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x81D8, symBinAddr: 0xACC00, symSize: 0x0 }
   - { offset: 0x4CB8, size: 0x8, addend: 0x0, symName: '-[EONetworkManager startNetworkMonitoring]', symObjAddr: 0x1D8, symBinAddr: 0x9E10, symSize: 0x65C }
   - { offset: 0x4CE1, size: 0x8, addend: 0x0, symName: _startNetworkMonitoring.eoDebug, symObjAddr: 0x2F80, symBinAddr: 0xABE14, symSize: 0x0 }
   - { offset: 0x4CF6, size: 0x8, addend: 0x0, symName: _startNetworkMonitoring.eoDebugKiwi, symObjAddr: 0x2F84, symBinAddr: 0xABE18, symSize: 0x0 }
@@ -334,8 +334,8 @@ relocations:
   - { offset: 0xCB94, size: 0x8, addend: 0x0, symName: '-[EOApplicationContextMessage .cxx_destruct]', symObjAddr: 0x3264, symBinAddr: 0x1D3DC, symSize: 0x88 }
   - { offset: 0xD213, size: 0x8, addend: 0x0, symName: '+[EOQueueService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1D464, symSize: 0xB0 }
   - { offset: 0xD220, size: 0x8, addend: 0x0, symName: '+[EOQueueService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1D464, symSize: 0xB0 }
-  - { offset: 0xD249, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x34FB8, symBinAddr: 0xACC30, symSize: 0x0 }
-  - { offset: 0xD25E, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x34FC0, symBinAddr: 0xACC38, symSize: 0x0 }
+  - { offset: 0xD249, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x34FB0, symBinAddr: 0xACC30, symSize: 0x0 }
+  - { offset: 0xD25E, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x34FB8, symBinAddr: 0xACC38, symSize: 0x0 }
   - { offset: 0xD604, size: 0x8, addend: 0x0, symName: '-[EOQueueService enable]', symObjAddr: 0x218, symBinAddr: 0x1D67C, symSize: 0xB34 }
   - { offset: 0xD62D, size: 0x8, addend: 0x0, symName: _enable.eoDebug, symObjAddr: 0x219A8, symBinAddr: 0xAC168, symSize: 0x0 }
   - { offset: 0xD642, size: 0x8, addend: 0x0, symName: _enable.eoDebugKiwi, symObjAddr: 0x219AC, symBinAddr: 0xAC16C, symSize: 0x0 }
@@ -561,8 +561,8 @@ relocations:
   - { offset: 0x10B22, size: 0x8, addend: 0x0, symName: '-[EOQueueService .cxx_destruct]', symObjAddr: 0x1A984, symBinAddr: 0x37D84, symSize: 0x78 }
   - { offset: 0x117BF, size: 0x8, addend: 0x0, symName: '+[EOCoreHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x37DFC, symSize: 0xB0 }
   - { offset: 0x117CC, size: 0x8, addend: 0x0, symName: '+[EOCoreHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x37DFC, symSize: 0xB0 }
-  - { offset: 0x117F5, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1250, symBinAddr: 0xACC40, symSize: 0x0 }
-  - { offset: 0x1180A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1258, symBinAddr: 0xACC48, symSize: 0x0 }
+  - { offset: 0x117F5, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1248, symBinAddr: 0xACC40, symSize: 0x0 }
+  - { offset: 0x1180A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1250, symBinAddr: 0xACC48, symSize: 0x0 }
   - { offset: 0x1195E, size: 0x8, addend: 0x0, symName: '___30+[EOCoreHelper sharedInstance]_block_invoke', symObjAddr: 0xB0, symBinAddr: 0x37EAC, symSize: 0x4C }
   - { offset: 0x1199B, size: 0x8, addend: 0x0, symName: '-[EOCoreHelper now]', symObjAddr: 0xFC, symBinAddr: 0x37EF8, symSize: 0x70 }
   - { offset: 0x11AA1, size: 0x8, addend: 0x0, symName: '-[EOClientEnvironment jsonDictionary]', symObjAddr: 0x0, symBinAddr: 0x37F68, symSize: 0x448 }
@@ -574,8 +574,8 @@ relocations:
   - { offset: 0x11C37, size: 0x8, addend: 0x0, symName: '-[EOClientEnvironment pixelDensity]', symObjAddr: 0x5F0, symBinAddr: 0x38558, symSize: 0x5C }
   - { offset: 0x11E08, size: 0x8, addend: 0x0, symName: '+[EOCore sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x385B4, symSize: 0xB0 }
   - { offset: 0x11E15, size: 0x8, addend: 0x0, symName: '+[EOCore sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x385B4, symSize: 0xB0 }
-  - { offset: 0x11E3E, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x21978, symBinAddr: 0xACC50, symSize: 0x0 }
-  - { offset: 0x11E53, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x21980, symBinAddr: 0xACC58, symSize: 0x0 }
+  - { offset: 0x11E3E, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x21970, symBinAddr: 0xACC50, symSize: 0x0 }
+  - { offset: 0x11E53, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x21978, symBinAddr: 0xACC58, symSize: 0x0 }
   - { offset: 0x1202B, size: 0x8, addend: 0x0, symName: '-[EOCore enable]', symObjAddr: 0x284, symBinAddr: 0x38838, symSize: 0x1750 }
   - { offset: 0x12054, size: 0x8, addend: 0x0, symName: _enable.eoDebug, symObjAddr: 0x13908, symBinAddr: 0xAC4E0, symSize: 0x0 }
   - { offset: 0x12069, size: 0x8, addend: 0x0, symName: _enable.eoDebugKiwi, symObjAddr: 0x1390C, symBinAddr: 0xAC4E4, symSize: 0x0 }
@@ -853,17 +853,17 @@ relocations:
   - { offset: 0x171F9, size: 0x8, addend: 0x0, symName: '-[EOServerConnection currentQueue]', symObjAddr: 0xC988, symBinAddr: 0x549C8, symSize: 0x2C }
   - { offset: 0x1722F, size: 0x8, addend: 0x0, symName: '-[EOServerConnection setCurrentQueue:]', symObjAddr: 0xC9B4, symBinAddr: 0x549F4, symSize: 0x34 }
   - { offset: 0x1726D, size: 0x8, addend: 0x0, symName: '-[EOServerConnection .cxx_destruct]', symObjAddr: 0xC9E8, symBinAddr: 0x54A28, symSize: 0x3C }
-  - { offset: 0x18357, size: 0x8, addend: 0x0, symName: _KeyEOMessageOffset, symObjAddr: 0x2D8, symBinAddr: 0xA04F0, symSize: 0x0 }
-  - { offset: 0x183CF, size: 0x8, addend: 0x0, symName: _KeyEOMessageLogLevel, symObjAddr: 0x2E0, symBinAddr: 0xA04F8, symSize: 0x0 }
-  - { offset: 0x183E4, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextType, symObjAddr: 0x2E8, symBinAddr: 0xA0500, symSize: 0x0 }
-  - { offset: 0x183F9, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextName, symObjAddr: 0x2F0, symBinAddr: 0xA0508, symSize: 0x0 }
-  - { offset: 0x1840E, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextReferrer, symObjAddr: 0x2F8, symBinAddr: 0xA0510, symSize: 0x0 }
-  - { offset: 0x18423, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextKlassName, symObjAddr: 0x300, symBinAddr: 0xA0518, symSize: 0x0 }
-  - { offset: 0x18438, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextReferrerKlassName, symObjAddr: 0x308, symBinAddr: 0xA0520, symSize: 0x0 }
-  - { offset: 0x1844D, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextCurrentScreenId, symObjAddr: 0x310, symBinAddr: 0xA0528, symSize: 0x0 }
-  - { offset: 0x18462, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextCurrentScreenIdSetDate, symObjAddr: 0x318, symBinAddr: 0xA0530, symSize: 0x0 }
-  - { offset: 0x18477, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextPreviousScreenId, symObjAddr: 0x320, symBinAddr: 0xA0538, symSize: 0x0 }
-  - { offset: 0x1848C, size: 0x8, addend: 0x0, symName: _KeyEOApplicaitonContextPreviousScreenIdSetDate, symObjAddr: 0x328, symBinAddr: 0xA0540, symSize: 0x0 }
+  - { offset: 0x18357, size: 0x8, addend: 0x0, symName: _KeyEOMessageOffset, symObjAddr: 0x2D8, symBinAddr: 0xA04E8, symSize: 0x0 }
+  - { offset: 0x183CF, size: 0x8, addend: 0x0, symName: _KeyEOMessageLogLevel, symObjAddr: 0x2E0, symBinAddr: 0xA04F0, symSize: 0x0 }
+  - { offset: 0x183E4, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextType, symObjAddr: 0x2E8, symBinAddr: 0xA04F8, symSize: 0x0 }
+  - { offset: 0x183F9, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextName, symObjAddr: 0x2F0, symBinAddr: 0xA0500, symSize: 0x0 }
+  - { offset: 0x1840E, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextReferrer, symObjAddr: 0x2F8, symBinAddr: 0xA0508, symSize: 0x0 }
+  - { offset: 0x18423, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextKlassName, symObjAddr: 0x300, symBinAddr: 0xA0510, symSize: 0x0 }
+  - { offset: 0x18438, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextReferrerKlassName, symObjAddr: 0x308, symBinAddr: 0xA0518, symSize: 0x0 }
+  - { offset: 0x1844D, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextCurrentScreenId, symObjAddr: 0x310, symBinAddr: 0xA0520, symSize: 0x0 }
+  - { offset: 0x18462, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextCurrentScreenIdSetDate, symObjAddr: 0x318, symBinAddr: 0xA0528, symSize: 0x0 }
+  - { offset: 0x18477, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextPreviousScreenId, symObjAddr: 0x320, symBinAddr: 0xA0530, symSize: 0x0 }
+  - { offset: 0x1848C, size: 0x8, addend: 0x0, symName: _KeyEOApplicaitonContextPreviousScreenIdSetDate, symObjAddr: 0x328, symBinAddr: 0xA0538, symSize: 0x0 }
   - { offset: 0x184C3, size: 0x8, addend: 0x0, symName: '+[EOCoreDLogAnnounceFunctionNamesLineNumbers announceFunction:line:]', symObjAddr: 0x0, symBinAddr: 0x54A64, symSize: 0x70 }
   - { offset: 0x184FA, size: 0x8, addend: 0x0, symName: '+[EOCoreDLogAnnounceFunctionNamesLineNumbers announceFunction:line:]', symObjAddr: 0x0, symBinAddr: 0x54A64, symSize: 0x70 }
   - { offset: 0x18738, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0x54AD4, symSize: 0xC8 }
@@ -1070,204 +1070,204 @@ relocations:
   - { offset: 0x23030, size: 0x8, addend: 0x0, symName: '+[EODataCompression load]', symObjAddr: 0x0, symBinAddr: 0x65E1C, symSize: 0x50 }
   - { offset: 0x23699, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x67400, symSize: 0xB0 }
   - { offset: 0x236A6, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x67400, symSize: 0xB0 }
-  - { offset: 0x236CF, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x2CE48, symBinAddr: 0xACC70, symSize: 0x0 }
-  - { offset: 0x236E4, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x2CE50, symBinAddr: 0xACC78, symSize: 0x0 }
+  - { offset: 0x236CF, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x2CB58, symBinAddr: 0xACC70, symSize: 0x0 }
+  - { offset: 0x236E4, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x2CB60, symBinAddr: 0xACC78, symSize: 0x0 }
   - { offset: 0x2381F, size: 0x8, addend: 0x0, symName: '-[EOConfigService enable]', symObjAddr: 0x1EC, symBinAddr: 0x675EC, symSize: 0x4F8 }
-  - { offset: 0x23848, size: 0x8, addend: 0x0, symName: _enable.eoDebug, symObjAddr: 0x1C140, symBinAddr: 0xAC990, symSize: 0x0 }
-  - { offset: 0x2385D, size: 0x8, addend: 0x0, symName: _enable.eoDebugKiwi, symObjAddr: 0x1C144, symBinAddr: 0xAC994, symSize: 0x0 }
-  - { offset: 0x23872, size: 0x8, addend: 0x0, symName: _enable.eoMiCloudSDKMachine, symObjAddr: 0x1C148, symBinAddr: 0xAC998, symSize: 0x0 }
+  - { offset: 0x23848, size: 0x8, addend: 0x0, symName: _enable.eoDebug, symObjAddr: 0x1BF40, symBinAddr: 0xAC990, symSize: 0x0 }
+  - { offset: 0x2385D, size: 0x8, addend: 0x0, symName: _enable.eoDebugKiwi, symObjAddr: 0x1BF44, symBinAddr: 0xAC994, symSize: 0x0 }
+  - { offset: 0x23872, size: 0x8, addend: 0x0, symName: _enable.eoMiCloudSDKMachine, symObjAddr: 0x1BF48, symBinAddr: 0xAC998, symSize: 0x0 }
   - { offset: 0x238F2, size: 0x8, addend: 0x0, symName: '-[EOConfigService disable]', symObjAddr: 0x6E4, symBinAddr: 0x67AE4, symSize: 0x4F8 }
-  - { offset: 0x2391B, size: 0x8, addend: 0x0, symName: _disable.eoDebug, symObjAddr: 0x1C14C, symBinAddr: 0xAC99C, symSize: 0x0 }
-  - { offset: 0x23930, size: 0x8, addend: 0x0, symName: _disable.eoDebugKiwi, symObjAddr: 0x1C150, symBinAddr: 0xAC9A0, symSize: 0x0 }
-  - { offset: 0x23945, size: 0x8, addend: 0x0, symName: _disable.eoMiCloudSDKMachine, symObjAddr: 0x1C154, symBinAddr: 0xAC9A4, symSize: 0x0 }
+  - { offset: 0x2391B, size: 0x8, addend: 0x0, symName: _disable.eoDebug, symObjAddr: 0x1BF4C, symBinAddr: 0xAC99C, symSize: 0x0 }
+  - { offset: 0x23930, size: 0x8, addend: 0x0, symName: _disable.eoDebugKiwi, symObjAddr: 0x1BF50, symBinAddr: 0xAC9A0, symSize: 0x0 }
+  - { offset: 0x23945, size: 0x8, addend: 0x0, symName: _disable.eoMiCloudSDKMachine, symObjAddr: 0x1BF54, symBinAddr: 0xAC9A4, symSize: 0x0 }
   - { offset: 0x239AB, size: 0x8, addend: 0x0, symName: '-[EOConfigService settingsBundlePath]', symObjAddr: 0xBDC, symBinAddr: 0x67FDC, symSize: 0xF98 }
-  - { offset: 0x239D4, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebug, symObjAddr: 0x1C158, symBinAddr: 0xAC9A8, symSize: 0x0 }
-  - { offset: 0x239E9, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebugKiwi, symObjAddr: 0x1C15C, symBinAddr: 0xAC9AC, symSize: 0x0 }
-  - { offset: 0x239FE, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoMiCloudSDKMachine, symObjAddr: 0x1C160, symBinAddr: 0xAC9B0, symSize: 0x0 }
-  - { offset: 0x23A13, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebug.37, symObjAddr: 0x1C164, symBinAddr: 0xAC9B4, symSize: 0x0 }
-  - { offset: 0x23A28, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebugKiwi.38, symObjAddr: 0x1C168, symBinAddr: 0xAC9B8, symSize: 0x0 }
-  - { offset: 0x23A3D, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoMiCloudSDKMachine.39, symObjAddr: 0x1C16C, symBinAddr: 0xAC9BC, symSize: 0x0 }
-  - { offset: 0x23A52, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebug.44, symObjAddr: 0x1C170, symBinAddr: 0xAC9C0, symSize: 0x0 }
-  - { offset: 0x23A67, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebugKiwi.45, symObjAddr: 0x1C174, symBinAddr: 0xAC9C4, symSize: 0x0 }
-  - { offset: 0x23A7C, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoMiCloudSDKMachine.46, symObjAddr: 0x1C178, symBinAddr: 0xAC9C8, symSize: 0x0 }
+  - { offset: 0x239D4, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebug, symObjAddr: 0x1BF58, symBinAddr: 0xAC9A8, symSize: 0x0 }
+  - { offset: 0x239E9, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebugKiwi, symObjAddr: 0x1BF5C, symBinAddr: 0xAC9AC, symSize: 0x0 }
+  - { offset: 0x239FE, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoMiCloudSDKMachine, symObjAddr: 0x1BF60, symBinAddr: 0xAC9B0, symSize: 0x0 }
+  - { offset: 0x23A13, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebug.37, symObjAddr: 0x1BF64, symBinAddr: 0xAC9B4, symSize: 0x0 }
+  - { offset: 0x23A28, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebugKiwi.38, symObjAddr: 0x1BF68, symBinAddr: 0xAC9B8, symSize: 0x0 }
+  - { offset: 0x23A3D, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoMiCloudSDKMachine.39, symObjAddr: 0x1BF6C, symBinAddr: 0xAC9BC, symSize: 0x0 }
+  - { offset: 0x23A52, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebug.44, symObjAddr: 0x1BF70, symBinAddr: 0xAC9C0, symSize: 0x0 }
+  - { offset: 0x23A67, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoDebugKiwi.45, symObjAddr: 0x1BF74, symBinAddr: 0xAC9C4, symSize: 0x0 }
+  - { offset: 0x23A7C, size: 0x8, addend: 0x0, symName: _settingsBundlePath.eoMiCloudSDKMachine.46, symObjAddr: 0x1BF78, symBinAddr: 0xAC9C8, symSize: 0x0 }
   - { offset: 0x23B96, size: 0x8, addend: 0x0, symName: '-[EOConfigService isCompressPostMessageEnabled]', symObjAddr: 0x1BF4, symBinAddr: 0x68FF4, symSize: 0x1980 }
-  - { offset: 0x23BBF, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebug, symObjAddr: 0x1C17C, symBinAddr: 0xAC9CC, symSize: 0x0 }
-  - { offset: 0x23BD4, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebugKiwi, symObjAddr: 0x1C180, symBinAddr: 0xAC9D0, symSize: 0x0 }
-  - { offset: 0x23BE9, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoMiCloudSDKMachine, symObjAddr: 0x1C184, symBinAddr: 0xAC9D4, symSize: 0x0 }
-  - { offset: 0x23BFE, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebug.60, symObjAddr: 0x1C188, symBinAddr: 0xAC9D8, symSize: 0x0 }
-  - { offset: 0x23C13, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebugKiwi.61, symObjAddr: 0x1C18C, symBinAddr: 0xAC9DC, symSize: 0x0 }
-  - { offset: 0x23C28, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoMiCloudSDKMachine.62, symObjAddr: 0x1C190, symBinAddr: 0xAC9E0, symSize: 0x0 }
-  - { offset: 0x23C3D, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebug.67, symObjAddr: 0x1C194, symBinAddr: 0xAC9E4, symSize: 0x0 }
-  - { offset: 0x23C52, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebugKiwi.68, symObjAddr: 0x1C198, symBinAddr: 0xAC9E8, symSize: 0x0 }
-  - { offset: 0x23C67, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoMiCloudSDKMachine.69, symObjAddr: 0x1C19C, symBinAddr: 0xAC9EC, symSize: 0x0 }
-  - { offset: 0x23C7C, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebug.74, symObjAddr: 0x1C1A0, symBinAddr: 0xAC9F0, symSize: 0x0 }
-  - { offset: 0x23C91, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebugKiwi.75, symObjAddr: 0x1C1A4, symBinAddr: 0xAC9F4, symSize: 0x0 }
-  - { offset: 0x23CA6, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoMiCloudSDKMachine.76, symObjAddr: 0x1C1A8, symBinAddr: 0xAC9F8, symSize: 0x0 }
-  - { offset: 0x23E27, size: 0x8, addend: 0x0, symName: '-[EOConfigService loadConfig:]', symObjAddr: 0x42BC, symBinAddr: 0x6B6BC, symSize: 0x3D24 }
-  - { offset: 0x23E51, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug', symObjAddr: 0x1C1AC, symBinAddr: 0xAC9FC, symSize: 0x0 }
-  - { offset: 0x23E67, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi', symObjAddr: 0x1C1B0, symBinAddr: 0xACA00, symSize: 0x0 }
-  - { offset: 0x23E7D, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine', symObjAddr: 0x1C1B4, symBinAddr: 0xACA04, symSize: 0x0 }
-  - { offset: 0x23E93, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.133', symObjAddr: 0x1C1B8, symBinAddr: 0xACA08, symSize: 0x0 }
-  - { offset: 0x23EA9, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.134', symObjAddr: 0x1C1BC, symBinAddr: 0xACA0C, symSize: 0x0 }
-  - { offset: 0x23EBF, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.135', symObjAddr: 0x1C1C0, symBinAddr: 0xACA10, symSize: 0x0 }
-  - { offset: 0x23ED5, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.140', symObjAddr: 0x1C1C4, symBinAddr: 0xACA14, symSize: 0x0 }
-  - { offset: 0x23EEB, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.141', symObjAddr: 0x1C1C8, symBinAddr: 0xACA18, symSize: 0x0 }
-  - { offset: 0x23F01, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.142', symObjAddr: 0x1C1CC, symBinAddr: 0xACA1C, symSize: 0x0 }
-  - { offset: 0x23F17, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.147', symObjAddr: 0x1C1D0, symBinAddr: 0xACA20, symSize: 0x0 }
-  - { offset: 0x23F2D, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.148', symObjAddr: 0x1C1D4, symBinAddr: 0xACA24, symSize: 0x0 }
-  - { offset: 0x23F43, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.149', symObjAddr: 0x1C1D8, symBinAddr: 0xACA28, symSize: 0x0 }
-  - { offset: 0x23F59, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.154', symObjAddr: 0x1C1DC, symBinAddr: 0xACA2C, symSize: 0x0 }
-  - { offset: 0x23F6F, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.155', symObjAddr: 0x1C1E0, symBinAddr: 0xACA30, symSize: 0x0 }
-  - { offset: 0x23F85, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.156', symObjAddr: 0x1C1E4, symBinAddr: 0xACA34, symSize: 0x0 }
-  - { offset: 0x23F9B, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.161', symObjAddr: 0x1C1E8, symBinAddr: 0xACA38, symSize: 0x0 }
-  - { offset: 0x23FB1, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.162', symObjAddr: 0x1C1EC, symBinAddr: 0xACA3C, symSize: 0x0 }
-  - { offset: 0x23FC7, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.163', symObjAddr: 0x1C1F0, symBinAddr: 0xACA40, symSize: 0x0 }
-  - { offset: 0x23FDD, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.168', symObjAddr: 0x1C1F4, symBinAddr: 0xACA44, symSize: 0x0 }
-  - { offset: 0x23FF3, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.169', symObjAddr: 0x1C1F8, symBinAddr: 0xACA48, symSize: 0x0 }
-  - { offset: 0x24009, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.170', symObjAddr: 0x1C1FC, symBinAddr: 0xACA4C, symSize: 0x0 }
-  - { offset: 0x242FE, size: 0x8, addend: 0x0, symName: '-[EOConfigService unloadConfig:]', symObjAddr: 0x7FE0, symBinAddr: 0x6F3E0, symSize: 0x638 }
-  - { offset: 0x24325, size: 0x8, addend: 0x0, symName: '_unloadConfig:.eoDebug', symObjAddr: 0x1C200, symBinAddr: 0xACA50, symSize: 0x0 }
-  - { offset: 0x2433B, size: 0x8, addend: 0x0, symName: '_unloadConfig:.eoDebugKiwi', symObjAddr: 0x1C204, symBinAddr: 0xACA54, symSize: 0x0 }
-  - { offset: 0x24351, size: 0x8, addend: 0x0, symName: '_unloadConfig:.eoMiCloudSDKMachine', symObjAddr: 0x1C208, symBinAddr: 0xACA58, symSize: 0x0 }
-  - { offset: 0x243CB, size: 0x8, addend: 0x0, symName: '-[EOConfigService plistConfigForBundle:]', symObjAddr: 0x8618, symBinAddr: 0x6FA18, symSize: 0x14E4 }
-  - { offset: 0x243F6, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebug', symObjAddr: 0x1C20C, symBinAddr: 0xACA5C, symSize: 0x0 }
-  - { offset: 0x2440C, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebugKiwi', symObjAddr: 0x1C210, symBinAddr: 0xACA60, symSize: 0x0 }
-  - { offset: 0x24422, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoMiCloudSDKMachine', symObjAddr: 0x1C214, symBinAddr: 0xACA64, symSize: 0x0 }
-  - { offset: 0x24438, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebug.184', symObjAddr: 0x1C218, symBinAddr: 0xACA68, symSize: 0x0 }
-  - { offset: 0x2444E, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebugKiwi.185', symObjAddr: 0x1C21C, symBinAddr: 0xACA6C, symSize: 0x0 }
-  - { offset: 0x24464, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoMiCloudSDKMachine.186', symObjAddr: 0x1C220, symBinAddr: 0xACA70, symSize: 0x0 }
-  - { offset: 0x2447A, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebug.191', symObjAddr: 0x1C224, symBinAddr: 0xACA74, symSize: 0x0 }
-  - { offset: 0x24490, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebugKiwi.192', symObjAddr: 0x1C228, symBinAddr: 0xACA78, symSize: 0x0 }
-  - { offset: 0x244A6, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoMiCloudSDKMachine.193', symObjAddr: 0x1C22C, symBinAddr: 0xACA7C, symSize: 0x0 }
-  - { offset: 0x2461D, size: 0x8, addend: 0x0, symName: '-[EOConfigService jsonConfigForBundle:]', symObjAddr: 0x9AFC, symBinAddr: 0x70EFC, symSize: 0x1B44 }
-  - { offset: 0x24648, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebug', symObjAddr: 0x1C230, symBinAddr: 0xACA80, symSize: 0x0 }
-  - { offset: 0x2465E, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebugKiwi', symObjAddr: 0x1C234, symBinAddr: 0xACA84, symSize: 0x0 }
-  - { offset: 0x24674, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoMiCloudSDKMachine', symObjAddr: 0x1C238, symBinAddr: 0xACA88, symSize: 0x0 }
-  - { offset: 0x2468A, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebug.202', symObjAddr: 0x1C23C, symBinAddr: 0xACA8C, symSize: 0x0 }
-  - { offset: 0x246A0, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebugKiwi.203', symObjAddr: 0x1C240, symBinAddr: 0xACA90, symSize: 0x0 }
-  - { offset: 0x246B6, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoMiCloudSDKMachine.204', symObjAddr: 0x1C244, symBinAddr: 0xACA94, symSize: 0x0 }
-  - { offset: 0x246CC, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebug.209', symObjAddr: 0x1C248, symBinAddr: 0xACA98, symSize: 0x0 }
-  - { offset: 0x246E2, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebugKiwi.210', symObjAddr: 0x1C24C, symBinAddr: 0xACA9C, symSize: 0x0 }
-  - { offset: 0x246F8, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoMiCloudSDKMachine.211', symObjAddr: 0x1C250, symBinAddr: 0xACAA0, symSize: 0x0 }
-  - { offset: 0x2470E, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebug.216', symObjAddr: 0x1C254, symBinAddr: 0xACAA4, symSize: 0x0 }
-  - { offset: 0x24724, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebugKiwi.217', symObjAddr: 0x1C258, symBinAddr: 0xACAA8, symSize: 0x0 }
-  - { offset: 0x2473A, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoMiCloudSDKMachine.218', symObjAddr: 0x1C25C, symBinAddr: 0xACAAC, symSize: 0x0 }
-  - { offset: 0x24923, size: 0x8, addend: 0x0, symName: '-[EOConfigService layoutJsonConfigForBundle:]', symObjAddr: 0xB640, symBinAddr: 0x72A40, symSize: 0x1C60 }
-  - { offset: 0x2494E, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebug', symObjAddr: 0x1C260, symBinAddr: 0xACAB0, symSize: 0x0 }
-  - { offset: 0x24964, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebugKiwi', symObjAddr: 0x1C264, symBinAddr: 0xACAB4, symSize: 0x0 }
-  - { offset: 0x2497A, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoMiCloudSDKMachine', symObjAddr: 0x1C268, symBinAddr: 0xACAB8, symSize: 0x0 }
-  - { offset: 0x24990, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebug.225', symObjAddr: 0x1C26C, symBinAddr: 0xACABC, symSize: 0x0 }
-  - { offset: 0x249A6, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebugKiwi.226', symObjAddr: 0x1C270, symBinAddr: 0xACAC0, symSize: 0x0 }
-  - { offset: 0x249BC, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoMiCloudSDKMachine.227', symObjAddr: 0x1C274, symBinAddr: 0xACAC4, symSize: 0x0 }
-  - { offset: 0x249D2, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebug.228', symObjAddr: 0x1C278, symBinAddr: 0xACAC8, symSize: 0x0 }
-  - { offset: 0x249E8, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebugKiwi.229', symObjAddr: 0x1C27C, symBinAddr: 0xACACC, symSize: 0x0 }
-  - { offset: 0x249FE, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoMiCloudSDKMachine.230', symObjAddr: 0x1C280, symBinAddr: 0xACAD0, symSize: 0x0 }
-  - { offset: 0x24A14, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebug.231', symObjAddr: 0x1C284, symBinAddr: 0xACAD4, symSize: 0x0 }
-  - { offset: 0x24A2A, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebugKiwi.232', symObjAddr: 0x1C288, symBinAddr: 0xACAD8, symSize: 0x0 }
-  - { offset: 0x24A40, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoMiCloudSDKMachine.233', symObjAddr: 0x1C28C, symBinAddr: 0xACADC, symSize: 0x0 }
-  - { offset: 0x24C22, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfig:]', symObjAddr: 0xD2A0, symBinAddr: 0x746A0, symSize: 0x15AC }
-  - { offset: 0x24C4D, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebug', symObjAddr: 0x1C290, symBinAddr: 0xACAE0, symSize: 0x0 }
-  - { offset: 0x24C63, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebugKiwi', symObjAddr: 0x1C294, symBinAddr: 0xACAE4, symSize: 0x0 }
-  - { offset: 0x24C79, size: 0x8, addend: 0x0, symName: '_getConfig:.eoMiCloudSDKMachine', symObjAddr: 0x1C298, symBinAddr: 0xACAE8, symSize: 0x0 }
-  - { offset: 0x24C8F, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebug.238', symObjAddr: 0x1C29C, symBinAddr: 0xACAEC, symSize: 0x0 }
-  - { offset: 0x24CA5, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebugKiwi.239', symObjAddr: 0x1C2A0, symBinAddr: 0xACAF0, symSize: 0x0 }
-  - { offset: 0x24CBB, size: 0x8, addend: 0x0, symName: '_getConfig:.eoMiCloudSDKMachine.240', symObjAddr: 0x1C2A4, symBinAddr: 0xACAF4, symSize: 0x0 }
-  - { offset: 0x24CD1, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebug.245', symObjAddr: 0x1C2A8, symBinAddr: 0xACAF8, symSize: 0x0 }
-  - { offset: 0x24CE7, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebugKiwi.246', symObjAddr: 0x1C2AC, symBinAddr: 0xACAFC, symSize: 0x0 }
-  - { offset: 0x24CFD, size: 0x8, addend: 0x0, symName: '_getConfig:.eoMiCloudSDKMachine.247', symObjAddr: 0x1C2B0, symBinAddr: 0xACB00, symSize: 0x0 }
-  - { offset: 0x24E73, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfigItem:forLifecycleObject:]', symObjAddr: 0xE84C, symBinAddr: 0x75C4C, symSize: 0x10C4 }
-  - { offset: 0x24E9E, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoDebug', symObjAddr: 0x1C2B4, symBinAddr: 0xACB04, symSize: 0x0 }
-  - { offset: 0x24EB4, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoDebugKiwi', symObjAddr: 0x1C2B8, symBinAddr: 0xACB08, symSize: 0x0 }
-  - { offset: 0x24ECA, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoMiCloudSDKMachine', symObjAddr: 0x1C2BC, symBinAddr: 0xACB0C, symSize: 0x0 }
-  - { offset: 0x24EE0, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoDebug.253', symObjAddr: 0x1C2C0, symBinAddr: 0xACB10, symSize: 0x0 }
-  - { offset: 0x24EF6, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoDebugKiwi.254', symObjAddr: 0x1C2C4, symBinAddr: 0xACB14, symSize: 0x0 }
-  - { offset: 0x24F0C, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoMiCloudSDKMachine.255', symObjAddr: 0x1C2C8, symBinAddr: 0xACB18, symSize: 0x0 }
-  - { offset: 0x25027, size: 0x8, addend: 0x0, symName: '-[EOConfigService updateConfig:withData:]', symObjAddr: 0xF910, symBinAddr: 0x76D10, symSize: 0xBF4 }
-  - { offset: 0x25052, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoDebug', symObjAddr: 0x1C2CC, symBinAddr: 0xACB1C, symSize: 0x0 }
-  - { offset: 0x25068, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoDebugKiwi', symObjAddr: 0x1C2D0, symBinAddr: 0xACB20, symSize: 0x0 }
-  - { offset: 0x2507E, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoMiCloudSDKMachine', symObjAddr: 0x1C2D4, symBinAddr: 0xACB24, symSize: 0x0 }
-  - { offset: 0x25094, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoDebug.260', symObjAddr: 0x1C2D8, symBinAddr: 0xACB28, symSize: 0x0 }
-  - { offset: 0x250AA, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoDebugKiwi.261', symObjAddr: 0x1C2DC, symBinAddr: 0xACB2C, symSize: 0x0 }
-  - { offset: 0x250C0, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoMiCloudSDKMachine.262', symObjAddr: 0x1C2E0, symBinAddr: 0xACB30, symSize: 0x0 }
-  - { offset: 0x251B6, size: 0x8, addend: 0x0, symName: '-[EOConfigService saveCurrentConfigurableItems:ForLifeCycleObject:]', symObjAddr: 0x10574, symBinAddr: 0x77974, symSize: 0x1AB0 }
-  - { offset: 0x251E1, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebug', symObjAddr: 0x1C2E4, symBinAddr: 0xACB34, symSize: 0x0 }
-  - { offset: 0x251F7, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebugKiwi', symObjAddr: 0x1C2E8, symBinAddr: 0xACB38, symSize: 0x0 }
-  - { offset: 0x2520D, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoMiCloudSDKMachine', symObjAddr: 0x1C2EC, symBinAddr: 0xACB3C, symSize: 0x0 }
-  - { offset: 0x25223, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebug.273', symObjAddr: 0x1C2F0, symBinAddr: 0xACB40, symSize: 0x0 }
-  - { offset: 0x25239, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebugKiwi.274', symObjAddr: 0x1C2F4, symBinAddr: 0xACB44, symSize: 0x0 }
-  - { offset: 0x2524F, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoMiCloudSDKMachine.275', symObjAddr: 0x1C2F8, symBinAddr: 0xACB48, symSize: 0x0 }
-  - { offset: 0x25265, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebug.280', symObjAddr: 0x1C2FC, symBinAddr: 0xACB4C, symSize: 0x0 }
-  - { offset: 0x2527B, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebugKiwi.281', symObjAddr: 0x1C300, symBinAddr: 0xACB50, symSize: 0x0 }
-  - { offset: 0x25291, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoMiCloudSDKMachine.282', symObjAddr: 0x1C304, symBinAddr: 0xACB54, symSize: 0x0 }
-  - { offset: 0x252A7, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebug.283', symObjAddr: 0x1C308, symBinAddr: 0xACB58, symSize: 0x0 }
-  - { offset: 0x252BD, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebugKiwi.284', symObjAddr: 0x1C30C, symBinAddr: 0xACB5C, symSize: 0x0 }
-  - { offset: 0x252D3, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoMiCloudSDKMachine.285', symObjAddr: 0x1C310, symBinAddr: 0xACB60, symSize: 0x0 }
-  - { offset: 0x2547D, size: 0x8, addend: 0x0, symName: '-[EOConfigService prefixForModuleBundleName:]', symObjAddr: 0x12024, symBinAddr: 0x79424, symSize: 0x8A0 }
-  - { offset: 0x254A8, size: 0x8, addend: 0x0, symName: '_prefixForModuleBundleName:.eoDebug', symObjAddr: 0x1C314, symBinAddr: 0xACB64, symSize: 0x0 }
-  - { offset: 0x254BE, size: 0x8, addend: 0x0, symName: '_prefixForModuleBundleName:.eoDebugKiwi', symObjAddr: 0x1C318, symBinAddr: 0xACB68, symSize: 0x0 }
-  - { offset: 0x254D4, size: 0x8, addend: 0x0, symName: '_prefixForModuleBundleName:.eoMiCloudSDKMachine', symObjAddr: 0x1C31C, symBinAddr: 0xACB6C, symSize: 0x0 }
-  - { offset: 0x25576, size: 0x8, addend: 0x0, symName: '-[EOConfigService fileExistsAtFullPath:]', symObjAddr: 0x128C4, symBinAddr: 0x79CC4, symSize: 0x7D8 }
-  - { offset: 0x255A1, size: 0x8, addend: 0x0, symName: '_fileExistsAtFullPath:.eoDebug', symObjAddr: 0x1C320, symBinAddr: 0xACB70, symSize: 0x0 }
-  - { offset: 0x255B7, size: 0x8, addend: 0x0, symName: '_fileExistsAtFullPath:.eoDebugKiwi', symObjAddr: 0x1C324, symBinAddr: 0xACB74, symSize: 0x0 }
-  - { offset: 0x255CD, size: 0x8, addend: 0x0, symName: '_fileExistsAtFullPath:.eoMiCloudSDKMachine', symObjAddr: 0x1C328, symBinAddr: 0xACB78, symSize: 0x0 }
-  - { offset: 0x25684, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfigItemAsBool:withDefault:forModuleName:]', symObjAddr: 0x1309C, symBinAddr: 0x7A49C, symSize: 0x1420 }
-  - { offset: 0x256AF, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebug', symObjAddr: 0x1C32C, symBinAddr: 0xACB7C, symSize: 0x0 }
-  - { offset: 0x256C5, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebugKiwi', symObjAddr: 0x1C330, symBinAddr: 0xACB80, symSize: 0x0 }
-  - { offset: 0x256DB, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoMiCloudSDKMachine', symObjAddr: 0x1C334, symBinAddr: 0xACB84, symSize: 0x0 }
-  - { offset: 0x256F1, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebug.301', symObjAddr: 0x1C338, symBinAddr: 0xACB88, symSize: 0x0 }
-  - { offset: 0x25707, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebugKiwi.302', symObjAddr: 0x1C33C, symBinAddr: 0xACB8C, symSize: 0x0 }
-  - { offset: 0x2571D, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoMiCloudSDKMachine.303', symObjAddr: 0x1C340, symBinAddr: 0xACB90, symSize: 0x0 }
-  - { offset: 0x25733, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebug.308', symObjAddr: 0x1C344, symBinAddr: 0xACB94, symSize: 0x0 }
-  - { offset: 0x25749, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebugKiwi.309', symObjAddr: 0x1C348, symBinAddr: 0xACB98, symSize: 0x0 }
-  - { offset: 0x2575F, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoMiCloudSDKMachine.310', symObjAddr: 0x1C34C, symBinAddr: 0xACB9C, symSize: 0x0 }
-  - { offset: 0x258CD, size: 0x8, addend: 0x0, symName: '-[EOConfigService getNumberItemFor:withDefault:forModule:]', symObjAddr: 0x144BC, symBinAddr: 0x7B8BC, symSize: 0xE3C }
-  - { offset: 0x258F8, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoDebug', symObjAddr: 0x1C350, symBinAddr: 0xACBA0, symSize: 0x0 }
-  - { offset: 0x2590E, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoDebugKiwi', symObjAddr: 0x1C354, symBinAddr: 0xACBA4, symSize: 0x0 }
-  - { offset: 0x25924, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoMiCloudSDKMachine', symObjAddr: 0x1C358, symBinAddr: 0xACBA8, symSize: 0x0 }
-  - { offset: 0x2593A, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoDebug.311', symObjAddr: 0x1C35C, symBinAddr: 0xACBAC, symSize: 0x0 }
-  - { offset: 0x25950, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoDebugKiwi.312', symObjAddr: 0x1C360, symBinAddr: 0xACBB0, symSize: 0x0 }
-  - { offset: 0x25966, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoMiCloudSDKMachine.313', symObjAddr: 0x1C364, symBinAddr: 0xACBB4, symSize: 0x0 }
-  - { offset: 0x25A90, size: 0x8, addend: 0x0, symName: '-[EOConfigService setConfigItemForKey:WithValue:forModule:]', symObjAddr: 0x152F8, symBinAddr: 0x7C6F8, symSize: 0x1B7C }
-  - { offset: 0x25ABB, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebug', symObjAddr: 0x1C368, symBinAddr: 0xACBB8, symSize: 0x0 }
-  - { offset: 0x25AD1, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebugKiwi', symObjAddr: 0x1C36C, symBinAddr: 0xACBBC, symSize: 0x0 }
-  - { offset: 0x25AE7, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoMiCloudSDKMachine', symObjAddr: 0x1C370, symBinAddr: 0xACBC0, symSize: 0x0 }
-  - { offset: 0x25AFD, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebug.318', symObjAddr: 0x1C374, symBinAddr: 0xACBC4, symSize: 0x0 }
-  - { offset: 0x25B13, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebugKiwi.319', symObjAddr: 0x1C378, symBinAddr: 0xACBC8, symSize: 0x0 }
-  - { offset: 0x25B29, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoMiCloudSDKMachine.320', symObjAddr: 0x1C37C, symBinAddr: 0xACBCC, symSize: 0x0 }
-  - { offset: 0x25B3F, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebug.325', symObjAddr: 0x1C380, symBinAddr: 0xACBD0, symSize: 0x0 }
-  - { offset: 0x25B55, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebugKiwi.326', symObjAddr: 0x1C384, symBinAddr: 0xACBD4, symSize: 0x0 }
-  - { offset: 0x25B6B, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoMiCloudSDKMachine.327', symObjAddr: 0x1C388, symBinAddr: 0xACBD8, symSize: 0x0 }
-  - { offset: 0x25B81, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebug.332', symObjAddr: 0x1C38C, symBinAddr: 0xACBDC, symSize: 0x0 }
-  - { offset: 0x25B97, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebugKiwi.333', symObjAddr: 0x1C390, symBinAddr: 0xACBE0, symSize: 0x0 }
-  - { offset: 0x25BAD, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoMiCloudSDKMachine.334', symObjAddr: 0x1C394, symBinAddr: 0xACBE4, symSize: 0x0 }
-  - { offset: 0x25EBC, size: 0x8, addend: 0x0, symName: '___33+[EOConfigService sharedInstance]_block_invoke', symObjAddr: 0xB0, symBinAddr: 0x674B0, symSize: 0x4C }
-  - { offset: 0x25EF9, size: 0x8, addend: 0x0, symName: '-[EOConfigService init]', symObjAddr: 0xFC, symBinAddr: 0x674FC, symSize: 0xF0 }
-  - { offset: 0x25F2F, size: 0x8, addend: 0x0, symName: '-[EOConfigService isManualPostingEnabled]', symObjAddr: 0x1B74, symBinAddr: 0x68F74, symSize: 0x80 }
-  - { offset: 0x25F65, size: 0x8, addend: 0x0, symName: '-[EOConfigService cachingLevel]', symObjAddr: 0x3574, symBinAddr: 0x6A974, symSize: 0xB4 }
-  - { offset: 0x25F9B, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostOnIntervalsEnabled]', symObjAddr: 0x3628, symBinAddr: 0x6AA28, symSize: 0x80 }
-  - { offset: 0x25FD1, size: 0x8, addend: 0x0, symName: '-[EOConfigService isHasToPersistLocalCacheEnabled]', symObjAddr: 0x36A8, symBinAddr: 0x6AAA8, symSize: 0x80 }
-  - { offset: 0x26007, size: 0x8, addend: 0x0, symName: '-[EOConfigService loggingLevel]', symObjAddr: 0x3728, symBinAddr: 0x6AB28, symSize: 0xB4 }
-  - { offset: 0x2603D, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageLevelCellular]', symObjAddr: 0x37DC, symBinAddr: 0x6ABDC, symSize: 0xB4 }
-  - { offset: 0x26073, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageLevelWifi]', symObjAddr: 0x3890, symBinAddr: 0x6AC90, symSize: 0xB4 }
-  - { offset: 0x260A9, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageTimeIntervals]', symObjAddr: 0x3944, symBinAddr: 0x6AD44, symSize: 0xB4 }
-  - { offset: 0x260DF, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppComesFromBackgroundEnabled]', symObjAddr: 0x39F8, symBinAddr: 0x6ADF8, symSize: 0x80 }
-  - { offset: 0x26115, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppGoesToBackgroundEnabled]', symObjAddr: 0x3A78, symBinAddr: 0x6AE78, symSize: 0x80 }
-  - { offset: 0x2614B, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppGoesToCloseEnabled]', symObjAddr: 0x3AF8, symBinAddr: 0x6AEF8, symSize: 0x80 }
-  - { offset: 0x26181, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppIsLaunchedEnabled]', symObjAddr: 0x3B78, symBinAddr: 0x6AF78, symSize: 0x80 }
-  - { offset: 0x261B7, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostOnScreenChangeEnabled]', symObjAddr: 0x3BF8, symBinAddr: 0x6AFF8, symSize: 0x80 }
-  - { offset: 0x261ED, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDynamicConfigurationEnabled]', symObjAddr: 0x3C78, symBinAddr: 0x6B078, symSize: 0x80 }
-  - { offset: 0x26223, size: 0x8, addend: 0x0, symName: '-[EOConfigService cachedFileMaxBytesSize]', symObjAddr: 0x3CF8, symBinAddr: 0x6B0F8, symSize: 0xB8 }
-  - { offset: 0x26259, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageMaxBytesSize]', symObjAddr: 0x3DB0, symBinAddr: 0x6B1B0, symSize: 0xB8 }
-  - { offset: 0x2628F, size: 0x8, addend: 0x0, symName: '-[EOConfigService maxNumberOfFilesToCache]', symObjAddr: 0x3E68, symBinAddr: 0x6B268, symSize: 0xB4 }
-  - { offset: 0x262C5, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageTimeout]', symObjAddr: 0x3F1C, symBinAddr: 0x6B31C, symSize: 0xB4 }
-  - { offset: 0x262FB, size: 0x8, addend: 0x0, symName: '-[EOConfigService criticalBatteryLevel]', symObjAddr: 0x3FD0, symBinAddr: 0x6B3D0, symSize: 0xB8 }
-  - { offset: 0x26331, size: 0x8, addend: 0x0, symName: '-[EOConfigService libraryVersion]', symObjAddr: 0x4088, symBinAddr: 0x6B488, symSize: 0x80 }
-  - { offset: 0x26367, size: 0x8, addend: 0x0, symName: '-[EOConfigService messageVersion]', symObjAddr: 0x4108, symBinAddr: 0x6B508, symSize: 0x80 }
-  - { offset: 0x2639D, size: 0x8, addend: 0x0, symName: '-[EOConfigService turnOffCorrectOrientationUpdates]', symObjAddr: 0x4188, symBinAddr: 0x6B588, symSize: 0x80 }
-  - { offset: 0x263D3, size: 0x8, addend: 0x0, symName: '-[EOConfigService defaultOrientation]', symObjAddr: 0x4208, symBinAddr: 0x6B608, symSize: 0xB4 }
-  - { offset: 0x26409, size: 0x8, addend: 0x0, symName: '-[EOConfigService currentConfigurableItemsForLifecycleObject:]', symObjAddr: 0x10504, symBinAddr: 0x77904, symSize: 0x70 }
-  - { offset: 0x2644F, size: 0x8, addend: 0x0, symName: '-[EOConfigService isEnabled]', symObjAddr: 0x16E74, symBinAddr: 0x7E274, symSize: 0x20 }
-  - { offset: 0x26485, size: 0x8, addend: 0x0, symName: '-[EOConfigService configurations]', symObjAddr: 0x16E94, symBinAddr: 0x7E294, symSize: 0x1C }
-  - { offset: 0x264BB, size: 0x8, addend: 0x0, symName: '-[EOConfigService setConfigurations:]', symObjAddr: 0x16EB0, symBinAddr: 0x7E2B0, symSize: 0x34 }
-  - { offset: 0x264F9, size: 0x8, addend: 0x0, symName: '-[EOConfigService .cxx_destruct]', symObjAddr: 0x16EE4, symBinAddr: 0x7E2E4, symSize: 0x30 }
+  - { offset: 0x23BBF, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebug, symObjAddr: 0x1BF7C, symBinAddr: 0xAC9CC, symSize: 0x0 }
+  - { offset: 0x23BD4, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebugKiwi, symObjAddr: 0x1BF80, symBinAddr: 0xAC9D0, symSize: 0x0 }
+  - { offset: 0x23BE9, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoMiCloudSDKMachine, symObjAddr: 0x1BF84, symBinAddr: 0xAC9D4, symSize: 0x0 }
+  - { offset: 0x23BFE, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebug.60, symObjAddr: 0x1BF88, symBinAddr: 0xAC9D8, symSize: 0x0 }
+  - { offset: 0x23C13, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebugKiwi.61, symObjAddr: 0x1BF8C, symBinAddr: 0xAC9DC, symSize: 0x0 }
+  - { offset: 0x23C28, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoMiCloudSDKMachine.62, symObjAddr: 0x1BF90, symBinAddr: 0xAC9E0, symSize: 0x0 }
+  - { offset: 0x23C3D, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebug.67, symObjAddr: 0x1BF94, symBinAddr: 0xAC9E4, symSize: 0x0 }
+  - { offset: 0x23C52, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebugKiwi.68, symObjAddr: 0x1BF98, symBinAddr: 0xAC9E8, symSize: 0x0 }
+  - { offset: 0x23C67, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoMiCloudSDKMachine.69, symObjAddr: 0x1BF9C, symBinAddr: 0xAC9EC, symSize: 0x0 }
+  - { offset: 0x23C7C, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebug.74, symObjAddr: 0x1BFA0, symBinAddr: 0xAC9F0, symSize: 0x0 }
+  - { offset: 0x23C91, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoDebugKiwi.75, symObjAddr: 0x1BFA4, symBinAddr: 0xAC9F4, symSize: 0x0 }
+  - { offset: 0x23CA6, size: 0x8, addend: 0x0, symName: _isCompressPostMessageEnabled.eoMiCloudSDKMachine.76, symObjAddr: 0x1BFA8, symBinAddr: 0xAC9F8, symSize: 0x0 }
+  - { offset: 0x23E27, size: 0x8, addend: 0x0, symName: '-[EOConfigService loadConfig:]', symObjAddr: 0x42BC, symBinAddr: 0x6B6BC, symSize: 0x3AF0 }
+  - { offset: 0x23E51, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug', symObjAddr: 0x1BFAC, symBinAddr: 0xAC9FC, symSize: 0x0 }
+  - { offset: 0x23E67, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi', symObjAddr: 0x1BFB0, symBinAddr: 0xACA00, symSize: 0x0 }
+  - { offset: 0x23E7D, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine', symObjAddr: 0x1BFB4, symBinAddr: 0xACA04, symSize: 0x0 }
+  - { offset: 0x23E93, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.131', symObjAddr: 0x1BFB8, symBinAddr: 0xACA08, symSize: 0x0 }
+  - { offset: 0x23EA9, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.132', symObjAddr: 0x1BFBC, symBinAddr: 0xACA0C, symSize: 0x0 }
+  - { offset: 0x23EBF, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.133', symObjAddr: 0x1BFC0, symBinAddr: 0xACA10, symSize: 0x0 }
+  - { offset: 0x23ED5, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.138', symObjAddr: 0x1BFC4, symBinAddr: 0xACA14, symSize: 0x0 }
+  - { offset: 0x23EEB, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.139', symObjAddr: 0x1BFC8, symBinAddr: 0xACA18, symSize: 0x0 }
+  - { offset: 0x23F01, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.140', symObjAddr: 0x1BFCC, symBinAddr: 0xACA1C, symSize: 0x0 }
+  - { offset: 0x23F17, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.145', symObjAddr: 0x1BFD0, symBinAddr: 0xACA20, symSize: 0x0 }
+  - { offset: 0x23F2D, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.146', symObjAddr: 0x1BFD4, symBinAddr: 0xACA24, symSize: 0x0 }
+  - { offset: 0x23F43, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.147', symObjAddr: 0x1BFD8, symBinAddr: 0xACA28, symSize: 0x0 }
+  - { offset: 0x23F59, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.152', symObjAddr: 0x1BFDC, symBinAddr: 0xACA2C, symSize: 0x0 }
+  - { offset: 0x23F6F, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.153', symObjAddr: 0x1BFE0, symBinAddr: 0xACA30, symSize: 0x0 }
+  - { offset: 0x23F85, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.154', symObjAddr: 0x1BFE4, symBinAddr: 0xACA34, symSize: 0x0 }
+  - { offset: 0x23F9B, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.159', symObjAddr: 0x1BFE8, symBinAddr: 0xACA38, symSize: 0x0 }
+  - { offset: 0x23FB1, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.160', symObjAddr: 0x1BFEC, symBinAddr: 0xACA3C, symSize: 0x0 }
+  - { offset: 0x23FC7, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.161', symObjAddr: 0x1BFF0, symBinAddr: 0xACA40, symSize: 0x0 }
+  - { offset: 0x23FDD, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebug.166', symObjAddr: 0x1BFF4, symBinAddr: 0xACA44, symSize: 0x0 }
+  - { offset: 0x23FF3, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoDebugKiwi.167', symObjAddr: 0x1BFF8, symBinAddr: 0xACA48, symSize: 0x0 }
+  - { offset: 0x24009, size: 0x8, addend: 0x0, symName: '_loadConfig:.eoMiCloudSDKMachine.168', symObjAddr: 0x1BFFC, symBinAddr: 0xACA4C, symSize: 0x0 }
+  - { offset: 0x242E8, size: 0x8, addend: 0x0, symName: '-[EOConfigService unloadConfig:]', symObjAddr: 0x7DAC, symBinAddr: 0x6F1AC, symSize: 0x638 }
+  - { offset: 0x2430F, size: 0x8, addend: 0x0, symName: '_unloadConfig:.eoDebug', symObjAddr: 0x1C000, symBinAddr: 0xACA50, symSize: 0x0 }
+  - { offset: 0x24325, size: 0x8, addend: 0x0, symName: '_unloadConfig:.eoDebugKiwi', symObjAddr: 0x1C004, symBinAddr: 0xACA54, symSize: 0x0 }
+  - { offset: 0x2433B, size: 0x8, addend: 0x0, symName: '_unloadConfig:.eoMiCloudSDKMachine', symObjAddr: 0x1C008, symBinAddr: 0xACA58, symSize: 0x0 }
+  - { offset: 0x243B5, size: 0x8, addend: 0x0, symName: '-[EOConfigService plistConfigForBundle:]', symObjAddr: 0x83E4, symBinAddr: 0x6F7E4, symSize: 0x14E4 }
+  - { offset: 0x243E0, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebug', symObjAddr: 0x1C00C, symBinAddr: 0xACA5C, symSize: 0x0 }
+  - { offset: 0x243F6, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebugKiwi', symObjAddr: 0x1C010, symBinAddr: 0xACA60, symSize: 0x0 }
+  - { offset: 0x2440C, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoMiCloudSDKMachine', symObjAddr: 0x1C014, symBinAddr: 0xACA64, symSize: 0x0 }
+  - { offset: 0x24422, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebug.182', symObjAddr: 0x1C018, symBinAddr: 0xACA68, symSize: 0x0 }
+  - { offset: 0x24438, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebugKiwi.183', symObjAddr: 0x1C01C, symBinAddr: 0xACA6C, symSize: 0x0 }
+  - { offset: 0x2444E, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoMiCloudSDKMachine.184', symObjAddr: 0x1C020, symBinAddr: 0xACA70, symSize: 0x0 }
+  - { offset: 0x24464, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebug.189', symObjAddr: 0x1C024, symBinAddr: 0xACA74, symSize: 0x0 }
+  - { offset: 0x2447A, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoDebugKiwi.190', symObjAddr: 0x1C028, symBinAddr: 0xACA78, symSize: 0x0 }
+  - { offset: 0x24490, size: 0x8, addend: 0x0, symName: '_plistConfigForBundle:.eoMiCloudSDKMachine.191', symObjAddr: 0x1C02C, symBinAddr: 0xACA7C, symSize: 0x0 }
+  - { offset: 0x24607, size: 0x8, addend: 0x0, symName: '-[EOConfigService jsonConfigForBundle:]', symObjAddr: 0x98C8, symBinAddr: 0x70CC8, symSize: 0x1B44 }
+  - { offset: 0x24632, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebug', symObjAddr: 0x1C030, symBinAddr: 0xACA80, symSize: 0x0 }
+  - { offset: 0x24648, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebugKiwi', symObjAddr: 0x1C034, symBinAddr: 0xACA84, symSize: 0x0 }
+  - { offset: 0x2465E, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoMiCloudSDKMachine', symObjAddr: 0x1C038, symBinAddr: 0xACA88, symSize: 0x0 }
+  - { offset: 0x24674, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebug.200', symObjAddr: 0x1C03C, symBinAddr: 0xACA8C, symSize: 0x0 }
+  - { offset: 0x2468A, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebugKiwi.201', symObjAddr: 0x1C040, symBinAddr: 0xACA90, symSize: 0x0 }
+  - { offset: 0x246A0, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoMiCloudSDKMachine.202', symObjAddr: 0x1C044, symBinAddr: 0xACA94, symSize: 0x0 }
+  - { offset: 0x246B6, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebug.207', symObjAddr: 0x1C048, symBinAddr: 0xACA98, symSize: 0x0 }
+  - { offset: 0x246CC, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebugKiwi.208', symObjAddr: 0x1C04C, symBinAddr: 0xACA9C, symSize: 0x0 }
+  - { offset: 0x246E2, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoMiCloudSDKMachine.209', symObjAddr: 0x1C050, symBinAddr: 0xACAA0, symSize: 0x0 }
+  - { offset: 0x246F8, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebug.214', symObjAddr: 0x1C054, symBinAddr: 0xACAA4, symSize: 0x0 }
+  - { offset: 0x2470E, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoDebugKiwi.215', symObjAddr: 0x1C058, symBinAddr: 0xACAA8, symSize: 0x0 }
+  - { offset: 0x24724, size: 0x8, addend: 0x0, symName: '_jsonConfigForBundle:.eoMiCloudSDKMachine.216', symObjAddr: 0x1C05C, symBinAddr: 0xACAAC, symSize: 0x0 }
+  - { offset: 0x2490D, size: 0x8, addend: 0x0, symName: '-[EOConfigService layoutJsonConfigForBundle:]', symObjAddr: 0xB40C, symBinAddr: 0x7280C, symSize: 0x1C60 }
+  - { offset: 0x24938, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebug', symObjAddr: 0x1C060, symBinAddr: 0xACAB0, symSize: 0x0 }
+  - { offset: 0x2494E, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebugKiwi', symObjAddr: 0x1C064, symBinAddr: 0xACAB4, symSize: 0x0 }
+  - { offset: 0x24964, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoMiCloudSDKMachine', symObjAddr: 0x1C068, symBinAddr: 0xACAB8, symSize: 0x0 }
+  - { offset: 0x2497A, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebug.223', symObjAddr: 0x1C06C, symBinAddr: 0xACABC, symSize: 0x0 }
+  - { offset: 0x24990, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebugKiwi.224', symObjAddr: 0x1C070, symBinAddr: 0xACAC0, symSize: 0x0 }
+  - { offset: 0x249A6, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoMiCloudSDKMachine.225', symObjAddr: 0x1C074, symBinAddr: 0xACAC4, symSize: 0x0 }
+  - { offset: 0x249BC, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebug.226', symObjAddr: 0x1C078, symBinAddr: 0xACAC8, symSize: 0x0 }
+  - { offset: 0x249D2, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebugKiwi.227', symObjAddr: 0x1C07C, symBinAddr: 0xACACC, symSize: 0x0 }
+  - { offset: 0x249E8, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoMiCloudSDKMachine.228', symObjAddr: 0x1C080, symBinAddr: 0xACAD0, symSize: 0x0 }
+  - { offset: 0x249FE, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebug.229', symObjAddr: 0x1C084, symBinAddr: 0xACAD4, symSize: 0x0 }
+  - { offset: 0x24A14, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoDebugKiwi.230', symObjAddr: 0x1C088, symBinAddr: 0xACAD8, symSize: 0x0 }
+  - { offset: 0x24A2A, size: 0x8, addend: 0x0, symName: '_layoutJsonConfigForBundle:.eoMiCloudSDKMachine.231', symObjAddr: 0x1C08C, symBinAddr: 0xACADC, symSize: 0x0 }
+  - { offset: 0x24C0C, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfig:]', symObjAddr: 0xD06C, symBinAddr: 0x7446C, symSize: 0x15AC }
+  - { offset: 0x24C37, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebug', symObjAddr: 0x1C090, symBinAddr: 0xACAE0, symSize: 0x0 }
+  - { offset: 0x24C4D, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebugKiwi', symObjAddr: 0x1C094, symBinAddr: 0xACAE4, symSize: 0x0 }
+  - { offset: 0x24C63, size: 0x8, addend: 0x0, symName: '_getConfig:.eoMiCloudSDKMachine', symObjAddr: 0x1C098, symBinAddr: 0xACAE8, symSize: 0x0 }
+  - { offset: 0x24C79, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebug.236', symObjAddr: 0x1C09C, symBinAddr: 0xACAEC, symSize: 0x0 }
+  - { offset: 0x24C8F, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebugKiwi.237', symObjAddr: 0x1C0A0, symBinAddr: 0xACAF0, symSize: 0x0 }
+  - { offset: 0x24CA5, size: 0x8, addend: 0x0, symName: '_getConfig:.eoMiCloudSDKMachine.238', symObjAddr: 0x1C0A4, symBinAddr: 0xACAF4, symSize: 0x0 }
+  - { offset: 0x24CBB, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebug.243', symObjAddr: 0x1C0A8, symBinAddr: 0xACAF8, symSize: 0x0 }
+  - { offset: 0x24CD1, size: 0x8, addend: 0x0, symName: '_getConfig:.eoDebugKiwi.244', symObjAddr: 0x1C0AC, symBinAddr: 0xACAFC, symSize: 0x0 }
+  - { offset: 0x24CE7, size: 0x8, addend: 0x0, symName: '_getConfig:.eoMiCloudSDKMachine.245', symObjAddr: 0x1C0B0, symBinAddr: 0xACB00, symSize: 0x0 }
+  - { offset: 0x24E5D, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfigItem:forLifecycleObject:]', symObjAddr: 0xE618, symBinAddr: 0x75A18, symSize: 0x10C4 }
+  - { offset: 0x24E88, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoDebug', symObjAddr: 0x1C0B4, symBinAddr: 0xACB04, symSize: 0x0 }
+  - { offset: 0x24E9E, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoDebugKiwi', symObjAddr: 0x1C0B8, symBinAddr: 0xACB08, symSize: 0x0 }
+  - { offset: 0x24EB4, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoMiCloudSDKMachine', symObjAddr: 0x1C0BC, symBinAddr: 0xACB0C, symSize: 0x0 }
+  - { offset: 0x24ECA, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoDebug.251', symObjAddr: 0x1C0C0, symBinAddr: 0xACB10, symSize: 0x0 }
+  - { offset: 0x24EE0, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoDebugKiwi.252', symObjAddr: 0x1C0C4, symBinAddr: 0xACB14, symSize: 0x0 }
+  - { offset: 0x24EF6, size: 0x8, addend: 0x0, symName: '_getConfigItem:forLifecycleObject:.eoMiCloudSDKMachine.253', symObjAddr: 0x1C0C8, symBinAddr: 0xACB18, symSize: 0x0 }
+  - { offset: 0x25011, size: 0x8, addend: 0x0, symName: '-[EOConfigService updateConfig:withData:]', symObjAddr: 0xF6DC, symBinAddr: 0x76ADC, symSize: 0xBF4 }
+  - { offset: 0x2503C, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoDebug', symObjAddr: 0x1C0CC, symBinAddr: 0xACB1C, symSize: 0x0 }
+  - { offset: 0x25052, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoDebugKiwi', symObjAddr: 0x1C0D0, symBinAddr: 0xACB20, symSize: 0x0 }
+  - { offset: 0x25068, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoMiCloudSDKMachine', symObjAddr: 0x1C0D4, symBinAddr: 0xACB24, symSize: 0x0 }
+  - { offset: 0x2507E, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoDebug.258', symObjAddr: 0x1C0D8, symBinAddr: 0xACB28, symSize: 0x0 }
+  - { offset: 0x25094, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoDebugKiwi.259', symObjAddr: 0x1C0DC, symBinAddr: 0xACB2C, symSize: 0x0 }
+  - { offset: 0x250AA, size: 0x8, addend: 0x0, symName: '_updateConfig:withData:.eoMiCloudSDKMachine.260', symObjAddr: 0x1C0E0, symBinAddr: 0xACB30, symSize: 0x0 }
+  - { offset: 0x251A0, size: 0x8, addend: 0x0, symName: '-[EOConfigService saveCurrentConfigurableItems:ForLifeCycleObject:]', symObjAddr: 0x10340, symBinAddr: 0x77740, symSize: 0x1AB0 }
+  - { offset: 0x251CB, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebug', symObjAddr: 0x1C0E4, symBinAddr: 0xACB34, symSize: 0x0 }
+  - { offset: 0x251E1, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebugKiwi', symObjAddr: 0x1C0E8, symBinAddr: 0xACB38, symSize: 0x0 }
+  - { offset: 0x251F7, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoMiCloudSDKMachine', symObjAddr: 0x1C0EC, symBinAddr: 0xACB3C, symSize: 0x0 }
+  - { offset: 0x2520D, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebug.271', symObjAddr: 0x1C0F0, symBinAddr: 0xACB40, symSize: 0x0 }
+  - { offset: 0x25223, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebugKiwi.272', symObjAddr: 0x1C0F4, symBinAddr: 0xACB44, symSize: 0x0 }
+  - { offset: 0x25239, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoMiCloudSDKMachine.273', symObjAddr: 0x1C0F8, symBinAddr: 0xACB48, symSize: 0x0 }
+  - { offset: 0x2524F, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebug.278', symObjAddr: 0x1C0FC, symBinAddr: 0xACB4C, symSize: 0x0 }
+  - { offset: 0x25265, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebugKiwi.279', symObjAddr: 0x1C100, symBinAddr: 0xACB50, symSize: 0x0 }
+  - { offset: 0x2527B, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoMiCloudSDKMachine.280', symObjAddr: 0x1C104, symBinAddr: 0xACB54, symSize: 0x0 }
+  - { offset: 0x25291, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebug.281', symObjAddr: 0x1C108, symBinAddr: 0xACB58, symSize: 0x0 }
+  - { offset: 0x252A7, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoDebugKiwi.282', symObjAddr: 0x1C10C, symBinAddr: 0xACB5C, symSize: 0x0 }
+  - { offset: 0x252BD, size: 0x8, addend: 0x0, symName: '_saveCurrentConfigurableItems:ForLifeCycleObject:.eoMiCloudSDKMachine.283', symObjAddr: 0x1C110, symBinAddr: 0xACB60, symSize: 0x0 }
+  - { offset: 0x25467, size: 0x8, addend: 0x0, symName: '-[EOConfigService prefixForModuleBundleName:]', symObjAddr: 0x11DF0, symBinAddr: 0x791F0, symSize: 0x8A0 }
+  - { offset: 0x25492, size: 0x8, addend: 0x0, symName: '_prefixForModuleBundleName:.eoDebug', symObjAddr: 0x1C114, symBinAddr: 0xACB64, symSize: 0x0 }
+  - { offset: 0x254A8, size: 0x8, addend: 0x0, symName: '_prefixForModuleBundleName:.eoDebugKiwi', symObjAddr: 0x1C118, symBinAddr: 0xACB68, symSize: 0x0 }
+  - { offset: 0x254BE, size: 0x8, addend: 0x0, symName: '_prefixForModuleBundleName:.eoMiCloudSDKMachine', symObjAddr: 0x1C11C, symBinAddr: 0xACB6C, symSize: 0x0 }
+  - { offset: 0x25560, size: 0x8, addend: 0x0, symName: '-[EOConfigService fileExistsAtFullPath:]', symObjAddr: 0x12690, symBinAddr: 0x79A90, symSize: 0x7D8 }
+  - { offset: 0x2558B, size: 0x8, addend: 0x0, symName: '_fileExistsAtFullPath:.eoDebug', symObjAddr: 0x1C120, symBinAddr: 0xACB70, symSize: 0x0 }
+  - { offset: 0x255A1, size: 0x8, addend: 0x0, symName: '_fileExistsAtFullPath:.eoDebugKiwi', symObjAddr: 0x1C124, symBinAddr: 0xACB74, symSize: 0x0 }
+  - { offset: 0x255B7, size: 0x8, addend: 0x0, symName: '_fileExistsAtFullPath:.eoMiCloudSDKMachine', symObjAddr: 0x1C128, symBinAddr: 0xACB78, symSize: 0x0 }
+  - { offset: 0x2566E, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfigItemAsBool:withDefault:forModuleName:]', symObjAddr: 0x12E68, symBinAddr: 0x7A268, symSize: 0x1420 }
+  - { offset: 0x25699, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebug', symObjAddr: 0x1C12C, symBinAddr: 0xACB7C, symSize: 0x0 }
+  - { offset: 0x256AF, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebugKiwi', symObjAddr: 0x1C130, symBinAddr: 0xACB80, symSize: 0x0 }
+  - { offset: 0x256C5, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoMiCloudSDKMachine', symObjAddr: 0x1C134, symBinAddr: 0xACB84, symSize: 0x0 }
+  - { offset: 0x256DB, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebug.301', symObjAddr: 0x1C138, symBinAddr: 0xACB88, symSize: 0x0 }
+  - { offset: 0x256F1, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebugKiwi.302', symObjAddr: 0x1C13C, symBinAddr: 0xACB8C, symSize: 0x0 }
+  - { offset: 0x25707, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoMiCloudSDKMachine.303', symObjAddr: 0x1C140, symBinAddr: 0xACB90, symSize: 0x0 }
+  - { offset: 0x2571D, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebug.308', symObjAddr: 0x1C144, symBinAddr: 0xACB94, symSize: 0x0 }
+  - { offset: 0x25733, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoDebugKiwi.309', symObjAddr: 0x1C148, symBinAddr: 0xACB98, symSize: 0x0 }
+  - { offset: 0x25749, size: 0x8, addend: 0x0, symName: '_getConfigItemAsBool:withDefault:forModuleName:.eoMiCloudSDKMachine.310', symObjAddr: 0x1C14C, symBinAddr: 0xACB9C, symSize: 0x0 }
+  - { offset: 0x258B7, size: 0x8, addend: 0x0, symName: '-[EOConfigService getNumberItemFor:withDefault:forModule:]', symObjAddr: 0x14288, symBinAddr: 0x7B688, symSize: 0xE3C }
+  - { offset: 0x258E2, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoDebug', symObjAddr: 0x1C150, symBinAddr: 0xACBA0, symSize: 0x0 }
+  - { offset: 0x258F8, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoDebugKiwi', symObjAddr: 0x1C154, symBinAddr: 0xACBA4, symSize: 0x0 }
+  - { offset: 0x2590E, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoMiCloudSDKMachine', symObjAddr: 0x1C158, symBinAddr: 0xACBA8, symSize: 0x0 }
+  - { offset: 0x25924, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoDebug.311', symObjAddr: 0x1C15C, symBinAddr: 0xACBAC, symSize: 0x0 }
+  - { offset: 0x2593A, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoDebugKiwi.312', symObjAddr: 0x1C160, symBinAddr: 0xACBB0, symSize: 0x0 }
+  - { offset: 0x25950, size: 0x8, addend: 0x0, symName: '_getNumberItemFor:withDefault:forModule:.eoMiCloudSDKMachine.313', symObjAddr: 0x1C164, symBinAddr: 0xACBB4, symSize: 0x0 }
+  - { offset: 0x25A7A, size: 0x8, addend: 0x0, symName: '-[EOConfigService setConfigItemForKey:WithValue:forModule:]', symObjAddr: 0x150C4, symBinAddr: 0x7C4C4, symSize: 0x1B7C }
+  - { offset: 0x25AA5, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebug', symObjAddr: 0x1C168, symBinAddr: 0xACBB8, symSize: 0x0 }
+  - { offset: 0x25ABB, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebugKiwi', symObjAddr: 0x1C16C, symBinAddr: 0xACBBC, symSize: 0x0 }
+  - { offset: 0x25AD1, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoMiCloudSDKMachine', symObjAddr: 0x1C170, symBinAddr: 0xACBC0, symSize: 0x0 }
+  - { offset: 0x25AE7, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebug.318', symObjAddr: 0x1C174, symBinAddr: 0xACBC4, symSize: 0x0 }
+  - { offset: 0x25AFD, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebugKiwi.319', symObjAddr: 0x1C178, symBinAddr: 0xACBC8, symSize: 0x0 }
+  - { offset: 0x25B13, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoMiCloudSDKMachine.320', symObjAddr: 0x1C17C, symBinAddr: 0xACBCC, symSize: 0x0 }
+  - { offset: 0x25B29, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebug.325', symObjAddr: 0x1C180, symBinAddr: 0xACBD0, symSize: 0x0 }
+  - { offset: 0x25B3F, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebugKiwi.326', symObjAddr: 0x1C184, symBinAddr: 0xACBD4, symSize: 0x0 }
+  - { offset: 0x25B55, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoMiCloudSDKMachine.327', symObjAddr: 0x1C188, symBinAddr: 0xACBD8, symSize: 0x0 }
+  - { offset: 0x25B6B, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebug.332', symObjAddr: 0x1C18C, symBinAddr: 0xACBDC, symSize: 0x0 }
+  - { offset: 0x25B81, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoDebugKiwi.333', symObjAddr: 0x1C190, symBinAddr: 0xACBE0, symSize: 0x0 }
+  - { offset: 0x25B97, size: 0x8, addend: 0x0, symName: '_setConfigItemForKey:WithValue:forModule:.eoMiCloudSDKMachine.334', symObjAddr: 0x1C194, symBinAddr: 0xACBE4, symSize: 0x0 }
+  - { offset: 0x25EA6, size: 0x8, addend: 0x0, symName: '___33+[EOConfigService sharedInstance]_block_invoke', symObjAddr: 0xB0, symBinAddr: 0x674B0, symSize: 0x4C }
+  - { offset: 0x25EE3, size: 0x8, addend: 0x0, symName: '-[EOConfigService init]', symObjAddr: 0xFC, symBinAddr: 0x674FC, symSize: 0xF0 }
+  - { offset: 0x25F19, size: 0x8, addend: 0x0, symName: '-[EOConfigService isManualPostingEnabled]', symObjAddr: 0x1B74, symBinAddr: 0x68F74, symSize: 0x80 }
+  - { offset: 0x25F4F, size: 0x8, addend: 0x0, symName: '-[EOConfigService cachingLevel]', symObjAddr: 0x3574, symBinAddr: 0x6A974, symSize: 0xB4 }
+  - { offset: 0x25F85, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostOnIntervalsEnabled]', symObjAddr: 0x3628, symBinAddr: 0x6AA28, symSize: 0x80 }
+  - { offset: 0x25FBB, size: 0x8, addend: 0x0, symName: '-[EOConfigService isHasToPersistLocalCacheEnabled]', symObjAddr: 0x36A8, symBinAddr: 0x6AAA8, symSize: 0x80 }
+  - { offset: 0x25FF1, size: 0x8, addend: 0x0, symName: '-[EOConfigService loggingLevel]', symObjAddr: 0x3728, symBinAddr: 0x6AB28, symSize: 0xB4 }
+  - { offset: 0x26027, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageLevelCellular]', symObjAddr: 0x37DC, symBinAddr: 0x6ABDC, symSize: 0xB4 }
+  - { offset: 0x2605D, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageLevelWifi]', symObjAddr: 0x3890, symBinAddr: 0x6AC90, symSize: 0xB4 }
+  - { offset: 0x26093, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageTimeIntervals]', symObjAddr: 0x3944, symBinAddr: 0x6AD44, symSize: 0xB4 }
+  - { offset: 0x260C9, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppComesFromBackgroundEnabled]', symObjAddr: 0x39F8, symBinAddr: 0x6ADF8, symSize: 0x80 }
+  - { offset: 0x260FF, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppGoesToBackgroundEnabled]', symObjAddr: 0x3A78, symBinAddr: 0x6AE78, symSize: 0x80 }
+  - { offset: 0x26135, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppGoesToCloseEnabled]', symObjAddr: 0x3AF8, symBinAddr: 0x6AEF8, symSize: 0x80 }
+  - { offset: 0x2616B, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppIsLaunchedEnabled]', symObjAddr: 0x3B78, symBinAddr: 0x6AF78, symSize: 0x80 }
+  - { offset: 0x261A1, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostOnScreenChangeEnabled]', symObjAddr: 0x3BF8, symBinAddr: 0x6AFF8, symSize: 0x80 }
+  - { offset: 0x261D7, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDynamicConfigurationEnabled]', symObjAddr: 0x3C78, symBinAddr: 0x6B078, symSize: 0x80 }
+  - { offset: 0x2620D, size: 0x8, addend: 0x0, symName: '-[EOConfigService cachedFileMaxBytesSize]', symObjAddr: 0x3CF8, symBinAddr: 0x6B0F8, symSize: 0xB8 }
+  - { offset: 0x26243, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageMaxBytesSize]', symObjAddr: 0x3DB0, symBinAddr: 0x6B1B0, symSize: 0xB8 }
+  - { offset: 0x26279, size: 0x8, addend: 0x0, symName: '-[EOConfigService maxNumberOfFilesToCache]', symObjAddr: 0x3E68, symBinAddr: 0x6B268, symSize: 0xB4 }
+  - { offset: 0x262AF, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageTimeout]', symObjAddr: 0x3F1C, symBinAddr: 0x6B31C, symSize: 0xB4 }
+  - { offset: 0x262E5, size: 0x8, addend: 0x0, symName: '-[EOConfigService criticalBatteryLevel]', symObjAddr: 0x3FD0, symBinAddr: 0x6B3D0, symSize: 0xB8 }
+  - { offset: 0x2631B, size: 0x8, addend: 0x0, symName: '-[EOConfigService libraryVersion]', symObjAddr: 0x4088, symBinAddr: 0x6B488, symSize: 0x80 }
+  - { offset: 0x26351, size: 0x8, addend: 0x0, symName: '-[EOConfigService messageVersion]', symObjAddr: 0x4108, symBinAddr: 0x6B508, symSize: 0x80 }
+  - { offset: 0x26387, size: 0x8, addend: 0x0, symName: '-[EOConfigService turnOffCorrectOrientationUpdates]', symObjAddr: 0x4188, symBinAddr: 0x6B588, symSize: 0x80 }
+  - { offset: 0x263BD, size: 0x8, addend: 0x0, symName: '-[EOConfigService defaultOrientation]', symObjAddr: 0x4208, symBinAddr: 0x6B608, symSize: 0xB4 }
+  - { offset: 0x263F3, size: 0x8, addend: 0x0, symName: '-[EOConfigService currentConfigurableItemsForLifecycleObject:]', symObjAddr: 0x102D0, symBinAddr: 0x776D0, symSize: 0x70 }
+  - { offset: 0x26439, size: 0x8, addend: 0x0, symName: '-[EOConfigService isEnabled]', symObjAddr: 0x16C40, symBinAddr: 0x7E040, symSize: 0x20 }
+  - { offset: 0x2646F, size: 0x8, addend: 0x0, symName: '-[EOConfigService configurations]', symObjAddr: 0x16C60, symBinAddr: 0x7E060, symSize: 0x1C }
+  - { offset: 0x264A5, size: 0x8, addend: 0x0, symName: '-[EOConfigService setConfigurations:]', symObjAddr: 0x16C7C, symBinAddr: 0x7E07C, symSize: 0x34 }
+  - { offset: 0x264E3, size: 0x8, addend: 0x0, symName: '-[EOConfigService .cxx_destruct]', symObjAddr: 0x16CB0, symBinAddr: 0x7E0B0, symSize: 0x30 }
 ...

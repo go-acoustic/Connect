@@ -348,6 +348,24 @@ NS_ASSUME_NONNULL_BEGIN
 /// are intended only for app developers.
 + (ConnectApplicationHelper *)_connectSharedInstance;
 
+/// Pre-populates `EOCore.tempConfigDict` with the default values from the
+/// standard config bundles for both the `EOCore` and `TLFCoreModule` modules.
+///
+/// Call this before `_connectEnableWithAppKey:postURL:` so that `loadConfig:`
+/// succeeds even when `EOCoreSettings.bundle` and `TLFResources.bundle` are
+/// absent from the app target.  Values written here are overridden by bundle
+/// values (if the bundle is present) and then again by any programmatic
+/// overrides supplied via `ConnectConfig`.
+- (void)_connectApplyBundleDefaults;
+
+/// Testable variant of `_connectApplyBundleDefaults`.
+///
+/// - Parameter bundleExists: A block that receives a bundle name (without the
+///   `.bundle` extension) and returns `YES` if that bundle is present in the
+///   app. Pass a block that consults `Bundle.main` in production, or a stub
+///   that returns a fixed value in tests.
+- (void)_connectApplyBundleDefaultsWithBundleExists:(BOOL (^)(NSString *bundleName))bundleExists;
+
 /// Enables the framework with explicit credentials.
 /// Equivalent to the public `enableFramework:withPostMessageUrl:` without compiler warnings.
 - (BOOL)_connectEnableWithAppKey:(NSString *)appKey postURL:(NSString *)postURL;

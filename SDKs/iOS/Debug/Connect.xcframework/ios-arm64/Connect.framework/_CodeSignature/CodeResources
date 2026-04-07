@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		JrVsLZLGMPQNkYhZdD1djhCLdXE=
+		yKZnlwjWYX5e1Llcbqz4BPoSYy8=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/ConnectApplicationHelper.h</key>
 		<data>
-		T7Ix7pkN6OvrvjAbzORSSAr3Hjo=
+		4NccVIFwXeFhl429S/sbVpaeslE=
 		</data>
 		<key>Headers/ConnectBridgingHeader.h</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9r8rYaxza9efNCBH2o8JX3A/zMI=
+		3H/GDQSX9D8p9jbD9z2qKyU4mxo=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WsdbsYcfEAnTySsXkl5NyoVsskc=
+		0eLX+ZT2g5jpHPyDcVg6xwozo2s=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0StCxPLvEW9xekY1re0/bz9NIZ4=
+		aSEiUBdvMOw7ZXxVVUc+Tvl+MKM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IwNQRcndnAYL6kzAOtR6JM4erZFszfWBzaMJmtassjQ=
+			oX8NC+b1VY6RymP9duf3T+xDruuFalO5I6atl+Q8q6Y=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qr5cEYMfxSZoNYgg0nNydclfWtTwpxum3ShCqYHSiSs=
+			gkHvtPytaUYv9ycgpIz/YriCODDgBGyfl5KPTv7BGvg=
 			</data>
 		</dict>
 		<key>Headers/ConnectBridgingHeader.h</key>
@@ -187,7 +187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tTSy/bNipVgzC8vi44LFJc0jX65QzKtUEoGyioBmHYo=
+			Sh4SUZrlA5Z51v9XBUQH0HUDpbK6OZw+i+jKsWc7+dk=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -215,7 +215,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9P/tb0n+X8FiNdpOnJpRTfo3eDYzlEUDUEsJFcYU4SY=
+			DtXmMKlDcGbMStgV+eYNiQuOMyGX9olTIWi4AegvKas=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
