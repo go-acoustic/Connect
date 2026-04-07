@@ -250,6 +250,7 @@ extension Connect.ConnectConfig {
     public init(autoLayout: [Swift.AnyHashable : Any]? = nil, appendMapIds: [Swift.AnyHashable : Any]? = nil)
     #endif
     public static func loadFromBundle() -> Connect.ConnectConfig.Layout
+    public static let basicAnalytics: Connect.ConnectConfig.Layout
     public static let none: Connect.ConnectConfig.Layout
   }
 }

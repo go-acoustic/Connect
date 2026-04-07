@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-gnnkeufzyvovlhgetcbmfmrdmqpz/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Connect.framework/Connect'
 relocations:
-  - { offset: 0xACC9B, size: 0x8, addend: 0x0, symName: _ConnectVersionString, symObjAddr: 0x0, symBinAddr: 0x59F40, symSize: 0x0 }
-  - { offset: 0xACCD0, size: 0x8, addend: 0x0, symName: _ConnectVersionNumber, symObjAddr: 0x28, symBinAddr: 0x59F68, symSize: 0x0 }
+  - { offset: 0xACC9B, size: 0x8, addend: 0x0, symName: _ConnectVersionString, symObjAddr: 0x0, symBinAddr: 0x5A7A0, symSize: 0x0 }
+  - { offset: 0xACCD0, size: 0x8, addend: 0x0, symName: _ConnectVersionNumber, symObjAddr: 0x28, symBinAddr: 0x5A7C8, symSize: 0x0 }
   - { offset: 0xACD0D, size: 0x8, addend: 0x0, symName: '+[ConnectDelegateProxy installOnApplication:tokenHandler:failureHandler:]', symObjAddr: 0x0, symBinAddr: 0x1AE8, symSize: 0x1D0 }
   - { offset: 0xACD27, size: 0x8, addend: 0x0, symName: _kConnectOriginalClassAssocKey, symObjAddr: 0x1518, symBinAddr: 0x6CDC0, symSize: 0x0 }
   - { offset: 0xACD48, size: 0x8, addend: 0x0, symName: _kConnectInstalledClassAssocKey, symObjAddr: 0x1520, symBinAddr: 0x6CDC8, symSize: 0x0 }
@@ -36,8 +36,8 @@ relocations:
   - { offset: 0xAD844, size: 0x8, addend: 0x0, symName: '-[ConnectDelegateProxy .cxx_destruct]', symObjAddr: 0x146C, symBinAddr: 0x2F54, symSize: 0x54 }
   - { offset: 0xADBC2, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2FA8, symSize: 0xB0 }
   - { offset: 0xADBD0, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2FA8, symSize: 0xB0 }
-  - { offset: 0xADBFA, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xAC28, symBinAddr: 0x79180, symSize: 0x0 }
-  - { offset: 0xADC10, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xAC30, symBinAddr: 0x79188, symSize: 0x0 }
+  - { offset: 0xADBFA, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xAC28, symBinAddr: 0x79190, symSize: 0x0 }
+  - { offset: 0xADC10, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xAC30, symBinAddr: 0x79198, symSize: 0x0 }
   - { offset: 0xADD31, size: 0x8, addend: 0x0, symName: '___36+[ConnectCustomEvent sharedInstance]_block_invoke', symObjAddr: 0xB0, symBinAddr: 0x3058, symSize: 0x70 }
   - { offset: 0xADD71, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:]', symObjAddr: 0x120, symBinAddr: 0x30C8, symSize: 0x70 }
   - { offset: 0xADDB9, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:values:]', symObjAddr: 0x190, symBinAddr: 0x3138, symSize: 0xB8 }
@@ -101,8 +101,8 @@ relocations:
   - { offset: 0xAF624, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendAction:to:from:forEvent:]', symObjAddr: 0x4C, symBinAddr: 0x5FF4, symSize: 0xA0 }
   - { offset: 0xAF73F, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6094, symSize: 0xB0 }
   - { offset: 0xAF74D, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6094, symSize: 0xB0 }
-  - { offset: 0xAF777, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xD490, symBinAddr: 0x79190, symSize: 0x0 }
-  - { offset: 0xAF78D, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD498, symBinAddr: 0x79198, symSize: 0x0 }
+  - { offset: 0xAF777, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xD490, symBinAddr: 0x791A0, symSize: 0x0 }
+  - { offset: 0xAF78D, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD498, symBinAddr: 0x791A8, symSize: 0x0 }
   - { offset: 0xAF841, size: 0x8, addend: 0x0, symName: '___42+[ConnectApplicationHelper sharedInstance]_block_invoke', symObjAddr: 0xB0, symBinAddr: 0x6144, symSize: 0x4C }
   - { offset: 0xAF881, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper init]', symObjAddr: 0xFC, symBinAddr: 0x6190, symSize: 0x134 }
   - { offset: 0xAF8BA, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableFramework]', symObjAddr: 0x230, symBinAddr: 0x62C4, symSize: 0x60 }
@@ -245,8 +245,8 @@ relocations:
   - { offset: 0xB1BDF, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20PushActionIdentifierOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x3DC, symBinAddr: 0xAE3C, symSize: 0x20 }
   - { offset: 0xB1BF3, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20PushActionIdentifierOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x3FC, symBinAddr: 0xAE5C, symSize: 0x2C }
   - { offset: 0xB1D18, size: 0x8, addend: 0x0, symName: '_$s7Connect0A22PushCategoryIdentifierV15acousticActions_WZ', symObjAddr: 0x0, symBinAddr: 0xB2A0, symSize: 0x40 }
-  - { offset: 0xB1D3C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A22PushCategoryIdentifierV15acousticActionsSSvpZ', symObjAddr: 0x26C0, symBinAddr: 0x79328, symSize: 0x0 }
-  - { offset: 0xB1D56, size: 0x8, addend: 0x0, symName: '_$s7Connect0A22PushCategoryIdentifierV19acousticRichContentSSvpZ', symObjAddr: 0x26D8, symBinAddr: 0x79340, symSize: 0x0 }
+  - { offset: 0xB1D3C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A22PushCategoryIdentifierV15acousticActionsSSvpZ', symObjAddr: 0x26C0, symBinAddr: 0x79338, symSize: 0x0 }
+  - { offset: 0xB1D56, size: 0x8, addend: 0x0, symName: '_$s7Connect0A22PushCategoryIdentifierV19acousticRichContentSSvpZ', symObjAddr: 0x26D8, symBinAddr: 0x79350, symSize: 0x0 }
   - { offset: 0xB1D64, size: 0x8, addend: 0x0, symName: '_$s7Connect0A22PushCategoryIdentifierV15acousticActions_WZ', symObjAddr: 0x0, symBinAddr: 0xB2A0, symSize: 0x40 }
   - { offset: 0xB1D7E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A22PushCategoryIdentifierV15acousticActionsSSvau', symObjAddr: 0x40, symBinAddr: 0xB2E0, symSize: 0x50 }
   - { offset: 0xB1DEE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A22PushCategoryIdentifierV19acousticRichContent_WZ', symObjAddr: 0xC8, symBinAddr: 0xB368, symSize: 0x40 }
@@ -407,7 +407,7 @@ relocations:
   - { offset: 0xB460B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A4PushC30registerNotificationCategoriesyyF', symObjAddr: 0x3014, symBinAddr: 0x10A9C, symSize: 0x64 }
   - { offset: 0xB4630, size: 0x8, addend: 0x0, symName: '_$s7Connect0A4PushC14registerDeviceyyF', symObjAddr: 0x3078, symBinAddr: 0x10B00, symSize: 0x64 }
   - { offset: 0xB47F5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x11CA0, symSize: 0x48 }
-  - { offset: 0xB4819, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKC6sharedACvpZ', symObjAddr: 0x6288, symBinAddr: 0x794D8, symSize: 0x0 }
+  - { offset: 0xB4819, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKC6sharedACvpZ', symObjAddr: 0x6288, symBinAddr: 0x794E8, symSize: 0x0 }
   - { offset: 0xB4A16, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x11CA0, symSize: 0x48 }
   - { offset: 0xB4A30, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKCMa', symObjAddr: 0x48, symBinAddr: 0x11CE8, symSize: 0x24 }
   - { offset: 0xB4A44, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKC14messageFlusherAcA13QueueFlushing_p_tcfcfA_', symObjAddr: 0x6C, symBinAddr: 0x11D0C, symSize: 0x54 }
@@ -439,9 +439,9 @@ relocations:
   - { offset: 0xB4FE2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKCfd', symObjAddr: 0x19F0, symBinAddr: 0x1335C, symSize: 0x44 }
   - { offset: 0xB5006, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKCfD', symObjAddr: 0x1A34, symBinAddr: 0x133A0, symSize: 0x3C }
   - { offset: 0xB5182, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV3off_WZ', symObjAddr: 0x0, symBinAddr: 0x13410, symSize: 0x34 }
-  - { offset: 0xB51A6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV3offACvpZ', symObjAddr: 0x4528, symBinAddr: 0x794E8, symSize: 0x0 }
-  - { offset: 0xB5303, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV9automaticACvpZ', symObjAddr: 0x4548, symBinAddr: 0x79508, symSize: 0x0 }
-  - { offset: 0xB531D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV6manualACvpZ', symObjAddr: 0x4568, symBinAddr: 0x79528, symSize: 0x0 }
+  - { offset: 0xB51A6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV3offACvpZ', symObjAddr: 0x4528, symBinAddr: 0x794F8, symSize: 0x0 }
+  - { offset: 0xB5303, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV9automaticACvpZ', symObjAddr: 0x4548, symBinAddr: 0x79518, symSize: 0x0 }
+  - { offset: 0xB531D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV6manualACvpZ', symObjAddr: 0x4568, symBinAddr: 0x79538, symSize: 0x0 }
   - { offset: 0xB532B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV3off_WZ', symObjAddr: 0x0, symBinAddr: 0x13410, symSize: 0x34 }
   - { offset: 0xB5345, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV3offACvau', symObjAddr: 0x100, symBinAddr: 0x13510, symSize: 0x50 }
   - { offset: 0xB5363, size: 0x8, addend: 0x0, symName: '_$s7Connect0A10PushConfigV9automatic_WZ', symObjAddr: 0x178, symBinAddr: 0x13588, symSize: 0x38 }
@@ -654,7 +654,7 @@ relocations:
   - { offset: 0xB7229, size: 0x8, addend: 0x0, symName: '_$sSo29UNNotificationCategoryOptionsVSYSCSY8rawValuexSg03RawE0Qz_tcfCTW', symObjAddr: 0x1464, symBinAddr: 0x18C8C, symSize: 0x3C }
   - { offset: 0xB723D, size: 0x8, addend: 0x0, symName: '_$sSo29UNNotificationCategoryOptionsVSYSCSY8rawValue03RawE0QzvgTW', symObjAddr: 0x14A0, symBinAddr: 0x18CC8, symSize: 0x2C }
   - { offset: 0xB7251, size: 0x8, addend: 0x0, symName: '_$sSo29UNNotificationCategoryOptionsV8rawValueSuvg', symObjAddr: 0x189C, symBinAddr: 0x190C4, symSize: 0x4 }
-  - { offset: 0xB73B2, size: 0x8, addend: 0x0, symName: '_$s7Connect37tlfFrameworkDidEnableNotificationNameSo014NSNotificationG0avp', symObjAddr: 0x6998, symBinAddr: 0x7B730, symSize: 0x0 }
+  - { offset: 0xB73B2, size: 0x8, addend: 0x0, symName: '_$s7Connect37tlfFrameworkDidEnableNotificationNameSo014NSNotificationG0avp', symObjAddr: 0x6998, symBinAddr: 0x7B750, symSize: 0x0 }
   - { offset: 0xB73C0, size: 0x8, addend: 0x0, symName: '_$s7Connect37tlfFrameworkDidEnableNotificationName_WZ', symObjAddr: 0x0, symBinAddr: 0x190C8, symSize: 0x8C }
   - { offset: 0xB73DA, size: 0x8, addend: 0x0, symName: '_$s7Connect37tlfFrameworkDidEnableNotificationNameSo014NSNotificationG0avau', symObjAddr: 0x8C, symBinAddr: 0x19154, symSize: 0x50 }
   - { offset: 0xB74E8, size: 0x8, addend: 0x0, symName: '_$sSo8NSObject_pSgWOh', symObjAddr: 0x588, symBinAddr: 0x19648, symSize: 0x28 }
@@ -686,7 +686,7 @@ relocations:
   - { offset: 0xB7A55, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKC9sendEventyySo7UIEventCF', symObjAddr: 0x1DC, symBinAddr: 0x1A3D4, symSize: 0x70 }
   - { offset: 0xB7A92, size: 0x8, addend: 0x0, symName: '_$s7Connect0A3SDKC10sendAction_2to4from3fory10ObjectiveC8SelectorV_ypSgAKSo7UIEventCSgtF', symObjAddr: 0x24C, symBinAddr: 0x1A444, symSize: 0x264 }
   - { offset: 0xB7AFE, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x4B0, symBinAddr: 0x1A6A8, symSize: 0x70 }
-  - { offset: 0xB7CF9, size: 0x8, addend: 0x0, symName: '_$s7Connect25URLSessionImageDownloaderV03maxC5BytesSivpZ', symObjAddr: 0x71F0, symBinAddr: 0x5AD60, symSize: 0x0 }
+  - { offset: 0xB7CF9, size: 0x8, addend: 0x0, symName: '_$s7Connect25URLSessionImageDownloaderV03maxC5BytesSivpZ', symObjAddr: 0x71F0, symBinAddr: 0x5B5C0, symSize: 0x0 }
   - { offset: 0xB7D07, size: 0x8, addend: 0x0, symName: '_$s7Connect25URLSessionImageDownloaderV03maxC5Bytes_WZ', symObjAddr: 0x6C, symBinAddr: 0x1A784, symSize: 0x4 }
   - { offset: 0xB7D21, size: 0x8, addend: 0x0, symName: '_$s7Connect25URLSessionImageDownloaderV03maxC5BytesSivau', symObjAddr: 0x70, symBinAddr: 0x1A788, symSize: 0xC }
   - { offset: 0xB7DCE, size: 0x8, addend: 0x0, symName: '_$s7Connect25URLSessionImageDownloaderVMa', symObjAddr: 0x618, symBinAddr: 0x1ACB8, symSize: 0x60 }
@@ -824,8 +824,8 @@ relocations:
   - { offset: 0xB918C, size: 0x8, addend: 0x0, symName: __swift_stdlib_has_malloc_size, symObjAddr: 0x7198, symBinAddr: 0x215C8, symSize: 0xC }
   - { offset: 0xB919A, size: 0x8, addend: 0x0, symName: __swift_stdlib_has_malloc_size, symObjAddr: 0x7198, symBinAddr: 0x215C8, symSize: 0xC }
   - { offset: 0xB91B4, size: 0x8, addend: 0x0, symName: __swift_stdlib_malloc_size, symObjAddr: 0x71A4, symBinAddr: 0x215D4, symSize: 0x24 }
-  - { offset: 0xB9241, size: 0x8, addend: 0x0, symName: '_$s7Connect0A24PushAttachmentIdentifierO13expandedImageSSvpZ', symObjAddr: 0xE7A0, symBinAddr: 0x7B738, symSize: 0x0 }
-  - { offset: 0xB925B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A24PushAttachmentIdentifierO9largeIconSSvpZ', symObjAddr: 0xE7B0, symBinAddr: 0x7B748, symSize: 0x0 }
+  - { offset: 0xB9241, size: 0x8, addend: 0x0, symName: '_$s7Connect0A24PushAttachmentIdentifierO13expandedImageSSvpZ', symObjAddr: 0xE7A0, symBinAddr: 0x7B758, symSize: 0x0 }
+  - { offset: 0xB925B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A24PushAttachmentIdentifierO9largeIconSSvpZ', symObjAddr: 0xE7B0, symBinAddr: 0x7B768, symSize: 0x0 }
   - { offset: 0xB9269, size: 0x8, addend: 0x0, symName: '_$s7Connect0A24PushAttachmentIdentifierO13expandedImage_WZ', symObjAddr: 0x0, symBinAddr: 0x21620, symSize: 0x40 }
   - { offset: 0xB9283, size: 0x8, addend: 0x0, symName: '_$s7Connect0A24PushAttachmentIdentifierO13expandedImageSSvau', symObjAddr: 0x40, symBinAddr: 0x21660, symSize: 0x50 }
   - { offset: 0xB92D1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A24PushAttachmentIdentifierO9largeIcon_WZ', symObjAddr: 0xC8, symBinAddr: 0x216E8, symSize: 0x40 }
@@ -958,7 +958,7 @@ relocations:
   - { offset: 0xBA709, size: 0x8, addend: 0x0, symName: '_$s7Connect22NSEPendingPushReceivedVSeAASe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0x1B04, symBinAddr: 0x268D4, symSize: 0x6C }
   - { offset: 0xBA71D, size: 0x8, addend: 0x0, symName: '_$s7Connect22NSEPendingPushReceivedVSEAASE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0x1B70, symBinAddr: 0x26940, symSize: 0x70 }
   - { offset: 0xBA731, size: 0x8, addend: 0x0, symName: '_$s7Connect22NSEPendingPushReceivedVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x1BE0, symBinAddr: 0x269B0, symSize: 0x64 }
-  - { offset: 0xBA899, size: 0x8, addend: 0x0, symName: '_$s7Connect37nsePushReceivedSystemNotificationNameSSvp', symObjAddr: 0x5FA8, symBinAddr: 0x7B758, symSize: 0x0 }
+  - { offset: 0xBA899, size: 0x8, addend: 0x0, symName: '_$s7Connect37nsePushReceivedSystemNotificationNameSSvp', symObjAddr: 0x5FA8, symBinAddr: 0x7B778, symSize: 0x0 }
   - { offset: 0xBA8A7, size: 0x8, addend: 0x0, symName: '_$s7Connect37nsePushReceivedSystemNotificationName_WZ', symObjAddr: 0x0, symBinAddr: 0x27970, symSize: 0x40 }
   - { offset: 0xBA8C1, size: 0x8, addend: 0x0, symName: '_$s7Connect37nsePushReceivedSystemNotificationNameSSvau', symObjAddr: 0x40, symBinAddr: 0x279B0, symSize: 0x50 }
   - { offset: 0xBAA5E, size: 0x8, addend: 0x0, symName: '_$sIeg_SgWOy', symObjAddr: 0x288, symBinAddr: 0x27BEC, symSize: 0x30 }
@@ -1006,7 +1006,7 @@ relocations:
   - { offset: 0xBB1A5, size: 0x8, addend: 0x0, symName: '_$s7Connect18NoOpSystemNotifierCAA18NSESystemNotifyingA2aDP16postPushReceivedyyFTW', symObjAddr: 0xC9C, symBinAddr: 0x28600, symSize: 0x20 }
   - { offset: 0xBB1B9, size: 0x8, addend: 0x0, symName: '_$s7Connect18NoOpSystemNotifierCAA18NSESystemObservingA2aDP19observePushReceived7handleryyyc_tFTW', symObjAddr: 0xCBC, symBinAddr: 0x28620, symSize: 0x14 }
   - { offset: 0xBB1CD, size: 0x8, addend: 0x0, symName: '_$s7Connect18NoOpSystemNotifierCAA18NSESystemObservingA2aDP14removeObserveryyFTW', symObjAddr: 0xCD0, symBinAddr: 0x28634, symSize: 0x14 }
-  - { offset: 0xBB377, size: 0x8, addend: 0x0, symName: '_$s7Connect32UserDefaultsNSEPushReceivedStoreC10storageKey33_F6AFC28CF9646894E515B786B75632D8LLSSvpZ', symObjAddr: 0x50E8, symBinAddr: 0x7A5C0, symSize: 0x0 }
+  - { offset: 0xBB377, size: 0x8, addend: 0x0, symName: '_$s7Connect32UserDefaultsNSEPushReceivedStoreC10storageKey33_F6AFC28CF9646894E515B786B75632D8LLSSvpZ', symObjAddr: 0x50E8, symBinAddr: 0x7A5D0, symSize: 0x0 }
   - { offset: 0xBB385, size: 0x8, addend: 0x0, symName: '_$s7Connect32UserDefaultsNSEPushReceivedStoreC10storageKey33_F6AFC28CF9646894E515B786B75632D8LL_WZ', symObjAddr: 0x0, symBinAddr: 0x28A2C, symSize: 0x40 }
   - { offset: 0xBB39F, size: 0x8, addend: 0x0, symName: '_$s7Connect32UserDefaultsNSEPushReceivedStoreC10storageKey33_F6AFC28CF9646894E515B786B75632D8LLSSvau', symObjAddr: 0x40, symBinAddr: 0x28A6C, symSize: 0x50 }
   - { offset: 0xBB4F7, size: 0x8, addend: 0x0, symName: '_$sSo14NSUserDefaultsCMa', symObjAddr: 0x324, symBinAddr: 0x28C9C, symSize: 0x60 }
@@ -1505,7 +1505,7 @@ relocations:
   - { offset: 0xC23F3, size: 0x8, addend: 0x0, symName: '_$s7Connect0A16PushEventHandlerCAA0bC8HandlingA2aDP23didReceiveAuthorization7granted5errorySb_s5Error_pSgtFTW', symObjAddr: 0x3F80, symBinAddr: 0x3F200, symSize: 0x18 }
   - { offset: 0xC240D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A16PushEventHandlerCAA0bC8HandlingA2aDP22didReceiveNotification8userInfoySDys11AnyHashableVypG_tFTW', symObjAddr: 0x3F98, symBinAddr: 0x3F218, symSize: 0x14 }
   - { offset: 0xC2421, size: 0x8, addend: 0x0, symName: '_$s7Connect0A16PushEventHandlerCAA0bC8HandlingA2aDP16didReceiveAction7payload8metadatayAA0aB7PayloadV_AA0aB8MetadataVtFTW', symObjAddr: 0x3FAC, symBinAddr: 0x3F22C, symSize: 0x14 }
-  - { offset: 0xC25DA, size: 0x8, addend: 0x0, symName: '_$s7Connect33UserDefaultsPushRegistrationStoreC3key33_6E02C0BC051834A3BADF1C7487BEADA2LLSSvpZ', symObjAddr: 0x29E0, symBinAddr: 0x7AD68, symSize: 0x0 }
+  - { offset: 0xC25DA, size: 0x8, addend: 0x0, symName: '_$s7Connect33UserDefaultsPushRegistrationStoreC3key33_6E02C0BC051834A3BADF1C7487BEADA2LLSSvpZ', symObjAddr: 0x29E0, symBinAddr: 0x7AD78, symSize: 0x0 }
   - { offset: 0xC25E8, size: 0x8, addend: 0x0, symName: '_$s7Connect33UserDefaultsPushRegistrationStoreC3key33_6E02C0BC051834A3BADF1C7487BEADA2LL_WZ', symObjAddr: 0x0, symBinAddr: 0x3F700, symSize: 0x40 }
   - { offset: 0xC2602, size: 0x8, addend: 0x0, symName: '_$s7Connect33UserDefaultsPushRegistrationStoreC3key33_6E02C0BC051834A3BADF1C7487BEADA2LLSSvau', symObjAddr: 0x40, symBinAddr: 0x3F740, symSize: 0x50 }
   - { offset: 0xC26ED, size: 0x8, addend: 0x0, symName: '_$s7Connect33UserDefaultsPushRegistrationStoreCMa', symObjAddr: 0x350, symBinAddr: 0x3FA50, symSize: 0x24 }
@@ -1584,9 +1584,9 @@ relocations:
   - { offset: 0xC349B, size: 0x8, addend: 0x0, symName: '_$sSo33UNNotificationPresentationOptionsVSYSCSY8rawValuexSg03RawE0Qz_tcfCTW', symObjAddr: 0x227C, symBinAddr: 0x41A54, symSize: 0x3C }
   - { offset: 0xC34AF, size: 0x8, addend: 0x0, symName: '_$sSo33UNNotificationPresentationOptionsVSYSCSY8rawValue03RawE0QzvgTW', symObjAddr: 0x22B8, symBinAddr: 0x41A90, symSize: 0x2C }
   - { offset: 0xC34C3, size: 0x8, addend: 0x0, symName: '_$sSo33UNNotificationPresentationOptionsV8rawValueSuvg', symObjAddr: 0x22E4, symBinAddr: 0x41ABC, symSize: 0x4 }
-  - { offset: 0xC3662, size: 0x8, addend: 0x0, symName: '_$s7Connect0A28NotificationContentExtensionC6Layout33_3B172856EBD36CED11B889E2A223670BLLO7padding12CoreGraphics7CGFloatVvpZ', symObjAddr: 0xEF60, symBinAddr: 0x5BFF0, symSize: 0x0 }
-  - { offset: 0xC367C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A28NotificationContentExtensionC6Layout33_3B172856EBD36CED11B889E2A223670BLLO12bodyFontSize12CoreGraphics7CGFloatVvpZ', symObjAddr: 0xEF68, symBinAddr: 0x5BFF8, symSize: 0x0 }
-  - { offset: 0xC3696, size: 0x8, addend: 0x0, symName: '_$s7Connect0A28NotificationContentExtensionC5Color33_3B172856EBD36CED11B889E2A223670BLLO4bodySo7UIColorCvpZ', symObjAddr: 0x27B80, symBinAddr: 0x7B008, symSize: 0x0 }
+  - { offset: 0xC3662, size: 0x8, addend: 0x0, symName: '_$s7Connect0A28NotificationContentExtensionC6Layout33_3B172856EBD36CED11B889E2A223670BLLO7padding12CoreGraphics7CGFloatVvpZ', symObjAddr: 0xEF60, symBinAddr: 0x5C850, symSize: 0x0 }
+  - { offset: 0xC367C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A28NotificationContentExtensionC6Layout33_3B172856EBD36CED11B889E2A223670BLLO12bodyFontSize12CoreGraphics7CGFloatVvpZ', symObjAddr: 0xEF68, symBinAddr: 0x5C858, symSize: 0x0 }
+  - { offset: 0xC3696, size: 0x8, addend: 0x0, symName: '_$s7Connect0A28NotificationContentExtensionC5Color33_3B172856EBD36CED11B889E2A223670BLLO4bodySo7UIColorCvpZ', symObjAddr: 0x27B80, symBinAddr: 0x7B018, symSize: 0x0 }
   - { offset: 0xC3A28, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorCMa', symObjAddr: 0x98, symBinAddr: 0x41EC4, symSize: 0x60 }
   - { offset: 0xC3A3C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A28NotificationContentExtensionCMa', symObjAddr: 0xE1C, symBinAddr: 0x42B98, symSize: 0x60 }
   - { offset: 0xC3A50, size: 0x8, addend: 0x0, symName: '_$s7Connect0A28NotificationContentExtensionCfETo', symObjAddr: 0xA098, symBinAddr: 0x4BB7C, symSize: 0xB4 }
@@ -1816,9 +1816,9 @@ relocations:
   - { offset: 0xC53FD, size: 0x8, addend: 0x0, symName: '_$sSo11UIImageViewCABycfcTO', symObjAddr: 0xA16C, symBinAddr: 0x4BC50, symSize: 0x20 }
   - { offset: 0xC5411, size: 0x8, addend: 0x0, symName: '_$sSo7UILabelCABycfcTO', symObjAddr: 0xA18C, symBinAddr: 0x4BC70, symSize: 0x20 }
   - { offset: 0xC5425, size: 0x8, addend: 0x0, symName: '_$sSo7UIImageC14contentsOfFileABSgSS_tcfcTO', symObjAddr: 0xA1AC, symBinAddr: 0x4BC90, symSize: 0x60 }
-  - { offset: 0xC55BF, size: 0x8, addend: 0x0, symName: _UILayoutPriorityDefaultHigh, symObjAddr: 0xEF70, symBinAddr: 0x5C000, symSize: 0x0 }
-  - { offset: 0xC55D5, size: 0x8, addend: 0x0, symName: _UILayoutPriorityRequired, symObjAddr: 0xEF74, symBinAddr: 0x5C004, symSize: 0x0 }
-  - { offset: 0xC55EB, size: 0x8, addend: 0x0, symName: _UILayoutPriorityFittingSizeLevel, symObjAddr: 0xEF78, symBinAddr: 0x5C008, symSize: 0x0 }
+  - { offset: 0xC55BF, size: 0x8, addend: 0x0, symName: _UILayoutPriorityDefaultHigh, symObjAddr: 0xEF70, symBinAddr: 0x5C860, symSize: 0x0 }
+  - { offset: 0xC55D5, size: 0x8, addend: 0x0, symName: _UILayoutPriorityRequired, symObjAddr: 0xEF74, symBinAddr: 0x5C864, symSize: 0x0 }
+  - { offset: 0xC55EB, size: 0x8, addend: 0x0, symName: _UILayoutPriorityFittingSizeLevel, symObjAddr: 0xEF78, symBinAddr: 0x5C868, symSize: 0x0 }
   - { offset: 0xC5638, size: 0x8, addend: 0x0, symName: '_$s7Connect0A18PushMobileProviderO8rawValueACSgSS_tcfC', symObjAddr: 0x0, symBinAddr: 0x4E5FC, symSize: 0x178 }
   - { offset: 0xC56B7, size: 0x8, addend: 0x0, symName: '_$s7Connect0A18PushMobileProviderOSHAASQWb', symObjAddr: 0x2C8, symBinAddr: 0x4E884, symSize: 0x14 }
   - { offset: 0xC56CB, size: 0x8, addend: 0x0, symName: '_$s7Connect0A18PushMobileProviderOACSQAAWl', symObjAddr: 0x2DC, symBinAddr: 0x4E898, symSize: 0x68 }
@@ -1886,231 +1886,235 @@ relocations:
   - { offset: 0xC6934, size: 0x8, addend: 0x0, symName: '_$s7Connect0A18PushReceivedLoggerCACycfc', symObjAddr: 0x159C, symBinAddr: 0x50A5C, symSize: 0x24 }
   - { offset: 0xC6958, size: 0x8, addend: 0x0, symName: '_$s7Connect0A18PushReceivedLoggerCAA0bC7LoggingA2aDP03logbC08metadataSbAA0aB8MetadataV_tFTW', symObjAddr: 0x15C0, symBinAddr: 0x50A80, symSize: 0x18 }
   - { offset: 0xC6A9C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6appKeySSvg', symObjAddr: 0x0, symBinAddr: 0x50B5C, symSize: 0x3C }
-  - { offset: 0xC6AC0, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV4noneAEvpZ', symObjAddr: 0x11B88, symBinAddr: 0x7B1B8, symSize: 0x0 }
-  - { offset: 0xC6B63, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV13killSwitchURLAEvpZ', symObjAddr: 0x11BA0, symBinAddr: 0x7B1D0, symSize: 0x0 }
-  - { offset: 0xC6CC9, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV14sessionTimeoutAEvpZ', symObjAddr: 0x11BB8, symBinAddr: 0x7B1E8, symSize: 0x0 }
-  - { offset: 0xC6CE4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV17manualPostEnabledAEvpZ', symObjAddr: 0x11BD0, symBinAddr: 0x7B200, symSize: 0x0 }
-  - { offset: 0xC6CFF, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV07dynamicB7EnabledAEvpZ', symObjAddr: 0x11BE8, symBinAddr: 0x7B218, symSize: 0x0 }
-  - { offset: 0xC6D1A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxBytesPerActivationAEvpZ', symObjAddr: 0x11C00, symBinAddr: 0x7B230, symSize: 0x0 }
-  - { offset: 0xC6D35, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxPostsPerActivationAEvpZ', symObjAddr: 0x11C18, symBinAddr: 0x7B248, symSize: 0x0 }
-  - { offset: 0xC6D50, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV19postIntervalSecondsAEvpZ', symObjAddr: 0x11C30, symBinAddr: 0x7B260, symSize: 0x0 }
-  - { offset: 0xC6D6B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV16maxPostBytesSizeAEvpZ', symObjAddr: 0x11C48, symBinAddr: 0x7B278, symSize: 0x0 }
-  - { offset: 0xC73B2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV4noneAEvau', symObjAddr: 0x1540, symBinAddr: 0x51E28, symSize: 0x50 }
-  - { offset: 0xC73D0, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVWOc', symObjAddr: 0x1590, symBinAddr: 0x51E78, symSize: 0x54 }
-  - { offset: 0xC73E4, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVMa', symObjAddr: 0x1700, symBinAddr: 0x51EF8, symSize: 0x94 }
-  - { offset: 0xC73F8, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABs10SetAlgebraSCWl', symObjAddr: 0x1794, symBinAddr: 0x51F8C, symSize: 0x6C }
-  - { offset: 0xC740C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVWOc', symObjAddr: 0x19AC, symBinAddr: 0x51FF8, symSize: 0x114 }
-  - { offset: 0xC7420, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVWOh', symObjAddr: 0x1AC0, symBinAddr: 0x5210C, symSize: 0x64 }
-  - { offset: 0xC7434, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVWOh', symObjAddr: 0x1B24, symBinAddr: 0x52170, symSize: 0x34 }
-  - { offset: 0xC7448, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV4none_WZ', symObjAddr: 0x1B58, symBinAddr: 0x521A4, symSize: 0x24 }
-  - { offset: 0xC7462, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVWOc', symObjAddr: 0x2074, symBinAddr: 0x526A8, symSize: 0x3C }
-  - { offset: 0xC7476, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVWOh', symObjAddr: 0x20B0, symBinAddr: 0x526E4, symSize: 0x28 }
-  - { offset: 0xC748A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV13killSwitchURL_WZ', symObjAddr: 0x2158, symBinAddr: 0x5278C, symSize: 0x38 }
-  - { offset: 0xC74A5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV13killSwitchURLAEvau', symObjAddr: 0x2190, symBinAddr: 0x527C4, symSize: 0x50 }
-  - { offset: 0xC74C4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV14sessionTimeout_WZ', symObjAddr: 0x2208, symBinAddr: 0x5283C, symSize: 0x38 }
-  - { offset: 0xC74DF, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV14sessionTimeoutAEvau', symObjAddr: 0x2240, symBinAddr: 0x52874, symSize: 0x50 }
-  - { offset: 0xC74FE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV17manualPostEnabled_WZ', symObjAddr: 0x22B8, symBinAddr: 0x528EC, symSize: 0x38 }
-  - { offset: 0xC7519, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV17manualPostEnabledAEvau', symObjAddr: 0x22F0, symBinAddr: 0x52924, symSize: 0x50 }
-  - { offset: 0xC7538, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV07dynamicB7Enabled_WZ', symObjAddr: 0x2368, symBinAddr: 0x5299C, symSize: 0x38 }
-  - { offset: 0xC7553, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV07dynamicB7EnabledAEvau', symObjAddr: 0x23A0, symBinAddr: 0x529D4, symSize: 0x50 }
-  - { offset: 0xC7572, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxBytesPerActivation_WZ', symObjAddr: 0x2418, symBinAddr: 0x52A4C, symSize: 0x38 }
-  - { offset: 0xC758D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxBytesPerActivationAEvau', symObjAddr: 0x2450, symBinAddr: 0x52A84, symSize: 0x50 }
-  - { offset: 0xC75AC, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxPostsPerActivation_WZ', symObjAddr: 0x24C8, symBinAddr: 0x52AFC, symSize: 0x38 }
-  - { offset: 0xC75C7, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxPostsPerActivationAEvau', symObjAddr: 0x2500, symBinAddr: 0x52B34, symSize: 0x50 }
-  - { offset: 0xC75E6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV19postIntervalSeconds_WZ', symObjAddr: 0x2578, symBinAddr: 0x52BAC, symSize: 0x38 }
-  - { offset: 0xC7601, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV19postIntervalSecondsAEvau', symObjAddr: 0x25B0, symBinAddr: 0x52BE4, symSize: 0x50 }
-  - { offset: 0xC7620, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV16maxPostBytesSize_WZ', symObjAddr: 0x2628, symBinAddr: 0x52C5C, symSize: 0x38 }
-  - { offset: 0xC763B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV16maxPostBytesSizeAEvau', symObjAddr: 0x2660, symBinAddr: 0x52C94, symSize: 0x50 }
-  - { offset: 0xC765A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVAESYAAWl', symObjAddr: 0x2784, symBinAddr: 0x52DB8, symSize: 0x68 }
-  - { offset: 0xC766E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSHAASQWb', symObjAddr: 0x28BC, symBinAddr: 0x52EF0, symSize: 0x14 }
-  - { offset: 0xC7682, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVAESQAAWl', symObjAddr: 0x28D0, symBinAddr: 0x52F04, symSize: 0x68 }
-  - { offset: 0xC7696, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwCP', symObjAddr: 0x2938, symBinAddr: 0x52F6C, symSize: 0x3C }
-  - { offset: 0xC76AA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwxx', symObjAddr: 0x2974, symBinAddr: 0x52FA8, symSize: 0x60 }
-  - { offset: 0xC76BE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwcp', symObjAddr: 0x29D4, symBinAddr: 0x53008, symSize: 0x114 }
-  - { offset: 0xC76D2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwca', symObjAddr: 0x2AE8, symBinAddr: 0x5311C, symSize: 0x18C }
-  - { offset: 0xC76E6, size: 0x8, addend: 0x0, symName: ___swift_memcpy120_8, symObjAddr: 0x2C74, symBinAddr: 0x532A8, symSize: 0x2C }
-  - { offset: 0xC76FA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwta', symObjAddr: 0x2CA0, symBinAddr: 0x532D4, symSize: 0x120 }
-  - { offset: 0xC770E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwet', symObjAddr: 0x2DC0, symBinAddr: 0x533F4, symSize: 0x118 }
-  - { offset: 0xC7722, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwst', symObjAddr: 0x2ED8, symBinAddr: 0x5350C, symSize: 0x1FC }
-  - { offset: 0xC7736, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVMa', symObjAddr: 0x30D4, symBinAddr: 0x53708, symSize: 0x14 }
-  - { offset: 0xC774A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwCP', symObjAddr: 0x30E8, symBinAddr: 0x5371C, symSize: 0x54 }
-  - { offset: 0xC775E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwxx', symObjAddr: 0x313C, symBinAddr: 0x53770, symSize: 0x30 }
-  - { offset: 0xC7772, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwcp', symObjAddr: 0x316C, symBinAddr: 0x537A0, symSize: 0x54 }
-  - { offset: 0xC7786, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwca', symObjAddr: 0x31C0, symBinAddr: 0x537F4, symSize: 0x7C }
-  - { offset: 0xC779A, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x323C, symBinAddr: 0x53870, symSize: 0xC }
-  - { offset: 0xC77AE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwta', symObjAddr: 0x3248, symBinAddr: 0x5387C, symSize: 0x50 }
-  - { offset: 0xC77C2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwet', symObjAddr: 0x3298, symBinAddr: 0x538CC, symSize: 0x150 }
-  - { offset: 0xC77D6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwst', symObjAddr: 0x33E8, symBinAddr: 0x53A1C, symSize: 0x1D4 }
-  - { offset: 0xC77EA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVMa', symObjAddr: 0x35BC, symBinAddr: 0x53BF0, symSize: 0x14 }
-  - { offset: 0xC77FE, size: 0x8, addend: 0x0, symName: ___swift_memcpy3_1, symObjAddr: 0x35D0, symBinAddr: 0x53C04, symSize: 0x14 }
-  - { offset: 0xC7812, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIVwet', symObjAddr: 0x35E8, symBinAddr: 0x53C18, symSize: 0x1A8 }
-  - { offset: 0xC7826, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIVwst', symObjAddr: 0x3790, symBinAddr: 0x53DC0, symSize: 0x224 }
-  - { offset: 0xC783A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIVMa', symObjAddr: 0x39B4, symBinAddr: 0x53FE4, symSize: 0x14 }
-  - { offset: 0xC784E, size: 0x8, addend: 0x0, symName: ___swift_memcpy2_1, symObjAddr: 0x39C8, symBinAddr: 0x53FF8, symSize: 0xC }
-  - { offset: 0xC7862, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingVwet', symObjAddr: 0x39D4, symBinAddr: 0x54004, symSize: 0x19C }
-  - { offset: 0xC7876, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingVwst', symObjAddr: 0x3B70, symBinAddr: 0x541A0, symSize: 0x218 }
-  - { offset: 0xC788A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingVMa', symObjAddr: 0x3D88, symBinAddr: 0x543B8, symSize: 0x14 }
-  - { offset: 0xC789E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkVwCP', symObjAddr: 0x3D9C, symBinAddr: 0x543CC, symSize: 0x3C }
-  - { offset: 0xC78B2, size: 0x8, addend: 0x0, symName: ___swift_memcpy26_8, symObjAddr: 0x3DD8, symBinAddr: 0x54408, symSize: 0x14 }
-  - { offset: 0xC78C6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkVwet', symObjAddr: 0x3DEC, symBinAddr: 0x5441C, symSize: 0x124 }
-  - { offset: 0xC78DA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkVwst', symObjAddr: 0x3F10, symBinAddr: 0x54540, symSize: 0x1B8 }
-  - { offset: 0xC78EE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkVMa', symObjAddr: 0x40C8, symBinAddr: 0x546F8, symSize: 0x14 }
-  - { offset: 0xC7902, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwCP', symObjAddr: 0x40DC, symBinAddr: 0x5470C, symSize: 0x3C }
-  - { offset: 0xC7916, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwxx', symObjAddr: 0x4118, symBinAddr: 0x54748, symSize: 0x18 }
-  - { offset: 0xC792A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwcp', symObjAddr: 0x4130, symBinAddr: 0x54760, symSize: 0x3C }
-  - { offset: 0xC793E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwca', symObjAddr: 0x416C, symBinAddr: 0x5479C, symSize: 0x48 }
-  - { offset: 0xC7952, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwta', symObjAddr: 0x41B4, symBinAddr: 0x547E4, symSize: 0x3C }
-  - { offset: 0xC7966, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwet', symObjAddr: 0x41F0, symBinAddr: 0x54820, symSize: 0x144 }
-  - { offset: 0xC797A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwst', symObjAddr: 0x4334, symBinAddr: 0x54964, symSize: 0x1D0 }
-  - { offset: 0xC798E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVMa', symObjAddr: 0x4504, symBinAddr: 0x54B34, symSize: 0x14 }
-  - { offset: 0xC79A2, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs9OptionSetSCSYWb', symObjAddr: 0x4998, symBinAddr: 0x54FC8, symSize: 0x14 }
-  - { offset: 0xC79B6, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABSYSCWl', symObjAddr: 0x49AC, symBinAddr: 0x54FDC, symSize: 0x6C }
-  - { offset: 0xC79CA, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs9OptionSetSCs0D7AlgebraPWb', symObjAddr: 0x4A18, symBinAddr: 0x55048, symSize: 0x14 }
-  - { offset: 0xC79DE, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCSQWb', symObjAddr: 0x4A2C, symBinAddr: 0x5505C, symSize: 0x14 }
-  - { offset: 0xC79F2, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABSQSCWl', symObjAddr: 0x4A40, symBinAddr: 0x55070, symSize: 0x6C }
-  - { offset: 0xC7A06, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteralPWb', symObjAddr: 0x4AAC, symBinAddr: 0x550DC, symSize: 0x14 }
-  - { offset: 0xC7A1A, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABs25ExpressibleByArrayLiteralSCWl', symObjAddr: 0x4AC0, symBinAddr: 0x550F0, symSize: 0x6C }
-  - { offset: 0xC7A2E, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABs9OptionSetSCWl', symObjAddr: 0x4B2C, symBinAddr: 0x5515C, symSize: 0x6C }
-  - { offset: 0xC7A42, size: 0x8, addend: 0x0, symName: '_$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSo20NSDataReadingOptionsV_Tt0gq5', symObjAddr: 0x4C00, symBinAddr: 0x551CC, symSize: 0xD4 }
-  - { offset: 0xC7A6F, size: 0x8, addend: 0x0, symName: '_$sSo20NSDataReadingOptionsVMa', symObjAddr: 0x4CD4, symBinAddr: 0x552A0, symSize: 0x94 }
-  - { offset: 0xC7B92, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSHAASH9hashValueSivgTW', symObjAddr: 0x2748, symBinAddr: 0x52D7C, symSize: 0x3C }
-  - { offset: 0xC7BAE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x27EC, symBinAddr: 0x52E20, symSize: 0x44 }
-  - { offset: 0xC7BCA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x2830, symBinAddr: 0x52E64, symSize: 0x44 }
-  - { offset: 0xC7BE6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x2874, symBinAddr: 0x52EA8, symSize: 0x48 }
-  - { offset: 0xC7C02, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACPxycfCTW', symObjAddr: 0x4518, symBinAddr: 0x54B48, symSize: 0x40 }
-  - { offset: 0xC7C1E, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP8containsySb7ElementQzFTW', symObjAddr: 0x4558, symBinAddr: 0x54B88, symSize: 0x38 }
-  - { offset: 0xC7C3A, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP5unionyxxnFTW', symObjAddr: 0x4590, symBinAddr: 0x54BC0, symSize: 0x3C }
-  - { offset: 0xC7C56, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW', symObjAddr: 0x45CC, symBinAddr: 0x54BFC, symSize: 0x3C }
-  - { offset: 0xC7C72, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP19symmetricDifferenceyxxnFTW', symObjAddr: 0x4608, symBinAddr: 0x54C38, symSize: 0x3C }
-  - { offset: 0xC7C8E, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW', symObjAddr: 0x4644, symBinAddr: 0x54C74, symSize: 0x40 }
-  - { offset: 0xC7CAA, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6removey7ElementQzSgAGFTW', symObjAddr: 0x4684, symBinAddr: 0x54CB4, symSize: 0x3C }
-  - { offset: 0xC7CC6, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6update4with7ElementQzSgAHn_tFTW', symObjAddr: 0x46C0, symBinAddr: 0x54CF0, symSize: 0x3C }
-  - { offset: 0xC7CE2, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP9formUnionyyxnFTW', symObjAddr: 0x46FC, symBinAddr: 0x54D2C, symSize: 0x40 }
-  - { offset: 0xC7CFE, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW', symObjAddr: 0x473C, symBinAddr: 0x54D6C, symSize: 0x40 }
-  - { offset: 0xC7D1A, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP23formSymmetricDifferenceyyxnFTW', symObjAddr: 0x477C, symBinAddr: 0x54DAC, symSize: 0x40 }
-  - { offset: 0xC7D36, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP11subtractingyxxFTW', symObjAddr: 0x47BC, symBinAddr: 0x54DEC, symSize: 0x14 }
-  - { offset: 0xC7D52, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW', symObjAddr: 0x47D0, symBinAddr: 0x54E00, symSize: 0x18 }
-  - { offset: 0xC7D6E, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP10isDisjoint4withSbx_tFTW', symObjAddr: 0x47E8, symBinAddr: 0x54E18, symSize: 0x18 }
-  - { offset: 0xC7D8A, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW', symObjAddr: 0x4800, symBinAddr: 0x54E30, symSize: 0x18 }
-  - { offset: 0xC7DA6, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP7isEmptySbvgTW', symObjAddr: 0x4818, symBinAddr: 0x54E48, symSize: 0x18 }
-  - { offset: 0xC7DC2, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACPyxqd__ncSTRd__7ElementQyd__AERtzlufCTW', symObjAddr: 0x4830, symBinAddr: 0x54E60, symSize: 0x38 }
-  - { offset: 0xC7DDE, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP8subtractyyxFTW', symObjAddr: 0x4868, symBinAddr: 0x54E98, symSize: 0x14 }
-  - { offset: 0xC7DFA, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x487C, symBinAddr: 0x54EAC, symSize: 0x48 }
-  - { offset: 0xC7E16, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs25ExpressibleByArrayLiteralSCsACP05arrayF0x0eF7ElementQzd_tcfCTW', symObjAddr: 0x48C4, symBinAddr: 0x54EF4, symSize: 0x3C }
-  - { offset: 0xC7E8D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6appKeySSvg', symObjAddr: 0x0, symBinAddr: 0x50B5C, symSize: 0x3C }
-  - { offset: 0xC7EB2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7postURLSSvg', symObjAddr: 0x3C, symBinAddr: 0x50B98, symSize: 0x3C }
-  - { offset: 0xC7ED7, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV4pushAA0a4PushB0Vvg', symObjAddr: 0x78, symBinAddr: 0x50BD4, symSize: 0x5C }
-  - { offset: 0xC7F02, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV4pushAA0a4PushB0Vvs', symObjAddr: 0xD4, symBinAddr: 0x50C30, symSize: 0x80 }
-  - { offset: 0xC7F36, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV4pushAA0a4PushB0VvM', symObjAddr: 0x154, symBinAddr: 0x50CB0, symSize: 0x20 }
-  - { offset: 0xC7F5B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV4pushAA0a4PushB0VvM.resume.0', symObjAddr: 0x174, symBinAddr: 0x50CD0, symSize: 0xC }
-  - { offset: 0xC7F7C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6layoutAC6LayoutVvg', symObjAddr: 0x180, symBinAddr: 0x50CDC, symSize: 0x54 }
-  - { offset: 0xC7FA1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6layoutAC6LayoutVvs', symObjAddr: 0x1D4, symBinAddr: 0x50D30, symSize: 0x8C }
-  - { offset: 0xC7FD5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6layoutAC6LayoutVvM', symObjAddr: 0x260, symBinAddr: 0x50DBC, symSize: 0x20 }
-  - { offset: 0xC7FFA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6layoutAC6LayoutVvM.resume.0', symObjAddr: 0x280, symBinAddr: 0x50DDC, symSize: 0xC }
-  - { offset: 0xC801B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2uiAC2UIVvg', symObjAddr: 0x28C, symBinAddr: 0x50DE8, symSize: 0x30 }
-  - { offset: 0xC8040, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2uiAC2UIVvs', symObjAddr: 0x2BC, symBinAddr: 0x50E18, symSize: 0x44 }
-  - { offset: 0xC8074, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2uiAC2UIVvM', symObjAddr: 0x300, symBinAddr: 0x50E5C, symSize: 0x20 }
-  - { offset: 0xC8099, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2uiAC2UIVvM.resume.0', symObjAddr: 0x320, symBinAddr: 0x50E7C, symSize: 0xC }
-  - { offset: 0xC80BA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7loggingAC7LoggingVvg', symObjAddr: 0x32C, symBinAddr: 0x50E88, symSize: 0x28 }
-  - { offset: 0xC80DF, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7loggingAC7LoggingVvs', symObjAddr: 0x354, symBinAddr: 0x50EB0, symSize: 0x34 }
-  - { offset: 0xC8113, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7loggingAC7LoggingVvM', symObjAddr: 0x388, symBinAddr: 0x50EE4, symSize: 0x20 }
-  - { offset: 0xC8138, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7loggingAC7LoggingVvM.resume.0', symObjAddr: 0x3A8, symBinAddr: 0x50F04, symSize: 0xC }
-  - { offset: 0xC8159, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7networkAC7NetworkVvg', symObjAddr: 0x3B4, symBinAddr: 0x50F10, symSize: 0x54 }
-  - { offset: 0xC817E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7networkAC7NetworkVvs', symObjAddr: 0x408, symBinAddr: 0x50F64, symSize: 0x88 }
-  - { offset: 0xC81B2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7networkAC7NetworkVvM', symObjAddr: 0x490, symBinAddr: 0x50FEC, symSize: 0x20 }
-  - { offset: 0xC81D7, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7networkAC7NetworkVvM.resume.0', symObjAddr: 0x4B0, symBinAddr: 0x5100C, symSize: 0xC }
-  - { offset: 0xC81F8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV8advancedSDyAC11AdvancedKeyVypGvg', symObjAddr: 0x4BC, symBinAddr: 0x51018, symSize: 0x30 }
-  - { offset: 0xC821D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV8advancedSDyAC11AdvancedKeyVypGvs', symObjAddr: 0x4EC, symBinAddr: 0x51048, symSize: 0x50 }
-  - { offset: 0xC8251, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV8advancedSDyAC11AdvancedKeyVypGvM', symObjAddr: 0x53C, symBinAddr: 0x51098, symSize: 0x20 }
-  - { offset: 0xC8276, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV8advancedSDyAC11AdvancedKeyVypGvM.resume.0', symObjAddr: 0x55C, symBinAddr: 0x510B8, symSize: 0xC }
-  - { offset: 0xC82A3, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV14loadFromBundleAEyFZ', symObjAddr: 0x590, symBinAddr: 0x510C4, symSize: 0x838 }
-  - { offset: 0xC8313, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicates22captureKeyboardTouches0gE13UINonVariadicAESb_S2btcfC', symObjAddr: 0xF0C, symBinAddr: 0x518FC, symSize: 0x68 }
-  - { offset: 0xC836E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloads0D15LocationEnabledAESb_SbtcfC', symObjAddr: 0xFCC, symBinAddr: 0x51964, symSize: 0x48 }
-  - { offset: 0xC83B9, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSeconds12cachingLevel16compressPayloadsAESdSg_SiSgSbtcfC', symObjAddr: 0x1060, symBinAddr: 0x519AC, symSize: 0xB8 }
-  - { offset: 0xC841A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6appKey7postURL4push6layout2ui7logging7network8advancedACSS_SSAA0a4PushB0VAC6LayoutVAC2UIVAC7LoggingVAC7NetworkVSDyAC08AdvancedD0VypGtcfC', symObjAddr: 0x117C, symBinAddr: 0x51A64, symSize: 0x2E0 }
-  - { offset: 0xC84BF, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV04autoC0SDys11AnyHashableVypGSgvg', symObjAddr: 0x145C, symBinAddr: 0x51D44, symSize: 0x30 }
-  - { offset: 0xC84E4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV12appendMapIdsSDys11AnyHashableVypGSgvg', symObjAddr: 0x148C, symBinAddr: 0x51D74, symSize: 0x30 }
-  - { offset: 0xC8509, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV04autoC012appendMapIdsAESDys11AnyHashableVypGSg_AKtcfC', symObjAddr: 0x14BC, symBinAddr: 0x51DA4, symSize: 0x84 }
-  - { offset: 0xC857A, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfcfA0_', symObjAddr: 0x15E4, symBinAddr: 0x51ECC, symSize: 0x2C }
-  - { offset: 0xC858E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV4noneAEvgZ', symObjAddr: 0x1B7C, symBinAddr: 0x521C8, symSize: 0x28 }
-  - { offset: 0xC85B0, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicatesSbvg', symObjAddr: 0x1BA4, symBinAddr: 0x521F0, symSize: 0x1C }
-  - { offset: 0xC85D5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicatesSbvs', symObjAddr: 0x1BC0, symBinAddr: 0x5220C, symSize: 0x2C }
-  - { offset: 0xC8609, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicatesSbvM', symObjAddr: 0x1BEC, symBinAddr: 0x52238, symSize: 0x2C }
-  - { offset: 0xC862E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicatesSbvM.resume.0', symObjAddr: 0x1C18, symBinAddr: 0x52264, symSize: 0xC }
-  - { offset: 0xC864F, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV22captureKeyboardTouchesSbvg', symObjAddr: 0x1C24, symBinAddr: 0x52270, symSize: 0x1C }
-  - { offset: 0xC8674, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV22captureKeyboardTouchesSbvs', symObjAddr: 0x1C40, symBinAddr: 0x5228C, symSize: 0x2C }
-  - { offset: 0xC86A8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV22captureKeyboardTouchesSbvM', symObjAddr: 0x1C6C, symBinAddr: 0x522B8, symSize: 0x20 }
-  - { offset: 0xC86CD, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV22captureKeyboardTouchesSbvM.resume.0', symObjAddr: 0x1C8C, symBinAddr: 0x522D8, symSize: 0xC }
-  - { offset: 0xC86EE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV25captureSwiftUINonVariadicSbvg', symObjAddr: 0x1C98, symBinAddr: 0x522E4, symSize: 0x1C }
-  - { offset: 0xC8714, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV25captureSwiftUINonVariadicSbvs', symObjAddr: 0x1CB4, symBinAddr: 0x52300, symSize: 0x2C }
-  - { offset: 0xC874A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV25captureSwiftUINonVariadicSbvM', symObjAddr: 0x1CE0, symBinAddr: 0x5232C, symSize: 0x20 }
-  - { offset: 0xC8770, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV25captureSwiftUINonVariadicSbvM.resume.0', symObjAddr: 0x1D00, symBinAddr: 0x5234C, symSize: 0xC }
-  - { offset: 0xC8792, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloadsSbvg', symObjAddr: 0x1D0C, symBinAddr: 0x52358, symSize: 0x1C }
-  - { offset: 0xC87B8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloadsSbvs', symObjAddr: 0x1D28, symBinAddr: 0x52374, symSize: 0x2C }
-  - { offset: 0xC87EE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloadsSbvM', symObjAddr: 0x1D54, symBinAddr: 0x523A0, symSize: 0x2C }
-  - { offset: 0xC8814, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloadsSbvM.resume.0', symObjAddr: 0x1D80, symBinAddr: 0x523CC, symSize: 0xC }
-  - { offset: 0xC8836, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV18logLocationEnabledSbvg', symObjAddr: 0x1D8C, symBinAddr: 0x523D8, symSize: 0x1C }
-  - { offset: 0xC885C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV18logLocationEnabledSbvs', symObjAddr: 0x1DA8, symBinAddr: 0x523F4, symSize: 0x2C }
-  - { offset: 0xC8892, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV18logLocationEnabledSbvM', symObjAddr: 0x1DD4, symBinAddr: 0x52420, symSize: 0x20 }
-  - { offset: 0xC88B8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV18logLocationEnabledSbvM.resume.0', symObjAddr: 0x1DF4, symBinAddr: 0x52440, symSize: 0xC }
-  - { offset: 0xC88DA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSecondsSdSgvg', symObjAddr: 0x1E0C, symBinAddr: 0x5244C, symSize: 0x20 }
-  - { offset: 0xC8900, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSecondsSdSgvs', symObjAddr: 0x1E2C, symBinAddr: 0x5246C, symSize: 0x44 }
-  - { offset: 0xC8936, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSecondsSdSgvM', symObjAddr: 0x1E70, symBinAddr: 0x524B0, symSize: 0x2C }
-  - { offset: 0xC895C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSecondsSdSgvM.resume.0', symObjAddr: 0x1E9C, symBinAddr: 0x524DC, symSize: 0xC }
-  - { offset: 0xC897E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV12cachingLevelSiSgvg', symObjAddr: 0x1EB4, symBinAddr: 0x524E8, symSize: 0x20 }
-  - { offset: 0xC89A4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV12cachingLevelSiSgvs', symObjAddr: 0x1ED4, symBinAddr: 0x52508, symSize: 0x44 }
-  - { offset: 0xC89DA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV12cachingLevelSiSgvM', symObjAddr: 0x1F18, symBinAddr: 0x5254C, symSize: 0x20 }
-  - { offset: 0xC8A00, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV12cachingLevelSiSgvM.resume.0', symObjAddr: 0x1F38, symBinAddr: 0x5256C, symSize: 0xC }
-  - { offset: 0xC8A22, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV16compressPayloadsSbvg', symObjAddr: 0x1F44, symBinAddr: 0x52578, symSize: 0x1C }
-  - { offset: 0xC8A48, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV16compressPayloadsSbvs', symObjAddr: 0x1F60, symBinAddr: 0x52594, symSize: 0x2C }
-  - { offset: 0xC8A7E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV16compressPayloadsSbvM', symObjAddr: 0x1F8C, symBinAddr: 0x525C0, symSize: 0x20 }
-  - { offset: 0xC8AA4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV16compressPayloadsSbvM.resume.0', symObjAddr: 0x1FAC, symBinAddr: 0x525E0, symSize: 0xC }
-  - { offset: 0xC8AC6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV8rawValueSSvg', symObjAddr: 0x1FB8, symBinAddr: 0x525EC, symSize: 0x3C }
-  - { offset: 0xC8AF8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVyAESScfC', symObjAddr: 0x1FF4, symBinAddr: 0x52628, symSize: 0x80 }
-  - { offset: 0xC8B2D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV8rawValueAESS_tcfC', symObjAddr: 0x20D8, symBinAddr: 0x5270C, symSize: 0x80 }
-  - { offset: 0xC8B62, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV13killSwitchURLAEvgZ', symObjAddr: 0x21E0, symBinAddr: 0x52814, symSize: 0x28 }
-  - { offset: 0xC8B85, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV14sessionTimeoutAEvgZ', symObjAddr: 0x2290, symBinAddr: 0x528C4, symSize: 0x28 }
-  - { offset: 0xC8BA8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV17manualPostEnabledAEvgZ', symObjAddr: 0x2340, symBinAddr: 0x52974, symSize: 0x28 }
-  - { offset: 0xC8BCB, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV07dynamicB7EnabledAEvgZ', symObjAddr: 0x23F0, symBinAddr: 0x52A24, symSize: 0x28 }
-  - { offset: 0xC8BEE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxBytesPerActivationAEvgZ', symObjAddr: 0x24A0, symBinAddr: 0x52AD4, symSize: 0x28 }
-  - { offset: 0xC8C11, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxPostsPerActivationAEvgZ', symObjAddr: 0x2550, symBinAddr: 0x52B84, symSize: 0x28 }
-  - { offset: 0xC8C34, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV19postIntervalSecondsAEvgZ', symObjAddr: 0x2600, symBinAddr: 0x52C34, symSize: 0x28 }
-  - { offset: 0xC8C57, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV16maxPostBytesSizeAEvgZ', symObjAddr: 0x26B0, symBinAddr: 0x52CE4, symSize: 0x28 }
-  - { offset: 0xC8C80, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x26D8, symBinAddr: 0x52D0C, symSize: 0x44 }
-  - { offset: 0xC8C94, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x271C, symBinAddr: 0x52D50, symSize: 0x2C }
-  - { offset: 0xC8CAE, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs9OptionSetSCsACP8rawValuex03RawF0Qz_tcfCTW', symObjAddr: 0x4900, symBinAddr: 0x54F30, symSize: 0x2C }
-  - { offset: 0xC8CC8, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsV8rawValueABSu_tcfC', symObjAddr: 0x492C, symBinAddr: 0x54F5C, symSize: 0x4 }
-  - { offset: 0xC8CDC, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVSYSCSY8rawValuexSg03RawD0Qz_tcfCTW', symObjAddr: 0x4930, symBinAddr: 0x54F60, symSize: 0x3C }
-  - { offset: 0xC8CF0, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVSYSCSY8rawValue03RawD0QzvgTW', symObjAddr: 0x496C, symBinAddr: 0x54F9C, symSize: 0x2C }
-  - { offset: 0xC8D04, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsV8rawValueSuvg', symObjAddr: 0x4BFC, symBinAddr: 0x551C8, symSize: 0x4 }
-  - { offset: 0xC906F, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationCSgWOh', symObjAddr: 0x360, symBinAddr: 0x55684, symSize: 0x30 }
-  - { offset: 0xC9083, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVIegg_So6NSDataCIeyBy_TR', symObjAddr: 0x5AC, symBinAddr: 0x558D0, symSize: 0x88 }
-  - { offset: 0xC909B, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x634, symBinAddr: 0x55958, symSize: 0x44 }
-  - { offset: 0xC90AF, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x678, symBinAddr: 0x5599C, symSize: 0x18 }
-  - { offset: 0xC90C3, size: 0x8, addend: 0x0, symName: '_$ss5Error_pIegg_So7NSErrorCIeyBy_TR', symObjAddr: 0x690, symBinAddr: 0x559B4, symSize: 0x68 }
-  - { offset: 0xC90DB, size: 0x8, addend: 0x0, symName: _block_copy_helper.1, symObjAddr: 0x6F8, symBinAddr: 0x55A1C, symSize: 0x44 }
-  - { offset: 0xC90EF, size: 0x8, addend: 0x0, symName: _block_destroy_helper.2, symObjAddr: 0x73C, symBinAddr: 0x55A60, symSize: 0x18 }
-  - { offset: 0xC9103, size: 0x8, addend: 0x0, symName: '_$sSo20ConnectDelegateProxyCSgWOh', symObjAddr: 0xB48, symBinAddr: 0x55E0C, symSize: 0x30 }
-  - { offset: 0xC9117, size: 0x8, addend: 0x0, symName: '_$s7Connect0A23NotificationCenterProxyCSgWOh', symObjAddr: 0xB78, symBinAddr: 0x55E3C, symSize: 0x30 }
-  - { offset: 0xC912B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCMa', symObjAddr: 0xC48, symBinAddr: 0x55F0C, symSize: 0x24 }
-  - { offset: 0xC915A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC11application33_5D359FA6F9BD33F7361D2E8631CCB2AALLSo13UIApplicationCvg', symObjAddr: 0x0, symBinAddr: 0x55334, symSize: 0x30 }
-  - { offset: 0xC916E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC16pushEventHandler33_5D359FA6F9BD33F7361D2E8631CCB2AALLAA04PushF8Handling_pvg', symObjAddr: 0x30, symBinAddr: 0x55364, symSize: 0x34 }
-  - { offset: 0xC91BC, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC5proxy33_5D359FA6F9BD33F7361D2E8631CCB2AALLSo0abC0CSgvg', symObjAddr: 0x6C, symBinAddr: 0x55398, symSize: 0x54 }
-  - { offset: 0xC91D6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC5proxy33_5D359FA6F9BD33F7361D2E8631CCB2AALLSo0abC0CSgvs', symObjAddr: 0xC0, symBinAddr: 0x553EC, symSize: 0x74 }
-  - { offset: 0xC91EA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC012notificationC033_5D359FA6F9BD33F7361D2E8631CCB2AALLAA0a18NotificationCenterC0CSgvg', symObjAddr: 0x13C, symBinAddr: 0x55460, symSize: 0x54 }
-  - { offset: 0xC91FE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC012notificationC033_5D359FA6F9BD33F7361D2E8631CCB2AALLAA0a18NotificationCenterC0CSgvs', symObjAddr: 0x190, symBinAddr: 0x554B4, symSize: 0x74 }
-  - { offset: 0xC9218, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_ptcfC', symObjAddr: 0x204, symBinAddr: 0x55528, symSize: 0x58 }
-  - { offset: 0xC922C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_ptcfc', symObjAddr: 0x25C, symBinAddr: 0x55580, symSize: 0x104 }
-  - { offset: 0xC926E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC30registerForRemoteNotificationsyyF', symObjAddr: 0x390, symBinAddr: 0x556B4, symSize: 0x58 }
-  - { offset: 0xC92AA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC7install12tokenHandler07failureG0yy10Foundation4DataVYbc_ys5Error_pYbctF', symObjAddr: 0x3E8, symBinAddr: 0x5570C, symSize: 0x1C4 }
-  - { offset: 0xC92EC, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC9uninstallyyF', symObjAddr: 0x754, symBinAddr: 0x55A78, symSize: 0x108 }
-  - { offset: 0xC9310, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC019installNotificationC0yyF', symObjAddr: 0x85C, symBinAddr: 0x55B80, symSize: 0x15C }
-  - { offset: 0xC9334, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC021uninstallNotificationC0yyF', symObjAddr: 0xA18, symBinAddr: 0x55CDC, symSize: 0xDC }
-  - { offset: 0xC9368, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCfd', symObjAddr: 0xAF4, symBinAddr: 0x55DB8, symSize: 0x54 }
-  - { offset: 0xC938C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCfD', symObjAddr: 0xBA8, symBinAddr: 0x55E6C, symSize: 0x3C }
-  - { offset: 0xC93B0, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA15APNSRegisteringA2aDP30registerForRemoteNotificationsyyFTW', symObjAddr: 0xBE4, symBinAddr: 0x55EA8, symSize: 0x14 }
-  - { offset: 0xC93C4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA04PushbC0A2aDP7install12tokenHandler07failureH0yy10Foundation4DataVYbc_ys5Error_pYbctFTW', symObjAddr: 0xBF8, symBinAddr: 0x55EBC, symSize: 0x14 }
-  - { offset: 0xC93D8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA04PushbC0A2aDP9uninstallyyFTW', symObjAddr: 0xC0C, symBinAddr: 0x55ED0, symSize: 0x14 }
-  - { offset: 0xC93EC, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA018NotificationCenterbC0A2aDP07installeC0yyFTW', symObjAddr: 0xC20, symBinAddr: 0x55EE4, symSize: 0x14 }
-  - { offset: 0xC9400, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA018NotificationCenterbC0A2aDP09uninstalleC0yyFTW', symObjAddr: 0xC34, symBinAddr: 0x55EF8, symSize: 0x14 }
+  - { offset: 0xC6AC1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV14basicAnalyticsAEvpZ', symObjAddr: 0x12C18, symBinAddr: 0x7B1C8, symSize: 0x0 }
+  - { offset: 0xC6B7F, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV4noneAEvpZ', symObjAddr: 0x12C30, symBinAddr: 0x7B1E0, symSize: 0x0 }
+  - { offset: 0xC6B9A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV13killSwitchURLAEvpZ', symObjAddr: 0x12C48, symBinAddr: 0x7B1F8, symSize: 0x0 }
+  - { offset: 0xC6D00, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV14sessionTimeoutAEvpZ', symObjAddr: 0x12C60, symBinAddr: 0x7B210, symSize: 0x0 }
+  - { offset: 0xC6D1B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV17manualPostEnabledAEvpZ', symObjAddr: 0x12C78, symBinAddr: 0x7B228, symSize: 0x0 }
+  - { offset: 0xC6D36, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV07dynamicB7EnabledAEvpZ', symObjAddr: 0x12C90, symBinAddr: 0x7B240, symSize: 0x0 }
+  - { offset: 0xC6D51, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxBytesPerActivationAEvpZ', symObjAddr: 0x12CA8, symBinAddr: 0x7B258, symSize: 0x0 }
+  - { offset: 0xC6D6C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxPostsPerActivationAEvpZ', symObjAddr: 0x12CC0, symBinAddr: 0x7B270, symSize: 0x0 }
+  - { offset: 0xC6D87, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV19postIntervalSecondsAEvpZ', symObjAddr: 0x12CD8, symBinAddr: 0x7B288, symSize: 0x0 }
+  - { offset: 0xC6DA2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV16maxPostBytesSizeAEvpZ', symObjAddr: 0x12CF0, symBinAddr: 0x7B2A0, symSize: 0x0 }
+  - { offset: 0xC73F1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV14basicAnalyticsAEvau', symObjAddr: 0x1540, symBinAddr: 0x51E28, symSize: 0x50 }
+  - { offset: 0xC7410, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVWOc', symObjAddr: 0x1590, symBinAddr: 0x51E78, symSize: 0x54 }
+  - { offset: 0xC7424, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVMa', symObjAddr: 0x1700, symBinAddr: 0x51EF8, symSize: 0x94 }
+  - { offset: 0xC7438, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABs10SetAlgebraSCWl', symObjAddr: 0x1794, symBinAddr: 0x51F8C, symSize: 0x6C }
+  - { offset: 0xC744C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVWOc', symObjAddr: 0x19AC, symBinAddr: 0x51FF8, symSize: 0x114 }
+  - { offset: 0xC7460, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVWOh', symObjAddr: 0x1AC0, symBinAddr: 0x5210C, symSize: 0x64 }
+  - { offset: 0xC7474, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVWOh', symObjAddr: 0x1B24, symBinAddr: 0x52170, symSize: 0x34 }
+  - { offset: 0xC7488, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV14basicAnalytics_WZ', symObjAddr: 0x1B58, symBinAddr: 0x521A4, symSize: 0x7EC }
+  - { offset: 0xC74A3, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV4none_WZ', symObjAddr: 0x23AC, symBinAddr: 0x529B8, symSize: 0x24 }
+  - { offset: 0xC74BE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV4noneAEvau', symObjAddr: 0x23D0, symBinAddr: 0x529DC, symSize: 0x50 }
+  - { offset: 0xC74DD, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVWOc', symObjAddr: 0x2918, symBinAddr: 0x52F0C, symSize: 0x3C }
+  - { offset: 0xC74F1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVWOh', symObjAddr: 0x2954, symBinAddr: 0x52F48, symSize: 0x28 }
+  - { offset: 0xC7505, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV13killSwitchURL_WZ', symObjAddr: 0x29FC, symBinAddr: 0x52FF0, symSize: 0x38 }
+  - { offset: 0xC7520, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV13killSwitchURLAEvau', symObjAddr: 0x2A34, symBinAddr: 0x53028, symSize: 0x50 }
+  - { offset: 0xC753F, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV14sessionTimeout_WZ', symObjAddr: 0x2AAC, symBinAddr: 0x530A0, symSize: 0x38 }
+  - { offset: 0xC755A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV14sessionTimeoutAEvau', symObjAddr: 0x2AE4, symBinAddr: 0x530D8, symSize: 0x50 }
+  - { offset: 0xC7579, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV17manualPostEnabled_WZ', symObjAddr: 0x2B5C, symBinAddr: 0x53150, symSize: 0x38 }
+  - { offset: 0xC7594, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV17manualPostEnabledAEvau', symObjAddr: 0x2B94, symBinAddr: 0x53188, symSize: 0x50 }
+  - { offset: 0xC75B3, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV07dynamicB7Enabled_WZ', symObjAddr: 0x2C0C, symBinAddr: 0x53200, symSize: 0x38 }
+  - { offset: 0xC75CE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV07dynamicB7EnabledAEvau', symObjAddr: 0x2C44, symBinAddr: 0x53238, symSize: 0x50 }
+  - { offset: 0xC75ED, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxBytesPerActivation_WZ', symObjAddr: 0x2CBC, symBinAddr: 0x532B0, symSize: 0x38 }
+  - { offset: 0xC7608, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxBytesPerActivationAEvau', symObjAddr: 0x2CF4, symBinAddr: 0x532E8, symSize: 0x50 }
+  - { offset: 0xC7627, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxPostsPerActivation_WZ', symObjAddr: 0x2D6C, symBinAddr: 0x53360, symSize: 0x38 }
+  - { offset: 0xC7642, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxPostsPerActivationAEvau', symObjAddr: 0x2DA4, symBinAddr: 0x53398, symSize: 0x50 }
+  - { offset: 0xC7661, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV19postIntervalSeconds_WZ', symObjAddr: 0x2E1C, symBinAddr: 0x53410, symSize: 0x38 }
+  - { offset: 0xC767C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV19postIntervalSecondsAEvau', symObjAddr: 0x2E54, symBinAddr: 0x53448, symSize: 0x50 }
+  - { offset: 0xC769B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV16maxPostBytesSize_WZ', symObjAddr: 0x2ECC, symBinAddr: 0x534C0, symSize: 0x38 }
+  - { offset: 0xC76B6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV16maxPostBytesSizeAEvau', symObjAddr: 0x2F04, symBinAddr: 0x534F8, symSize: 0x50 }
+  - { offset: 0xC76D5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVAESYAAWl', symObjAddr: 0x3028, symBinAddr: 0x5361C, symSize: 0x68 }
+  - { offset: 0xC76E9, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSHAASQWb', symObjAddr: 0x3160, symBinAddr: 0x53754, symSize: 0x14 }
+  - { offset: 0xC76FD, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVAESQAAWl', symObjAddr: 0x3174, symBinAddr: 0x53768, symSize: 0x68 }
+  - { offset: 0xC7711, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwCP', symObjAddr: 0x31DC, symBinAddr: 0x537D0, symSize: 0x3C }
+  - { offset: 0xC7725, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwxx', symObjAddr: 0x3218, symBinAddr: 0x5380C, symSize: 0x60 }
+  - { offset: 0xC7739, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwcp', symObjAddr: 0x3278, symBinAddr: 0x5386C, symSize: 0x114 }
+  - { offset: 0xC774D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwca', symObjAddr: 0x338C, symBinAddr: 0x53980, symSize: 0x18C }
+  - { offset: 0xC7761, size: 0x8, addend: 0x0, symName: ___swift_memcpy120_8, symObjAddr: 0x3518, symBinAddr: 0x53B0C, symSize: 0x2C }
+  - { offset: 0xC7775, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwta', symObjAddr: 0x3544, symBinAddr: 0x53B38, symSize: 0x120 }
+  - { offset: 0xC7789, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwet', symObjAddr: 0x3664, symBinAddr: 0x53C58, symSize: 0x118 }
+  - { offset: 0xC779D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVwst', symObjAddr: 0x377C, symBinAddr: 0x53D70, symSize: 0x1FC }
+  - { offset: 0xC77B1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigVMa', symObjAddr: 0x3978, symBinAddr: 0x53F6C, symSize: 0x14 }
+  - { offset: 0xC77C5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwCP', symObjAddr: 0x398C, symBinAddr: 0x53F80, symSize: 0x54 }
+  - { offset: 0xC77D9, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwxx', symObjAddr: 0x39E0, symBinAddr: 0x53FD4, symSize: 0x30 }
+  - { offset: 0xC77ED, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwcp', symObjAddr: 0x3A10, symBinAddr: 0x54004, symSize: 0x54 }
+  - { offset: 0xC7801, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwca', symObjAddr: 0x3A64, symBinAddr: 0x54058, symSize: 0x7C }
+  - { offset: 0xC7815, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x3AE0, symBinAddr: 0x540D4, symSize: 0xC }
+  - { offset: 0xC7829, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwta', symObjAddr: 0x3AEC, symBinAddr: 0x540E0, symSize: 0x50 }
+  - { offset: 0xC783D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwet', symObjAddr: 0x3B3C, symBinAddr: 0x54130, symSize: 0x150 }
+  - { offset: 0xC7851, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVwst', symObjAddr: 0x3C8C, symBinAddr: 0x54280, symSize: 0x1D4 }
+  - { offset: 0xC7865, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutVMa', symObjAddr: 0x3E60, symBinAddr: 0x54454, symSize: 0x14 }
+  - { offset: 0xC7879, size: 0x8, addend: 0x0, symName: ___swift_memcpy3_1, symObjAddr: 0x3E74, symBinAddr: 0x54468, symSize: 0x14 }
+  - { offset: 0xC788D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIVwet', symObjAddr: 0x3E8C, symBinAddr: 0x5447C, symSize: 0x1A8 }
+  - { offset: 0xC78A1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIVwst', symObjAddr: 0x4034, symBinAddr: 0x54624, symSize: 0x224 }
+  - { offset: 0xC78B5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIVMa', symObjAddr: 0x4258, symBinAddr: 0x54848, symSize: 0x14 }
+  - { offset: 0xC78C9, size: 0x8, addend: 0x0, symName: ___swift_memcpy2_1, symObjAddr: 0x426C, symBinAddr: 0x5485C, symSize: 0xC }
+  - { offset: 0xC78DD, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingVwet', symObjAddr: 0x4278, symBinAddr: 0x54868, symSize: 0x19C }
+  - { offset: 0xC78F1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingVwst', symObjAddr: 0x4414, symBinAddr: 0x54A04, symSize: 0x218 }
+  - { offset: 0xC7905, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingVMa', symObjAddr: 0x462C, symBinAddr: 0x54C1C, symSize: 0x14 }
+  - { offset: 0xC7919, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkVwCP', symObjAddr: 0x4640, symBinAddr: 0x54C30, symSize: 0x3C }
+  - { offset: 0xC792D, size: 0x8, addend: 0x0, symName: ___swift_memcpy26_8, symObjAddr: 0x467C, symBinAddr: 0x54C6C, symSize: 0x14 }
+  - { offset: 0xC7941, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkVwet', symObjAddr: 0x4690, symBinAddr: 0x54C80, symSize: 0x124 }
+  - { offset: 0xC7955, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkVwst', symObjAddr: 0x47B4, symBinAddr: 0x54DA4, symSize: 0x1B8 }
+  - { offset: 0xC7969, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkVMa', symObjAddr: 0x496C, symBinAddr: 0x54F5C, symSize: 0x14 }
+  - { offset: 0xC797D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwCP', symObjAddr: 0x4980, symBinAddr: 0x54F70, symSize: 0x3C }
+  - { offset: 0xC7991, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwxx', symObjAddr: 0x49BC, symBinAddr: 0x54FAC, symSize: 0x18 }
+  - { offset: 0xC79A5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwcp', symObjAddr: 0x49D4, symBinAddr: 0x54FC4, symSize: 0x3C }
+  - { offset: 0xC79B9, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwca', symObjAddr: 0x4A10, symBinAddr: 0x55000, symSize: 0x48 }
+  - { offset: 0xC79CD, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwta', symObjAddr: 0x4A58, symBinAddr: 0x55048, symSize: 0x3C }
+  - { offset: 0xC79E1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwet', symObjAddr: 0x4A94, symBinAddr: 0x55084, symSize: 0x144 }
+  - { offset: 0xC79F5, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVwst', symObjAddr: 0x4BD8, symBinAddr: 0x551C8, symSize: 0x1D0 }
+  - { offset: 0xC7A09, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVMa', symObjAddr: 0x4DA8, symBinAddr: 0x55398, symSize: 0x14 }
+  - { offset: 0xC7A1D, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs9OptionSetSCSYWb', symObjAddr: 0x523C, symBinAddr: 0x5582C, symSize: 0x14 }
+  - { offset: 0xC7A31, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABSYSCWl', symObjAddr: 0x5250, symBinAddr: 0x55840, symSize: 0x6C }
+  - { offset: 0xC7A45, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs9OptionSetSCs0D7AlgebraPWb', symObjAddr: 0x52BC, symBinAddr: 0x558AC, symSize: 0x14 }
+  - { offset: 0xC7A59, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCSQWb', symObjAddr: 0x52D0, symBinAddr: 0x558C0, symSize: 0x14 }
+  - { offset: 0xC7A6D, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABSQSCWl', symObjAddr: 0x52E4, symBinAddr: 0x558D4, symSize: 0x6C }
+  - { offset: 0xC7A81, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteralPWb', symObjAddr: 0x5350, symBinAddr: 0x55940, symSize: 0x14 }
+  - { offset: 0xC7A95, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABs25ExpressibleByArrayLiteralSCWl', symObjAddr: 0x5364, symBinAddr: 0x55954, symSize: 0x6C }
+  - { offset: 0xC7AA9, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVABs9OptionSetSCWl', symObjAddr: 0x53D0, symBinAddr: 0x559C0, symSize: 0x6C }
+  - { offset: 0xC7ABD, size: 0x8, addend: 0x0, symName: '_$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSo20NSDataReadingOptionsV_Tt0gq5', symObjAddr: 0x54A4, symBinAddr: 0x55A30, symSize: 0xD4 }
+  - { offset: 0xC7AEA, size: 0x8, addend: 0x0, symName: '_$sSo20NSDataReadingOptionsVMa', symObjAddr: 0x5584, symBinAddr: 0x55B04, symSize: 0x94 }
+  - { offset: 0xC7C0D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSHAASH9hashValueSivgTW', symObjAddr: 0x2FEC, symBinAddr: 0x535E0, symSize: 0x3C }
+  - { offset: 0xC7C29, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x3090, symBinAddr: 0x53684, symSize: 0x44 }
+  - { offset: 0xC7C45, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x30D4, symBinAddr: 0x536C8, symSize: 0x44 }
+  - { offset: 0xC7C61, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x3118, symBinAddr: 0x5370C, symSize: 0x48 }
+  - { offset: 0xC7C7D, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACPxycfCTW', symObjAddr: 0x4DBC, symBinAddr: 0x553AC, symSize: 0x40 }
+  - { offset: 0xC7C99, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP8containsySb7ElementQzFTW', symObjAddr: 0x4DFC, symBinAddr: 0x553EC, symSize: 0x38 }
+  - { offset: 0xC7CB5, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP5unionyxxnFTW', symObjAddr: 0x4E34, symBinAddr: 0x55424, symSize: 0x3C }
+  - { offset: 0xC7CD1, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW', symObjAddr: 0x4E70, symBinAddr: 0x55460, symSize: 0x3C }
+  - { offset: 0xC7CED, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP19symmetricDifferenceyxxnFTW', symObjAddr: 0x4EAC, symBinAddr: 0x5549C, symSize: 0x3C }
+  - { offset: 0xC7D09, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW', symObjAddr: 0x4EE8, symBinAddr: 0x554D8, symSize: 0x40 }
+  - { offset: 0xC7D25, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6removey7ElementQzSgAGFTW', symObjAddr: 0x4F28, symBinAddr: 0x55518, symSize: 0x3C }
+  - { offset: 0xC7D41, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6update4with7ElementQzSgAHn_tFTW', symObjAddr: 0x4F64, symBinAddr: 0x55554, symSize: 0x3C }
+  - { offset: 0xC7D5D, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP9formUnionyyxnFTW', symObjAddr: 0x4FA0, symBinAddr: 0x55590, symSize: 0x40 }
+  - { offset: 0xC7D79, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW', symObjAddr: 0x4FE0, symBinAddr: 0x555D0, symSize: 0x40 }
+  - { offset: 0xC7D95, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP23formSymmetricDifferenceyyxnFTW', symObjAddr: 0x5020, symBinAddr: 0x55610, symSize: 0x40 }
+  - { offset: 0xC7DB1, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP11subtractingyxxFTW', symObjAddr: 0x5060, symBinAddr: 0x55650, symSize: 0x14 }
+  - { offset: 0xC7DCD, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW', symObjAddr: 0x5074, symBinAddr: 0x55664, symSize: 0x18 }
+  - { offset: 0xC7DE9, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP10isDisjoint4withSbx_tFTW', symObjAddr: 0x508C, symBinAddr: 0x5567C, symSize: 0x18 }
+  - { offset: 0xC7E05, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW', symObjAddr: 0x50A4, symBinAddr: 0x55694, symSize: 0x18 }
+  - { offset: 0xC7E21, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP7isEmptySbvgTW', symObjAddr: 0x50BC, symBinAddr: 0x556AC, symSize: 0x18 }
+  - { offset: 0xC7E3D, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACPyxqd__ncSTRd__7ElementQyd__AERtzlufCTW', symObjAddr: 0x50D4, symBinAddr: 0x556C4, symSize: 0x38 }
+  - { offset: 0xC7E59, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP8subtractyyxFTW', symObjAddr: 0x510C, symBinAddr: 0x556FC, symSize: 0x14 }
+  - { offset: 0xC7E75, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x5120, symBinAddr: 0x55710, symSize: 0x48 }
+  - { offset: 0xC7E91, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs25ExpressibleByArrayLiteralSCsACP05arrayF0x0eF7ElementQzd_tcfCTW', symObjAddr: 0x5168, symBinAddr: 0x55758, symSize: 0x3C }
+  - { offset: 0xC7F08, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6appKeySSvg', symObjAddr: 0x0, symBinAddr: 0x50B5C, symSize: 0x3C }
+  - { offset: 0xC7F2D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7postURLSSvg', symObjAddr: 0x3C, symBinAddr: 0x50B98, symSize: 0x3C }
+  - { offset: 0xC7F52, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV4pushAA0a4PushB0Vvg', symObjAddr: 0x78, symBinAddr: 0x50BD4, symSize: 0x5C }
+  - { offset: 0xC7F7D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV4pushAA0a4PushB0Vvs', symObjAddr: 0xD4, symBinAddr: 0x50C30, symSize: 0x80 }
+  - { offset: 0xC7FB1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV4pushAA0a4PushB0VvM', symObjAddr: 0x154, symBinAddr: 0x50CB0, symSize: 0x20 }
+  - { offset: 0xC7FD6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV4pushAA0a4PushB0VvM.resume.0', symObjAddr: 0x174, symBinAddr: 0x50CD0, symSize: 0xC }
+  - { offset: 0xC7FF7, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6layoutAC6LayoutVvg', symObjAddr: 0x180, symBinAddr: 0x50CDC, symSize: 0x54 }
+  - { offset: 0xC801C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6layoutAC6LayoutVvs', symObjAddr: 0x1D4, symBinAddr: 0x50D30, symSize: 0x8C }
+  - { offset: 0xC8050, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6layoutAC6LayoutVvM', symObjAddr: 0x260, symBinAddr: 0x50DBC, symSize: 0x20 }
+  - { offset: 0xC8075, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6layoutAC6LayoutVvM.resume.0', symObjAddr: 0x280, symBinAddr: 0x50DDC, symSize: 0xC }
+  - { offset: 0xC8096, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2uiAC2UIVvg', symObjAddr: 0x28C, symBinAddr: 0x50DE8, symSize: 0x30 }
+  - { offset: 0xC80BB, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2uiAC2UIVvs', symObjAddr: 0x2BC, symBinAddr: 0x50E18, symSize: 0x44 }
+  - { offset: 0xC80EF, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2uiAC2UIVvM', symObjAddr: 0x300, symBinAddr: 0x50E5C, symSize: 0x20 }
+  - { offset: 0xC8114, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2uiAC2UIVvM.resume.0', symObjAddr: 0x320, symBinAddr: 0x50E7C, symSize: 0xC }
+  - { offset: 0xC8135, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7loggingAC7LoggingVvg', symObjAddr: 0x32C, symBinAddr: 0x50E88, symSize: 0x28 }
+  - { offset: 0xC815A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7loggingAC7LoggingVvs', symObjAddr: 0x354, symBinAddr: 0x50EB0, symSize: 0x34 }
+  - { offset: 0xC818E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7loggingAC7LoggingVvM', symObjAddr: 0x388, symBinAddr: 0x50EE4, symSize: 0x20 }
+  - { offset: 0xC81B3, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7loggingAC7LoggingVvM.resume.0', symObjAddr: 0x3A8, symBinAddr: 0x50F04, symSize: 0xC }
+  - { offset: 0xC81D4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7networkAC7NetworkVvg', symObjAddr: 0x3B4, symBinAddr: 0x50F10, symSize: 0x54 }
+  - { offset: 0xC81F9, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7networkAC7NetworkVvs', symObjAddr: 0x408, symBinAddr: 0x50F64, symSize: 0x88 }
+  - { offset: 0xC822D, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7networkAC7NetworkVvM', symObjAddr: 0x490, symBinAddr: 0x50FEC, symSize: 0x20 }
+  - { offset: 0xC8252, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7networkAC7NetworkVvM.resume.0', symObjAddr: 0x4B0, symBinAddr: 0x5100C, symSize: 0xC }
+  - { offset: 0xC8273, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV8advancedSDyAC11AdvancedKeyVypGvg', symObjAddr: 0x4BC, symBinAddr: 0x51018, symSize: 0x30 }
+  - { offset: 0xC8298, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV8advancedSDyAC11AdvancedKeyVypGvs', symObjAddr: 0x4EC, symBinAddr: 0x51048, symSize: 0x50 }
+  - { offset: 0xC82CC, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV8advancedSDyAC11AdvancedKeyVypGvM', symObjAddr: 0x53C, symBinAddr: 0x51098, symSize: 0x20 }
+  - { offset: 0xC82F1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV8advancedSDyAC11AdvancedKeyVypGvM.resume.0', symObjAddr: 0x55C, symBinAddr: 0x510B8, symSize: 0xC }
+  - { offset: 0xC831E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV14loadFromBundleAEyFZ', symObjAddr: 0x590, symBinAddr: 0x510C4, symSize: 0x838 }
+  - { offset: 0xC8392, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicates22captureKeyboardTouches0gE13UINonVariadicAESb_S2btcfC', symObjAddr: 0xF0C, symBinAddr: 0x518FC, symSize: 0x68 }
+  - { offset: 0xC83ED, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloads0D15LocationEnabledAESb_SbtcfC', symObjAddr: 0xFCC, symBinAddr: 0x51964, symSize: 0x48 }
+  - { offset: 0xC8438, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSeconds12cachingLevel16compressPayloadsAESdSg_SiSgSbtcfC', symObjAddr: 0x1060, symBinAddr: 0x519AC, symSize: 0xB8 }
+  - { offset: 0xC8499, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6appKey7postURL4push6layout2ui7logging7network8advancedACSS_SSAA0a4PushB0VAC6LayoutVAC2UIVAC7LoggingVAC7NetworkVSDyAC08AdvancedD0VypGtcfC', symObjAddr: 0x117C, symBinAddr: 0x51A64, symSize: 0x2E0 }
+  - { offset: 0xC853E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV04autoC0SDys11AnyHashableVypGSgvg', symObjAddr: 0x145C, symBinAddr: 0x51D44, symSize: 0x30 }
+  - { offset: 0xC8563, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV12appendMapIdsSDys11AnyHashableVypGSgvg', symObjAddr: 0x148C, symBinAddr: 0x51D74, symSize: 0x30 }
+  - { offset: 0xC8588, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV04autoC012appendMapIdsAESDys11AnyHashableVypGSg_AKtcfC', symObjAddr: 0x14BC, symBinAddr: 0x51DA4, symSize: 0x84 }
+  - { offset: 0xC85FC, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfcfA0_', symObjAddr: 0x15E4, symBinAddr: 0x51ECC, symSize: 0x2C }
+  - { offset: 0xC8610, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV14basicAnalyticsAEvgZ', symObjAddr: 0x2384, symBinAddr: 0x52990, symSize: 0x28 }
+  - { offset: 0xC8633, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV6LayoutV4noneAEvgZ', symObjAddr: 0x2420, symBinAddr: 0x52A2C, symSize: 0x28 }
+  - { offset: 0xC8656, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicatesSbvg', symObjAddr: 0x2448, symBinAddr: 0x52A54, symSize: 0x1C }
+  - { offset: 0xC867C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicatesSbvs', symObjAddr: 0x2464, symBinAddr: 0x52A70, symSize: 0x2C }
+  - { offset: 0xC86B2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicatesSbvM', symObjAddr: 0x2490, symBinAddr: 0x52A9C, symSize: 0x2C }
+  - { offset: 0xC86D8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV23removeSwiftUIDuplicatesSbvM.resume.0', symObjAddr: 0x24BC, symBinAddr: 0x52AC8, symSize: 0xC }
+  - { offset: 0xC86FA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV22captureKeyboardTouchesSbvg', symObjAddr: 0x24C8, symBinAddr: 0x52AD4, symSize: 0x1C }
+  - { offset: 0xC8720, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV22captureKeyboardTouchesSbvs', symObjAddr: 0x24E4, symBinAddr: 0x52AF0, symSize: 0x2C }
+  - { offset: 0xC8756, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV22captureKeyboardTouchesSbvM', symObjAddr: 0x2510, symBinAddr: 0x52B1C, symSize: 0x20 }
+  - { offset: 0xC877C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV22captureKeyboardTouchesSbvM.resume.0', symObjAddr: 0x2530, symBinAddr: 0x52B3C, symSize: 0xC }
+  - { offset: 0xC879E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV25captureSwiftUINonVariadicSbvg', symObjAddr: 0x253C, symBinAddr: 0x52B48, symSize: 0x1C }
+  - { offset: 0xC87C4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV25captureSwiftUINonVariadicSbvs', symObjAddr: 0x2558, symBinAddr: 0x52B64, symSize: 0x2C }
+  - { offset: 0xC87FA, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV25captureSwiftUINonVariadicSbvM', symObjAddr: 0x2584, symBinAddr: 0x52B90, symSize: 0x20 }
+  - { offset: 0xC8820, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV2UIV25captureSwiftUINonVariadicSbvM.resume.0', symObjAddr: 0x25A4, symBinAddr: 0x52BB0, symSize: 0xC }
+  - { offset: 0xC8842, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloadsSbvg', symObjAddr: 0x25B0, symBinAddr: 0x52BBC, symSize: 0x1C }
+  - { offset: 0xC8868, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloadsSbvs', symObjAddr: 0x25CC, symBinAddr: 0x52BD8, symSize: 0x2C }
+  - { offset: 0xC889E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloadsSbvM', symObjAddr: 0x25F8, symBinAddr: 0x52C04, symSize: 0x2C }
+  - { offset: 0xC88C4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV15logFullPayloadsSbvM.resume.0', symObjAddr: 0x2624, symBinAddr: 0x52C30, symSize: 0xC }
+  - { offset: 0xC88E6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV18logLocationEnabledSbvg', symObjAddr: 0x2630, symBinAddr: 0x52C3C, symSize: 0x1C }
+  - { offset: 0xC890C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV18logLocationEnabledSbvs', symObjAddr: 0x264C, symBinAddr: 0x52C58, symSize: 0x2C }
+  - { offset: 0xC8942, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV18logLocationEnabledSbvM', symObjAddr: 0x2678, symBinAddr: 0x52C84, symSize: 0x20 }
+  - { offset: 0xC8968, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7LoggingV18logLocationEnabledSbvM.resume.0', symObjAddr: 0x2698, symBinAddr: 0x52CA4, symSize: 0xC }
+  - { offset: 0xC898A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSecondsSdSgvg', symObjAddr: 0x26B0, symBinAddr: 0x52CB0, symSize: 0x20 }
+  - { offset: 0xC89B0, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSecondsSdSgvs', symObjAddr: 0x26D0, symBinAddr: 0x52CD0, symSize: 0x44 }
+  - { offset: 0xC89E6, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSecondsSdSgvM', symObjAddr: 0x2714, symBinAddr: 0x52D14, symSize: 0x2C }
+  - { offset: 0xC8A0C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV18postTimeoutSecondsSdSgvM.resume.0', symObjAddr: 0x2740, symBinAddr: 0x52D40, symSize: 0xC }
+  - { offset: 0xC8A2E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV12cachingLevelSiSgvg', symObjAddr: 0x2758, symBinAddr: 0x52D4C, symSize: 0x20 }
+  - { offset: 0xC8A54, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV12cachingLevelSiSgvs', symObjAddr: 0x2778, symBinAddr: 0x52D6C, symSize: 0x44 }
+  - { offset: 0xC8A8A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV12cachingLevelSiSgvM', symObjAddr: 0x27BC, symBinAddr: 0x52DB0, symSize: 0x20 }
+  - { offset: 0xC8AB0, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV12cachingLevelSiSgvM.resume.0', symObjAddr: 0x27DC, symBinAddr: 0x52DD0, symSize: 0xC }
+  - { offset: 0xC8AD2, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV16compressPayloadsSbvg', symObjAddr: 0x27E8, symBinAddr: 0x52DDC, symSize: 0x1C }
+  - { offset: 0xC8AF8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV16compressPayloadsSbvs', symObjAddr: 0x2804, symBinAddr: 0x52DF8, symSize: 0x2C }
+  - { offset: 0xC8B2E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV16compressPayloadsSbvM', symObjAddr: 0x2830, symBinAddr: 0x52E24, symSize: 0x20 }
+  - { offset: 0xC8B54, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV7NetworkV16compressPayloadsSbvM.resume.0', symObjAddr: 0x2850, symBinAddr: 0x52E44, symSize: 0xC }
+  - { offset: 0xC8B76, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV8rawValueSSvg', symObjAddr: 0x285C, symBinAddr: 0x52E50, symSize: 0x3C }
+  - { offset: 0xC8BA8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVyAESScfC', symObjAddr: 0x2898, symBinAddr: 0x52E8C, symSize: 0x80 }
+  - { offset: 0xC8BDD, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV8rawValueAESS_tcfC', symObjAddr: 0x297C, symBinAddr: 0x52F70, symSize: 0x80 }
+  - { offset: 0xC8C12, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV13killSwitchURLAEvgZ', symObjAddr: 0x2A84, symBinAddr: 0x53078, symSize: 0x28 }
+  - { offset: 0xC8C35, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV14sessionTimeoutAEvgZ', symObjAddr: 0x2B34, symBinAddr: 0x53128, symSize: 0x28 }
+  - { offset: 0xC8C58, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV17manualPostEnabledAEvgZ', symObjAddr: 0x2BE4, symBinAddr: 0x531D8, symSize: 0x28 }
+  - { offset: 0xC8C7B, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV07dynamicB7EnabledAEvgZ', symObjAddr: 0x2C94, symBinAddr: 0x53288, symSize: 0x28 }
+  - { offset: 0xC8C9E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxBytesPerActivationAEvgZ', symObjAddr: 0x2D44, symBinAddr: 0x53338, symSize: 0x28 }
+  - { offset: 0xC8CC1, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV21maxPostsPerActivationAEvgZ', symObjAddr: 0x2DF4, symBinAddr: 0x533E8, symSize: 0x28 }
+  - { offset: 0xC8CE4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV19postIntervalSecondsAEvgZ', symObjAddr: 0x2EA4, symBinAddr: 0x53498, symSize: 0x28 }
+  - { offset: 0xC8D07, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyV16maxPostBytesSizeAEvgZ', symObjAddr: 0x2F54, symBinAddr: 0x53548, symSize: 0x28 }
+  - { offset: 0xC8D30, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x2F7C, symBinAddr: 0x53570, symSize: 0x44 }
+  - { offset: 0xC8D44, size: 0x8, addend: 0x0, symName: '_$s7Connect0A6ConfigV11AdvancedKeyVSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x2FC0, symBinAddr: 0x535B4, symSize: 0x2C }
+  - { offset: 0xC8D5E, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVs9OptionSetSCsACP8rawValuex03RawF0Qz_tcfCTW', symObjAddr: 0x51A4, symBinAddr: 0x55794, symSize: 0x2C }
+  - { offset: 0xC8D78, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsV8rawValueABSu_tcfC', symObjAddr: 0x51D0, symBinAddr: 0x557C0, symSize: 0x4 }
+  - { offset: 0xC8D8C, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVSYSCSY8rawValuexSg03RawD0Qz_tcfCTW', symObjAddr: 0x51D4, symBinAddr: 0x557C4, symSize: 0x3C }
+  - { offset: 0xC8DA0, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsVSYSCSY8rawValue03RawD0QzvgTW', symObjAddr: 0x5210, symBinAddr: 0x55800, symSize: 0x2C }
+  - { offset: 0xC8DB4, size: 0x8, addend: 0x0, symName: '_$sSo20NSJSONReadingOptionsV8rawValueSuvg', symObjAddr: 0x54A0, symBinAddr: 0x55A2C, symSize: 0x4 }
+  - { offset: 0xC911F, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationCSgWOh', symObjAddr: 0x360, symBinAddr: 0x55EE8, symSize: 0x30 }
+  - { offset: 0xC9133, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVIegg_So6NSDataCIeyBy_TR', symObjAddr: 0x5AC, symBinAddr: 0x56134, symSize: 0x88 }
+  - { offset: 0xC914B, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x634, symBinAddr: 0x561BC, symSize: 0x44 }
+  - { offset: 0xC915F, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x678, symBinAddr: 0x56200, symSize: 0x18 }
+  - { offset: 0xC9173, size: 0x8, addend: 0x0, symName: '_$ss5Error_pIegg_So7NSErrorCIeyBy_TR', symObjAddr: 0x690, symBinAddr: 0x56218, symSize: 0x68 }
+  - { offset: 0xC918B, size: 0x8, addend: 0x0, symName: _block_copy_helper.1, symObjAddr: 0x6F8, symBinAddr: 0x56280, symSize: 0x44 }
+  - { offset: 0xC919F, size: 0x8, addend: 0x0, symName: _block_destroy_helper.2, symObjAddr: 0x73C, symBinAddr: 0x562C4, symSize: 0x18 }
+  - { offset: 0xC91B3, size: 0x8, addend: 0x0, symName: '_$sSo20ConnectDelegateProxyCSgWOh', symObjAddr: 0xB48, symBinAddr: 0x56670, symSize: 0x30 }
+  - { offset: 0xC91C7, size: 0x8, addend: 0x0, symName: '_$s7Connect0A23NotificationCenterProxyCSgWOh', symObjAddr: 0xB78, symBinAddr: 0x566A0, symSize: 0x30 }
+  - { offset: 0xC91DB, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCMa', symObjAddr: 0xC48, symBinAddr: 0x56770, symSize: 0x24 }
+  - { offset: 0xC920A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC11application33_5D359FA6F9BD33F7361D2E8631CCB2AALLSo13UIApplicationCvg', symObjAddr: 0x0, symBinAddr: 0x55B98, symSize: 0x30 }
+  - { offset: 0xC921E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC16pushEventHandler33_5D359FA6F9BD33F7361D2E8631CCB2AALLAA04PushF8Handling_pvg', symObjAddr: 0x30, symBinAddr: 0x55BC8, symSize: 0x34 }
+  - { offset: 0xC926C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC5proxy33_5D359FA6F9BD33F7361D2E8631CCB2AALLSo0abC0CSgvg', symObjAddr: 0x6C, symBinAddr: 0x55BFC, symSize: 0x54 }
+  - { offset: 0xC9286, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC5proxy33_5D359FA6F9BD33F7361D2E8631CCB2AALLSo0abC0CSgvs', symObjAddr: 0xC0, symBinAddr: 0x55C50, symSize: 0x74 }
+  - { offset: 0xC929A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC012notificationC033_5D359FA6F9BD33F7361D2E8631CCB2AALLAA0a18NotificationCenterC0CSgvg', symObjAddr: 0x13C, symBinAddr: 0x55CC4, symSize: 0x54 }
+  - { offset: 0xC92AE, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC012notificationC033_5D359FA6F9BD33F7361D2E8631CCB2AALLAA0a18NotificationCenterC0CSgvs', symObjAddr: 0x190, symBinAddr: 0x55D18, symSize: 0x74 }
+  - { offset: 0xC92C8, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_ptcfC', symObjAddr: 0x204, symBinAddr: 0x55D8C, symSize: 0x58 }
+  - { offset: 0xC92DC, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC11application16pushEventHandlerACSo13UIApplicationCSg_AA04PushG8Handling_ptcfc', symObjAddr: 0x25C, symBinAddr: 0x55DE4, symSize: 0x104 }
+  - { offset: 0xC931E, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC30registerForRemoteNotificationsyyF', symObjAddr: 0x390, symBinAddr: 0x55F18, symSize: 0x58 }
+  - { offset: 0xC935A, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC7install12tokenHandler07failureG0yy10Foundation4DataVYbc_ys5Error_pYbctF', symObjAddr: 0x3E8, symBinAddr: 0x55F70, symSize: 0x1C4 }
+  - { offset: 0xC939C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC9uninstallyyF', symObjAddr: 0x754, symBinAddr: 0x562DC, symSize: 0x108 }
+  - { offset: 0xC93C0, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC019installNotificationC0yyF', symObjAddr: 0x85C, symBinAddr: 0x563E4, symSize: 0x15C }
+  - { offset: 0xC93E4, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerC021uninstallNotificationC0yyF', symObjAddr: 0xA18, symBinAddr: 0x56540, symSize: 0xDC }
+  - { offset: 0xC9418, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCfd', symObjAddr: 0xAF4, symBinAddr: 0x5661C, symSize: 0x54 }
+  - { offset: 0xC943C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCfD', symObjAddr: 0xBA8, symBinAddr: 0x566D0, symSize: 0x3C }
+  - { offset: 0xC9460, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA15APNSRegisteringA2aDP30registerForRemoteNotificationsyyFTW', symObjAddr: 0xBE4, symBinAddr: 0x5670C, symSize: 0x14 }
+  - { offset: 0xC9474, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA04PushbC0A2aDP7install12tokenHandler07failureH0yy10Foundation4DataVYbc_ys5Error_pYbctFTW', symObjAddr: 0xBF8, symBinAddr: 0x56720, symSize: 0x14 }
+  - { offset: 0xC9488, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA04PushbC0A2aDP9uninstallyyFTW', symObjAddr: 0xC0C, symBinAddr: 0x56734, symSize: 0x14 }
+  - { offset: 0xC949C, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA018NotificationCenterbC0A2aDP07installeC0yyFTW', symObjAddr: 0xC20, symBinAddr: 0x56748, symSize: 0x14 }
+  - { offset: 0xC94B0, size: 0x8, addend: 0x0, symName: '_$s7Connect0A20DelegateProxyManagerCAA018NotificationCenterbC0A2aDP09uninstalleC0yyFTW', symObjAddr: 0xC34, symBinAddr: 0x5675C, symSize: 0x14 }
 ...
