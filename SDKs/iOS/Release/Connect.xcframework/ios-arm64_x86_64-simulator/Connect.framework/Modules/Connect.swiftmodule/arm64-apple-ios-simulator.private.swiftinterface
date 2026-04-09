@@ -1,0 +1,306 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name Connect
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+@_exported import Connect
+import Foundation
+import Swift
+import Tealeaf
+import UIKit
+import UserNotifications
+import UserNotificationsUI
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+public enum ConnectPushActionIdentifier : Swift.String {
+  case openURL
+  case openDialer
+  case openApp
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ConnectPushCategoryIdentifier {
+  public static let acousticActions: Swift.String
+  public static let acousticRichContent: Swift.String
+}
+public protocol ConnectNotification {
+  var userInfo: [Swift.AnyHashable : Any] { get }
+}
+extension UserNotifications.UNNotification : Connect.ConnectNotification {
+  public var userInfo: [Swift.AnyHashable : Any] {
+    get
+  }
+}
+public enum ConnectError : Swift.Error {
+  case pushNotEnabled
+  case pushModeNotManual
+  public static func == (a: Connect.ConnectError, b: Connect.ConnectError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class ConnectPush {
+  @_Concurrency.MainActor final public let config: Connect.ConnectPushConfig
+  @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
+  nonisolated final public func didReceiveAuthorization(granted: Swift.Bool, error: (any Swift.Error)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public func didReceiveAuthorization(granted: Swift.Bool, error: (any Swift.Error)?) async
+  #endif
+  nonisolated final public func didRegisterWithToken(_ token: Foundation.Data)
+  @_Concurrency.MainActor final public func didRegisterWithToken(_ token: Foundation.Data) async
+  nonisolated final public func didFailToRegisterWithError(_ error: any Swift.Error)
+  @_Concurrency.MainActor final public func didFailToRegisterWithError(_ error: any Swift.Error) async
+  @_Concurrency.MainActor final public func didReceive(_ response: any Connect.ConnectNotificationResponse) throws
+  @_Concurrency.MainActor final public func didReceiveNotification(_ notification: any Connect.ConnectNotification) throws
+  @_Concurrency.MainActor final public func registerNotificationCategories()
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class ConnectSDK {
+  @_Concurrency.MainActor public static let shared: Connect.ConnectSDK
+  @_Concurrency.MainActor final public var identity: Connect.ConnectIdentity {
+    get
+  }
+  @_Concurrency.MainActor final public var push: Connect.ConnectPush {
+    get throws
+  }
+  @_Concurrency.MainActor final public func enable(appKey: Swift.String, postURL: Swift.String, push: Connect.ConnectPushConfig = .off)
+  @_Concurrency.MainActor final public func enable(with config: Connect.ConnectConfig)
+  @_Concurrency.MainActor final public func disable()
+  @_Concurrency.MainActor final public func flush()
+  @_Concurrency.MainActor final public var isEnabled: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor final public var frameworkVersion: Swift.String {
+    get
+  }
+  @objc deinit
+}
+public struct ConnectPushConfig : Swift.Sendable {
+  public static let off: Connect.ConnectPushConfig
+  public static let automatic: Connect.ConnectPushConfig
+  public static let manual: Connect.ConnectPushConfig
+  public enum Mode : Swift.Sendable {
+    case off
+    case automatic
+    case manual
+    public static func == (a: Connect.ConnectPushConfig.Mode, b: Connect.ConnectPushConfig.Mode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let mode: Connect.ConnectPushConfig.Mode
+  public let appGroupIdentifier: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(mode: Connect.ConnectPushConfig.Mode = .off, appGroupIdentifier: Swift.String? = nil)
+  #endif
+}
+extension Connect.ConnectSDK {
+  @_Concurrency.MainActor final public func isHybridBridgeRequest(_ request: Foundation.URLRequest, webView: WebKit.WKWebView) -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor final public func injectHybridBridge(into webView: WebKit.WKWebView) -> Swift.Bool
+  @_Concurrency.MainActor final public func sendEvent(_ event: UIKit.UIEvent)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public func sendAction(_ action: ObjectiveC.Selector, to target: Any?, from sender: Any?, for event: UIKit.UIEvent?)
+  #endif
+}
+extension Connect.ConnectSDK {
+  @_Concurrency.MainActor final public func setHTTPHeaders(_ headers: [Swift.String : Swift.String])
+  @_Concurrency.MainActor final public func addHTTPHeader(_ value: Swift.String, forName name: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var httpHeaders: [Swift.AnyHashable : Any]? {
+    get
+  }
+  #endif
+  @_Concurrency.MainActor final public func setHTTPCookies(_ cookies: [Foundation.HTTPCookie])
+  @_Concurrency.MainActor final public func addHTTPCookie(_ cookie: Foundation.HTTPCookie)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var httpCookies: [Foundation.HTTPCookie]? {
+    get
+  }
+  #endif
+  @discardableResult
+  @_Concurrency.MainActor final public func sessionize(request: inout Foundation.URLRequest) -> Swift.Bool
+}
+extension Connect.ConnectSDK {
+  @discardableResult
+  @_Concurrency.MainActor final public func setDeviceId(_ deviceId: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var deviceId: Swift.String? {
+    get
+  }
+  #endif
+  @discardableResult
+  @_Concurrency.MainActor final public func setCXAAdvertisingId(_ advertisingId: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var cxaAdvertisingId: Swift.String? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var applicationContextName: Swift.String? {
+    get
+  }
+  #endif
+}
+extension Connect.ConnectSDK {
+  @discardableResult
+  @_Concurrency.MainActor final public func setLogLevel(_ logLevel: Swift.UInt, forEvent event: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor final public func logLevel(forEvent event: Swift.String) -> Swift.UInt
+  @discardableResult
+  @_Concurrency.MainActor final public func setConfigurableItem(_ key: Swift.String, value: Any) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public func valueForConfigurableItem(_ key: Swift.String) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var layoutConfigItems: [Swift.AnyHashable : Any]? {
+    get
+  }
+  #endif
+}
+extension Connect.ConnectSDK {
+  @discardableResult
+  @_Concurrency.MainActor final public func pause() -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor final public func resume() -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor final public func resume(pageName: Swift.String) -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor final public func setCurrentScreen(pageName: Swift.String) -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor final public func startNewSession() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var currentSessionId: Swift.String? {
+    get
+  }
+  #endif
+  @_Concurrency.MainActor final public func setKillSwitchURL(_ url: Swift.String)
+  @_Concurrency.MainActor final public func setPostMessageURL(_ url: Swift.String)
+  @_Concurrency.MainActor final public func requestManualPost()
+  @discardableResult
+  @_Concurrency.MainActor final public func setReactNative(_ isReactNative: Swift.Bool, wrapNavigationContainer: Swift.Bool) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ConnectNotificationService : UserNotifications.UNNotificationServiceExtension, @unchecked Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  open var appGroupIdentifier: Swift.String? {
+    get
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc override dynamic public func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic public func serviceExtensionTimeWillExpire()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class ConnectNotificationContentExtension : UIKit.UIViewController, UserNotificationsUI.UNNotificationContentExtension {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency open var appGroupIdentifier: Swift.String? {
+    get
+  }
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc public func didReceive(_ notification: UserNotifications.UNNotification)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class ConnectIdentity {
+  @discardableResult
+  final public func log(identifierName: Swift.String, identifierValue: Swift.String, signalType: Swift.String = "pageView", additionalParameters: [Swift.String : Swift.String] = [:]) -> Swift.Bool
+  @objc deinit
+}
+public protocol ConnectNotificationResponse {
+  var actionIdentifier: Swift.String { get }
+  var userInfo: [Swift.AnyHashable : Any] { get }
+}
+extension UserNotifications.UNNotificationResponse : Connect.ConnectNotificationResponse {
+  public var userInfo: [Swift.AnyHashable : Any] {
+    get
+  }
+}
+public struct ConnectConfig : @unchecked Swift.Sendable {
+  public let appKey: Swift.String
+  public let postURL: Swift.String
+  public var push: Connect.ConnectPushConfig
+  public var layout: Connect.ConnectConfig.Layout
+  public var ui: Connect.ConnectConfig.UI
+  public var logging: Connect.ConnectConfig.Logging
+  public var network: Connect.ConnectConfig.Network
+  public var advanced: [Connect.ConnectConfig.AdvancedKey : Any]
+  public init(appKey: Swift.String, postURL: Swift.String, push: Connect.ConnectPushConfig = .off, layout: Connect.ConnectConfig.Layout = .loadFromBundle(), ui: Connect.ConnectConfig.UI = UI(), logging: Connect.ConnectConfig.Logging = Logging(), network: Connect.ConnectConfig.Network = Network(), advanced: [Connect.ConnectConfig.AdvancedKey : Any] = [:])
+}
+extension Connect.ConnectConfig {
+  public struct Layout : @unchecked Swift.Sendable {
+    public let autoLayout: [Swift.AnyHashable : Any]?
+    public let appendMapIds: [Swift.AnyHashable : Any]?
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(autoLayout: [Swift.AnyHashable : Any]? = nil, appendMapIds: [Swift.AnyHashable : Any]? = nil)
+    #endif
+    public static func loadFromBundle() -> Connect.ConnectConfig.Layout
+    public static let basicAnalytics: Connect.ConnectConfig.Layout
+    public static let none: Connect.ConnectConfig.Layout
+  }
+}
+extension Connect.ConnectConfig {
+  public struct UI {
+    public var removeSwiftUIDuplicates: Swift.Bool
+    public var captureKeyboardTouches: Swift.Bool
+    public var captureSwiftUINonVariadic: Swift.Bool
+    public init(removeSwiftUIDuplicates: Swift.Bool = true, captureKeyboardTouches: Swift.Bool = false, captureSwiftUINonVariadic: Swift.Bool = true)
+  }
+}
+extension Connect.ConnectConfig {
+  public struct Logging {
+    public var logFullPayloads: Swift.Bool
+    public var logLocationEnabled: Swift.Bool
+    public init(logFullPayloads: Swift.Bool = false, logLocationEnabled: Swift.Bool = false)
+  }
+}
+extension Connect.ConnectConfig {
+  public struct Network {
+    public var postTimeoutSeconds: Foundation.TimeInterval?
+    public var cachingLevel: Swift.Int?
+    public var compressPayloads: Swift.Bool
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(postTimeoutSeconds: Foundation.TimeInterval? = nil, cachingLevel: Swift.Int? = nil, compressPayloads: Swift.Bool = true)
+    #endif
+  }
+}
+extension Connect.ConnectConfig {
+  public struct AdvancedKey : Swift.RawRepresentable, Swift.Hashable, Swift.Sendable {
+    public let rawValue: Swift.String
+    public init(_ rawValue: Swift.String)
+    public init(rawValue: Swift.String)
+    public static let killSwitchURL: Connect.ConnectConfig.AdvancedKey
+    public static let sessionTimeout: Connect.ConnectConfig.AdvancedKey
+    public static let manualPostEnabled: Connect.ConnectConfig.AdvancedKey
+    public static let dynamicConfigEnabled: Connect.ConnectConfig.AdvancedKey
+    public static let maxBytesPerActivation: Connect.ConnectConfig.AdvancedKey
+    public static let maxPostsPerActivation: Connect.ConnectConfig.AdvancedKey
+    public static let postIntervalSeconds: Connect.ConnectConfig.AdvancedKey
+    public static let maxPostBytesSize: Connect.ConnectConfig.AdvancedKey
+    public typealias RawValue = Swift.String
+  }
+}
+extension Connect.ConnectPushActionIdentifier : Swift.Equatable {}
+extension Connect.ConnectPushActionIdentifier : Swift.Hashable {}
+extension Connect.ConnectPushActionIdentifier : Swift.RawRepresentable {}
+extension Connect.ConnectError : Swift.Equatable {}
+extension Connect.ConnectError : Swift.Hashable {}
+extension Connect.ConnectPush : Swift.Sendable {}
+extension Connect.ConnectSDK : Swift.Sendable {}
+extension Connect.ConnectPushConfig.Mode : Swift.Equatable {}
+extension Connect.ConnectPushConfig.Mode : Swift.Hashable {}
