@@ -6,7 +6,7 @@
 	<dict>
 		<key>ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		MujSHQSK/cm+QjrosUXfhaajiMs=
+		cynKMflR43kaLq63J8PIhJKlHbc=
 		</data>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreAdvancedConfig.json</key>
 		<data>
-		K738nnU3oL+GpUD49c0iOKYk9zk=
+		dWnR8196qVfRTmAXSpRfeSPkhj0=
 		</data>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		t4e6i+mu0OqZm9PfprrPr73MzK0=
+		dC/HePp7Z/XOcKM+f5+ob+zEOlI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7GWP3xKKQsKfJY+SPkypnWv5crE=
+		uLjtCXJA67s8dspxK+bduMT+FvM=
 		</data>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -123,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8r01WD1zupfWuny4x0QuxIhkNTHdalOecsjBQoVL8Wo=
+			+UidtryJmuyN9259OJP4B/Chu73SnqHX3BLWKXglCqM=
 			</data>
 		</dict>
 		<key>ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g45qIa0RF2LYS7XWLk4oXZM+381qVPrKHP4W0gguepo=
+			EocX0KmXHJOFdqa0NM/C5w67l9aJVcbK6PQUO0er5hI=
 			</data>
 		</dict>
 		<key>EOCoreSettings.bundle/EOCoreBasicConfig.plist</key>
@@ -200,7 +200,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YfM9URdRpbiE+Bl+ImEJb46AIXssbwSSR736ONb+iik=
+			0ZGp25pJUs/EUek7F2Q5+OvTn9CwMoSlBuD3A6wUA2I=
 			</data>
 		</dict>
 		<key>Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
