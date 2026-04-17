@@ -13,9 +13,9 @@ For SDK prerequisites and documentation, please refer to the SDK documentation [
 
 Add following lines at the begining of your Podfile
 
-Set platform as iOS 12
+Set platform as iOS 15.1
 ```
-platform :ios, '12.0'
+platform :ios, '15.1'
 ```
 Uncomment use_frameworks
 ```
@@ -42,16 +42,15 @@ Open Cartfile in a text editor of your choice and note the following lines:
 
 In the respective targets for your project in the Podfile add the following line if you want to use Connect SDK's release version
 ```
-binary "https://raw.githubusercontent.com/go-acoustic/EOCore/master/EOCore.json" >= 2.3.273
-binary "https://raw.githubusercontent.com/go-acoustic/Tealeaf/master/Tealeaf.json" >= 10.6.288
-binary "https://raw.githubusercontent.com/go-acoustic/Connect/master/Connect.json" >= 1.0.16
+binary "https://raw.githubusercontent.com/go-acoustic/EOCore/master/EOCore.json" >= 2.3.338
+binary "https://raw.githubusercontent.com/go-acoustic/Tealeaf/master/Tealeaf.json" >= 10.6.336
+binary "https://raw.githubusercontent.com/go-acoustic/Connect/master/Connect.json" >= 2.0.0
 ```
 
-In the respective targets for your project in the Podfile add the following line if you want to use Connect SDK's debug version
+In the respective targets for your project in the Podfile add the following line if you want to use Connect SDK's debug version.
+Note: EOCore and Tealeaf are no longer published separately.
 ```
-binary "https://raw.githubusercontent.com/go-acoustic/EOCore/master/EOCoreDebug.json" >= 2.3.273
-binary "https://raw.githubusercontent.com/go-acoustic/Tealeaf/master/TealeafDebug.json" >= 10.6.288
-binary "https://raw.githubusercontent.com/go-acoustic/Connect/master/ConnectDebug.json" >= 1.0.16
+binary "https://raw.githubusercontent.com/go-acoustic/Connect/master/ConnectDebug.json" >= 2.1.0
 ```
 You will notice that by default the sample application uses `Debug` version of libraries.
 
@@ -72,7 +71,7 @@ Please go to
 Whichever hashing algorithm you choose, we recommend you repackage your application images and upload them to Connect Server. Detailed steps are available [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/capturing-and-uploading-images-with-the-image-tool)
 
 ## Troubleshooting
-If you are using Debug version of Tealeaf SDK. i.e. `pod 'AcousticConnectDebug'` , then you may edit your project's scheme in XCode and add environmental variable `EODebug`and set its value to 1; also add environmental variable `Connect_DEBUG` and set its value to 1. This will make the SDK to start writing debug logs to your xcode console window. If and when you want to report issues, the Tealeaf support engineers will ask you for these logs.
+If you are using Debug version of Connect SDK. i.e. `pod 'AcousticConnectDebug'` , then you may edit your project's scheme in XCode and add environmental variable `EODebug`and set its value to 1; also add environmental variable `Connect_DEBUG` and set its value to 1. This will make the SDK to start writing debug logs to your xcode console window. If and when you want to report issues, the Connect support engineers will ask you for these logs.
 
 If you are getting an issue like using Cocoapods:
 
