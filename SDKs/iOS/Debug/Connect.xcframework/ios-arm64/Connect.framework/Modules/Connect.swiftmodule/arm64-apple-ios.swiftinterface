@@ -5,7 +5,6 @@
 @_exported import Connect
 import Foundation
 import Swift
-import Tealeaf
 import UIKit
 import UserNotifications
 import UserNotificationsUI

@@ -93,7 +93,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -962,7 +965,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1658,7 +1664,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10417,7 +10426,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -15259,6 +15271,7 @@
         "declKind": "Import",
         "moduleName": "Connect",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -15335,7 +15348,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -19889,7 +19905,7 @@
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Identity\/ConnectIdentityMessage.swift",
       "kind": "Dictionary",
-      "offset": 1807,
+      "offset": 1816,
       "length": 3,
       "value": "[]"
     },

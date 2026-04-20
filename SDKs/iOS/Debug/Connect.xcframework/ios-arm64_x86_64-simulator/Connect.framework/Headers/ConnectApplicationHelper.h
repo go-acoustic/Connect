@@ -14,9 +14,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
-#import <Tealeaf/TLFPublicDefinitions.h>
-#import <Tealeaf/TLFApplicationHelper.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
