@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/Connect.framework/Connect</key>
 		<data>
-		oXJZz8d0DryIqEr0yydfWelb6Zc=
+		5bwE/leImDqTyIWQXre/HJX/5o0=
 		</data>
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		O+XPwOibfewKKGsEDDBEJrsspx4=
+		/qCBkBa7w5nAdfHxye9GFTXTAKg=
 		</data>
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -19,106 +19,6 @@
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectLayoutConfig.json</key>
 		<data>
 		vVHFIVK7dhUlYiVqtKwpK9L84BU=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/EOCore</key>
-		<data>
-		ltLJCCWVVIOekH8EC+CR5R1C0x8=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOApplicationHelper.h</key>
-		<data>
-		HkqCkqXLzXTegazRcGeqgKfsNgg=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOCore.h</key>
-		<data>
-		gNM+c1aDvBglkwgaGO7vx33bxIE=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOLifecycleObject.h</key>
-		<data>
-		YFjoqMN72AR5zzcuM1ZpJSwWV6c=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOMessage.h</key>
-		<data>
-		O5eWFffhLa3vu2Ef2lXwnFNp38I=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOPublicHeader.h</key>
-		<data>
-		FvRTapSr335Y17eW2L1mZcq815E=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOReachability.h</key>
-		<data>
-		kRP5UfShrAmRtPXzcKo7PxTpFOA=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/NSDictionary+EOCoreExtensions.h</key>
-		<data>
-		z7UvXTu11kFLUXY/o2cqBCOGldo=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/NSString+EOCoreExtensions.h</key>
-		<data>
-		Ly7chhO5AUL/3sBXR65SrhRVxSI=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Info.plist</key>
-		<data>
-		0pCHlckE2oXiSD9vldY9GLHcva4=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Modules/module.modulemap</key>
-		<data>
-		hORH/CKRoWRgnCqc03DOl2dRyQM=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		JmD1a1spY5ODgO2GFzgFu17xuz8=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFApplication.h</key>
-		<data>
-		pGVACAPBAjsX0tN+s5UN4KeNR6c=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFApplicationHelper.h</key>
-		<data>
-		IknXsV2/wmycXWJrNErZyufXOfo=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFCustomEvent.h</key>
-		<data>
-		pb/qQdM6uDsVOzj/0kGUFE0ixTY=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFEnums.h</key>
-		<data>
-		Ja0LMQWObLd/GEeicWAmuKaLRRw=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFLevelManager.h</key>
-		<data>
-		UVrGRxX8SJB3T57hGNXa4d8PWeM=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFMessage.h</key>
-		<data>
-		YlnFOOXEtpvRFfjZTvdRBCrn9Bw=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFPublicDefinitions.h</key>
-		<data>
-		0uoc9wE2YoqZoE9Vbq6W63lymYE=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/Tealeaf.h</key>
-		<data>
-		SslEihRqh6FnHZwZLLMOvtgPfBU=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TealeafBridgingHeader.h</key>
-		<data>
-		fXyJTzT7icTRLsDOWhaPB/mNmLU=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Info.plist</key>
-		<data>
-		Jcq7udzx/SxORcSHI4kLKrbKGas=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Modules/module.modulemap</key>
-		<data>
-		UGzT8qaQK7RrMcw7UsB29ak7OYM=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		RAnTPZU6cNDuCexJl5pB5am0brY=
-		</data>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Tealeaf</key>
-		<data>
-		XE/hhiHJR2cxtFhvOrTlLp8ENO0=
 		</data>
 		<key>ios-arm64/Connect.framework/Headers/Connect.h</key>
 		<data>
@@ -146,11 +46,11 @@
 		</data>
 		<key>ios-arm64/Connect.framework/Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		TCZVwwzQxgA13qV/tGZ9z/2vxfc=
+		CUlSBcCl53WfR3pnneBEGsEbQ3M=
 		</data>
 		<key>ios-arm64/Connect.framework/Info.plist</key>
 		<data>
-		bYtISgmxkERxpaJeiMXBXosD6V8=
+		HKvumIIPLmocryWbOjvWAAaeIbg=
 		</data>
 		<key>ios-arm64/Connect.framework/Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -178,11 +78,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		RXPynxlB5ez1B6Ak/YUXOojR+uE=
+		mluXwhcpLkw81u/BTyAuPQPKJLM=
 		</data>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Resources/DWARF/Connect</key>
 		<data>
-		MSl/pagT9AX/u8s98o0TA+EROFM=
+		1uBqdCV9AODwaQgork3UYbW/v7s=
 		</data>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Resources/Relocations/aarch64/Connect.yml</key>
 		<data>
@@ -190,11 +90,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Connect</key>
 		<data>
-		mlgjKZ2IolPs0Ngy8ZpBfpAzdzo=
+		Xziww/czx+vuRcekWRzwmCMuvVQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		O+XPwOibfewKKGsEDDBEJrsspx4=
+		/qCBkBa7w5nAdfHxye9GFTXTAKg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -203,106 +103,6 @@
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectLayoutConfig.json</key>
 		<data>
 		vVHFIVK7dhUlYiVqtKwpK9L84BU=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/EOCore</key>
-		<data>
-		bXCLZ+KOjdfMGXpEL1YzNHLEql4=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOApplicationHelper.h</key>
-		<data>
-		HkqCkqXLzXTegazRcGeqgKfsNgg=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOCore.h</key>
-		<data>
-		gNM+c1aDvBglkwgaGO7vx33bxIE=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOLifecycleObject.h</key>
-		<data>
-		YFjoqMN72AR5zzcuM1ZpJSwWV6c=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOMessage.h</key>
-		<data>
-		O5eWFffhLa3vu2Ef2lXwnFNp38I=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOPublicHeader.h</key>
-		<data>
-		FvRTapSr335Y17eW2L1mZcq815E=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOReachability.h</key>
-		<data>
-		kRP5UfShrAmRtPXzcKo7PxTpFOA=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/NSDictionary+EOCoreExtensions.h</key>
-		<data>
-		z7UvXTu11kFLUXY/o2cqBCOGldo=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/NSString+EOCoreExtensions.h</key>
-		<data>
-		Ly7chhO5AUL/3sBXR65SrhRVxSI=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Info.plist</key>
-		<data>
-		7gz9CcDm9n5IMpLgIHPz/QAPK2k=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Modules/module.modulemap</key>
-		<data>
-		hORH/CKRoWRgnCqc03DOl2dRyQM=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		JmD1a1spY5ODgO2GFzgFu17xuz8=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFApplication.h</key>
-		<data>
-		pGVACAPBAjsX0tN+s5UN4KeNR6c=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFApplicationHelper.h</key>
-		<data>
-		IknXsV2/wmycXWJrNErZyufXOfo=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFCustomEvent.h</key>
-		<data>
-		pb/qQdM6uDsVOzj/0kGUFE0ixTY=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFEnums.h</key>
-		<data>
-		Ja0LMQWObLd/GEeicWAmuKaLRRw=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFLevelManager.h</key>
-		<data>
-		UVrGRxX8SJB3T57hGNXa4d8PWeM=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFMessage.h</key>
-		<data>
-		YlnFOOXEtpvRFfjZTvdRBCrn9Bw=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFPublicDefinitions.h</key>
-		<data>
-		0uoc9wE2YoqZoE9Vbq6W63lymYE=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/Tealeaf.h</key>
-		<data>
-		SslEihRqh6FnHZwZLLMOvtgPfBU=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TealeafBridgingHeader.h</key>
-		<data>
-		fXyJTzT7icTRLsDOWhaPB/mNmLU=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Info.plist</key>
-		<data>
-		EU8axB7Eue2/8lwnrwSBJUgXzZ8=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Modules/module.modulemap</key>
-		<data>
-		UGzT8qaQK7RrMcw7UsB29ak7OYM=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		RAnTPZU6cNDuCexJl5pB5am0brY=
-		</data>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Tealeaf</key>
-		<data>
-		fPo7ZOA5RtlAQYShQI75fzgPpAo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Headers/Connect.h</key>
 		<data>
@@ -330,11 +130,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		TCZVwwzQxgA13qV/tGZ9z/2vxfc=
+		CUlSBcCl53WfR3pnneBEGsEbQ3M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Info.plist</key>
 		<data>
-		hmHQZPHmN/zd29zDSO4W+818PGI=
+		FrMwhjd/ofgpYFXfxRnM58igLvo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -378,11 +178,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		RXPynxlB5ez1B6Ak/YUXOojR+uE=
+		mluXwhcpLkw81u/BTyAuPQPKJLM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Resources/DWARF/Connect</key>
 		<data>
-		Qx+dorQhGt/+kvYZb2eFNqVd/l4=
+		xK9/6aA8FPhXIvqcLSVQgZECfck=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Resources/Relocations/aarch64/Connect.yml</key>
 		<data>
@@ -399,14 +199,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6oGCUptR35CQNqyN8Wd5qSTCgTZlRo9e1Py7VEqQ9fg=
+			nygCRRw+eaNeIM3kUyvOmbxMzenoh/SEVuyBr/sDqgo=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			podjhjywjw2z5pS+bRL+mgQXV8J1nnA1zTDOHb6yG/c=
+			UZozuTX1dU+o3p6j6RvSzv/r3MoTJbCgqFQlriWJK4k=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -421,181 +221,6 @@
 			<key>hash2</key>
 			<data>
 			Rx9dvswsP8HVjv3/f760auCeBarxijI26tIcImD36As=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/EOCore</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H4mmus/kO5okWHNPfWNLomGllxRcCL5DnLkLrmmPVg4=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOApplicationHelper.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SG2LtjfSrlMJE1s4zBYpZqxvAfujEClWefte1ratNfA=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOCore.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gV1uJ/6vHN+UyHWfKU8Yfae+IlbBZkBPOKW/gOqa8N4=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOLifecycleObject.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AF4jklNiTQ/eWw2R98G9ypuTXrRvIpiH8Pnp7sLFWfI=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOMessage.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DClrc6mHLIuCjKub2uUf2+AP6gc8O/0eUNopyywkIpQ=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOPublicHeader.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VeGZufXpSe3fTWo0NEl3GoxTGLDSXst+V8tPJornQj8=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/EOReachability.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q7WXE+3iDoVd73hddOcfeJe1DwP3brv/PGbLBJLq9lo=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/NSDictionary+EOCoreExtensions.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+TqH7WTHCKUaMGUv123dn1Rgp37OSLVscWJVM7lQoK8=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Headers/NSString+EOCoreExtensions.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XdaxnBNRJkbEGZN1bDtHXUIhC1QuWHZGIYXHzpXu/Ko=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NKlXESIqk60gAtnaU+7xG5taR6gqMyCSzY00uQVICSI=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tFOJEduf9qlReV9VaTIMbs+paxVrSwdiPn+KH4NM13g=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/EOCore.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DkYfCn9iJWliFsFQxn/go2qRjIzCZHVV61Lr+6WdV+8=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFApplication.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sM7cC8XE7iQU/DDKfCzfexUao1ldYukFrPt6IZryihQ=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFApplicationHelper.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZXSnpwvRVGHAKQ82jbKkABa1LDhmQYLtwgojdjkYiYg=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFCustomEvent.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0LX9ICGxw1kNhIODxgDT9MJM0yTneFP5WOPPAOL92gs=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFEnums.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			B0BZvfttUb97/E0oqtdc9Ax+NcOXflOk79iQ7D/eyxg=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFLevelManager.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bDR4YUnrbpAPnnIymPuE2+Z/WHpVRh4yTzJ2Ppi4z58=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFMessage.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bWnIcYZ3G+ouP9yIZVvnyRO6vA61I1BD8TOKyYdFVXk=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFPublicDefinitions.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4OkP0f/MXgAQEP3zX/5+GXTpUC3TCpYyadD1iXwTsSw=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/Tealeaf.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CocmdX9SojdkKu+3JAJB6/phC0F0SiT5UPOneErH/EI=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Headers/TealeafBridgingHeader.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			muOAk84AMaChQ30HLsVMhRsSGAZjZB+hCGxJdhDsd9o=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CdFZgdrHk/mPevdE6lha/T8EdKvXN9eHJJzzOYGx8R8=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tbQbD+u88pcG7T41rcF/6ytiqOu71xRkp35GSNEv2go=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0yxJQwXVj1jujy3TeM/0XaVYSlLTCw0nBnLDrCGJahs=
-			</data>
-		</dict>
-		<key>ios-arm64/Connect.framework/Frameworks/Tealeaf.framework/Tealeaf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ksk/ShyT3DOJzLfIMtlXFhh0f6Y11PEwn9LYahSX/zU=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/Headers/Connect.h</key>
@@ -644,14 +269,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H89lh0V9aR4/Mzvft1KM+yGHOnss8dLfK/F+8mAflGA=
+			DmEgEw8Cu7UmDYZwRSra9HwV1sdt3ofA1O92HdIhQX8=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zq/9Cy/avut9E5OE5i92UId3tFAMKWryl3k60qm5X8w=
+			boNVk5sw6CGDsC0foNEvbDvYCX5RLdoGPSqM+7lkUFU=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -700,14 +325,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			spO056/rOwYO7E8iZ6h5bwRB++0sFM+H4KYZg8L7H58=
+			1twMXucOJ2kJ2tDRw48ooq4BPmDOSd8Jy/SbMIpIj1g=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Resources/DWARF/Connect</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4xtSrM1shqTMgQpL5EfdoFHDa+qFvMdtcGpiWvLXv+w=
+			2ZfNuAvaScJr9HHWSENAfBsvaaemMcppl5Iko67VHoM=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Resources/Relocations/aarch64/Connect.yml</key>
@@ -721,14 +346,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MU+0JnEnLxthMkwddB8oSSXuibB2UKo58d2dAwudosI=
+			xkLfzT5KC8ediY5gAFblvQpmHMEObbjGvIADSuoqu9Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			podjhjywjw2z5pS+bRL+mgQXV8J1nnA1zTDOHb6yG/c=
+			UZozuTX1dU+o3p6j6RvSzv/r3MoTJbCgqFQlriWJK4k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -743,181 +368,6 @@
 			<key>hash2</key>
 			<data>
 			Rx9dvswsP8HVjv3/f760auCeBarxijI26tIcImD36As=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/EOCore</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Em5lMq+K4mM9LLQ0JOMaWeg6y1CunRAjTUMhQ5FRQw4=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOApplicationHelper.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SG2LtjfSrlMJE1s4zBYpZqxvAfujEClWefte1ratNfA=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOCore.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gV1uJ/6vHN+UyHWfKU8Yfae+IlbBZkBPOKW/gOqa8N4=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOLifecycleObject.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AF4jklNiTQ/eWw2R98G9ypuTXrRvIpiH8Pnp7sLFWfI=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOMessage.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DClrc6mHLIuCjKub2uUf2+AP6gc8O/0eUNopyywkIpQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOPublicHeader.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VeGZufXpSe3fTWo0NEl3GoxTGLDSXst+V8tPJornQj8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/EOReachability.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q7WXE+3iDoVd73hddOcfeJe1DwP3brv/PGbLBJLq9lo=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/NSDictionary+EOCoreExtensions.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+TqH7WTHCKUaMGUv123dn1Rgp37OSLVscWJVM7lQoK8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Headers/NSString+EOCoreExtensions.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XdaxnBNRJkbEGZN1bDtHXUIhC1QuWHZGIYXHzpXu/Ko=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wczRp9pSeNQ+7sR+VVxoFZuJFJQwfujhFdaDpKgJULE=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tFOJEduf9qlReV9VaTIMbs+paxVrSwdiPn+KH4NM13g=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/EOCore.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DkYfCn9iJWliFsFQxn/go2qRjIzCZHVV61Lr+6WdV+8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFApplication.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sM7cC8XE7iQU/DDKfCzfexUao1ldYukFrPt6IZryihQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFApplicationHelper.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZXSnpwvRVGHAKQ82jbKkABa1LDhmQYLtwgojdjkYiYg=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFCustomEvent.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0LX9ICGxw1kNhIODxgDT9MJM0yTneFP5WOPPAOL92gs=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFEnums.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			B0BZvfttUb97/E0oqtdc9Ax+NcOXflOk79iQ7D/eyxg=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFLevelManager.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bDR4YUnrbpAPnnIymPuE2+Z/WHpVRh4yTzJ2Ppi4z58=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFMessage.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bWnIcYZ3G+ouP9yIZVvnyRO6vA61I1BD8TOKyYdFVXk=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TLFPublicDefinitions.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4OkP0f/MXgAQEP3zX/5+GXTpUC3TCpYyadD1iXwTsSw=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/Tealeaf.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CocmdX9SojdkKu+3JAJB6/phC0F0SiT5UPOneErH/EI=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Headers/TealeafBridgingHeader.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			muOAk84AMaChQ30HLsVMhRsSGAZjZB+hCGxJdhDsd9o=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2iAfqy9fWqgMQ6eVXTwPsmCaREGBT0ZC7vUTilkLxp8=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tbQbD+u88pcG7T41rcF/6ytiqOu71xRkp35GSNEv2go=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0yxJQwXVj1jujy3TeM/0XaVYSlLTCw0nBnLDrCGJahs=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Connect.framework/Frameworks/Tealeaf.framework/Tealeaf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zrBX6oqIV8DwAg8IyO02NqKG+8DlLc0cNCDX2we0Kjw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Headers/Connect.h</key>
@@ -966,14 +416,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H89lh0V9aR4/Mzvft1KM+yGHOnss8dLfK/F+8mAflGA=
+			DmEgEw8Cu7UmDYZwRSra9HwV1sdt3ofA1O92HdIhQX8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/rZPrwiNV57af2hC3Zm7q6YoQUE7t6D1/CHwhLg089s=
+			rekeMk9CgktoWspxintT7MjdeB3Yjxdq7AN5wat7taM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -1050,14 +500,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			spO056/rOwYO7E8iZ6h5bwRB++0sFM+H4KYZg8L7H58=
+			1twMXucOJ2kJ2tDRw48ooq4BPmDOSd8Jy/SbMIpIj1g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Resources/DWARF/Connect</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4AB4RtFICooDuLXuYMfD230DX8riRegoiekTvvaKl58=
+			8sMP/uAI3onvT5cFJj50mTAwQVwokwVPI2W5CeFjbPk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Resources/Relocations/aarch64/Connect.yml</key>
