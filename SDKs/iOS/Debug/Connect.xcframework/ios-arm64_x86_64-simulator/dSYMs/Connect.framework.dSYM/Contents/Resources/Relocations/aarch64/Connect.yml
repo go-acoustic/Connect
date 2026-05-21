@@ -101,8 +101,8 @@ relocations:
   - { offset: 0xAF624, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendAction:to:from:forEvent:]', symObjAddr: 0x4C, symBinAddr: 0x5E1C, symSize: 0xA0 }
   - { offset: 0xAF738, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5EBC, symSize: 0xB0 }
   - { offset: 0xAF746, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5EBC, symSize: 0xB0 }
-  - { offset: 0xAF770, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xD450, symBinAddr: 0x791A0, symSize: 0x0 }
-  - { offset: 0xAF786, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD458, symBinAddr: 0x791A8, symSize: 0x0 }
+  - { offset: 0xAF770, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xD458, symBinAddr: 0x791A0, symSize: 0x0 }
+  - { offset: 0xAF786, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD460, symBinAddr: 0x791A8, symSize: 0x0 }
   - { offset: 0xAF83A, size: 0x8, addend: 0x0, symName: '___42+[ConnectApplicationHelper sharedInstance]_block_invoke', symObjAddr: 0xB0, symBinAddr: 0x5F6C, symSize: 0x4C }
   - { offset: 0xAF87A, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper init]', symObjAddr: 0xFC, symBinAddr: 0x5FB8, symSize: 0x134 }
   - { offset: 0xAF8B3, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableFramework]', symObjAddr: 0x230, symBinAddr: 0x60EC, symSize: 0x60 }
