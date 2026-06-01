@@ -2148,6 +2148,630 @@
         "moduleName": "Connect"
       },
       {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "Connect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectPushAuthorizationOptions",
+        "printedName": "ConnectPushAuthorizationOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV8rawValueSuvp",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV8rawValueSuvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV8rawValueSuvg",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV8rawValueSuvg",
+                "moduleName": "Connect",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV8rawValueACSu_tcfc",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV8rawValueACSu_tcfc",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "badge",
+            "printedName": "badge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV5badgeACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5badgeACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV5badgeACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5badgeACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sound",
+            "printedName": "sound",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV5soundACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5soundACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV5soundACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5soundACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alert",
+            "printedName": "alert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV5alertACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5alertACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV5alertACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5alertACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "carPlay",
+            "printedName": "carPlay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV7carPlayACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV7carPlayACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV7carPlayACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV7carPlayACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "criticalAlert",
+            "printedName": "criticalAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV13criticalAlertACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV13criticalAlertACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV13criticalAlertACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV13criticalAlertACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "providesAppNotificationSettings",
+            "printedName": "providesAppNotificationSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV31providesAppNotificationSettingsACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV31providesAppNotificationSettingsACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV31providesAppNotificationSettingsACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV31providesAppNotificationSettingsACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "provisional",
+            "printedName": "provisional",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV11provisionalACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV11provisionalACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV11provisionalACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV11provisionalACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationOptions",
+                "printedName": "UserNotifications.UNAuthorizationOptions",
+                "usr": "c:@E@UNAuthorizationOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsVyACSo015UNAuthorizationD0Vcfc",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsVyACSo015UNAuthorizationD0Vcfc",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "unAuthorizationOptions",
+            "printedName": "unAuthorizationOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationOptions",
+                "printedName": "UserNotifications.UNAuthorizationOptions",
+                "usr": "c:@E@UNAuthorizationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV02uncD0So015UNAuthorizationD0Vvp",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV02uncD0So015UNAuthorizationD0Vvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNAuthorizationOptions",
+                    "printedName": "UserNotifications.UNAuthorizationOptions",
+                    "usr": "c:@E@UNAuthorizationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV02uncD0So015UNAuthorizationD0Vvg",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV02uncD0So015UNAuthorizationD0Vvg",
+                "moduleName": "Connect",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Connect0A24PushAuthorizationOptionsV",
+        "mangledName": "$s7Connect0A24PushAuthorizationOptionsV",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "OptionSet",
+            "printedName": "OptionSet",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s9OptionSetP",
+            "mangledName": "$ss9OptionSetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SetAlgebra",
+            "printedName": "SetAlgebra",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SetAlgebraP",
+            "mangledName": "$ss10SetAlgebraP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ConnectPush",
         "printedName": "ConnectPush",
@@ -2257,7 +2881,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(config:pushRegistering:pushDelegateProxy:notificationCenterProxy:pushEventHandler:categoryRegistrar:urlOpener:)",
+            "printedName": "init(config:pushRegistering:pushDelegateProxy:notificationCenterProxy:pushEventHandler:authorizationRequester:categoryRegistrar:urlOpener:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2297,6 +2921,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "PushAuthorizationRequesting",
+                "printedName": "any Connect.PushAuthorizationRequesting",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect27PushAuthorizationRequestingP"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "PushNotificationCategoryRegistering",
                 "printedName": "any Connect.PushNotificationCategoryRegistering",
                 "usr": "s:7Connect35PushNotificationCategoryRegisteringP"
@@ -2309,8 +2940,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7Connect0A4PushC6config15pushRegistering0D13DelegateProxy018notificationCenterG00D12EventHandler17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA012NotificationifG0_pAA0bJ8Handling_pAA0br8CategoryE0_pAA10URLOpening_ptcfc",
-            "mangledName": "$s7Connect0A4PushC6config15pushRegistering0D13DelegateProxy018notificationCenterG00D12EventHandler17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA012NotificationifG0_pAA0bJ8Handling_pAA0br8CategoryE0_pAA10URLOpening_ptcfc",
+            "usr": "s:7Connect0A4PushC6config15pushRegistering0D13DelegateProxy018notificationCenterG00D12EventHandler22authorizationRequester17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA012NotificationifG0_pAA0bJ8Handling_pAA0B23AuthorizationRequesting_pAA0bt8CategoryE0_pAA10URLOpening_ptcfc",
+            "mangledName": "$s7Connect0A4PushC6config15pushRegistering0D13DelegateProxy018notificationCenterG00D12EventHandler22authorizationRequester17categoryRegistrar9urlOpenerAcA0aB6ConfigV_AA15APNSRegistering_pAA0bfG0_pAA012NotificationifG0_pAA0bJ8Handling_pAA0B23AuthorizationRequesting_pAA0bt8CategoryE0_pAA10URLOpening_ptcfc",
             "moduleName": "Connect",
             "declAttributes": [
               "Custom",
@@ -2396,6 +3027,91 @@
             "declKind": "Func",
             "usr": "s:7Connect0A4PushC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtYaF",
             "mangledName": "$s7Connect0A4PushC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestAuthorization",
+            "printedName": "requestAuthorization(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(granted: Swift.Bool, error: (any Swift.Error)?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC20requestAuthorization7optionsSb7granted_s5Error_pSg5errortAA0abD7OptionsV_tYaF",
+            "mangledName": "$s7Connect0A4PushC20requestAuthorization7optionsSb7granted_s5Error_pSg5errortAA0abD7OptionsV_tYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentAuthorization",
+            "printedName": "getCurrentAuthorization()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC23getCurrentAuthorizationSbSgyYaF",
+            "mangledName": "$s7Connect0A4PushC23getCurrentAuthorizationSbSgyYaF",
             "moduleName": "Connect",
             "declAttributes": [
               "Custom",
@@ -9921,6 +10637,223 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "PushAuthorizationRequesting",
+        "printedName": "PushAuthorizationRequesting",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "requestAuthorization",
+            "printedName": "requestAuthorization(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(granted: Swift.Bool, error: (any Swift.Error)?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationOptions",
+                "printedName": "UserNotifications.UNAuthorizationOptions",
+                "usr": "c:@E@UNAuthorizationOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect27PushAuthorizationRequestingP07requestC07optionsSb7granted_s5Error_pSg5errortSo22UNAuthorizationOptionsV_tYaF",
+            "mangledName": "$s7Connect27PushAuthorizationRequestingP07requestC07optionsSb7granted_s5Error_pSg5errortSo22UNAuthorizationOptionsV_tYaF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushAuthorizationRequesting>",
+            "sugared_genericSig": "<Self where Self : Connect.PushAuthorizationRequesting>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Connect27PushAuthorizationRequestingP",
+        "mangledName": "$s7Connect27PushAuthorizationRequestingP",
+        "moduleName": "Connect",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : AnyObject, Self : Swift.Sendable>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNAuthorizationRequester",
+        "printedName": "UNAuthorizationRequester",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "requestAuthorization",
+            "printedName": "requestAuthorization(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(granted: Swift.Bool, error: (any Swift.Error)?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationOptions",
+                "printedName": "UserNotifications.UNAuthorizationOptions",
+                "usr": "c:@E@UNAuthorizationOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect24UNAuthorizationRequesterC20requestAuthorization7optionsSb7granted_s5Error_pSg5errortSo0B7OptionsV_tYaF",
+            "mangledName": "$s7Connect24UNAuthorizationRequesterC20requestAuthorization7optionsSb7granted_s5Error_pSg5errortSo0B7OptionsV_tYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationRequester",
+                "printedName": "Connect.UNAuthorizationRequester",
+                "usr": "s:7Connect24UNAuthorizationRequesterC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect24UNAuthorizationRequesterCACycfc",
+            "mangledName": "$s7Connect24UNAuthorizationRequesterCACycfc",
+            "moduleName": "Connect",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Connect24UNAuthorizationRequesterC",
+        "mangledName": "$s7Connect24UNAuthorizationRequesterC",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PushAuthorizationRequesting",
+            "printedName": "PushAuthorizationRequesting",
+            "usr": "s:7Connect27PushAuthorizationRequestingP",
+            "mangledName": "$s7Connect27PushAuthorizationRequestingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
@@ -13096,6 +14029,37 @@
           },
           {
             "kind": "Function",
+            "name": "currentAuthorizationStatus",
+            "printedName": "currentAuthorizationStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A16PushEventHandlerC26currentAuthorizationStatusSbSgyYaF",
+            "mangledName": "$s7Connect0A16PushEventHandlerC26currentAuthorizationStatusSbSgyYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "flushPendingNSEReceivedEvents",
             "printedName": "flushPendingNSEReceivedEvents()",
             "children": [
@@ -14156,6 +15120,40 @@
             "declKind": "Func",
             "usr": "s:7Connect17PushEventHandlingP16didReceiveAction7payload8metadatayAA0aB7PayloadV_AA0aB8MetadataVtF",
             "mangledName": "$s7Connect17PushEventHandlingP16didReceiveAction7payload8metadatayAA0aB7PayloadV_AA0aB8MetadataVtF",
+            "moduleName": "Connect",
+            "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushEventHandling>",
+            "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "currentAuthorizationStatus",
+            "printedName": "currentAuthorizationStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect17PushEventHandlingP26currentAuthorizationStatusSbSgyYaF",
+            "mangledName": "$s7Connect17PushEventHandlingP26currentAuthorizationStatusSbSgyYaF",
             "moduleName": "Connect",
             "genericSig": "<τ_0_0 where τ_0_0 : Connect.PushEventHandling>",
             "sugared_genericSig": "<Self where Self : Connect.PushEventHandling>",
@@ -19542,6 +20540,152 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UNAuthorizationStatus",
+        "printedName": "UNAuthorizationStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "granted",
+            "printedName": "granted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So21UNAuthorizationStatusV7ConnectE7grantedSbSgvp",
+            "mangledName": "$sSo21UNAuthorizationStatusV7ConnectE7grantedSbSgvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So21UNAuthorizationStatusV7ConnectE7grantedSbSgvg",
+                "mangledName": "$sSo21UNAuthorizationStatusV7ConnectE7grantedSbSgvg",
+                "moduleName": "Connect",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@UNAuthorizationStatus",
+        "moduleName": "UserNotifications",
+        "intro_iOS": "10.0",
+        "objc_name": "UNAuthorizationStatus",
+        "declAttributes": [
+          "Available",
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "Int",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UNUserNotificationCenter",
         "printedName": "UNUserNotificationCenter",
         "declKind": "Class",
@@ -19943,6 +21087,104 @@
       "offset": 2850,
       "length": 28,
       "value": "\"ACOUSTIC_RICH_NOTIFICATION\""
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1657,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1768,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1773,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1887,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1892,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2040,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2045,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2184,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2189,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2388,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2393,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2574,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2579,
+      "length": 1,
+      "value": "6"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",

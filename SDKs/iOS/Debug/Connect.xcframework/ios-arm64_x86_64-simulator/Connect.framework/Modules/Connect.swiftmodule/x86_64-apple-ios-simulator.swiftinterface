@@ -46,6 +46,20 @@ public enum ConnectError : Swift.Error {
     get
   }
 }
+public struct ConnectPushAuthorizationOptions : Swift.OptionSet, Swift.Sendable {
+  public let rawValue: Swift.UInt
+  public init(rawValue: Swift.UInt)
+  public static let badge: Connect.ConnectPushAuthorizationOptions
+  public static let sound: Connect.ConnectPushAuthorizationOptions
+  public static let alert: Connect.ConnectPushAuthorizationOptions
+  public static let carPlay: Connect.ConnectPushAuthorizationOptions
+  public static let criticalAlert: Connect.ConnectPushAuthorizationOptions
+  public static let providesAppNotificationSettings: Connect.ConnectPushAuthorizationOptions
+  public static let provisional: Connect.ConnectPushAuthorizationOptions
+  public typealias ArrayLiteralElement = Connect.ConnectPushAuthorizationOptions
+  public typealias Element = Connect.ConnectPushAuthorizationOptions
+  public typealias RawValue = Swift.UInt
+}
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class ConnectPush {
   @_Concurrency.MainActor final public let config: Connect.ConnectPushConfig
   @objc deinit
@@ -54,6 +68,13 @@ public enum ConnectError : Swift.Error {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor final public func didReceiveAuthorization(granted: Swift.Bool, error: (any Swift.Error)?) async
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  @_Concurrency.MainActor final public func requestAuthorization(options: Connect.ConnectPushAuthorizationOptions = [.alert, .badge, .sound]) async -> (granted: Swift.Bool, error: (any Swift.Error)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public func getCurrentAuthorization() async -> Swift.Bool?
   #endif
   nonisolated final public func didRegisterWithToken(_ token: Foundation.Data)
   @_Concurrency.MainActor final public func didRegisterWithToken(_ token: Foundation.Data) async
