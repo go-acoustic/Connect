@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/EOCore-bqawiecqfiqwpacofuulwnlpndeu/Build/Intermediates.noindex/ArchiveIntermediates/XCEOCore/InstallationBuildProductsLocation/Library/Frameworks/EOCore.framework/EOCore'
+binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/EOCore-bfrabavowwykkweugnquexhrolsk/Build/Intermediates.noindex/ArchiveIntermediates/XCEOCore/InstallationBuildProductsLocation/Library/Frameworks/EOCore.framework/EOCore'
 relocations:
   - { offset: 0x33, size: 0x8, addend: 0x0, symName: _EOCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x1AC58, symSize: 0x0 }
   - { offset: 0x67, size: 0x8, addend: 0x0, symName: _EOCoreVersionNumber, symObjAddr: 0x28, symBinAddr: 0x1AC80, symSize: 0x0 }
@@ -27,8 +27,8 @@ relocations:
   - { offset: 0xAFF, size: 0x8, addend: 0x0, symName: '-[EOApplicationLifecycleManager setIsBackgroundPostingRunning:]', symObjAddr: 0xA54, symBinAddr: 0x4C4C, symSize: 0x8 }
   - { offset: 0xEE4, size: 0x8, addend: 0x0, symName: '+[EOApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4C54, symSize: 0x74 }
   - { offset: 0xEF1, size: 0x8, addend: 0x0, symName: '+[EOApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4C54, symSize: 0x74 }
-  - { offset: 0xF1A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9508, symBinAddr: 0x2C060, symSize: 0x0 }
-  - { offset: 0xF2F, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x9510, symBinAddr: 0x2C068, symSize: 0x0 }
+  - { offset: 0xF1A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9510, symBinAddr: 0x2C060, symSize: 0x0 }
+  - { offset: 0xF2F, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x9518, symBinAddr: 0x2C068, symSize: 0x0 }
   - { offset: 0x15CD, size: 0x8, addend: 0x0, symName: '___37+[EOApplicationHelper sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x4CC8, symSize: 0x50 }
   - { offset: 0x1609, size: 0x8, addend: 0x0, symName: '-[EOApplicationHelper configurationCheck]', symObjAddr: 0xC4, symBinAddr: 0x4D18, symSize: 0x44 }
   - { offset: 0x1648, size: 0x8, addend: 0x0, symName: '-[EOApplicationHelper updateConfigWithData:forModuleName:]', symObjAddr: 0x108, symBinAddr: 0x4D5C, symSize: 0x98 }
@@ -44,8 +44,8 @@ relocations:
   - { offset: 0x3406, size: 0x8, addend: 0x0, symName: '-[NSDictionary(EOCoreExtensions) daQueryItemsForCharset:]', symObjAddr: 0x3B0, symBinAddr: 0x57A4, symSize: 0x268 }
   - { offset: 0x386E, size: 0x8, addend: 0x0, symName: '+[EONetworkManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5A0C, symSize: 0x74 }
   - { offset: 0x387B, size: 0x8, addend: 0x0, symName: '+[EONetworkManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5A0C, symSize: 0x74 }
-  - { offset: 0x38A4, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x52D8, symBinAddr: 0x2C070, symSize: 0x0 }
-  - { offset: 0x38B9, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x52E0, symBinAddr: 0x2C078, symSize: 0x0 }
+  - { offset: 0x38A4, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x52E0, symBinAddr: 0x2C070, symSize: 0x0 }
+  - { offset: 0x38B9, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x52E8, symBinAddr: 0x2C078, symSize: 0x0 }
   - { offset: 0x3B1C, size: 0x8, addend: 0x0, symName: '___34+[EONetworkManager sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x5A80, symSize: 0x28 }
   - { offset: 0x3B58, size: 0x8, addend: 0x0, symName: '-[EONetworkManager init]', symObjAddr: 0x9C, symBinAddr: 0x5AA8, symSize: 0x74 }
   - { offset: 0x3B8C, size: 0x8, addend: 0x0, symName: '-[EONetworkManager startNetworkMonitoring]', symObjAddr: 0x110, symBinAddr: 0x5B1C, symSize: 0x11C }
@@ -91,8 +91,8 @@ relocations:
   - { offset: 0x4C2B, size: 0x8, addend: 0x0, symName: '-[EOQueue .cxx_destruct]', symObjAddr: 0xA44, symBinAddr: 0x6E5C, symSize: 0x44 }
   - { offset: 0x4FCB, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]', symObjAddr: 0x0, symBinAddr: 0x6EA0, symSize: 0x208 }
   - { offset: 0x4FD8, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient onlyMiCloudIBMLogClient]', symObjAddr: 0x298, symBinAddr: 0x7138, symSize: 0x74 }
-  - { offset: 0x5001, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onlyInstance, symObjAddr: 0x8EA8, symBinAddr: 0x2C080, symSize: 0x0 }
-  - { offset: 0x5016, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onceToken, symObjAddr: 0x8EB0, symBinAddr: 0x2C088, symSize: 0x0 }
+  - { offset: 0x5001, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onlyInstance, symObjAddr: 0x8EB0, symBinAddr: 0x2C080, symSize: 0x0 }
+  - { offset: 0x5016, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onceToken, symObjAddr: 0x8EB8, symBinAddr: 0x2C088, symSize: 0x0 }
   - { offset: 0x55E1, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]', symObjAddr: 0x0, symBinAddr: 0x6EA0, symSize: 0x208 }
   - { offset: 0x579F, size: 0x8, addend: 0x0, symName: '___47+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]_block_invoke', symObjAddr: 0x208, symBinAddr: 0x70A8, symSize: 0x30 }
   - { offset: 0x57F5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x238, symBinAddr: 0x70D8, symSize: 0x30 }
@@ -505,8 +505,8 @@ relocations:
   - { offset: 0x18C46, size: 0x8, addend: 0x0, symName: '+[EODataCompression compressData:]', symObjAddr: 0x40, symBinAddr: 0x13384, symSize: 0x1D8 }
   - { offset: 0x18F40, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1355C, symSize: 0x74 }
   - { offset: 0x18F4D, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1355C, symSize: 0x74 }
-  - { offset: 0x18F76, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0xC528, symBinAddr: 0x2C0E8, symSize: 0x0 }
-  - { offset: 0x18F8B, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC530, symBinAddr: 0x2C0F0, symSize: 0x0 }
+  - { offset: 0x18F76, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0xC530, symBinAddr: 0x2C0E8, symSize: 0x0 }
+  - { offset: 0x18F8B, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC538, symBinAddr: 0x2C0F0, symSize: 0x0 }
   - { offset: 0x1917F, size: 0x8, addend: 0x0, symName: '___33+[EOConfigService sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x135D0, symSize: 0x28 }
   - { offset: 0x191BB, size: 0x8, addend: 0x0, symName: '-[EOConfigService init]', symObjAddr: 0x9C, symBinAddr: 0x135F8, symSize: 0x80 }
   - { offset: 0x191EF, size: 0x8, addend: 0x0, symName: '-[EOConfigService enable]', symObjAddr: 0x11C, symBinAddr: 0x13678, symSize: 0x10 }

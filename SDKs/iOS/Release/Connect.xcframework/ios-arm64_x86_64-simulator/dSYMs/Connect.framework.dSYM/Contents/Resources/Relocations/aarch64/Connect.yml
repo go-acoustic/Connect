@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-cdunwtdcrbxpadeecaouymfolbcw/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Connect.framework/Connect'
+binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-doktqolsykmipcekpdvhbrcesmwf/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Connect.framework/Connect'
 relocations:
   - { offset: 0x12B161, size: 0x8, addend: 0x0, symName: _ConnectVersionString, symObjAddr: 0x0, symBinAddr: 0x26FD0, symSize: 0x0 }
   - { offset: 0x12B196, size: 0x8, addend: 0x0, symName: _ConnectVersionNumber, symObjAddr: 0x28, symBinAddr: 0x26FF8, symSize: 0x0 }
@@ -46,8 +46,8 @@ relocations:
   - { offset: 0x12C673, size: 0x8, addend: 0x0, symName: '-[ConnectDelegateProxy .cxx_destruct]', symObjAddr: 0x1040, symBinAddr: 0x2958, symSize: 0x38 }
   - { offset: 0x12CB61, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2990, symSize: 0x74 }
   - { offset: 0x12CB6F, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2990, symSize: 0x74 }
-  - { offset: 0x12CB99, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC410, symBinAddr: 0x3D4A8, symSize: 0x0 }
-  - { offset: 0x12CBAF, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC418, symBinAddr: 0x3D4B0, symSize: 0x0 }
+  - { offset: 0x12CB99, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC418, symBinAddr: 0x3D4A8, symSize: 0x0 }
+  - { offset: 0x12CBAF, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC420, symBinAddr: 0x3D4B0, symSize: 0x0 }
   - { offset: 0x12CCE7, size: 0x8, addend: 0x0, symName: '___36+[ConnectCustomEvent sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x2A04, symSize: 0x50 }
   - { offset: 0x12CD26, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:]', symObjAddr: 0xC4, symBinAddr: 0x2A54, symSize: 0xC }
   - { offset: 0x12CD69, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:values:]', symObjAddr: 0xD0, symBinAddr: 0x2A60, symSize: 0x84 }
