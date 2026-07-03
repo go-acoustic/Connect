@@ -29,7 +29,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -443,7 +446,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -572,7 +578,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -834,6 +843,560 @@
         "moduleName": "Connect"
       },
       {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "Connect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectPushAuthorizationOptions",
+        "printedName": "ConnectPushAuthorizationOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV8rawValueSuvp",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV8rawValueSuvp",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV8rawValueSuvg",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV8rawValueSuvg",
+                "moduleName": "Connect",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV8rawValueACSu_tcfc",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV8rawValueACSu_tcfc",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "badge",
+            "printedName": "badge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV5badgeACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5badgeACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV5badgeACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5badgeACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sound",
+            "printedName": "sound",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV5soundACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5soundACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV5soundACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5soundACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alert",
+            "printedName": "alert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV5alertACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5alertACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV5alertACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV5alertACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "carPlay",
+            "printedName": "carPlay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV7carPlayACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV7carPlayACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV7carPlayACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV7carPlayACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "criticalAlert",
+            "printedName": "criticalAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV13criticalAlertACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV13criticalAlertACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV13criticalAlertACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV13criticalAlertACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "providesAppNotificationSettings",
+            "printedName": "providesAppNotificationSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV31providesAppNotificationSettingsACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV31providesAppNotificationSettingsACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV31providesAppNotificationSettingsACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV31providesAppNotificationSettingsACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "provisional",
+            "printedName": "provisional",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Connect0A24PushAuthorizationOptionsV11provisionalACvpZ",
+            "mangledName": "$s7Connect0A24PushAuthorizationOptionsV11provisionalACvpZ",
+            "moduleName": "Connect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV11provisionalACvgZ",
+                "mangledName": "$s7Connect0A24PushAuthorizationOptionsV11provisionalACvgZ",
+                "moduleName": "Connect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Connect0A24PushAuthorizationOptionsV",
+        "mangledName": "$s7Connect0A24PushAuthorizationOptionsV",
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "OptionSet",
+            "printedName": "OptionSet",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s9OptionSetP",
+            "mangledName": "$ss9OptionSetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SetAlgebra",
+            "printedName": "SetAlgebra",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SetAlgebraP",
+            "mangledName": "$ss10SetAlgebraP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectPushAuthorizationOptions",
+                    "printedName": "Connect.ConnectPushAuthorizationOptions",
+                    "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ConnectPush",
         "printedName": "ConnectPush",
@@ -965,6 +1528,91 @@
             "declKind": "Func",
             "usr": "s:7Connect0A4PushC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtYaF",
             "mangledName": "$s7Connect0A4PushC23didReceiveAuthorization7granted5errorySb_s5Error_pSgtYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestAuthorization",
+            "printedName": "requestAuthorization(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(granted: Swift.Bool, error: (any Swift.Error)?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectPushAuthorizationOptions",
+                "printedName": "Connect.ConnectPushAuthorizationOptions",
+                "hasDefaultArg": true,
+                "usr": "s:7Connect0A24PushAuthorizationOptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC20requestAuthorization7optionsSb7granted_s5Error_pSg5errortAA0abD7OptionsV_tYaF",
+            "mangledName": "$s7Connect0A4PushC20requestAuthorization7optionsSb7granted_s5Error_pSg5errortAA0abD7OptionsV_tYaF",
+            "moduleName": "Connect",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentAuthorization",
+            "printedName": "getCurrentAuthorization()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Connect0A4PushC23getCurrentAuthorizationSbSgyYaF",
+            "mangledName": "$s7Connect0A4PushC23getCurrentAuthorizationSbSgyYaF",
             "moduleName": "Connect",
             "declAttributes": [
               "Custom",
@@ -4035,7 +4683,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -4773,6 +5424,7 @@
         "declKind": "Import",
         "moduleName": "Connect",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -4791,7 +5443,10 @@
         "name": "Tealeaf",
         "printedName": "Tealeaf",
         "declKind": "Import",
-        "moduleName": "Connect"
+        "moduleName": "Connect",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -8248,749 +8903,847 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Identity\/ConnectIdentityMessage.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Identity\/ConnectIdentityMessage.swift",
       "kind": "Dictionary",
-      "offset": 1807,
+      "offset": 1816,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2190,
       "length": 10,
       "value": "\"OPEN_URL\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2417,
       "length": 13,
       "value": "\"OPEN_DIALER\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushActionIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2563,
       "length": 10,
       "value": "\"OPEN_APP\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2280,
       "length": 25,
       "value": "\"ACTIONABLE_NOTIFICATION\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPushCategoryIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 2850,
       "length": 28,
       "value": "\"ACOUSTIC_RICH_NOTIFICATION\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1657,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1768,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1773,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1887,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1892,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2040,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2045,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2184,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2189,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2388,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2393,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2574,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2579,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1022,
       "length": 14,
       "value": "\"notification\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1124,
       "length": 8,
       "value": "\"action\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 11,
       "value": "\"largeIcon\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1453,
       "length": 17,
       "value": "\"expansionOption\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1554,
       "length": 14,
       "value": "\"expandedBody\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1759,
       "length": 15,
       "value": "\"expandedImage\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 2013,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 2101,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 2224,
       "length": 19,
       "value": "\"phoneNumberPrefix\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/Notification\/ConnectPushPayload.swift",
       "kind": "StringLiteral",
       "offset": 2344,
       "length": 7,
       "value": "\"label\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/FrameworkReadinessObserving.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/FrameworkReadinessObserving.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 25,
       "value": "\"TLF_Framework_DidEnable\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
       "offset": 2131,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
       "offset": 2136,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "IntegerLiteral",
       "offset": 2143,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "StringLiteral",
       "offset": 2192,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/ImageDownloading.swift",
       "kind": "StringLiteral",
       "offset": 2226,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
       "offset": 1044,
       "length": 16,
       "value": "\"acoustic-image\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
       "offset": 1187,
       "length": 21,
       "value": "\"acoustic-large-icon\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
       "offset": 2587,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NotificationAttachmentMaking.swift",
       "kind": "StringLiteral",
       "offset": 2621,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NSESystemNotifier.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/NSESystemNotifier.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 39,
       "value": "\"com.acoustic.connect.nse.pushReceived\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/UserDefaultsNSEPushReceivedStore.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/ServiceExtension\/UserDefaultsNSEPushReceivedStore.swift",
       "kind": "StringLiteral",
       "offset": 1186,
       "length": 46,
       "value": "\"com.acoustic.connect.nse.pendingPushReceived\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
       "offset": 4688,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "StringLiteral",
       "offset": 4722,
       "length": 21,
       "value": "\"NotificationService\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "Array",
       "offset": 5176,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "BooleanLiteral",
       "offset": 5619,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "IntegerLiteral",
       "offset": 6319,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationService.swift",
       "kind": "BooleanLiteral",
       "offset": 6543,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/PushRegistrationStore.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/PushRegistrationStore.swift",
       "kind": "StringLiteral",
       "offset": 1125,
       "length": 41,
       "value": "\"com.acoustic.connect.push.hasRegistered\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4149,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4195,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4364,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4369,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4381,
       "length": 2,
       "value": "93"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4386,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4397,
       "length": 3,
       "value": "119"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4403,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 4415,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "BooleanLiteral",
       "offset": 5159,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 5501,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "BooleanLiteral",
       "offset": 5561,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 5767,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "StringLiteral",
       "offset": 6312,
       "length": 22,
       "value": "\"com.acoustic.connect\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Push\/ConnectNotificationContentExtension.swift",
       "kind": "StringLiteral",
       "offset": 6346,
       "length": 30,
       "value": "\"NotificationContentExtension\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
       "offset": 749,
       "length": 5,
       "value": "\"FCM\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 5,
       "value": "\"HMS\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/Core\/Push\/EventHandling\/ConnectPushMobileProvider.swift",
       "kind": "StringLiteral",
       "offset": 791,
       "length": 5,
       "value": "\"APN\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
       "kind": "StringLiteral",
       "offset": 3665,
       "length": 10,
       "value": "\"pageView\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Identity\/ConnectIdentity.swift",
       "kind": "Dictionary",
       "offset": 3726,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Dictionary",
       "offset": 5698,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15134,
       "length": 22,
       "value": "\"GlobalScreenSettings\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15180,
       "length": 14,
       "value": "\"ScreenChange\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 15196,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15222,
       "length": 13,
       "value": "\"DisplayName\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15237,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15261,
       "length": 20,
       "value": "\"CaptureLayoutDelay\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 15283,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15306,
       "length": 12,
       "value": "\"ScreenShot\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 15320,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15346,
       "length": 18,
       "value": "\"NumberOfWebViews\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 15366,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15389,
       "length": 19,
       "value": "\"CaptureUserEvents\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 15410,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15436,
       "length": 21,
       "value": "\"CaptureScreenVisits\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 15459,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15486,
       "length": 17,
       "value": "\"CaptureLayoutOn\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 15505,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15528,
       "length": 21,
       "value": "\"CaptureScreenshotOn\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 15551,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15574,
       "length": 9,
       "value": "\"Masking\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15611,
       "length": 12,
       "value": "\"HasMasking\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 15625,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15655,
       "length": 15,
       "value": "\"HasCustomMask\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 15672,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15702,
       "length": 11,
       "value": "\"Sensitive\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Dictionary",
       "offset": 15715,
       "length": 222,
       "value": "[(\"capitalCaseAlphabet\", \"X\"), (\"number\", \"9\"), (\"smallCaseAlphabet\", \"x\"), (\"symbol\", \"#\")]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 15963,
       "length": 12,
       "value": "\"MaskIdList\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Array",
       "offset": 15977,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 16005,
       "length": 15,
       "value": "\"MaskValueList\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Array",
       "offset": 16022,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 16050,
       "length": 25,
       "value": "\"MaskAccessibilityIdList\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Array",
       "offset": 16077,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 16105,
       "length": 28,
       "value": "\"MaskAccessibilityLabelList\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Array",
       "offset": 16135,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 19414,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 19463,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 19516,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 21035,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 21081,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 22947,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 24844,
       "length": 15,
       "value": "\"KillSwitchUrl\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 25051,
       "length": 16,
       "value": "\"SessionTimeout\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 25319,
       "length": 19,
       "value": "\"ManualPostEnabled\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 25534,
       "length": 29,
       "value": "\"DynamicConfigurationEnabled\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 25748,
       "length": 31,
       "value": "\"MaxNumberOfBytesPerActivation\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 25964,
       "length": 31,
       "value": "\"MaxNumberOfPostsPerActivation\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 26170,
       "length": 26,
       "value": "\"PostMessageTimeIntervals\""
     },
     {
-      "filePath": "\/Users\/easdk\/builds\/workspace\/nalytics-sdk_iOS_Connect_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
+      "filePath": "\/Users\/easdk\/builds\/workspace\/analytics-sdk_iOS_Connect_master\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
       "offset": 26365,
       "length": 25,

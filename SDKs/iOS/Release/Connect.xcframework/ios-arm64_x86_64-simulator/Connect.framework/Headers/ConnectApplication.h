@@ -14,7 +14,6 @@
 
 
 #import <UIKit/UIKit.h>
-#import <Tealeaf/TLFApplication.h>
 
 @interface ConnectApplication : UIApplication
 
