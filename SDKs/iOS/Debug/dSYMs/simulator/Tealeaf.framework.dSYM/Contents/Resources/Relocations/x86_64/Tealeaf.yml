@@ -2,8 +2,8 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-gcmrnvoqftpjtlghchiagdhslmfr/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Tealeaf.framework/Tealeaf'
 relocations:
-  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _TealeafVersionString, symObjAddr: 0x0, symBinAddr: 0x1848B0, symSize: 0x0 }
-  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _TealeafVersionNumber, symObjAddr: 0x28, symBinAddr: 0x1848D8, symSize: 0x0 }
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _TealeafVersionString, symObjAddr: 0x0, symBinAddr: 0x184830, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _TealeafVersionNumber, symObjAddr: 0x28, symBinAddr: 0x184858, symSize: 0x0 }
   - { offset: 0xA3, size: 0x8, addend: 0x0, symName: '-[NSURL(TLFLibExtensions) relativeURLString]', symObjAddr: 0x0, symBinAddr: 0xF90, symSize: 0x19D }
   - { offset: 0x154, size: 0x8, addend: 0x0, symName: '-[NSURL(TLFLibExtensions) relativeURLString]', symObjAddr: 0x0, symBinAddr: 0xF90, symSize: 0x19D }
   - { offset: 0x770, size: 0x8, addend: 0x0, symName: '+[UIAlertAction(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x1130, symSize: 0xA0 }
@@ -1169,7 +1169,7 @@ relocations:
   - { offset: 0x4A331, size: 0x8, addend: 0x0, symName: '-[TLFUIControlAIC setTealeafPreviousViewController:]', symObjAddr: 0x5080, symBinAddr: 0x6E920, symSize: 0x30 }
   - { offset: 0x4A36F, size: 0x8, addend: 0x0, symName: '-[TLFUIControlAIC .cxx_destruct]', symObjAddr: 0x50B0, symBinAddr: 0x6E950, symSize: 0x3C }
   - { offset: 0x4B25F, size: 0x8, addend: 0x0, symName: '+[TLFGestureController sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6E990, symSize: 0xA0 }
-  - { offset: 0x4B278, size: 0x8, addend: 0x0, symName: _kTlfMRestTimeForGesture, symObjAddr: 0x4530, symBinAddr: 0x184A08, symSize: 0x0 }
+  - { offset: 0x4B278, size: 0x8, addend: 0x0, symName: _kTlfMRestTimeForGesture, symObjAddr: 0x4530, symBinAddr: 0x184988, symSize: 0x0 }
   - { offset: 0x4B28D, size: 0x8, addend: 0x0, symName: '+[TLFGestureController sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6E990, symSize: 0xA0 }
   - { offset: 0x4B2B6, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x12C48, symBinAddr: 0x1EFFE8, symSize: 0x0 }
   - { offset: 0x4B2CB, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x12C50, symBinAddr: 0x1EFFF0, symSize: 0x0 }
@@ -2253,7 +2253,7 @@ relocations:
   - { offset: 0x8EACA, size: 0x8, addend: 0x0, symName: '-[TLFLText_RCT setFontImage:]', symObjAddr: 0x1C70, symBinAddr: 0xCA630, symSize: 0x30 }
   - { offset: 0x8EB08, size: 0x8, addend: 0x0, symName: '-[TLFLText_RCT .cxx_destruct]', symObjAddr: 0x1CA0, symBinAddr: 0xCA660, symSize: 0x2A }
   - { offset: 0x8FDC3, size: 0x8, addend: 0x0, symName: '+[TLFLocationManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xCA690, symSize: 0xA0 }
-  - { offset: 0x8FDDC, size: 0x8, addend: 0x0, symName: _minDistance, symObjAddr: 0x1950, symBinAddr: 0x184AB8, symSize: 0x0 }
+  - { offset: 0x8FDDC, size: 0x8, addend: 0x0, symName: _minDistance, symObjAddr: 0x1950, symBinAddr: 0x184A38, symSize: 0x0 }
   - { offset: 0x8FDFC, size: 0x8, addend: 0x0, symName: '+[TLFLocationManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xCA690, symSize: 0xA0 }
   - { offset: 0x8FE25, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x9120, symBinAddr: 0x1F0078, symSize: 0x0 }
   - { offset: 0x8FE3A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9128, symBinAddr: 0x1F0080, symSize: 0x0 }
@@ -3855,56 +3855,56 @@ relocations:
   - { offset: 0x103DC4, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper isRCTTextView:]', symObjAddr: 0x2530, symBinAddr: 0x1583B0, symSize: 0x150 }
   - { offset: 0x103E19, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper isRCTText:]', symObjAddr: 0x2680, symBinAddr: 0x158500, symSize: 0x150 }
   - { offset: 0x103E6E, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper isRNSScreen:]', symObjAddr: 0x27D0, symBinAddr: 0x158650, symSize: 0xA0 }
-  - { offset: 0x103ED2, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper getRNUIView:]', symObjAddr: 0x2870, symBinAddr: 0x1586F0, symSize: 0x820 }
-  - { offset: 0x103FE6, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper getUITextFieldFromRCTTextInputComponentView:]', symObjAddr: 0x3090, symBinAddr: 0x158F10, symSize: 0x120 }
-  - { offset: 0x10404A, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper getTextFromRCTParagraphComponentView:]', symObjAddr: 0x31B0, symBinAddr: 0x159030, symSize: 0xF5 }
-  - { offset: 0x104352, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage init]', symObjAddr: 0x0, symBinAddr: 0x159130, symSize: 0x150 }
-  - { offset: 0x10435F, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage contextDictionary]', symObjAddr: 0x630, symBinAddr: 0x159760, symSize: 0xB80 }
+  - { offset: 0x103ED2, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper getRNUIView:]', symObjAddr: 0x2870, symBinAddr: 0x1586F0, symSize: 0x7A0 }
+  - { offset: 0x103FE6, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper getUITextFieldFromRCTTextInputComponentView:]', symObjAddr: 0x3010, symBinAddr: 0x158E90, symSize: 0x120 }
+  - { offset: 0x10404A, size: 0x8, addend: 0x0, symName: '+[TLFLayoutHelper getTextFromRCTParagraphComponentView:]', symObjAddr: 0x3130, symBinAddr: 0x158FB0, symSize: 0xF5 }
+  - { offset: 0x104352, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage init]', symObjAddr: 0x0, symBinAddr: 0x1590B0, symSize: 0x150 }
+  - { offset: 0x10435F, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage contextDictionary]', symObjAddr: 0x630, symBinAddr: 0x1596E0, symSize: 0xB80 }
   - { offset: 0x104388, size: 0x8, addend: 0x0, symName: _contextDictionary.connectDebug, symObjAddr: 0x1F88, symBinAddr: 0x1EFB90, symSize: 0x0 }
   - { offset: 0x10439D, size: 0x8, addend: 0x0, symName: _contextDictionary.tlfDebug, symObjAddr: 0x1F8C, symBinAddr: 0x1EFB94, symSize: 0x0 }
   - { offset: 0x1043B2, size: 0x8, addend: 0x0, symName: _contextDictionary.eoMiCloudSDKMachine, symObjAddr: 0x1F90, symBinAddr: 0x1EFB98, symSize: 0x0 }
   - { offset: 0x1043C7, size: 0x8, addend: 0x0, symName: _contextDictionary.isConnect, symObjAddr: 0x1F94, symBinAddr: 0x1EFB9C, symSize: 0x0 }
-  - { offset: 0x1050D4, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage init]', symObjAddr: 0x0, symBinAddr: 0x159130, symSize: 0x150 }
-  - { offset: 0x10510A, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage initWithLogicalPageName:withClass:screenviewType:referrer:WithTLFLayoutPlaceHolder:addPlaceHolderIfNil:]', symObjAddr: 0x150, symBinAddr: 0x159280, symSize: 0x260 }
-  - { offset: 0x105194, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage initWithLogicalPageName:withClass:screenviewType:]', symObjAddr: 0x3B0, symBinAddr: 0x1594E0, symSize: 0xD0 }
-  - { offset: 0x1051F4, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage jsonDictionary]', symObjAddr: 0x480, symBinAddr: 0x1595B0, symSize: 0x1B0 }
-  - { offset: 0x105238, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage base64Representation]', symObjAddr: 0x11B0, symBinAddr: 0x15A2E0, symSize: 0x30 }
-  - { offset: 0x10526E, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setBase64Representation:]', symObjAddr: 0x11E0, symBinAddr: 0x15A310, symSize: 0x40 }
-  - { offset: 0x1052AC, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage logicalPageName]', symObjAddr: 0x1220, symBinAddr: 0x15A350, symSize: 0x20 }
-  - { offset: 0x1052E2, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setLogicalPageName:]', symObjAddr: 0x1240, symBinAddr: 0x15A370, symSize: 0x30 }
-  - { offset: 0x105320, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage classss]', symObjAddr: 0x1270, symBinAddr: 0x15A3A0, symSize: 0x20 }
-  - { offset: 0x105356, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setClassss:]', symObjAddr: 0x1290, symBinAddr: 0x15A3C0, symSize: 0x30 }
-  - { offset: 0x105394, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage screenviewType]', symObjAddr: 0x12C0, symBinAddr: 0x15A3F0, symSize: 0x20 }
-  - { offset: 0x1053CA, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setScreenviewType:]', symObjAddr: 0x12E0, symBinAddr: 0x15A410, symSize: 0x30 }
-  - { offset: 0x105408, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage referrer]', symObjAddr: 0x1310, symBinAddr: 0x15A440, symSize: 0x20 }
-  - { offset: 0x10543E, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setReferrer:]', symObjAddr: 0x1330, symBinAddr: 0x15A460, symSize: 0x30 }
-  - { offset: 0x10547C, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage layoutPlaceHolder]', symObjAddr: 0x1360, symBinAddr: 0x15A490, symSize: 0x20 }
-  - { offset: 0x1054B2, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setLayoutPlaceHolder:]', symObjAddr: 0x1380, symBinAddr: 0x15A4B0, symSize: 0x30 }
-  - { offset: 0x1054F0, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage .cxx_destruct]', symObjAddr: 0x13B0, symBinAddr: 0x15A4E0, symSize: 0x7E }
-  - { offset: 0x105ABE, size: 0x8, addend: 0x0, symName: '+[NSURLSession(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x15A560, symSize: 0xA0 }
-  - { offset: 0x105ACB, size: 0x8, addend: 0x0, symName: '+[NSURLSession(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x15A560, symSize: 0xA0 }
+  - { offset: 0x1050D4, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage init]', symObjAddr: 0x0, symBinAddr: 0x1590B0, symSize: 0x150 }
+  - { offset: 0x10510A, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage initWithLogicalPageName:withClass:screenviewType:referrer:WithTLFLayoutPlaceHolder:addPlaceHolderIfNil:]', symObjAddr: 0x150, symBinAddr: 0x159200, symSize: 0x260 }
+  - { offset: 0x105194, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage initWithLogicalPageName:withClass:screenviewType:]', symObjAddr: 0x3B0, symBinAddr: 0x159460, symSize: 0xD0 }
+  - { offset: 0x1051F4, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage jsonDictionary]', symObjAddr: 0x480, symBinAddr: 0x159530, symSize: 0x1B0 }
+  - { offset: 0x105238, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage base64Representation]', symObjAddr: 0x11B0, symBinAddr: 0x15A260, symSize: 0x30 }
+  - { offset: 0x10526E, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setBase64Representation:]', symObjAddr: 0x11E0, symBinAddr: 0x15A290, symSize: 0x40 }
+  - { offset: 0x1052AC, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage logicalPageName]', symObjAddr: 0x1220, symBinAddr: 0x15A2D0, symSize: 0x20 }
+  - { offset: 0x1052E2, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setLogicalPageName:]', symObjAddr: 0x1240, symBinAddr: 0x15A2F0, symSize: 0x30 }
+  - { offset: 0x105320, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage classss]', symObjAddr: 0x1270, symBinAddr: 0x15A320, symSize: 0x20 }
+  - { offset: 0x105356, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setClassss:]', symObjAddr: 0x1290, symBinAddr: 0x15A340, symSize: 0x30 }
+  - { offset: 0x105394, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage screenviewType]', symObjAddr: 0x12C0, symBinAddr: 0x15A370, symSize: 0x20 }
+  - { offset: 0x1053CA, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setScreenviewType:]', symObjAddr: 0x12E0, symBinAddr: 0x15A390, symSize: 0x30 }
+  - { offset: 0x105408, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage referrer]', symObjAddr: 0x1310, symBinAddr: 0x15A3C0, symSize: 0x20 }
+  - { offset: 0x10543E, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setReferrer:]', symObjAddr: 0x1330, symBinAddr: 0x15A3E0, symSize: 0x30 }
+  - { offset: 0x10547C, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage layoutPlaceHolder]', symObjAddr: 0x1360, symBinAddr: 0x15A410, symSize: 0x20 }
+  - { offset: 0x1054B2, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage setLayoutPlaceHolder:]', symObjAddr: 0x1380, symBinAddr: 0x15A430, symSize: 0x30 }
+  - { offset: 0x1054F0, size: 0x8, addend: 0x0, symName: '-[TLFScreenViewMessage .cxx_destruct]', symObjAddr: 0x13B0, symBinAddr: 0x15A460, symSize: 0x7E }
+  - { offset: 0x105ABE, size: 0x8, addend: 0x0, symName: '+[NSURLSession(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x15A4E0, symSize: 0xA0 }
+  - { offset: 0x105ACB, size: 0x8, addend: 0x0, symName: '+[NSURLSession(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x15A4E0, symSize: 0xA0 }
   - { offset: 0x105AF0, size: 0x8, addend: 0x0, symName: _tlfInject.onceToken, symObjAddr: 0x1A488, symBinAddr: 0x1F0170, symSize: 0x0 }
-  - { offset: 0x105B5F, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfURLSession:dataTask:didReceiveData:]', symObjAddr: 0x2AD0, symBinAddr: 0x15D030, symSize: 0x9B0 }
+  - { offset: 0x105B5F, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfURLSession:dataTask:didReceiveData:]', symObjAddr: 0x2AD0, symBinAddr: 0x15CFB0, symSize: 0x9B0 }
   - { offset: 0x105B86, size: 0x8, addend: 0x0, symName: '_tlfURLSession:dataTask:didReceiveData:.connectDebug', symObjAddr: 0xF3C8, symBinAddr: 0x1EFBA0, symSize: 0x0 }
   - { offset: 0x105B9C, size: 0x8, addend: 0x0, symName: '_tlfURLSession:dataTask:didReceiveData:.tlfDebug', symObjAddr: 0xF3CC, symBinAddr: 0x1EFBA4, symSize: 0x0 }
   - { offset: 0x105BB2, size: 0x8, addend: 0x0, symName: '_tlfURLSession:dataTask:didReceiveData:.eoMiCloudSDKMachine', symObjAddr: 0xF3D0, symBinAddr: 0x1EFBA8, symSize: 0x0 }
   - { offset: 0x105BC8, size: 0x8, addend: 0x0, symName: '_tlfURLSession:dataTask:didReceiveData:.isConnect', symObjAddr: 0xF3D4, symBinAddr: 0x1EFBAC, symSize: 0x0 }
-  - { offset: 0x105CB8, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfURLSession:task:didCompleteWithError:]', symObjAddr: 0x3510, symBinAddr: 0x15DA70, symSize: 0xCB0 }
+  - { offset: 0x105CB8, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfURLSession:task:didCompleteWithError:]', symObjAddr: 0x3510, symBinAddr: 0x15D9F0, symSize: 0xCB0 }
   - { offset: 0x105CDF, size: 0x8, addend: 0x0, symName: '_tlfURLSession:task:didCompleteWithError:.connectDebug', symObjAddr: 0xF3D8, symBinAddr: 0x1EFBB0, symSize: 0x0 }
   - { offset: 0x105CF5, size: 0x8, addend: 0x0, symName: '_tlfURLSession:task:didCompleteWithError:.tlfDebug', symObjAddr: 0xF3DC, symBinAddr: 0x1EFBB4, symSize: 0x0 }
   - { offset: 0x105D0B, size: 0x8, addend: 0x0, symName: '_tlfURLSession:task:didCompleteWithError:.eoMiCloudSDKMachine', symObjAddr: 0xF3E0, symBinAddr: 0x1EFBB8, symSize: 0x0 }
   - { offset: 0x105D21, size: 0x8, addend: 0x0, symName: '_tlfURLSession:task:didCompleteWithError:.isConnect', symObjAddr: 0xF3E4, symBinAddr: 0x1EFBBC, symSize: 0x0 }
-  - { offset: 0x105E17, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfURLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0x4250, symBinAddr: 0x15E7B0, symSize: 0x950 }
+  - { offset: 0x105E17, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfURLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0x4250, symBinAddr: 0x15E730, symSize: 0x950 }
   - { offset: 0x105E3E, size: 0x8, addend: 0x0, symName: '_tlfURLSession:downloadTask:didFinishDownloadingToURL:.connectDebug', symObjAddr: 0xF3E8, symBinAddr: 0x1EFBC0, symSize: 0x0 }
   - { offset: 0x105E54, size: 0x8, addend: 0x0, symName: '_tlfURLSession:downloadTask:didFinishDownloadingToURL:.tlfDebug', symObjAddr: 0xF3EC, symBinAddr: 0x1EFBC4, symSize: 0x0 }
   - { offset: 0x105E6A, size: 0x8, addend: 0x0, symName: '_tlfURLSession:downloadTask:didFinishDownloadingToURL:.eoMiCloudSDKMachine', symObjAddr: 0xF3F0, symBinAddr: 0x1EFBC8, symSize: 0x0 }
   - { offset: 0x105E80, size: 0x8, addend: 0x0, symName: '_tlfURLSession:downloadTask:didFinishDownloadingToURL:.isConnect', symObjAddr: 0xF3F4, symBinAddr: 0x1EFBCC, symSize: 0x0 }
-  - { offset: 0x105F56, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfURLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x4C80, symBinAddr: 0x15F1E0, symSize: 0xD00 }
+  - { offset: 0x105F56, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfURLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x4C80, symBinAddr: 0x15F160, symSize: 0xD00 }
   - { offset: 0x105F7D, size: 0x8, addend: 0x0, symName: '_tlfURLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:.connectDebug', symObjAddr: 0xF3F8, symBinAddr: 0x1EFBD0, symSize: 0x0 }
   - { offset: 0x105F93, size: 0x8, addend: 0x0, symName: '_tlfURLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:.tlfDebug', symObjAddr: 0xF3FC, symBinAddr: 0x1EFBD4, symSize: 0x0 }
   - { offset: 0x105FA9, size: 0x8, addend: 0x0, symName: '_tlfURLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:.eoMiCloudSDKMachine', symObjAddr: 0xF400, symBinAddr: 0x1EFBD8, symSize: 0x0 }
   - { offset: 0x105FBF, size: 0x8, addend: 0x0, symName: '_tlfURLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:.isConnect', symObjAddr: 0xF404, symBinAddr: 0x1EFBDC, symSize: 0x0 }
-  - { offset: 0x1060D3, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tealeafHandleCompletionForNSURLSession:request:response:data:error:initTime:loadTime:]', symObjAddr: 0x5980, symBinAddr: 0x15FEE0, symSize: 0xD70 }
+  - { offset: 0x1060D3, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tealeafHandleCompletionForNSURLSession:request:response:data:error:initTime:loadTime:]', symObjAddr: 0x5980, symBinAddr: 0x15FE60, symSize: 0xD70 }
   - { offset: 0x1060FA, size: 0x8, addend: 0x0, symName: '_tealeafHandleCompletionForNSURLSession:request:response:data:error:initTime:loadTime:.connectDebug', symObjAddr: 0xF408, symBinAddr: 0x1EFBE0, symSize: 0x0 }
   - { offset: 0x106110, size: 0x8, addend: 0x0, symName: '_tealeafHandleCompletionForNSURLSession:request:response:data:error:initTime:loadTime:.tlfDebug', symObjAddr: 0xF40C, symBinAddr: 0x1EFBE4, symSize: 0x0 }
   - { offset: 0x106126, size: 0x8, addend: 0x0, symName: '_tealeafHandleCompletionForNSURLSession:request:response:data:error:initTime:loadTime:.eoMiCloudSDKMachine', symObjAddr: 0xF410, symBinAddr: 0x1EFBE8, symSize: 0x0 }
@@ -3914,7 +3914,7 @@ relocations:
   - { offset: 0x106A43, size: 0x8, addend: 0x0, symName: _tlfOrigNSURLSession_uploadTaskWithRequest, symObjAddr: 0x1A4A0, symBinAddr: 0x1F0260, symSize: 0x0 }
   - { offset: 0x106A82, size: 0x8, addend: 0x0, symName: _tlfOrigNSURLSession_uploadTaskWithRequestFromFile, symObjAddr: 0x1A4A8, symBinAddr: 0x1F0268, symSize: 0x0 }
   - { offset: 0x106AC6, size: 0x8, addend: 0x0, symName: _tlfOrigNSURLSession_sessionWithConfiguration, symObjAddr: 0x1A4B0, symBinAddr: 0x1F0270, symSize: 0x0 }
-  - { offset: 0x1071B0, size: 0x8, addend: 0x0, symName: ___tlfNewNSURLSession_dataTaskWithRequest_block_invoke, symObjAddr: 0x6830, symBinAddr: 0x160D90, symSize: 0x13C0 }
+  - { offset: 0x1071B0, size: 0x8, addend: 0x0, symName: ___tlfNewNSURLSession_dataTaskWithRequest_block_invoke, symObjAddr: 0x6830, symBinAddr: 0x160D10, symSize: 0x13C0 }
   - { offset: 0x1071D5, size: 0x8, addend: 0x0, symName: __block_invoke.connectDebug, symObjAddr: 0xF4D8, symBinAddr: 0x1EFBF0, symSize: 0x0 }
   - { offset: 0x1071EA, size: 0x8, addend: 0x0, symName: __block_invoke.tlfDebug, symObjAddr: 0xF4DC, symBinAddr: 0x1EFBF4, symSize: 0x0 }
   - { offset: 0x1071FF, size: 0x8, addend: 0x0, symName: __block_invoke.eoMiCloudSDKMachine, symObjAddr: 0xF4E0, symBinAddr: 0x1EFBF8, symSize: 0x0 }
@@ -3927,12 +3927,12 @@ relocations:
   - { offset: 0x107292, size: 0x8, addend: 0x0, symName: __block_invoke.tlfDebug.172, symObjAddr: 0xF4FC, symBinAddr: 0x1EFC14, symSize: 0x0 }
   - { offset: 0x1072A7, size: 0x8, addend: 0x0, symName: __block_invoke.eoMiCloudSDKMachine.173, symObjAddr: 0xF500, symBinAddr: 0x1EFC18, symSize: 0x0 }
   - { offset: 0x1072BC, size: 0x8, addend: 0x0, symName: __block_invoke.isConnect.174, symObjAddr: 0xF504, symBinAddr: 0x1EFC1C, symSize: 0x0 }
-  - { offset: 0x10749E, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithRequest, symObjAddr: 0x190, symBinAddr: 0x15A6F0, symSize: 0xEA0 }
+  - { offset: 0x10749E, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithRequest, symObjAddr: 0x190, symBinAddr: 0x15A670, symSize: 0xEA0 }
   - { offset: 0x1074C3, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithRequest.connectDebug, symObjAddr: 0xF508, symBinAddr: 0x1EFC20, symSize: 0x0 }
   - { offset: 0x1074D8, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithRequest.tlfDebug, symObjAddr: 0xF50C, symBinAddr: 0x1EFC24, symSize: 0x0 }
   - { offset: 0x1074ED, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithRequest.eoMiCloudSDKMachine, symObjAddr: 0xF510, symBinAddr: 0x1EFC28, symSize: 0x0 }
   - { offset: 0x107502, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithRequest.isConnect, symObjAddr: 0xF514, symBinAddr: 0x1EFC2C, symSize: 0x0 }
-  - { offset: 0x1075F6, size: 0x8, addend: 0x0, symName: ___tlfNewNSURLSession_dataTaskWithURL_block_invoke, symObjAddr: 0x7D00, symBinAddr: 0x162260, symSize: 0x13E0 }
+  - { offset: 0x1075F6, size: 0x8, addend: 0x0, symName: ___tlfNewNSURLSession_dataTaskWithURL_block_invoke, symObjAddr: 0x7D00, symBinAddr: 0x1621E0, symSize: 0x13E0 }
   - { offset: 0x10761B, size: 0x8, addend: 0x0, symName: __block_invoke_2.connectDebug, symObjAddr: 0xF518, symBinAddr: 0x1EFC30, symSize: 0x0 }
   - { offset: 0x107630, size: 0x8, addend: 0x0, symName: __block_invoke_2.tlfDebug, symObjAddr: 0xF51C, symBinAddr: 0x1EFC34, symSize: 0x0 }
   - { offset: 0x107645, size: 0x8, addend: 0x0, symName: __block_invoke_2.eoMiCloudSDKMachine, symObjAddr: 0xF520, symBinAddr: 0x1EFC38, symSize: 0x0 }
@@ -3945,12 +3945,12 @@ relocations:
   - { offset: 0x1076D8, size: 0x8, addend: 0x0, symName: __block_invoke_2.tlfDebug.193, symObjAddr: 0xF53C, symBinAddr: 0x1EFC54, symSize: 0x0 }
   - { offset: 0x1076ED, size: 0x8, addend: 0x0, symName: __block_invoke_2.eoMiCloudSDKMachine.194, symObjAddr: 0xF540, symBinAddr: 0x1EFC58, symSize: 0x0 }
   - { offset: 0x107702, size: 0x8, addend: 0x0, symName: __block_invoke_2.isConnect.195, symObjAddr: 0xF544, symBinAddr: 0x1EFC5C, symSize: 0x0 }
-  - { offset: 0x1078E4, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithURL, symObjAddr: 0x1030, symBinAddr: 0x15B590, symSize: 0xEA0 }
+  - { offset: 0x1078E4, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithURL, symObjAddr: 0x1030, symBinAddr: 0x15B510, symSize: 0xEA0 }
   - { offset: 0x107909, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithURL.connectDebug, symObjAddr: 0xF548, symBinAddr: 0x1EFC60, symSize: 0x0 }
   - { offset: 0x10791E, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithURL.tlfDebug, symObjAddr: 0xF54C, symBinAddr: 0x1EFC64, symSize: 0x0 }
   - { offset: 0x107933, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithURL.eoMiCloudSDKMachine, symObjAddr: 0xF550, symBinAddr: 0x1EFC68, symSize: 0x0 }
   - { offset: 0x107948, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_dataTaskWithURL.isConnect, symObjAddr: 0xF554, symBinAddr: 0x1EFC6C, symSize: 0x0 }
-  - { offset: 0x107A3C, size: 0x8, addend: 0x0, symName: ___tlfNewNSURLSession_uploadTaskWithRequest_block_invoke, symObjAddr: 0x90E0, symBinAddr: 0x163640, symSize: 0x1A70 }
+  - { offset: 0x107A3C, size: 0x8, addend: 0x0, symName: ___tlfNewNSURLSession_uploadTaskWithRequest_block_invoke, symObjAddr: 0x90E0, symBinAddr: 0x1635C0, symSize: 0x1A70 }
   - { offset: 0x107A61, size: 0x8, addend: 0x0, symName: __block_invoke_3.connectDebug, symObjAddr: 0xF558, symBinAddr: 0x1EFC70, symSize: 0x0 }
   - { offset: 0x107A76, size: 0x8, addend: 0x0, symName: __block_invoke_3.tlfDebug, symObjAddr: 0xF55C, symBinAddr: 0x1EFC74, symSize: 0x0 }
   - { offset: 0x107A8B, size: 0x8, addend: 0x0, symName: __block_invoke_3.eoMiCloudSDKMachine, symObjAddr: 0xF560, symBinAddr: 0x1EFC78, symSize: 0x0 }
@@ -3967,7 +3967,7 @@ relocations:
   - { offset: 0x107B72, size: 0x8, addend: 0x0, symName: __block_invoke_3.tlfDebug.234, symObjAddr: 0xF58C, symBinAddr: 0x1EFCA4, symSize: 0x0 }
   - { offset: 0x107B87, size: 0x8, addend: 0x0, symName: __block_invoke_3.eoMiCloudSDKMachine.235, symObjAddr: 0xF590, symBinAddr: 0x1EFCA8, symSize: 0x0 }
   - { offset: 0x107B9C, size: 0x8, addend: 0x0, symName: __block_invoke_3.isConnect.236, symObjAddr: 0xF594, symBinAddr: 0x1EFCAC, symSize: 0x0 }
-  - { offset: 0x107E2E, size: 0x8, addend: 0x0, symName: ___tlfNewNSURLSession_uploadTaskWithRequestFromFile_block_invoke, symObjAddr: 0xAB50, symBinAddr: 0x1650B0, symSize: 0x1A6B }
+  - { offset: 0x107E2E, size: 0x8, addend: 0x0, symName: ___tlfNewNSURLSession_uploadTaskWithRequestFromFile_block_invoke, symObjAddr: 0xAB50, symBinAddr: 0x165030, symSize: 0x1A6B }
   - { offset: 0x107E53, size: 0x8, addend: 0x0, symName: __block_invoke_4.connectDebug, symObjAddr: 0xF598, symBinAddr: 0x1EFCB0, symSize: 0x0 }
   - { offset: 0x107E68, size: 0x8, addend: 0x0, symName: __block_invoke_4.tlfDebug, symObjAddr: 0xF59C, symBinAddr: 0x1EFCB4, symSize: 0x0 }
   - { offset: 0x107E7D, size: 0x8, addend: 0x0, symName: __block_invoke_4.eoMiCloudSDKMachine, symObjAddr: 0xF5A0, symBinAddr: 0x1EFCB8, symSize: 0x0 }
@@ -3984,23 +3984,23 @@ relocations:
   - { offset: 0x107F64, size: 0x8, addend: 0x0, symName: __block_invoke_4.tlfDebug.248, symObjAddr: 0xF5CC, symBinAddr: 0x1EFCE4, symSize: 0x0 }
   - { offset: 0x107F79, size: 0x8, addend: 0x0, symName: __block_invoke_4.eoMiCloudSDKMachine.249, symObjAddr: 0xF5D0, symBinAddr: 0x1EFCE8, symSize: 0x0 }
   - { offset: 0x107F8E, size: 0x8, addend: 0x0, symName: __block_invoke_4.isConnect.250, symObjAddr: 0xF5D4, symBinAddr: 0x1EFCEC, symSize: 0x0 }
-  - { offset: 0x108549, size: 0x8, addend: 0x0, symName: '___39+[NSURLSession(TLFInjection) tlfInject]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0x15A600, symSize: 0xF0 }
-  - { offset: 0x108587, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_uploadTaskWithRequest, symObjAddr: 0x1ED0, symBinAddr: 0x15C430, symSize: 0x4B0 }
-  - { offset: 0x108641, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_uploadTaskWithRequestFromFile, symObjAddr: 0x2380, symBinAddr: 0x15C8E0, symSize: 0x4B0 }
-  - { offset: 0x1086FB, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_sessionWithConfiguration, symObjAddr: 0x2830, symBinAddr: 0x15CD90, symSize: 0x210 }
-  - { offset: 0x108769, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) _tlfURLSession:dataTask:didReceiveData:]', symObjAddr: 0x2A40, symBinAddr: 0x15CFA0, symSize: 0x90 }
-  - { offset: 0x1087C9, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) _tlfURLSession:task:didCompleteWithError:]', symObjAddr: 0x3480, symBinAddr: 0x15D9E0, symSize: 0x90 }
-  - { offset: 0x108829, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) _tlfURLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0x41C0, symBinAddr: 0x15E720, symSize: 0x90 }
-  - { offset: 0x108889, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) _tlfURLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x4BA0, symBinAddr: 0x15F100, symSize: 0xE0 }
-  - { offset: 0x108907, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfInjectDelegate:]', symObjAddr: 0x66F0, symBinAddr: 0x160C50, symSize: 0x50 }
-  - { offset: 0x108949, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x6740, symBinAddr: 0x160CA0, symSize: 0x40 }
-  - { offset: 0x10896D, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x6780, symBinAddr: 0x160CE0, symSize: 0x30 }
-  - { offset: 0x108989, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_.141, symObjAddr: 0x67B0, symBinAddr: 0x160D10, symSize: 0x50 }
-  - { offset: 0x1089AD, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_.142, symObjAddr: 0x6800, symBinAddr: 0x160D60, symSize: 0x30 }
-  - { offset: 0x1089C9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r56r, symObjAddr: 0x7BF0, symBinAddr: 0x162150, symSize: 0xA0 }
-  - { offset: 0x1089ED, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r56r, symObjAddr: 0x7C90, symBinAddr: 0x1621F0, symSize: 0x70 }
-  - { offset: 0x109405, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection load]', symObjAddr: 0x0, symBinAddr: 0x166B20, symSize: 0x50 }
-  - { offset: 0x109412, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection inject]', symObjAddr: 0x50, symBinAddr: 0x166B70, symSize: 0x4420 }
+  - { offset: 0x108549, size: 0x8, addend: 0x0, symName: '___39+[NSURLSession(TLFInjection) tlfInject]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0x15A580, symSize: 0xF0 }
+  - { offset: 0x108587, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_uploadTaskWithRequest, symObjAddr: 0x1ED0, symBinAddr: 0x15C3B0, symSize: 0x4B0 }
+  - { offset: 0x108641, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_uploadTaskWithRequestFromFile, symObjAddr: 0x2380, symBinAddr: 0x15C860, symSize: 0x4B0 }
+  - { offset: 0x1086FB, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSession_sessionWithConfiguration, symObjAddr: 0x2830, symBinAddr: 0x15CD10, symSize: 0x210 }
+  - { offset: 0x108769, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) _tlfURLSession:dataTask:didReceiveData:]', symObjAddr: 0x2A40, symBinAddr: 0x15CF20, symSize: 0x90 }
+  - { offset: 0x1087C9, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) _tlfURLSession:task:didCompleteWithError:]', symObjAddr: 0x3480, symBinAddr: 0x15D960, symSize: 0x90 }
+  - { offset: 0x108829, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) _tlfURLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0x41C0, symBinAddr: 0x15E6A0, symSize: 0x90 }
+  - { offset: 0x108889, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) _tlfURLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x4BA0, symBinAddr: 0x15F080, symSize: 0xE0 }
+  - { offset: 0x108907, size: 0x8, addend: 0x0, symName: '-[NSURLSession(TLFInjection) tlfInjectDelegate:]', symObjAddr: 0x66F0, symBinAddr: 0x160BD0, symSize: 0x50 }
+  - { offset: 0x108949, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x6740, symBinAddr: 0x160C20, symSize: 0x40 }
+  - { offset: 0x10896D, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x6780, symBinAddr: 0x160C60, symSize: 0x30 }
+  - { offset: 0x108989, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_.141, symObjAddr: 0x67B0, symBinAddr: 0x160C90, symSize: 0x50 }
+  - { offset: 0x1089AD, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_.142, symObjAddr: 0x6800, symBinAddr: 0x160CE0, symSize: 0x30 }
+  - { offset: 0x1089C9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r56r, symObjAddr: 0x7BF0, symBinAddr: 0x1620D0, symSize: 0xA0 }
+  - { offset: 0x1089ED, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r56r, symObjAddr: 0x7C90, symBinAddr: 0x162170, symSize: 0x70 }
+  - { offset: 0x109405, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection load]', symObjAddr: 0x0, symBinAddr: 0x166AA0, symSize: 0x50 }
+  - { offset: 0x109412, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection inject]', symObjAddr: 0x50, symBinAddr: 0x166AF0, symSize: 0x4420 }
   - { offset: 0x109437, size: 0x8, addend: 0x0, symName: _inject.connectDebug, symObjAddr: 0x4F80, symBinAddr: 0x1EFCF0, symSize: 0x0 }
   - { offset: 0x10944C, size: 0x8, addend: 0x0, symName: _inject.tlfDebug, symObjAddr: 0x4F84, symBinAddr: 0x1EFCF4, symSize: 0x0 }
   - { offset: 0x109461, size: 0x8, addend: 0x0, symName: _inject.eoMiCloudSDKMachine, symObjAddr: 0x4F88, symBinAddr: 0x1EFCF8, symSize: 0x0 }
@@ -4049,22 +4049,22 @@ relocations:
   - { offset: 0x1097E8, size: 0x8, addend: 0x0, symName: _inject.tlfDebug.192, symObjAddr: 0x5034, symBinAddr: 0x1EFDA4, symSize: 0x0 }
   - { offset: 0x1097FD, size: 0x8, addend: 0x0, symName: _inject.eoMiCloudSDKMachine.193, symObjAddr: 0x5038, symBinAddr: 0x1EFDA8, symSize: 0x0 }
   - { offset: 0x109812, size: 0x8, addend: 0x0, symName: _inject.isConnect.194, symObjAddr: 0x503C, symBinAddr: 0x1EFDAC, symSize: 0x0 }
-  - { offset: 0x109C63, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection earlyInjectionWebView]', symObjAddr: 0x4470, symBinAddr: 0x16AF90, symSize: 0x62D }
+  - { offset: 0x109C63, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection earlyInjectionWebView]', symObjAddr: 0x4470, symBinAddr: 0x16AF10, symSize: 0x62D }
   - { offset: 0x109C88, size: 0x8, addend: 0x0, symName: _earlyInjectionWebView.connectDebug, symObjAddr: 0x5040, symBinAddr: 0x1EFDB0, symSize: 0x0 }
   - { offset: 0x109C9D, size: 0x8, addend: 0x0, symName: _earlyInjectionWebView.tlfDebug, symObjAddr: 0x5044, symBinAddr: 0x1EFDB4, symSize: 0x0 }
   - { offset: 0x109CB2, size: 0x8, addend: 0x0, symName: _earlyInjectionWebView.eoMiCloudSDKMachine, symObjAddr: 0x5048, symBinAddr: 0x1EFDB8, symSize: 0x0 }
   - { offset: 0x109CC7, size: 0x8, addend: 0x0, symName: _earlyInjectionWebView.isConnect, symObjAddr: 0x504C, symBinAddr: 0x1EFDBC, symSize: 0x0 }
-  - { offset: 0x109E04, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection load]', symObjAddr: 0x0, symBinAddr: 0x166B20, symSize: 0x50 }
-  - { offset: 0x10A3C9, size: 0x8, addend: 0x0, symName: '+[TLFUICPayloadMessage sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x16B5C0, symSize: 0xA0 }
-  - { offset: 0x10A3D6, size: 0x8, addend: 0x0, symName: '+[TLFUICPayloadMessage sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x16B5C0, symSize: 0xA0 }
+  - { offset: 0x109E04, size: 0x8, addend: 0x0, symName: '+[TLFCodeInjection load]', symObjAddr: 0x0, symBinAddr: 0x166AA0, symSize: 0x50 }
+  - { offset: 0x10A3C9, size: 0x8, addend: 0x0, symName: '+[TLFUICPayloadMessage sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x16B540, symSize: 0xA0 }
+  - { offset: 0x10A3D6, size: 0x8, addend: 0x0, symName: '+[TLFUICPayloadMessage sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x16B540, symSize: 0xA0 }
   - { offset: 0x10A3FF, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xCE40, symBinAddr: 0x1F0178, symSize: 0x0 }
   - { offset: 0x10A414, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xCE48, symBinAddr: 0x1F0180, symSize: 0x0 }
-  - { offset: 0x10A5E5, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage initWithPayload:]', symObjAddr: 0x2E0, symBinAddr: 0x16B8A0, symSize: 0xAE0 }
+  - { offset: 0x10A5E5, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage initWithPayload:]', symObjAddr: 0x2E0, symBinAddr: 0x16B820, symSize: 0xAE0 }
   - { offset: 0x10A60E, size: 0x8, addend: 0x0, symName: '_initWithPayload:.connectDebug', symObjAddr: 0x7370, symBinAddr: 0x1EFDC0, symSize: 0x0 }
   - { offset: 0x10A623, size: 0x8, addend: 0x0, symName: '_initWithPayload:.tlfDebug', symObjAddr: 0x7374, symBinAddr: 0x1EFDC4, symSize: 0x0 }
   - { offset: 0x10A638, size: 0x8, addend: 0x0, symName: '_initWithPayload:.eoMiCloudSDKMachine', symObjAddr: 0x7378, symBinAddr: 0x1EFDC8, symSize: 0x0 }
   - { offset: 0x10A64D, size: 0x8, addend: 0x0, symName: '_initWithPayload:.isConnect', symObjAddr: 0x737C, symBinAddr: 0x1EFDCC, symSize: 0x0 }
-  - { offset: 0x10A73F, size: 0x8, addend: 0x0, symName: '+[TLFUICPayloadMessage TLFJSONSerialize:]', symObjAddr: 0xDC0, symBinAddr: 0x16C380, symSize: 0x19C0 }
+  - { offset: 0x10A73F, size: 0x8, addend: 0x0, symName: '+[TLFUICPayloadMessage TLFJSONSerialize:]', symObjAddr: 0xDC0, symBinAddr: 0x16C300, symSize: 0x19C0 }
   - { offset: 0x10A768, size: 0x8, addend: 0x0, symName: '_TLFJSONSerialize:.connectDebug', symObjAddr: 0x7380, symBinAddr: 0x1EFDD0, symSize: 0x0 }
   - { offset: 0x10A77D, size: 0x8, addend: 0x0, symName: '_TLFJSONSerialize:.tlfDebug', symObjAddr: 0x7384, symBinAddr: 0x1EFDD4, symSize: 0x0 }
   - { offset: 0x10A792, size: 0x8, addend: 0x0, symName: '_TLFJSONSerialize:.eoMiCloudSDKMachine', symObjAddr: 0x7388, symBinAddr: 0x1EFDD8, symSize: 0x0 }
@@ -4077,7 +4077,7 @@ relocations:
   - { offset: 0x10A825, size: 0x8, addend: 0x0, symName: '_TLFJSONSerialize:.tlfDebug.100', symObjAddr: 0x73A4, symBinAddr: 0x1EFDF4, symSize: 0x0 }
   - { offset: 0x10A83A, size: 0x8, addend: 0x0, symName: '_TLFJSONSerialize:.eoMiCloudSDKMachine.101', symObjAddr: 0x73A8, symBinAddr: 0x1EFDF8, symSize: 0x0 }
   - { offset: 0x10A84F, size: 0x8, addend: 0x0, symName: '_TLFJSONSerialize:.isConnect.102', symObjAddr: 0x73AC, symBinAddr: 0x1EFDFC, symSize: 0x0 }
-  - { offset: 0x10A9CD, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage jsonDictionary]', symObjAddr: 0x2780, symBinAddr: 0x16DD40, symSize: 0x2A70 }
+  - { offset: 0x10A9CD, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage jsonDictionary]', symObjAddr: 0x2780, symBinAddr: 0x16DCC0, symSize: 0x2A70 }
   - { offset: 0x10A9F6, size: 0x8, addend: 0x0, symName: _jsonDictionary.connectDebug, symObjAddr: 0x73B0, symBinAddr: 0x1EFE00, symSize: 0x0 }
   - { offset: 0x10AA0B, size: 0x8, addend: 0x0, symName: _jsonDictionary.tlfDebug, symObjAddr: 0x73B4, symBinAddr: 0x1EFE04, symSize: 0x0 }
   - { offset: 0x10AA20, size: 0x8, addend: 0x0, symName: _jsonDictionary.eoMiCloudSDKMachine, symObjAddr: 0x73B8, symBinAddr: 0x1EFE08, symSize: 0x0 }
@@ -4098,65 +4098,65 @@ relocations:
   - { offset: 0x10AB5B, size: 0x8, addend: 0x0, symName: _jsonDictionary.tlfDebug.165, symObjAddr: 0x73F4, symBinAddr: 0x1EFE44, symSize: 0x0 }
   - { offset: 0x10AB70, size: 0x8, addend: 0x0, symName: _jsonDictionary.eoMiCloudSDKMachine.166, symObjAddr: 0x73F8, symBinAddr: 0x1EFE48, symSize: 0x0 }
   - { offset: 0x10AB85, size: 0x8, addend: 0x0, symName: _jsonDictionary.isConnect.167, symObjAddr: 0x73FC, symBinAddr: 0x1EFE4C, symSize: 0x0 }
-  - { offset: 0x10AEED, size: 0x8, addend: 0x0, symName: '___38+[TLFUICPayloadMessage sharedInstance]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0x16B660, symSize: 0x40 }
-  - { offset: 0x10AF2A, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage init]', symObjAddr: 0xE0, symBinAddr: 0x16B6A0, symSize: 0xE0 }
-  - { offset: 0x10AF60, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage initWithPayloadStr:]', symObjAddr: 0x1C0, symBinAddr: 0x16B780, symSize: 0x120 }
-  - { offset: 0x10AFA4, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage checkUnload:]', symObjAddr: 0x51F0, symBinAddr: 0x1707B0, symSize: 0xB0 }
-  - { offset: 0x10AFE8, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage isUnload]', symObjAddr: 0x52A0, symBinAddr: 0x170860, symSize: 0x20 }
-  - { offset: 0x10B01E, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage jsonPayload]', symObjAddr: 0x52C0, symBinAddr: 0x170880, symSize: 0x20 }
-  - { offset: 0x10B054, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage setJsonPayload:]', symObjAddr: 0x52E0, symBinAddr: 0x1708A0, symSize: 0x30 }
-  - { offset: 0x10B092, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage .cxx_destruct]', symObjAddr: 0x5310, symBinAddr: 0x1708D0, symSize: 0x2A }
-  - { offset: 0x10B7E7, size: 0x8, addend: 0x0, symName: '+[TLFConnectionLogger logConnection:request:response:error:]', symObjAddr: 0x0, symBinAddr: 0x170900, symSize: 0x1C0 }
-  - { offset: 0x10B7F4, size: 0x8, addend: 0x0, symName: '+[TLFConnectionLogger logConnectionWithInitTime:loadTime:connection:request:response:data:error:]', symObjAddr: 0x380, symBinAddr: 0x170C80, symSize: 0x1066 }
+  - { offset: 0x10AEED, size: 0x8, addend: 0x0, symName: '___38+[TLFUICPayloadMessage sharedInstance]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0x16B5E0, symSize: 0x40 }
+  - { offset: 0x10AF2A, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage init]', symObjAddr: 0xE0, symBinAddr: 0x16B620, symSize: 0xE0 }
+  - { offset: 0x10AF60, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage initWithPayloadStr:]', symObjAddr: 0x1C0, symBinAddr: 0x16B700, symSize: 0x120 }
+  - { offset: 0x10AFA4, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage checkUnload:]', symObjAddr: 0x51F0, symBinAddr: 0x170730, symSize: 0xB0 }
+  - { offset: 0x10AFE8, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage isUnload]', symObjAddr: 0x52A0, symBinAddr: 0x1707E0, symSize: 0x20 }
+  - { offset: 0x10B01E, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage jsonPayload]', symObjAddr: 0x52C0, symBinAddr: 0x170800, symSize: 0x20 }
+  - { offset: 0x10B054, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage setJsonPayload:]', symObjAddr: 0x52E0, symBinAddr: 0x170820, symSize: 0x30 }
+  - { offset: 0x10B092, size: 0x8, addend: 0x0, symName: '-[TLFUICPayloadMessage .cxx_destruct]', symObjAddr: 0x5310, symBinAddr: 0x170850, symSize: 0x2A }
+  - { offset: 0x10B7E7, size: 0x8, addend: 0x0, symName: '+[TLFConnectionLogger logConnection:request:response:error:]', symObjAddr: 0x0, symBinAddr: 0x170880, symSize: 0x1C0 }
+  - { offset: 0x10B7F4, size: 0x8, addend: 0x0, symName: '+[TLFConnectionLogger logConnectionWithInitTime:loadTime:connection:request:response:data:error:]', symObjAddr: 0x380, symBinAddr: 0x170C00, symSize: 0x1066 }
   - { offset: 0x10B81D, size: 0x8, addend: 0x0, symName: '_logConnectionWithInitTime:loadTime:connection:request:response:data:error:.connectDebug', symObjAddr: 0x1988, symBinAddr: 0x1EFE50, symSize: 0x0 }
   - { offset: 0x10B832, size: 0x8, addend: 0x0, symName: '_logConnectionWithInitTime:loadTime:connection:request:response:data:error:.tlfDebug', symObjAddr: 0x198C, symBinAddr: 0x1EFE54, symSize: 0x0 }
   - { offset: 0x10B847, size: 0x8, addend: 0x0, symName: '_logConnectionWithInitTime:loadTime:connection:request:response:data:error:.eoMiCloudSDKMachine', symObjAddr: 0x1990, symBinAddr: 0x1EFE58, symSize: 0x0 }
   - { offset: 0x10B85C, size: 0x8, addend: 0x0, symName: '_logConnectionWithInitTime:loadTime:connection:request:response:data:error:.isConnect', symObjAddr: 0x1994, symBinAddr: 0x1EFE5C, symSize: 0x0 }
-  - { offset: 0x10BB22, size: 0x8, addend: 0x0, symName: '+[TLFConnectionLogger logConnection:request:response:error:]', symObjAddr: 0x0, symBinAddr: 0x170900, symSize: 0x1C0 }
-  - { offset: 0x10BBAC, size: 0x8, addend: 0x0, symName: '+[TLFConnectionLogger logConnection:response:responseTimeInMilliseconds:]', symObjAddr: 0x1C0, symBinAddr: 0x170AC0, symSize: 0x1C0 }
-  - { offset: 0x10C821, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder init]', symObjAddr: 0x0, symBinAddr: 0x171CF0, symSize: 0x250 }
-  - { offset: 0x10C989, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder init]', symObjAddr: 0x0, symBinAddr: 0x171CF0, symSize: 0x250 }
-  - { offset: 0x10C9BF, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder jsonDictionary]', symObjAddr: 0x250, symBinAddr: 0x171F40, symSize: 0xC0 }
-  - { offset: 0x10CA03, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder myId]', symObjAddr: 0x310, symBinAddr: 0x172000, symSize: 0x20 }
-  - { offset: 0x10CA39, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder setMyId:]', symObjAddr: 0x330, symBinAddr: 0x172020, symSize: 0x40 }
-  - { offset: 0x10CA77, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder sessionId]', symObjAddr: 0x370, symBinAddr: 0x172060, symSize: 0x20 }
-  - { offset: 0x10CAAD, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder setSessionId:]', symObjAddr: 0x390, symBinAddr: 0x172080, symSize: 0x40 }
-  - { offset: 0x10CAEB, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder .cxx_destruct]', symObjAddr: 0x3D0, symBinAddr: 0x1720C0, symSize: 0x42 }
-  - { offset: 0x10CBC4, size: 0x8, addend: 0x0, symName: '+[TLFMath calculateDistanceFromPoint:toLineFromPoint:toEndPoint:]', symObjAddr: 0x0, symBinAddr: 0x172110, symSize: 0x160 }
-  - { offset: 0x10CC53, size: 0x8, addend: 0x0, symName: '+[TLFMath calculateDistanceFromPoint:toLineFromPoint:toEndPoint:]', symObjAddr: 0x0, symBinAddr: 0x172110, symSize: 0x160 }
-  - { offset: 0x10CCD2, size: 0x8, addend: 0x0, symName: '+[TLFMath calculateLengthOfLineFrom:toEnd:]', symObjAddr: 0x160, symBinAddr: 0x172270, symSize: 0x80 }
-  - { offset: 0x10CDBB, size: 0x8, addend: 0x0, symName: '+[TLFMath calculateBestFitLineWithCGPoints:toStartPoint:andEndPoint:andDirection:]', symObjAddr: 0x1E0, symBinAddr: 0x1722F0, symSize: 0xE10 }
-  - { offset: 0x10D0A7, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0xFF0, symBinAddr: 0x173100, symSize: 0x2E }
-  - { offset: 0x10D1CD, size: 0x8, addend: 0x0, symName: '-[TLFL_Unsupported initWithView:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x173130, symSize: 0x190 }
-  - { offset: 0x10DC9C, size: 0x8, addend: 0x0, symName: '-[TLFL_Unsupported initWithView:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x173130, symSize: 0x190 }
-  - { offset: 0x10E45D, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem initWithView:andTitle:andImage:andIsSelected:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x1732C0, symSize: 0x280 }
-  - { offset: 0x10F2EA, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem initWithView:andTitle:andImage:andIsSelected:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x1732C0, symSize: 0x280 }
-  - { offset: 0x10F366, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem jsonRepresentation]', symObjAddr: 0x280, symBinAddr: 0x173540, symSize: 0x160 }
-  - { offset: 0x10F3B9, size: 0x8, addend: 0x0, symName: '___34-[TLFL_BarItem jsonRepresentation]_block_invoke', symObjAddr: 0x3E0, symBinAddr: 0x1736A0, symSize: 0x150 }
-  - { offset: 0x10F420, size: 0x8, addend: 0x0, symName: '___34-[TLFL_BarItem jsonRepresentation]_block_invoke.21', symObjAddr: 0x5A0, symBinAddr: 0x1737F0, symSize: 0x2A0 }
-  - { offset: 0x10F46B, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem title]', symObjAddr: 0x840, symBinAddr: 0x173A90, symSize: 0x20 }
-  - { offset: 0x10F4A1, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem setTitle:]', symObjAddr: 0x860, symBinAddr: 0x173AB0, symSize: 0x30 }
-  - { offset: 0x10F4DF, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem buttonImage]', symObjAddr: 0x890, symBinAddr: 0x173AE0, symSize: 0x20 }
-  - { offset: 0x10F515, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem setButtonImage:]', symObjAddr: 0x8B0, symBinAddr: 0x173B00, symSize: 0x30 }
-  - { offset: 0x10F553, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem isSelected]', symObjAddr: 0x8E0, symBinAddr: 0x173B30, symSize: 0x20 }
-  - { offset: 0x10F589, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem setIsSelected:]', symObjAddr: 0x900, symBinAddr: 0x173B50, symSize: 0x30 }
-  - { offset: 0x10F5C7, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem badge]', symObjAddr: 0x930, symBinAddr: 0x173B80, symSize: 0x20 }
-  - { offset: 0x10F5FD, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem setBadge:]', symObjAddr: 0x950, symBinAddr: 0x173BA0, symSize: 0x30 }
-  - { offset: 0x10F63B, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem .cxx_destruct]', symObjAddr: 0x980, symBinAddr: 0x173BD0, symSize: 0x56 }
-  - { offset: 0x11072C, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) setTealeafInitTime:]', symObjAddr: 0x0, symBinAddr: 0x173C30, symSize: 0x60 }
+  - { offset: 0x10BB22, size: 0x8, addend: 0x0, symName: '+[TLFConnectionLogger logConnection:request:response:error:]', symObjAddr: 0x0, symBinAddr: 0x170880, symSize: 0x1C0 }
+  - { offset: 0x10BBAC, size: 0x8, addend: 0x0, symName: '+[TLFConnectionLogger logConnection:response:responseTimeInMilliseconds:]', symObjAddr: 0x1C0, symBinAddr: 0x170A40, symSize: 0x1C0 }
+  - { offset: 0x10C821, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder init]', symObjAddr: 0x0, symBinAddr: 0x171C70, symSize: 0x250 }
+  - { offset: 0x10C989, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder init]', symObjAddr: 0x0, symBinAddr: 0x171C70, symSize: 0x250 }
+  - { offset: 0x10C9BF, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder jsonDictionary]', symObjAddr: 0x250, symBinAddr: 0x171EC0, symSize: 0xC0 }
+  - { offset: 0x10CA03, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder myId]', symObjAddr: 0x310, symBinAddr: 0x171F80, symSize: 0x20 }
+  - { offset: 0x10CA39, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder setMyId:]', symObjAddr: 0x330, symBinAddr: 0x171FA0, symSize: 0x40 }
+  - { offset: 0x10CA77, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder sessionId]', symObjAddr: 0x370, symBinAddr: 0x171FE0, symSize: 0x20 }
+  - { offset: 0x10CAAD, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder setSessionId:]', symObjAddr: 0x390, symBinAddr: 0x172000, symSize: 0x40 }
+  - { offset: 0x10CAEB, size: 0x8, addend: 0x0, symName: '-[TLFMessagePlaceHolder .cxx_destruct]', symObjAddr: 0x3D0, symBinAddr: 0x172040, symSize: 0x42 }
+  - { offset: 0x10CBC4, size: 0x8, addend: 0x0, symName: '+[TLFMath calculateDistanceFromPoint:toLineFromPoint:toEndPoint:]', symObjAddr: 0x0, symBinAddr: 0x172090, symSize: 0x160 }
+  - { offset: 0x10CC53, size: 0x8, addend: 0x0, symName: '+[TLFMath calculateDistanceFromPoint:toLineFromPoint:toEndPoint:]', symObjAddr: 0x0, symBinAddr: 0x172090, symSize: 0x160 }
+  - { offset: 0x10CCD2, size: 0x8, addend: 0x0, symName: '+[TLFMath calculateLengthOfLineFrom:toEnd:]', symObjAddr: 0x160, symBinAddr: 0x1721F0, symSize: 0x80 }
+  - { offset: 0x10CDBB, size: 0x8, addend: 0x0, symName: '+[TLFMath calculateBestFitLineWithCGPoints:toStartPoint:andEndPoint:andDirection:]', symObjAddr: 0x1E0, symBinAddr: 0x172270, symSize: 0xE10 }
+  - { offset: 0x10D0A7, size: 0x8, addend: 0x0, symName: _CGPointMake, symObjAddr: 0xFF0, symBinAddr: 0x173080, symSize: 0x2E }
+  - { offset: 0x10D1CD, size: 0x8, addend: 0x0, symName: '-[TLFL_Unsupported initWithView:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x1730B0, symSize: 0x190 }
+  - { offset: 0x10DC9C, size: 0x8, addend: 0x0, symName: '-[TLFL_Unsupported initWithView:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x1730B0, symSize: 0x190 }
+  - { offset: 0x10E45D, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem initWithView:andTitle:andImage:andIsSelected:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x173240, symSize: 0x280 }
+  - { offset: 0x10F2EA, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem initWithView:andTitle:andImage:andIsSelected:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x173240, symSize: 0x280 }
+  - { offset: 0x10F366, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem jsonRepresentation]', symObjAddr: 0x280, symBinAddr: 0x1734C0, symSize: 0x160 }
+  - { offset: 0x10F3B9, size: 0x8, addend: 0x0, symName: '___34-[TLFL_BarItem jsonRepresentation]_block_invoke', symObjAddr: 0x3E0, symBinAddr: 0x173620, symSize: 0x150 }
+  - { offset: 0x10F420, size: 0x8, addend: 0x0, symName: '___34-[TLFL_BarItem jsonRepresentation]_block_invoke.21', symObjAddr: 0x5A0, symBinAddr: 0x173770, symSize: 0x2A0 }
+  - { offset: 0x10F46B, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem title]', symObjAddr: 0x840, symBinAddr: 0x173A10, symSize: 0x20 }
+  - { offset: 0x10F4A1, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem setTitle:]', symObjAddr: 0x860, symBinAddr: 0x173A30, symSize: 0x30 }
+  - { offset: 0x10F4DF, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem buttonImage]', symObjAddr: 0x890, symBinAddr: 0x173A60, symSize: 0x20 }
+  - { offset: 0x10F515, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem setButtonImage:]', symObjAddr: 0x8B0, symBinAddr: 0x173A80, symSize: 0x30 }
+  - { offset: 0x10F553, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem isSelected]', symObjAddr: 0x8E0, symBinAddr: 0x173AB0, symSize: 0x20 }
+  - { offset: 0x10F589, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem setIsSelected:]', symObjAddr: 0x900, symBinAddr: 0x173AD0, symSize: 0x30 }
+  - { offset: 0x10F5C7, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem badge]', symObjAddr: 0x930, symBinAddr: 0x173B00, symSize: 0x20 }
+  - { offset: 0x10F5FD, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem setBadge:]', symObjAddr: 0x950, symBinAddr: 0x173B20, symSize: 0x30 }
+  - { offset: 0x10F63B, size: 0x8, addend: 0x0, symName: '-[TLFL_BarItem .cxx_destruct]', symObjAddr: 0x980, symBinAddr: 0x173B50, symSize: 0x56 }
+  - { offset: 0x11072C, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) setTealeafInitTime:]', symObjAddr: 0x0, symBinAddr: 0x173BB0, symSize: 0x60 }
   - { offset: 0x110745, size: 0x8, addend: 0x0, symName: _tealeafDataStr, symObjAddr: 0x3D8, symBinAddr: 0x1EFE60, symSize: 0x0 }
   - { offset: 0x1107BD, size: 0x8, addend: 0x0, symName: _tealeafInitTimeStr, symObjAddr: 0x3E0, symBinAddr: 0x1EFE68, symSize: 0x0 }
-  - { offset: 0x1107C6, size: 0x8, addend: 0x0, symName: '+[NSURLSessionTask(TLFInjection) tlfInject]', symObjAddr: 0x120, symBinAddr: 0x173D50, symSize: 0xA0 }
+  - { offset: 0x1107C6, size: 0x8, addend: 0x0, symName: '+[NSURLSessionTask(TLFInjection) tlfInject]', symObjAddr: 0x120, symBinAddr: 0x173CD0, symSize: 0xA0 }
   - { offset: 0x1107EB, size: 0x8, addend: 0x0, symName: _tlfInject.onceToken, symObjAddr: 0x3D68, symBinAddr: 0x1F0188, symSize: 0x0 }
   - { offset: 0x110866, size: 0x8, addend: 0x0, symName: _tlfOrigNSURLSessionTask_init, symObjAddr: 0x3D70, symBinAddr: 0x1F0278, symSize: 0x0 }
-  - { offset: 0x110987, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) setTealeafInitTime:]', symObjAddr: 0x0, symBinAddr: 0x173C30, symSize: 0x60 }
-  - { offset: 0x1109C7, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) tealeafInitTime]', symObjAddr: 0x60, symBinAddr: 0x173C90, symSize: 0x30 }
-  - { offset: 0x1109FD, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) setTealeafData:]', symObjAddr: 0x90, symBinAddr: 0x173CC0, symSize: 0x60 }
-  - { offset: 0x110A3D, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) tealeafData]', symObjAddr: 0xF0, symBinAddr: 0x173D20, symSize: 0x30 }
-  - { offset: 0x110B05, size: 0x8, addend: 0x0, symName: '___43+[NSURLSessionTask(TLFInjection) tlfInject]_block_invoke', symObjAddr: 0x1C0, symBinAddr: 0x173DF0, symSize: 0x40 }
-  - { offset: 0x110B42, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSessionTask_init, symObjAddr: 0x200, symBinAddr: 0x173E30, symSize: 0x148 }
-  - { offset: 0x1114A4, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper processTouchEvents:]', symObjAddr: 0x0, symBinAddr: 0x173F80, symSize: 0x1590 }
-  - { offset: 0x1114DD, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper processTouchEvents:]', symObjAddr: 0x0, symBinAddr: 0x173F80, symSize: 0x1590 }
+  - { offset: 0x110987, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) setTealeafInitTime:]', symObjAddr: 0x0, symBinAddr: 0x173BB0, symSize: 0x60 }
+  - { offset: 0x1109C7, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) tealeafInitTime]', symObjAddr: 0x60, symBinAddr: 0x173C10, symSize: 0x30 }
+  - { offset: 0x1109FD, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) setTealeafData:]', symObjAddr: 0x90, symBinAddr: 0x173C40, symSize: 0x60 }
+  - { offset: 0x110A3D, size: 0x8, addend: 0x0, symName: '-[NSURLSessionTask(TLFInjection) tealeafData]', symObjAddr: 0xF0, symBinAddr: 0x173CA0, symSize: 0x30 }
+  - { offset: 0x110B05, size: 0x8, addend: 0x0, symName: '___43+[NSURLSessionTask(TLFInjection) tlfInject]_block_invoke', symObjAddr: 0x1C0, symBinAddr: 0x173D70, symSize: 0x40 }
+  - { offset: 0x110B42, size: 0x8, addend: 0x0, symName: _tlfNewNSURLSessionTask_init, symObjAddr: 0x200, symBinAddr: 0x173DB0, symSize: 0x148 }
+  - { offset: 0x1114A4, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper processTouchEvents:]', symObjAddr: 0x0, symBinAddr: 0x173F00, symSize: 0x1590 }
+  - { offset: 0x1114DD, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper processTouchEvents:]', symObjAddr: 0x0, symBinAddr: 0x173F00, symSize: 0x1590 }
   - { offset: 0x111506, size: 0x8, addend: 0x0, symName: '_processTouchEvents:.connectDebug', symObjAddr: 0x23D0, symBinAddr: 0x1EFE70, symSize: 0x0 }
   - { offset: 0x11151B, size: 0x8, addend: 0x0, symName: '_processTouchEvents:.tlfDebug', symObjAddr: 0x23D4, symBinAddr: 0x1EFE74, symSize: 0x0 }
   - { offset: 0x111530, size: 0x8, addend: 0x0, symName: '_processTouchEvents:.eoMiCloudSDKMachine', symObjAddr: 0x23D8, symBinAddr: 0x1EFE78, symSize: 0x0 }
@@ -4165,99 +4165,99 @@ relocations:
   - { offset: 0x11156F, size: 0x8, addend: 0x0, symName: '_processTouchEvents:.tlfDebug.107', symObjAddr: 0x23E4, symBinAddr: 0x1EFE84, symSize: 0x0 }
   - { offset: 0x111584, size: 0x8, addend: 0x0, symName: '_processTouchEvents:.eoMiCloudSDKMachine.108', symObjAddr: 0x23E8, symBinAddr: 0x1EFE88, symSize: 0x0 }
   - { offset: 0x111599, size: 0x8, addend: 0x0, symName: '_processTouchEvents:.isConnect.109', symObjAddr: 0x23EC, symBinAddr: 0x1EFE8C, symSize: 0x0 }
-  - { offset: 0x1127B0, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0x1590, symBinAddr: 0x175510, symSize: 0x50 }
-  - { offset: 0x112816, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper getRelativeTouchPoint:]', symObjAddr: 0x15E0, symBinAddr: 0x175560, symSize: 0x100 }
-  - { offset: 0x112884, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper getAbsoluteTouchPoint:]', symObjAddr: 0x16E0, symBinAddr: 0x175660, symSize: 0xF0 }
-  - { offset: 0x1128D6, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper getLocationDataDictionaryWithRelative:andAbs:]', symObjAddr: 0x17D0, symBinAddr: 0x175750, symSize: 0x10C }
-  - { offset: 0x11754E, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x175860, symSize: 0xA0 }
-  - { offset: 0x11755B, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x175860, symSize: 0xA0 }
+  - { offset: 0x1127B0, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0x1590, symBinAddr: 0x175490, symSize: 0x50 }
+  - { offset: 0x112816, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper getRelativeTouchPoint:]', symObjAddr: 0x15E0, symBinAddr: 0x1754E0, symSize: 0x100 }
+  - { offset: 0x112884, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper getAbsoluteTouchPoint:]', symObjAddr: 0x16E0, symBinAddr: 0x1755E0, symSize: 0xF0 }
+  - { offset: 0x1128D6, size: 0x8, addend: 0x0, symName: '+[TLFTouchEventHelper getLocationDataDictionaryWithRelative:andAbs:]', symObjAddr: 0x17D0, symBinAddr: 0x1756D0, symSize: 0x10C }
+  - { offset: 0x11754E, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x1757E0, symSize: 0xA0 }
+  - { offset: 0x11755B, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfInject]', symObjAddr: 0x0, symBinAddr: 0x1757E0, symSize: 0xA0 }
   - { offset: 0x117580, size: 0x8, addend: 0x0, symName: _tlfInject.onceToken, symObjAddr: 0x118D8, symBinAddr: 0x1F0190, symSize: 0x0 }
-  - { offset: 0x1175EF, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageNamed:]', symObjAddr: 0x240, symBinAddr: 0x175AA0, symSize: 0xA50 }
+  - { offset: 0x1175EF, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageNamed:]', symObjAddr: 0x240, symBinAddr: 0x175A20, symSize: 0xA50 }
   - { offset: 0x117618, size: 0x8, addend: 0x0, symName: '_tlfImageNamed:.connectDebug', symObjAddr: 0x8B70, symBinAddr: 0x1EFE90, symSize: 0x0 }
   - { offset: 0x11762D, size: 0x8, addend: 0x0, symName: '_tlfImageNamed:.tlfDebug', symObjAddr: 0x8B74, symBinAddr: 0x1EFE94, symSize: 0x0 }
   - { offset: 0x117642, size: 0x8, addend: 0x0, symName: '_tlfImageNamed:.eoMiCloudSDKMachine', symObjAddr: 0x8B78, symBinAddr: 0x1EFE98, symSize: 0x0 }
   - { offset: 0x117657, size: 0x8, addend: 0x0, symName: '_tlfImageNamed:.isConnect', symObjAddr: 0x8B7C, symBinAddr: 0x1EFE9C, symSize: 0x0 }
-  - { offset: 0x117738, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageNamed:inBundle:compatibleWithTraitCollection:]', symObjAddr: 0xC90, symBinAddr: 0x1764F0, symSize: 0xAC0 }
+  - { offset: 0x117738, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageNamed:inBundle:compatibleWithTraitCollection:]', symObjAddr: 0xC90, symBinAddr: 0x176470, symSize: 0xAC0 }
   - { offset: 0x117761, size: 0x8, addend: 0x0, symName: '_tlfImageNamed:inBundle:compatibleWithTraitCollection:.connectDebug', symObjAddr: 0x8B80, symBinAddr: 0x1EFEA0, symSize: 0x0 }
   - { offset: 0x117776, size: 0x8, addend: 0x0, symName: '_tlfImageNamed:inBundle:compatibleWithTraitCollection:.tlfDebug', symObjAddr: 0x8B84, symBinAddr: 0x1EFEA4, symSize: 0x0 }
   - { offset: 0x11778B, size: 0x8, addend: 0x0, symName: '_tlfImageNamed:inBundle:compatibleWithTraitCollection:.eoMiCloudSDKMachine', symObjAddr: 0x8B88, symBinAddr: 0x1EFEA8, symSize: 0x0 }
   - { offset: 0x1177A0, size: 0x8, addend: 0x0, symName: '_tlfImageNamed:inBundle:compatibleWithTraitCollection:.isConnect', symObjAddr: 0x8B8C, symBinAddr: 0x1EFEAC, symSize: 0x0 }
-  - { offset: 0x117883, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithContentsOfFile:]', symObjAddr: 0x1750, symBinAddr: 0x176FB0, symSize: 0xA50 }
+  - { offset: 0x117883, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithContentsOfFile:]', symObjAddr: 0x1750, symBinAddr: 0x176F30, symSize: 0xA50 }
   - { offset: 0x1178AC, size: 0x8, addend: 0x0, symName: '_tlfImageWithContentsOfFile:.connectDebug', symObjAddr: 0x8B90, symBinAddr: 0x1EFEB0, symSize: 0x0 }
   - { offset: 0x1178C1, size: 0x8, addend: 0x0, symName: '_tlfImageWithContentsOfFile:.tlfDebug', symObjAddr: 0x8B94, symBinAddr: 0x1EFEB4, symSize: 0x0 }
   - { offset: 0x1178D6, size: 0x8, addend: 0x0, symName: '_tlfImageWithContentsOfFile:.eoMiCloudSDKMachine', symObjAddr: 0x8B98, symBinAddr: 0x1EFEB8, symSize: 0x0 }
   - { offset: 0x1178EB, size: 0x8, addend: 0x0, symName: '_tlfImageWithContentsOfFile:.isConnect', symObjAddr: 0x8B9C, symBinAddr: 0x1EFEBC, symSize: 0x0 }
-  - { offset: 0x1179B2, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithData:]', symObjAddr: 0x21A0, symBinAddr: 0x177A00, symSize: 0xB30 }
+  - { offset: 0x1179B2, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithData:]', symObjAddr: 0x21A0, symBinAddr: 0x177980, symSize: 0xB30 }
   - { offset: 0x1179DB, size: 0x8, addend: 0x0, symName: '_tlfImageWithData:.connectDebug', symObjAddr: 0x8BA0, symBinAddr: 0x1EFEC0, symSize: 0x0 }
   - { offset: 0x1179F0, size: 0x8, addend: 0x0, symName: '_tlfImageWithData:.tlfDebug', symObjAddr: 0x8BA4, symBinAddr: 0x1EFEC4, symSize: 0x0 }
   - { offset: 0x117A05, size: 0x8, addend: 0x0, symName: '_tlfImageWithData:.eoMiCloudSDKMachine', symObjAddr: 0x8BA8, symBinAddr: 0x1EFEC8, symSize: 0x0 }
   - { offset: 0x117A1A, size: 0x8, addend: 0x0, symName: '_tlfImageWithData:.isConnect', symObjAddr: 0x8BAC, symBinAddr: 0x1EFECC, symSize: 0x0 }
-  - { offset: 0x117AE1, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithData:scale:]', symObjAddr: 0x2CD0, symBinAddr: 0x178530, symSize: 0xB50 }
+  - { offset: 0x117AE1, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithData:scale:]', symObjAddr: 0x2CD0, symBinAddr: 0x1784B0, symSize: 0xB50 }
   - { offset: 0x117B0A, size: 0x8, addend: 0x0, symName: '_tlfImageWithData:scale:.connectDebug', symObjAddr: 0x8BB0, symBinAddr: 0x1EFED0, symSize: 0x0 }
   - { offset: 0x117B1F, size: 0x8, addend: 0x0, symName: '_tlfImageWithData:scale:.tlfDebug', symObjAddr: 0x8BB4, symBinAddr: 0x1EFED4, symSize: 0x0 }
   - { offset: 0x117B34, size: 0x8, addend: 0x0, symName: '_tlfImageWithData:scale:.eoMiCloudSDKMachine', symObjAddr: 0x8BB8, symBinAddr: 0x1EFED8, symSize: 0x0 }
   - { offset: 0x117B49, size: 0x8, addend: 0x0, symName: '_tlfImageWithData:scale:.isConnect', symObjAddr: 0x8BBC, symBinAddr: 0x1EFEDC, symSize: 0x0 }
-  - { offset: 0x117C1E, size: 0x8, addend: 0x0, symName: '-[UIImage(TLFInjection) tlfInitWithContentsOfFile:]', symObjAddr: 0x3820, symBinAddr: 0x179080, symSize: 0xB50 }
+  - { offset: 0x117C1E, size: 0x8, addend: 0x0, symName: '-[UIImage(TLFInjection) tlfInitWithContentsOfFile:]', symObjAddr: 0x3820, symBinAddr: 0x179000, symSize: 0xB50 }
   - { offset: 0x117C47, size: 0x8, addend: 0x0, symName: '_tlfInitWithContentsOfFile:.connectDebug', symObjAddr: 0x8BC0, symBinAddr: 0x1EFEE0, symSize: 0x0 }
   - { offset: 0x117C5C, size: 0x8, addend: 0x0, symName: '_tlfInitWithContentsOfFile:.tlfDebug', symObjAddr: 0x8BC4, symBinAddr: 0x1EFEE4, symSize: 0x0 }
   - { offset: 0x117C71, size: 0x8, addend: 0x0, symName: '_tlfInitWithContentsOfFile:.eoMiCloudSDKMachine', symObjAddr: 0x8BC8, symBinAddr: 0x1EFEE8, symSize: 0x0 }
   - { offset: 0x117C86, size: 0x8, addend: 0x0, symName: '_tlfInitWithContentsOfFile:.isConnect', symObjAddr: 0x8BCC, symBinAddr: 0x1EFEEC, symSize: 0x0 }
-  - { offset: 0x117D4D, size: 0x8, addend: 0x0, symName: '-[UIImage(TLFInjection) tlfInitWithData:]', symObjAddr: 0x4370, symBinAddr: 0x179BD0, symSize: 0xB30 }
+  - { offset: 0x117D4D, size: 0x8, addend: 0x0, symName: '-[UIImage(TLFInjection) tlfInitWithData:]', symObjAddr: 0x4370, symBinAddr: 0x179B50, symSize: 0xB30 }
   - { offset: 0x117D76, size: 0x8, addend: 0x0, symName: '_tlfInitWithData:.connectDebug', symObjAddr: 0x8BD0, symBinAddr: 0x1EFEF0, symSize: 0x0 }
   - { offset: 0x117D8B, size: 0x8, addend: 0x0, symName: '_tlfInitWithData:.tlfDebug', symObjAddr: 0x8BD4, symBinAddr: 0x1EFEF4, symSize: 0x0 }
   - { offset: 0x117DA0, size: 0x8, addend: 0x0, symName: '_tlfInitWithData:.eoMiCloudSDKMachine', symObjAddr: 0x8BD8, symBinAddr: 0x1EFEF8, symSize: 0x0 }
   - { offset: 0x117DB5, size: 0x8, addend: 0x0, symName: '_tlfInitWithData:.isConnect', symObjAddr: 0x8BDC, symBinAddr: 0x1EFEFC, symSize: 0x0 }
-  - { offset: 0x117E7C, size: 0x8, addend: 0x0, symName: '-[UIImage(TLFInjection) tlfInitWithData:scale:]', symObjAddr: 0x4EA0, symBinAddr: 0x17A700, symSize: 0xB50 }
+  - { offset: 0x117E7C, size: 0x8, addend: 0x0, symName: '-[UIImage(TLFInjection) tlfInitWithData:scale:]', symObjAddr: 0x4EA0, symBinAddr: 0x17A680, symSize: 0xB50 }
   - { offset: 0x117EA5, size: 0x8, addend: 0x0, symName: '_tlfInitWithData:scale:.connectDebug', symObjAddr: 0x8BE0, symBinAddr: 0x1EFF00, symSize: 0x0 }
   - { offset: 0x117EBA, size: 0x8, addend: 0x0, symName: '_tlfInitWithData:scale:.tlfDebug', symObjAddr: 0x8BE4, symBinAddr: 0x1EFF04, symSize: 0x0 }
   - { offset: 0x117ECF, size: 0x8, addend: 0x0, symName: '_tlfInitWithData:scale:.eoMiCloudSDKMachine', symObjAddr: 0x8BE8, symBinAddr: 0x1EFF08, symSize: 0x0 }
   - { offset: 0x117EE4, size: 0x8, addend: 0x0, symName: '_tlfInitWithData:scale:.isConnect', symObjAddr: 0x8BEC, symBinAddr: 0x1EFF0C, symSize: 0x0 }
-  - { offset: 0x117FB9, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithCIImage:]', symObjAddr: 0x59F0, symBinAddr: 0x17B250, symSize: 0xAD0 }
+  - { offset: 0x117FB9, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithCIImage:]', symObjAddr: 0x59F0, symBinAddr: 0x17B1D0, symSize: 0xAD0 }
   - { offset: 0x117FE2, size: 0x8, addend: 0x0, symName: '_tlfImageWithCIImage:.connectDebug', symObjAddr: 0x8BF0, symBinAddr: 0x1EFF10, symSize: 0x0 }
   - { offset: 0x117FF7, size: 0x8, addend: 0x0, symName: '_tlfImageWithCIImage:.tlfDebug', symObjAddr: 0x8BF4, symBinAddr: 0x1EFF14, symSize: 0x0 }
   - { offset: 0x11800C, size: 0x8, addend: 0x0, symName: '_tlfImageWithCIImage:.eoMiCloudSDKMachine', symObjAddr: 0x8BF8, symBinAddr: 0x1EFF18, symSize: 0x0 }
   - { offset: 0x118021, size: 0x8, addend: 0x0, symName: '_tlfImageWithCIImage:.isConnect', symObjAddr: 0x8BFC, symBinAddr: 0x1EFF1C, symSize: 0x0 }
-  - { offset: 0x1180E8, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithCIImage:scale:orientation:]', symObjAddr: 0x64C0, symBinAddr: 0x17BD20, symSize: 0xB10 }
+  - { offset: 0x1180E8, size: 0x8, addend: 0x0, symName: '+[UIImage(TLFInjection) tlfImageWithCIImage:scale:orientation:]', symObjAddr: 0x64C0, symBinAddr: 0x17BCA0, symSize: 0xB10 }
   - { offset: 0x118111, size: 0x8, addend: 0x0, symName: '_tlfImageWithCIImage:scale:orientation:.connectDebug', symObjAddr: 0x8C00, symBinAddr: 0x1EFF20, symSize: 0x0 }
   - { offset: 0x118126, size: 0x8, addend: 0x0, symName: '_tlfImageWithCIImage:scale:orientation:.tlfDebug', symObjAddr: 0x8C04, symBinAddr: 0x1EFF24, symSize: 0x0 }
   - { offset: 0x11813B, size: 0x8, addend: 0x0, symName: '_tlfImageWithCIImage:scale:orientation:.eoMiCloudSDKMachine', symObjAddr: 0x8C08, symBinAddr: 0x1EFF28, symSize: 0x0 }
   - { offset: 0x118150, size: 0x8, addend: 0x0, symName: '_tlfImageWithCIImage:scale:orientation:.isConnect', symObjAddr: 0x8C0C, symBinAddr: 0x1EFF2C, symSize: 0x0 }
-  - { offset: 0x11926F, size: 0x8, addend: 0x0, symName: '___34+[UIImage(TLFInjection) tlfInject]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0x175900, symSize: 0x1A0 }
-  - { offset: 0x1192AC, size: 0x8, addend: 0x0, symName: '-[UIImage(TLFInjection) logImageUrl:withUrl:]', symObjAddr: 0x6FD0, symBinAddr: 0x17C830, symSize: 0x97 }
-  - { offset: 0x1198CF, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider initWithSliderView:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x17C8D0, symSize: 0x210 }
-  - { offset: 0x11A8B3, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider initWithSliderView:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x17C8D0, symSize: 0x210 }
-  - { offset: 0x11A905, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider jsonRepresentation]', symObjAddr: 0x210, symBinAddr: 0x17CAE0, symSize: 0x160 }
-  - { offset: 0x11A958, size: 0x8, addend: 0x0, symName: '___33-[TLFL_Slider jsonRepresentation]_block_invoke', symObjAddr: 0x370, symBinAddr: 0x17CC40, symSize: 0x150 }
-  - { offset: 0x11A9A3, size: 0x8, addend: 0x0, symName: '___33-[TLFL_Slider jsonRepresentation]_block_invoke.46', symObjAddr: 0x530, symBinAddr: 0x17CD90, symSize: 0x190 }
-  - { offset: 0x11A9EE, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider minTrackColor]', symObjAddr: 0x6C0, symBinAddr: 0x17CF20, symSize: 0x20 }
-  - { offset: 0x11AA24, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setMinTrackColor:]', symObjAddr: 0x6E0, symBinAddr: 0x17CF40, symSize: 0x30 }
-  - { offset: 0x11AA62, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider maxTrackColor]', symObjAddr: 0x710, symBinAddr: 0x17CF70, symSize: 0x20 }
-  - { offset: 0x11AA98, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setMaxTrackColor:]', symObjAddr: 0x730, symBinAddr: 0x17CF90, symSize: 0x30 }
-  - { offset: 0x11AAD6, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider thumbColor]', symObjAddr: 0x760, symBinAddr: 0x17CFC0, symSize: 0x20 }
-  - { offset: 0x11AB0C, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setThumbColor:]', symObjAddr: 0x780, symBinAddr: 0x17CFE0, symSize: 0x30 }
-  - { offset: 0x11AB4A, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider minValue]', symObjAddr: 0x7B0, symBinAddr: 0x17D010, symSize: 0x30 }
-  - { offset: 0x11AB80, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setMinValue:]', symObjAddr: 0x7E0, symBinAddr: 0x17D040, symSize: 0x30 }
-  - { offset: 0x11ABBE, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider maxValue]', symObjAddr: 0x810, symBinAddr: 0x17D070, symSize: 0x30 }
-  - { offset: 0x11ABF4, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setMaxValue:]', symObjAddr: 0x840, symBinAddr: 0x17D0A0, symSize: 0x30 }
-  - { offset: 0x11AC32, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider currentValue]', symObjAddr: 0x870, symBinAddr: 0x17D0D0, symSize: 0x30 }
-  - { offset: 0x11AC68, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setCurrentValue:]', symObjAddr: 0x8A0, symBinAddr: 0x17D100, symSize: 0x30 }
-  - { offset: 0x11ACA6, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider .cxx_destruct]', symObjAddr: 0x8D0, symBinAddr: 0x17D130, symSize: 0x56 }
-  - { offset: 0x11C092, size: 0x8, addend: 0x0, symName: '+[TLFLFont tlfFontWithUIFont:fontFamily:]', symObjAddr: 0x0, symBinAddr: 0x17D190, symSize: 0x360 }
-  - { offset: 0x11C3E9, size: 0x8, addend: 0x0, symName: '+[TLFLFont tlfFontWithUIFont:fontFamily:]', symObjAddr: 0x0, symBinAddr: 0x17D190, symSize: 0x360 }
-  - { offset: 0x11C449, size: 0x8, addend: 0x0, symName: '-[TLFLFont jsonRepresentation]', symObjAddr: 0x360, symBinAddr: 0x17D4F0, symSize: 0x370 }
-  - { offset: 0x11C481, size: 0x8, addend: 0x0, symName: '-[TLFLFont jsonKey]', symObjAddr: 0x6D0, symBinAddr: 0x17D860, symSize: 0x20 }
-  - { offset: 0x11C4B7, size: 0x8, addend: 0x0, symName: '+[TLFLFont getFontFamily:]', symObjAddr: 0x6F0, symBinAddr: 0x17D880, symSize: 0x100 }
-  - { offset: 0x11C4FB, size: 0x8, addend: 0x0, symName: '+[TLFLFont getFontStyle:]', symObjAddr: 0x7F0, symBinAddr: 0x17D980, symSize: 0x100 }
-  - { offset: 0x11C53F, size: 0x8, addend: 0x0, symName: '+[TLFLFont getFontWeight:]', symObjAddr: 0x8F0, symBinAddr: 0x17DA80, symSize: 0x530 }
-  - { offset: 0x11C583, size: 0x8, addend: 0x0, symName: '-[TLFLFont name]', symObjAddr: 0xE20, symBinAddr: 0x17DFB0, symSize: 0x20 }
-  - { offset: 0x11C5B9, size: 0x8, addend: 0x0, symName: '-[TLFLFont setName:]', symObjAddr: 0xE40, symBinAddr: 0x17DFD0, symSize: 0x30 }
-  - { offset: 0x11C5F7, size: 0x8, addend: 0x0, symName: '-[TLFLFont weight]', symObjAddr: 0xE70, symBinAddr: 0x17E000, symSize: 0x20 }
-  - { offset: 0x11C62D, size: 0x8, addend: 0x0, symName: '-[TLFLFont setWeight:]', symObjAddr: 0xE90, symBinAddr: 0x17E020, symSize: 0x30 }
-  - { offset: 0x11C66B, size: 0x8, addend: 0x0, symName: '-[TLFLFont style]', symObjAddr: 0xEC0, symBinAddr: 0x17E050, symSize: 0x20 }
-  - { offset: 0x11C6A1, size: 0x8, addend: 0x0, symName: '-[TLFLFont setStyle:]', symObjAddr: 0xEE0, symBinAddr: 0x17E070, symSize: 0x30 }
-  - { offset: 0x11C6DF, size: 0x8, addend: 0x0, symName: '-[TLFLFont family]', symObjAddr: 0xF10, symBinAddr: 0x17E0A0, symSize: 0x20 }
-  - { offset: 0x11C715, size: 0x8, addend: 0x0, symName: '-[TLFLFont setFamily:]', symObjAddr: 0xF30, symBinAddr: 0x17E0C0, symSize: 0x30 }
-  - { offset: 0x11C753, size: 0x8, addend: 0x0, symName: '-[TLFLFont size]', symObjAddr: 0xF60, symBinAddr: 0x17E0F0, symSize: 0x20 }
-  - { offset: 0x11C789, size: 0x8, addend: 0x0, symName: '-[TLFLFont setSize:]', symObjAddr: 0xF80, symBinAddr: 0x17E110, symSize: 0x30 }
-  - { offset: 0x11C7C7, size: 0x8, addend: 0x0, symName: '-[TLFLFont .cxx_destruct]', symObjAddr: 0xFB0, symBinAddr: 0x17E140, symSize: 0x6F }
+  - { offset: 0x11926F, size: 0x8, addend: 0x0, symName: '___34+[UIImage(TLFInjection) tlfInject]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0x175880, symSize: 0x1A0 }
+  - { offset: 0x1192AC, size: 0x8, addend: 0x0, symName: '-[UIImage(TLFInjection) logImageUrl:withUrl:]', symObjAddr: 0x6FD0, symBinAddr: 0x17C7B0, symSize: 0x97 }
+  - { offset: 0x1198CF, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider initWithSliderView:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x17C850, symSize: 0x210 }
+  - { offset: 0x11A8B3, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider initWithSliderView:andZIndex:]', symObjAddr: 0x0, symBinAddr: 0x17C850, symSize: 0x210 }
+  - { offset: 0x11A905, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider jsonRepresentation]', symObjAddr: 0x210, symBinAddr: 0x17CA60, symSize: 0x160 }
+  - { offset: 0x11A958, size: 0x8, addend: 0x0, symName: '___33-[TLFL_Slider jsonRepresentation]_block_invoke', symObjAddr: 0x370, symBinAddr: 0x17CBC0, symSize: 0x150 }
+  - { offset: 0x11A9A3, size: 0x8, addend: 0x0, symName: '___33-[TLFL_Slider jsonRepresentation]_block_invoke.46', symObjAddr: 0x530, symBinAddr: 0x17CD10, symSize: 0x190 }
+  - { offset: 0x11A9EE, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider minTrackColor]', symObjAddr: 0x6C0, symBinAddr: 0x17CEA0, symSize: 0x20 }
+  - { offset: 0x11AA24, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setMinTrackColor:]', symObjAddr: 0x6E0, symBinAddr: 0x17CEC0, symSize: 0x30 }
+  - { offset: 0x11AA62, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider maxTrackColor]', symObjAddr: 0x710, symBinAddr: 0x17CEF0, symSize: 0x20 }
+  - { offset: 0x11AA98, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setMaxTrackColor:]', symObjAddr: 0x730, symBinAddr: 0x17CF10, symSize: 0x30 }
+  - { offset: 0x11AAD6, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider thumbColor]', symObjAddr: 0x760, symBinAddr: 0x17CF40, symSize: 0x20 }
+  - { offset: 0x11AB0C, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setThumbColor:]', symObjAddr: 0x780, symBinAddr: 0x17CF60, symSize: 0x30 }
+  - { offset: 0x11AB4A, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider minValue]', symObjAddr: 0x7B0, symBinAddr: 0x17CF90, symSize: 0x30 }
+  - { offset: 0x11AB80, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setMinValue:]', symObjAddr: 0x7E0, symBinAddr: 0x17CFC0, symSize: 0x30 }
+  - { offset: 0x11ABBE, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider maxValue]', symObjAddr: 0x810, symBinAddr: 0x17CFF0, symSize: 0x30 }
+  - { offset: 0x11ABF4, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setMaxValue:]', symObjAddr: 0x840, symBinAddr: 0x17D020, symSize: 0x30 }
+  - { offset: 0x11AC32, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider currentValue]', symObjAddr: 0x870, symBinAddr: 0x17D050, symSize: 0x30 }
+  - { offset: 0x11AC68, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider setCurrentValue:]', symObjAddr: 0x8A0, symBinAddr: 0x17D080, symSize: 0x30 }
+  - { offset: 0x11ACA6, size: 0x8, addend: 0x0, symName: '-[TLFL_Slider .cxx_destruct]', symObjAddr: 0x8D0, symBinAddr: 0x17D0B0, symSize: 0x56 }
+  - { offset: 0x11C092, size: 0x8, addend: 0x0, symName: '+[TLFLFont tlfFontWithUIFont:fontFamily:]', symObjAddr: 0x0, symBinAddr: 0x17D110, symSize: 0x360 }
+  - { offset: 0x11C3E9, size: 0x8, addend: 0x0, symName: '+[TLFLFont tlfFontWithUIFont:fontFamily:]', symObjAddr: 0x0, symBinAddr: 0x17D110, symSize: 0x360 }
+  - { offset: 0x11C449, size: 0x8, addend: 0x0, symName: '-[TLFLFont jsonRepresentation]', symObjAddr: 0x360, symBinAddr: 0x17D470, symSize: 0x370 }
+  - { offset: 0x11C481, size: 0x8, addend: 0x0, symName: '-[TLFLFont jsonKey]', symObjAddr: 0x6D0, symBinAddr: 0x17D7E0, symSize: 0x20 }
+  - { offset: 0x11C4B7, size: 0x8, addend: 0x0, symName: '+[TLFLFont getFontFamily:]', symObjAddr: 0x6F0, symBinAddr: 0x17D800, symSize: 0x100 }
+  - { offset: 0x11C4FB, size: 0x8, addend: 0x0, symName: '+[TLFLFont getFontStyle:]', symObjAddr: 0x7F0, symBinAddr: 0x17D900, symSize: 0x100 }
+  - { offset: 0x11C53F, size: 0x8, addend: 0x0, symName: '+[TLFLFont getFontWeight:]', symObjAddr: 0x8F0, symBinAddr: 0x17DA00, symSize: 0x530 }
+  - { offset: 0x11C583, size: 0x8, addend: 0x0, symName: '-[TLFLFont name]', symObjAddr: 0xE20, symBinAddr: 0x17DF30, symSize: 0x20 }
+  - { offset: 0x11C5B9, size: 0x8, addend: 0x0, symName: '-[TLFLFont setName:]', symObjAddr: 0xE40, symBinAddr: 0x17DF50, symSize: 0x30 }
+  - { offset: 0x11C5F7, size: 0x8, addend: 0x0, symName: '-[TLFLFont weight]', symObjAddr: 0xE70, symBinAddr: 0x17DF80, symSize: 0x20 }
+  - { offset: 0x11C62D, size: 0x8, addend: 0x0, symName: '-[TLFLFont setWeight:]', symObjAddr: 0xE90, symBinAddr: 0x17DFA0, symSize: 0x30 }
+  - { offset: 0x11C66B, size: 0x8, addend: 0x0, symName: '-[TLFLFont style]', symObjAddr: 0xEC0, symBinAddr: 0x17DFD0, symSize: 0x20 }
+  - { offset: 0x11C6A1, size: 0x8, addend: 0x0, symName: '-[TLFLFont setStyle:]', symObjAddr: 0xEE0, symBinAddr: 0x17DFF0, symSize: 0x30 }
+  - { offset: 0x11C6DF, size: 0x8, addend: 0x0, symName: '-[TLFLFont family]', symObjAddr: 0xF10, symBinAddr: 0x17E020, symSize: 0x20 }
+  - { offset: 0x11C715, size: 0x8, addend: 0x0, symName: '-[TLFLFont setFamily:]', symObjAddr: 0xF30, symBinAddr: 0x17E040, symSize: 0x30 }
+  - { offset: 0x11C753, size: 0x8, addend: 0x0, symName: '-[TLFLFont size]', symObjAddr: 0xF60, symBinAddr: 0x17E070, symSize: 0x20 }
+  - { offset: 0x11C789, size: 0x8, addend: 0x0, symName: '-[TLFLFont setSize:]', symObjAddr: 0xF80, symBinAddr: 0x17E090, symSize: 0x30 }
+  - { offset: 0x11C7C7, size: 0x8, addend: 0x0, symName: '-[TLFLFont .cxx_destruct]', symObjAddr: 0xFB0, symBinAddr: 0x17E0C0, symSize: 0x6F }
 ...
