@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-doktqolsykmipcekpdvhbrcesmwf/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/EOCore.framework/EOCore'
+binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-cdunwtdcrbxpadeecaouymfolbcw/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/EOCore.framework/EOCore'
 relocations:
   - { offset: 0x33, size: 0x8, addend: 0x0, symName: _EOCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x1AFF8, symSize: 0x0 }
   - { offset: 0x67, size: 0x8, addend: 0x0, symName: _EOCoreVersionNumber, symObjAddr: 0x28, symBinAddr: 0x1B020, symSize: 0x0 }
@@ -91,8 +91,8 @@ relocations:
   - { offset: 0x4C57, size: 0x8, addend: 0x0, symName: '-[EOQueue .cxx_destruct]', symObjAddr: 0xA60, symBinAddr: 0x6EEC, symSize: 0x44 }
   - { offset: 0x4FF7, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]', symObjAddr: 0x0, symBinAddr: 0x6F30, symSize: 0x200 }
   - { offset: 0x5004, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient onlyMiCloudIBMLogClient]', symObjAddr: 0x290, symBinAddr: 0x71C0, symSize: 0x88 }
-  - { offset: 0x502D, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onlyInstance, symObjAddr: 0x9078, symBinAddr: 0x2C080, symSize: 0x0 }
-  - { offset: 0x5042, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onceToken, symObjAddr: 0x9080, symBinAddr: 0x2C088, symSize: 0x0 }
+  - { offset: 0x502D, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onlyInstance, symObjAddr: 0x9070, symBinAddr: 0x2C080, symSize: 0x0 }
+  - { offset: 0x5042, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onceToken, symObjAddr: 0x9078, symBinAddr: 0x2C088, symSize: 0x0 }
   - { offset: 0x5621, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]', symObjAddr: 0x0, symBinAddr: 0x6F30, symSize: 0x200 }
   - { offset: 0x57DF, size: 0x8, addend: 0x0, symName: '___47+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]_block_invoke', symObjAddr: 0x200, symBinAddr: 0x7130, symSize: 0x30 }
   - { offset: 0x5835, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x230, symBinAddr: 0x7160, symSize: 0x30 }
@@ -269,8 +269,8 @@ relocations:
   - { offset: 0xAEFB, size: 0x8, addend: 0x0, symName: '-[EOQueueService .cxx_destruct]', symObjAddr: 0x2708, symBinAddr: 0xC878, symSize: 0x54 }
   - { offset: 0xB76E, size: 0x8, addend: 0x0, symName: '+[EOCoreHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xC8CC, symSize: 0x88 }
   - { offset: 0xB77B, size: 0x8, addend: 0x0, symName: '+[EOCoreHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xC8CC, symSize: 0x88 }
-  - { offset: 0xB7A4, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1358, symBinAddr: 0x2C0B8, symSize: 0x0 }
-  - { offset: 0xB7B9, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1360, symBinAddr: 0x2C0C0, symSize: 0x0 }
+  - { offset: 0xB7A4, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1350, symBinAddr: 0x2C0B8, symSize: 0x0 }
+  - { offset: 0xB7B9, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1358, symBinAddr: 0x2C0C0, symSize: 0x0 }
   - { offset: 0xB922, size: 0x8, addend: 0x0, symName: '___30+[EOCoreHelper sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0xC954, symSize: 0x28 }
   - { offset: 0xB95E, size: 0x8, addend: 0x0, symName: '-[EOCoreHelper now]', symObjAddr: 0xB0, symBinAddr: 0xC97C, symSize: 0x50 }
   - { offset: 0xBA5E, size: 0x8, addend: 0x0, symName: '-[EOClientEnvironment jsonDictionary]', symObjAddr: 0x0, symBinAddr: 0xC9CC, symSize: 0x2B4 }

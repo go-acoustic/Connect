@@ -1,12 +1,12 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-doktqolsykmipcekpdvhbrcesmwf/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Connect.framework/Connect'
+binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-cdunwtdcrbxpadeecaouymfolbcw/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Connect.framework/Connect'
 relocations:
   - { offset: 0xC139E, size: 0x8, addend: 0x0, symName: _ConnectVersionString, symObjAddr: 0x0, symBinAddr: 0x28B50, symSize: 0x0 }
   - { offset: 0xC13D3, size: 0x8, addend: 0x0, symName: _ConnectVersionNumber, symObjAddr: 0x28, symBinAddr: 0x28B78, symSize: 0x0 }
   - { offset: 0xC1410, size: 0x8, addend: 0x0, symName: '+[ConnectDelegateProxy load]', symObjAddr: 0x0, symBinAddr: 0x19A0, symSize: 0x28 }
   - { offset: 0xC141E, size: 0x8, addend: 0x0, symName: '+[ConnectDelegateProxy load]', symObjAddr: 0x0, symBinAddr: 0x19A0, symSize: 0x28 }
-  - { offset: 0xC1444, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0xA5C8, symBinAddr: 0x41370, symSize: 0x0 }
+  - { offset: 0xC1444, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0xA5C0, symBinAddr: 0x41370, symSize: 0x0 }
   - { offset: 0xC1491, size: 0x8, addend: 0x0, symName: _kConnectAPNsStubsConsideredKey, symObjAddr: 0x1288, symBinAddr: 0x38C10, symSize: 0x0 }
   - { offset: 0xC14C0, size: 0x8, addend: 0x0, symName: _kConnectOriginalClassAssocKey, symObjAddr: 0x12D0, symBinAddr: 0x38C58, symSize: 0x0 }
   - { offset: 0xC14D6, size: 0x8, addend: 0x0, symName: _kConnectInstalledClassAssocKey, symObjAddr: 0x12D8, symBinAddr: 0x38C60, symSize: 0x0 }
