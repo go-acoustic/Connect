@@ -1,12 +1,12 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-cdunwtdcrbxpadeecaouymfolbcw/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Connect.framework/Connect'
+binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/Connect-doktqolsykmipcekpdvhbrcesmwf/Build/Intermediates.noindex/ArchiveIntermediates/Connect/InstallationBuildProductsLocation/Library/Frameworks/Connect.framework/Connect'
 relocations:
   - { offset: 0xC3572, size: 0x8, addend: 0x0, symName: _ConnectVersionString, symObjAddr: 0x0, symBinAddr: 0x2B570, symSize: 0x0 }
   - { offset: 0xC35A7, size: 0x8, addend: 0x0, symName: _ConnectVersionNumber, symObjAddr: 0x28, symBinAddr: 0x2B598, symSize: 0x0 }
   - { offset: 0xC35E4, size: 0x8, addend: 0x0, symName: '+[ConnectDelegateProxy load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x28 }
   - { offset: 0xC35F2, size: 0x8, addend: 0x0, symName: '+[ConnectDelegateProxy load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x28 }
-  - { offset: 0xC3618, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0xA540, symBinAddr: 0x45370, symSize: 0x0 }
+  - { offset: 0xC3618, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0xA548, symBinAddr: 0x45370, symSize: 0x0 }
   - { offset: 0xC3665, size: 0x8, addend: 0x0, symName: _kConnectAPNsStubsConsideredKey, symObjAddr: 0x1288, symBinAddr: 0x3CC00, symSize: 0x0 }
   - { offset: 0xC3694, size: 0x8, addend: 0x0, symName: _kConnectOriginalClassAssocKey, symObjAddr: 0x12D0, symBinAddr: 0x3CC48, symSize: 0x0 }
   - { offset: 0xC36AA, size: 0x8, addend: 0x0, symName: _kConnectInstalledClassAssocKey, symObjAddr: 0x12D8, symBinAddr: 0x3CC50, symSize: 0x0 }
@@ -46,8 +46,8 @@ relocations:
   - { offset: 0xC4AB3, size: 0x8, addend: 0x0, symName: '-[ConnectDelegateProxy .cxx_destruct]', symObjAddr: 0x1038, symBinAddr: 0x5038, symSize: 0x38 }
   - { offset: 0xC4FA1, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5070, symSize: 0x88 }
   - { offset: 0xC4FAF, size: 0x8, addend: 0x0, symName: '+[ConnectCustomEvent sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5070, symSize: 0x88 }
-  - { offset: 0xC4FD9, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC660, symBinAddr: 0x45378, symSize: 0x0 }
-  - { offset: 0xC4FEF, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC668, symBinAddr: 0x45380, symSize: 0x0 }
+  - { offset: 0xC4FD9, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC668, symBinAddr: 0x45378, symSize: 0x0 }
+  - { offset: 0xC4FEF, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC670, symBinAddr: 0x45380, symSize: 0x0 }
   - { offset: 0xC5127, size: 0x8, addend: 0x0, symName: '___36+[ConnectCustomEvent sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x50F8, symSize: 0x50 }
   - { offset: 0xC5166, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:]', symObjAddr: 0xD8, symBinAddr: 0x5148, symSize: 0xC }
   - { offset: 0xC51A9, size: 0x8, addend: 0x0, symName: '-[ConnectCustomEvent logEvent:values:]', symObjAddr: 0xE4, symBinAddr: 0x5154, symSize: 0x80 }
@@ -111,8 +111,8 @@ relocations:
   - { offset: 0xC6923, size: 0x8, addend: 0x0, symName: '-[ConnectApplication sendAction:to:from:forEvent:]', symObjAddr: 0x4, symBinAddr: 0x6EC8, symSize: 0x8 }
   - { offset: 0xC6A0D, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6ED0, symSize: 0x88 }
   - { offset: 0xC6A1B, size: 0x8, addend: 0x0, symName: '+[ConnectApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6ED0, symSize: 0x88 }
-  - { offset: 0xC6A45, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xD830, symBinAddr: 0x45388, symSize: 0x0 }
-  - { offset: 0xC6A5B, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD838, symBinAddr: 0x45390, symSize: 0x0 }
+  - { offset: 0xC6A45, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xD838, symBinAddr: 0x45388, symSize: 0x0 }
+  - { offset: 0xC6A5B, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD840, symBinAddr: 0x45390, symSize: 0x0 }
   - { offset: 0xC6B26, size: 0x8, addend: 0x0, symName: '___42+[ConnectApplicationHelper sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x6F58, symSize: 0x28 }
   - { offset: 0xC6B65, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper init]', symObjAddr: 0xB0, symBinAddr: 0x6F80, symSize: 0xB0 }
   - { offset: 0xC6B9C, size: 0x8, addend: 0x0, symName: '-[ConnectApplicationHelper enableFramework]', symObjAddr: 0x160, symBinAddr: 0x7030, symSize: 0x44 }
