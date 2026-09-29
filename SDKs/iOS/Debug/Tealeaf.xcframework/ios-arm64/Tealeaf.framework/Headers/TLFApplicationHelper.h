@@ -18,6 +18,16 @@
 @property (nonatomic, assign) BOOL hasSendAction;
 
 /*!
+ * @abstract SDK-internal: set by Connect, not for use by apps.
+ * @discussion Returns the type name for an app view controller declared private, nested, local or
+ * generic in Swift, whose Objective-C runtime name is mangled (for example
+ * "_TtC5MyAppP33_<hash>12CheckoutView"). Screen views and layouts use the returned name instead.
+ * Not called for any other class, and never with nil. When nil, or when it returns nil or an
+ * empty string, the runtime name is used.
+ */
+@property (atomic, copy) NSString *(^swiftClassNameResolver)(Class viewControllerClass);
+
+/*!
  * @abstract Returns the common application helper.
  * @return  Returns the common application helper, used to manage the flow and lifecycle of the application and Tealeaf.
  */
