@@ -5,6 +5,7 @@
 @_exported import Connect
 import Foundation
 import Swift
+import SwiftUI
 import UIKit
 import UserNotifications
 import UserNotificationsUI
@@ -272,6 +273,12 @@ extension Connect.ConnectConfig {
     public static let maxPostBytesSize: Connect.ConnectConfig.AdvancedKey
     public typealias RawValue = Swift.String
   }
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func connectIdentifier(_ identifier: Swift.String) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func connectCapture(identifier: Swift.String) -> some SwiftUICore.View
+  
 }
 extension Connect.ConnectPushActionIdentifier : Swift.Equatable {}
 extension Connect.ConnectPushActionIdentifier : Swift.Hashable {}
