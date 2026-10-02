@@ -22331,293 +22331,293 @@
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 15283,
-      "length": 1,
-      "value": "1"
+      "length": 3,
+      "value": "500"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15306,
+      "offset": 15308,
       "length": 12,
       "value": "\"ScreenShot\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 15320,
+      "offset": 15322,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15346,
+      "offset": 15348,
       "length": 18,
       "value": "\"NumberOfWebViews\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 15366,
+      "offset": 15368,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15389,
+      "offset": 15391,
       "length": 19,
       "value": "\"CaptureUserEvents\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 15410,
+      "offset": 15412,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15436,
+      "offset": 15438,
       "length": 21,
       "value": "\"CaptureScreenVisits\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 15459,
+      "offset": 15461,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15486,
+      "offset": 15488,
       "length": 17,
       "value": "\"CaptureLayoutOn\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 15505,
+      "offset": 15507,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15528,
+      "offset": 15530,
       "length": 21,
       "value": "\"CaptureScreenshotOn\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 15551,
+      "offset": 15553,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15574,
+      "offset": 15576,
       "length": 9,
       "value": "\"Masking\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15611,
+      "offset": 15613,
       "length": 12,
       "value": "\"HasMasking\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 15625,
+      "offset": 15627,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15655,
+      "offset": 15657,
       "length": 15,
       "value": "\"HasCustomMask\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 15672,
+      "offset": 15674,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15702,
+      "offset": 15704,
       "length": 11,
       "value": "\"Sensitive\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Dictionary",
-      "offset": 15715,
+      "offset": 15717,
       "length": 222,
       "value": "[(\"capitalCaseAlphabet\", \"X\"), (\"number\", \"9\"), (\"smallCaseAlphabet\", \"x\"), (\"symbol\", \"#\")]"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 15963,
+      "offset": 15965,
       "length": 12,
       "value": "\"MaskIdList\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Array",
-      "offset": 15977,
+      "offset": 15979,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16005,
+      "offset": 16007,
       "length": 15,
       "value": "\"MaskValueList\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Array",
-      "offset": 16022,
+      "offset": 16024,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16050,
+      "offset": 16052,
       "length": 25,
       "value": "\"MaskAccessibilityIdList\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Array",
-      "offset": 16077,
+      "offset": 16079,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16105,
+      "offset": 16107,
       "length": 28,
       "value": "\"MaskAccessibilityLabelList\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "Array",
-      "offset": 16135,
+      "offset": 16137,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 19414,
+      "offset": 19416,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 19463,
+      "offset": 19465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 19516,
+      "offset": 19518,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 21035,
+      "offset": 21037,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 21081,
+      "offset": 21083,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 22947,
+      "offset": 22949,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 24844,
+      "offset": 24846,
       "length": 15,
       "value": "\"KillSwitchUrl\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 25051,
+      "offset": 25053,
       "length": 16,
       "value": "\"SessionTimeout\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 25319,
+      "offset": 25321,
       "length": 19,
       "value": "\"ManualPostEnabled\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 25534,
+      "offset": 25536,
       "length": 29,
       "value": "\"DynamicConfigurationEnabled\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 25748,
+      "offset": 25750,
       "length": 31,
       "value": "\"MaxNumberOfBytesPerActivation\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 25964,
+      "offset": 25966,
       "length": 31,
       "value": "\"MaxNumberOfPostsPerActivation\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 26170,
+      "offset": 26172,
       "length": 26,
       "value": "\"PostMessageTimeIntervals\""
     },
     {
       "filePath": "\/Users\/easdk\/builds\/workspace\/cs-sdk_Connect_iOS_build_develop\/ConnectBuild\/iOS-SDK\/iOSSrc\/Connect\/Connect\/PublicInterface\/ConnectSDK\/Config\/ConnectConfig.swift",
       "kind": "StringLiteral",
-      "offset": 26365,
+      "offset": 26367,
       "length": 25,
       "value": "\"PostMessageMaxBytesSize\""
     },
