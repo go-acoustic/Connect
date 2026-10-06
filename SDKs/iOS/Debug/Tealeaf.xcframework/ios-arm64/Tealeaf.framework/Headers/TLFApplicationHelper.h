@@ -72,6 +72,12 @@
  */
 - (BOOL)isReactNative:(BOOL)isReactN wrapNavigationContainer:(BOOL*)usesWrapNavCon;
 
+/*!
+ * @abstract Set the logical page name of the current screen: the one that is appearing or, when
+ * none is, the one on display. It never names the next screen.
+ * @param logicalPageName - Logical page name.
+ * @return Returns YES.
+ */
 - (BOOL)setCurrentScreenName:(NSString*)logicalPageName;
 
 /*!
