@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/easdk/Library/Developer/Xcode/DerivedData/EOCore-hioltcaurwwftpemuqxjwbsekafj/Build/Intermediates.noindex/ArchiveIntermediates/XCEOCore/InstallationBuildProductsLocation/Library/Frameworks/EOCore.framework/EOCore'
 relocations:
-  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _EOCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x17EB8, symSize: 0x0 }
-  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _EOCoreVersionNumber, symObjAddr: 0x28, symBinAddr: 0x17EE0, symSize: 0x0 }
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _EOCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x182E8, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _EOCoreVersionNumber, symObjAddr: 0x28, symBinAddr: 0x18310, symSize: 0x0 }
   - { offset: 0xA3, size: 0x8, addend: 0x0, symName: '+[EOTestingHelper logForTesting:]', symObjAddr: 0x0, symBinAddr: 0x1028, symSize: 0x100 }
   - { offset: 0xFC, size: 0x8, addend: 0x0, symName: '+[EOTestingHelper logForTesting:]', symObjAddr: 0x0, symBinAddr: 0x1028, symSize: 0x100 }
   - { offset: 0x1E8, size: 0x8, addend: 0x0, symName: '___33+[EOTestingHelper logForTesting:]_block_invoke', symObjAddr: 0x100, symBinAddr: 0x1128, symSize: 0x64 }
@@ -27,8 +27,8 @@ relocations:
   - { offset: 0xB03, size: 0x8, addend: 0x0, symName: '-[EOApplicationLifecycleManager setIsBackgroundPostingRunning:]', symObjAddr: 0xA54, symBinAddr: 0x1C74, symSize: 0x8 }
   - { offset: 0xEE8, size: 0x8, addend: 0x0, symName: '+[EOApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1C7C, symSize: 0x88 }
   - { offset: 0xEF5, size: 0x8, addend: 0x0, symName: '+[EOApplicationHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1C7C, symSize: 0x88 }
-  - { offset: 0xF1E, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9690, symBinAddr: 0x28048, symSize: 0x0 }
-  - { offset: 0xF33, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x9698, symBinAddr: 0x28050, symSize: 0x0 }
+  - { offset: 0xF1E, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9690, symBinAddr: 0x2C058, symSize: 0x0 }
+  - { offset: 0xF33, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x9698, symBinAddr: 0x2C060, symSize: 0x0 }
   - { offset: 0x15D1, size: 0x8, addend: 0x0, symName: '___37+[EOApplicationHelper sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x1D04, symSize: 0x50 }
   - { offset: 0x160D, size: 0x8, addend: 0x0, symName: '-[EOApplicationHelper configurationCheck]', symObjAddr: 0xD8, symBinAddr: 0x1D54, symSize: 0x44 }
   - { offset: 0x164C, size: 0x8, addend: 0x0, symName: '-[EOApplicationHelper updateConfigWithData:forModuleName:]', symObjAddr: 0x11C, symBinAddr: 0x1D98, symSize: 0x94 }
@@ -44,8 +44,8 @@ relocations:
   - { offset: 0x340E, size: 0x8, addend: 0x0, symName: '-[NSDictionary(EOCoreExtensions) daQueryItemsForCharset:]', symObjAddr: 0x3BC, symBinAddr: 0x27BC, symSize: 0x270 }
   - { offset: 0x3876, size: 0x8, addend: 0x0, symName: '+[EONetworkManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2A2C, symSize: 0x88 }
   - { offset: 0x3883, size: 0x8, addend: 0x0, symName: '+[EONetworkManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2A2C, symSize: 0x88 }
-  - { offset: 0x38AC, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x5500, symBinAddr: 0x28058, symSize: 0x0 }
-  - { offset: 0x38C1, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x5508, symBinAddr: 0x28060, symSize: 0x0 }
+  - { offset: 0x38AC, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x5500, symBinAddr: 0x2C068, symSize: 0x0 }
+  - { offset: 0x38C1, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x5508, symBinAddr: 0x2C070, symSize: 0x0 }
   - { offset: 0x3B34, size: 0x8, addend: 0x0, symName: '___34+[EONetworkManager sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x2AB4, symSize: 0x28 }
   - { offset: 0x3B70, size: 0x8, addend: 0x0, symName: '-[EONetworkManager init]', symObjAddr: 0xB0, symBinAddr: 0x2ADC, symSize: 0x74 }
   - { offset: 0x3BA4, size: 0x8, addend: 0x0, symName: '-[EONetworkManager startNetworkMonitoring]', symObjAddr: 0x124, symBinAddr: 0x2B50, symSize: 0x11C }
@@ -91,8 +91,8 @@ relocations:
   - { offset: 0x4C57, size: 0x8, addend: 0x0, symName: '-[EOQueue .cxx_destruct]', symObjAddr: 0xA60, symBinAddr: 0x3F14, symSize: 0x44 }
   - { offset: 0x4FF7, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]', symObjAddr: 0x0, symBinAddr: 0x3F58, symSize: 0x200 }
   - { offset: 0x5004, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient onlyMiCloudIBMLogClient]', symObjAddr: 0x290, symBinAddr: 0x41E8, symSize: 0x88 }
-  - { offset: 0x502D, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onlyInstance, symObjAddr: 0x9130, symBinAddr: 0x28068, symSize: 0x0 }
-  - { offset: 0x5042, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onceToken, symObjAddr: 0x9138, symBinAddr: 0x28070, symSize: 0x0 }
+  - { offset: 0x502D, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onlyInstance, symObjAddr: 0x9130, symBinAddr: 0x2C078, symSize: 0x0 }
+  - { offset: 0x5042, size: 0x8, addend: 0x0, symName: _onlyMiCloudIBMLogClient.onceToken, symObjAddr: 0x9138, symBinAddr: 0x2C080, symSize: 0x0 }
   - { offset: 0x5621, size: 0x8, addend: 0x0, symName: '+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]', symObjAddr: 0x0, symBinAddr: 0x3F58, symSize: 0x200 }
   - { offset: 0x57DF, size: 0x8, addend: 0x0, symName: '___47+[MiCloudIBMLogClient postToIBMMiCloudSDKTool:]_block_invoke', symObjAddr: 0x200, symBinAddr: 0x4158, symSize: 0x30 }
   - { offset: 0x5835, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x230, symBinAddr: 0x4188, symSize: 0x30 }
@@ -127,7 +127,7 @@ relocations:
   - { offset: 0x610C, size: 0x8, addend: 0x0, symName: '-[MiCloudIBMLogClient setBFirstPost:]', symObjAddr: 0xB8C, symBinAddr: 0x4A84, symSize: 0x8 }
   - { offset: 0x6143, size: 0x8, addend: 0x0, symName: '-[MiCloudIBMLogClient .cxx_destruct]', symObjAddr: 0xB94, symBinAddr: 0x4A8C, symSize: 0x48 }
   - { offset: 0x692D, size: 0x8, addend: 0x0, symName: '+[EOReachability reachabilityWithHostName:]', symObjAddr: 0x0, symBinAddr: 0x4AD4, symSize: 0x68 }
-  - { offset: 0x6946, size: 0x8, addend: 0x0, symName: _kEOReachabilityChangedNotification, symObjAddr: 0x428, symBinAddr: 0x27EC0, symSize: 0x0 }
+  - { offset: 0x6946, size: 0x8, addend: 0x0, symName: _kEOReachabilityChangedNotification, symObjAddr: 0x428, symBinAddr: 0x2BED0, symSize: 0x0 }
   - { offset: 0x6B15, size: 0x8, addend: 0x0, symName: '+[EOReachability reachabilityWithHostName:]', symObjAddr: 0x0, symBinAddr: 0x4AD4, symSize: 0x68 }
   - { offset: 0x6BF8, size: 0x8, addend: 0x0, symName: '+[EOReachability reachabilityWithAddress:]', symObjAddr: 0x68, symBinAddr: 0x4B3C, symSize: 0x5C }
   - { offset: 0x6C98, size: 0x8, addend: 0x0, symName: '+[EOReachability reachabilityForInternetConnection]', symObjAddr: 0xC4, symBinAddr: 0x4B98, symSize: 0x60 }
@@ -159,10 +159,10 @@ relocations:
   - { offset: 0x7A02, size: 0x8, addend: 0x0, symName: '-[EOSession .cxx_destruct]', symObjAddr: 0x9B0, symBinAddr: 0x5860, symSize: 0x48 }
   - { offset: 0x7C01, size: 0x8, addend: 0x0, symName: '+[EOMobileEnvironment sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x58A8, symSize: 0x88 }
   - { offset: 0x7C0E, size: 0x8, addend: 0x0, symName: '+[EOMobileEnvironment sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x58A8, symSize: 0x88 }
-  - { offset: 0x7C37, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6AB0, symBinAddr: 0x28078, symSize: 0x0 }
-  - { offset: 0x7C4C, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x6AB8, symBinAddr: 0x28080, symSize: 0x0 }
+  - { offset: 0x7C37, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6AB0, symBinAddr: 0x2C088, symSize: 0x0 }
+  - { offset: 0x7C4C, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x6AB8, symBinAddr: 0x2C090, symSize: 0x0 }
   - { offset: 0x7D9F, size: 0x8, addend: 0x0, symName: '-[EOMobileEnvironment readMachineNameEnglish]', symObjAddr: 0x9D4, symBinAddr: 0x627C, symSize: 0x180 }
-  - { offset: 0x7DC8, size: 0x8, addend: 0x0, symName: _readMachineNameEnglish.deviceNamesByCode, symObjAddr: 0x6AC0, symBinAddr: 0x28088, symSize: 0x0 }
+  - { offset: 0x7DC8, size: 0x8, addend: 0x0, symName: _readMachineNameEnglish.deviceNamesByCode, symObjAddr: 0x6AC0, symBinAddr: 0x2C098, symSize: 0x0 }
   - { offset: 0x7EE4, size: 0x8, addend: 0x0, symName: '___37+[EOMobileEnvironment sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x5930, symSize: 0x28 }
   - { offset: 0x7F20, size: 0x8, addend: 0x0, symName: '-[EOMobileEnvironment init]', symObjAddr: 0xB0, symBinAddr: 0x5958, symSize: 0x1B8 }
   - { offset: 0x7F54, size: 0x8, addend: 0x0, symName: '-[EOMobileEnvironment jsonDictionary]', symObjAddr: 0x268, symBinAddr: 0x5B10, symSize: 0x2B8 }
@@ -216,11 +216,11 @@ relocations:
   - { offset: 0x925C, size: 0x8, addend: 0x0, symName: '-[EOApplicationContextMessage .cxx_destruct]', symObjAddr: 0xA04, symBinAddr: 0x7140, symSize: 0x68 }
   - { offset: 0x9439, size: 0x8, addend: 0x0, symName: '+[EOQueueService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x71A8, symSize: 0x88 }
   - { offset: 0x9446, size: 0x8, addend: 0x0, symName: '+[EOQueueService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x71A8, symSize: 0x88 }
-  - { offset: 0x946F, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0xF2B0, symBinAddr: 0x28090, symSize: 0x0 }
-  - { offset: 0x9484, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xF2B8, symBinAddr: 0x28098, symSize: 0x0 }
-  - { offset: 0x9855, size: 0x8, addend: 0x0, symName: _deflateInitEODCFunctor, symBinAddr: 0x280F8, symSize: 0x0 }
-  - { offset: 0x9A1A, size: 0x8, addend: 0x0, symName: _deflateEODCFunctor, symBinAddr: 0x280E8, symSize: 0x0 }
-  - { offset: 0x9A44, size: 0x8, addend: 0x0, symName: _deflateEndEODCFunctor, symBinAddr: 0x280F0, symSize: 0x0 }
+  - { offset: 0x946F, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0xF2B0, symBinAddr: 0x2C0A0, symSize: 0x0 }
+  - { offset: 0x9484, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xF2B8, symBinAddr: 0x2C0A8, symSize: 0x0 }
+  - { offset: 0x9855, size: 0x8, addend: 0x0, symName: _deflateInitEODCFunctor, symBinAddr: 0x2C108, symSize: 0x0 }
+  - { offset: 0x9A1A, size: 0x8, addend: 0x0, symName: _deflateEODCFunctor, symBinAddr: 0x2C0F8, symSize: 0x0 }
+  - { offset: 0x9A44, size: 0x8, addend: 0x0, symName: _deflateEndEODCFunctor, symBinAddr: 0x2C100, symSize: 0x0 }
   - { offset: 0x9CBA, size: 0x8, addend: 0x0, symName: '___32+[EOQueueService sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x7230, symSize: 0x28 }
   - { offset: 0x9CF6, size: 0x8, addend: 0x0, symName: '-[EOQueueService init]', symObjAddr: 0xB0, symBinAddr: 0x7258, symSize: 0x94 }
   - { offset: 0x9D2A, size: 0x8, addend: 0x0, symName: '-[EOQueueService enable]', symObjAddr: 0x144, symBinAddr: 0x72EC, symSize: 0x110 }
@@ -269,8 +269,8 @@ relocations:
   - { offset: 0xAF14, size: 0x8, addend: 0x0, symName: '-[EOQueueService .cxx_destruct]', symObjAddr: 0x26EC, symBinAddr: 0x9884, symSize: 0x54 }
   - { offset: 0xB787, size: 0x8, addend: 0x0, symName: '+[EOCoreHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x98D8, symSize: 0x88 }
   - { offset: 0xB794, size: 0x8, addend: 0x0, symName: '+[EOCoreHelper sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x98D8, symSize: 0x88 }
-  - { offset: 0xB7BD, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x13A8, symBinAddr: 0x280A0, symSize: 0x0 }
-  - { offset: 0xB7D2, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x13B0, symBinAddr: 0x280A8, symSize: 0x0 }
+  - { offset: 0xB7BD, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x13A8, symBinAddr: 0x2C0B0, symSize: 0x0 }
+  - { offset: 0xB7D2, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x13B0, symBinAddr: 0x2C0B8, symSize: 0x0 }
   - { offset: 0xB93B, size: 0x8, addend: 0x0, symName: '___30+[EOCoreHelper sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x9960, symSize: 0x28 }
   - { offset: 0xB977, size: 0x8, addend: 0x0, symName: '-[EOCoreHelper now]', symObjAddr: 0xB0, symBinAddr: 0x9988, symSize: 0x50 }
   - { offset: 0xBA77, size: 0x8, addend: 0x0, symName: '-[EOClientEnvironment jsonDictionary]', symObjAddr: 0x0, symBinAddr: 0x99D8, symSize: 0x2B4 }
@@ -282,13 +282,13 @@ relocations:
   - { offset: 0xBBF9, size: 0x8, addend: 0x0, symName: '-[EOClientEnvironment pixelDensity]', symObjAddr: 0x3FC, symBinAddr: 0x9DD4, symSize: 0x4C }
   - { offset: 0xBDC4, size: 0x8, addend: 0x0, symName: '+[EOCore sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x9E20, symSize: 0x88 }
   - { offset: 0xBDD1, size: 0x8, addend: 0x0, symName: '+[EOCore sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x9E20, symSize: 0x88 }
-  - { offset: 0xBDFA, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD0B0, symBinAddr: 0x280B0, symSize: 0x0 }
-  - { offset: 0xBE0F, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xD0B8, symBinAddr: 0x280B8, symSize: 0x0 }
-  - { offset: 0xC00A, size: 0x8, addend: 0x0, symName: _deflateInitEODCFunctor, symBinAddr: 0x280F8, symSize: 0x0 }
-  - { offset: 0xC1CF, size: 0x8, addend: 0x0, symName: _deflateEODCFunctor, symBinAddr: 0x280E8, symSize: 0x0 }
-  - { offset: 0xC1F9, size: 0x8, addend: 0x0, symName: _deflateEndEODCFunctor, symBinAddr: 0x280F0, symSize: 0x0 }
-  - { offset: 0xC21E, size: 0x8, addend: 0x0, symName: _appExceptionHandler, symBinAddr: 0x28100, symSize: 0x0 }
-  - { offset: 0xC326, size: 0x8, addend: 0x0, symName: _crashSemaphore, symBinAddr: 0x28108, symSize: 0x0 }
+  - { offset: 0xBDFA, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD0B0, symBinAddr: 0x2C0C0, symSize: 0x0 }
+  - { offset: 0xBE0F, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xD0B8, symBinAddr: 0x2C0C8, symSize: 0x0 }
+  - { offset: 0xC00A, size: 0x8, addend: 0x0, symName: _deflateInitEODCFunctor, symBinAddr: 0x2C108, symSize: 0x0 }
+  - { offset: 0xC1CF, size: 0x8, addend: 0x0, symName: _deflateEODCFunctor, symBinAddr: 0x2C0F8, symSize: 0x0 }
+  - { offset: 0xC1F9, size: 0x8, addend: 0x0, symName: _deflateEndEODCFunctor, symBinAddr: 0x2C100, symSize: 0x0 }
+  - { offset: 0xC21E, size: 0x8, addend: 0x0, symName: _appExceptionHandler, symBinAddr: 0x2C110, symSize: 0x0 }
+  - { offset: 0xC326, size: 0x8, addend: 0x0, symName: _crashSemaphore, symBinAddr: 0x2C118, symSize: 0x0 }
   - { offset: 0xC490, size: 0x8, addend: 0x0, symName: '___24+[EOCore sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x9EA8, symSize: 0x50 }
   - { offset: 0xC4CC, size: 0x8, addend: 0x0, symName: '-[EOCore init]', symObjAddr: 0xD8, symBinAddr: 0x9EF8, symSize: 0x74 }
   - { offset: 0xC500, size: 0x8, addend: 0x0, symName: '-[EOCore frameworkVersion]', symObjAddr: 0x14C, symBinAddr: 0x9F6C, symSize: 0xC }
@@ -366,193 +366,197 @@ relocations:
   - { offset: 0xE52F, size: 0x8, addend: 0x0, symName: '-[EOServerConnection applyModuleSpecificCookiesToRequest:]', symObjAddr: 0x558, symBinAddr: 0xC5B8, symSize: 0x154 }
   - { offset: 0xE587, size: 0x8, addend: 0x0, symName: '-[EOServerConnection performURLConnectionWithRequest:forAsync:]', symObjAddr: 0x6AC, symBinAddr: 0xC70C, symSize: 0x1C0 }
   - { offset: 0xE633, size: 0x8, addend: 0x0, symName: '___63-[EOServerConnection performURLConnectionWithRequest:forAsync:]_block_invoke', symObjAddr: 0x86C, symBinAddr: 0xC8CC, symSize: 0x10 }
-  - { offset: 0xE6A3, size: 0x8, addend: 0x0, symName: '-[EOServerConnection performUploadTaskWithRequest:forAsync:]', symObjAddr: 0x88C, symBinAddr: 0xC8DC, symSize: 0x298 }
-  - { offset: 0xE835, size: 0x8, addend: 0x0, symName: '___60-[EOServerConnection performUploadTaskWithRequest:forAsync:]_block_invoke', symObjAddr: 0xB24, symBinAddr: 0xCB74, symSize: 0x40 }
-  - { offset: 0xE8D6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xB64, symBinAddr: 0xCBB4, symSize: 0x28 }
-  - { offset: 0xE8FC, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xB8C, symBinAddr: 0xCBDC, symSize: 0x28 }
-  - { offset: 0xE919, size: 0x8, addend: 0x0, symName: '-[EOServerConnection urlConnectionCompletionHandler:andError:forAsync:]', symObjAddr: 0xBB4, symBinAddr: 0xCC04, symSize: 0xC8 }
-  - { offset: 0xE98F, size: 0x8, addend: 0x0, symName: '-[EOServerConnection postJSONString:toURL:withSessionId:forAsync:]', symObjAddr: 0xC7C, symBinAddr: 0xCCCC, symSize: 0xD4 }
-  - { offset: 0xEA29, size: 0x8, addend: 0x0, symName: '-[EOServerConnection requestForURL:andJson:withSessionId:]', symObjAddr: 0xD50, symBinAddr: 0xCDA0, symSize: 0x32C }
-  - { offset: 0xEB03, size: 0x8, addend: 0x0, symName: '-[EOServerConnection urlEncodeAndPostJSONString:toURL:withSessionId:forAsync:]', symObjAddr: 0x107C, symBinAddr: 0xD0CC, symSize: 0xD4 }
-  - { offset: 0xEBA4, size: 0x8, addend: 0x0, symName: '-[EOServerConnection urlEncodedRequestForURL:andJson:withSessionId:]', symObjAddr: 0x1150, symBinAddr: 0xD1A0, symSize: 0x320 }
-  - { offset: 0xEC99, size: 0x8, addend: 0x0, symName: '-[EOServerConnection flushFailed:forAsync:]', symObjAddr: 0x1470, symBinAddr: 0xD4C0, symSize: 0xA8 }
-  - { offset: 0xED04, size: 0x8, addend: 0x0, symName: '-[EOServerConnection flushSucceeded:]', symObjAddr: 0x1518, symBinAddr: 0xD568, symSize: 0x9C }
-  - { offset: 0xED5F, size: 0x8, addend: 0x0, symName: '-[EOServerConnection delegate]', symObjAddr: 0x15B4, symBinAddr: 0xD604, symSize: 0x18 }
-  - { offset: 0xED93, size: 0x8, addend: 0x0, symName: '-[EOServerConnection setDelegate:]', symObjAddr: 0x15CC, symBinAddr: 0xD61C, symSize: 0xC }
-  - { offset: 0xEDD0, size: 0x8, addend: 0x0, symName: '-[EOServerConnection isBusy]', symObjAddr: 0x15D8, symBinAddr: 0xD628, symSize: 0x8 }
-  - { offset: 0xEE04, size: 0x8, addend: 0x0, symName: '-[EOServerConnection setBusy:]', symObjAddr: 0x15E0, symBinAddr: 0xD630, symSize: 0x8 }
-  - { offset: 0xEE3B, size: 0x8, addend: 0x0, symName: '-[EOServerConnection currentQueue]', symObjAddr: 0x15E8, symBinAddr: 0xD638, symSize: 0x18 }
-  - { offset: 0xEE6F, size: 0x8, addend: 0x0, symName: '-[EOServerConnection setCurrentQueue:]', symObjAddr: 0x1600, symBinAddr: 0xD650, symSize: 0xC }
-  - { offset: 0xEEAC, size: 0x8, addend: 0x0, symName: '-[EOServerConnection .cxx_destruct]', symObjAddr: 0x160C, symBinAddr: 0xD65C, symSize: 0x28 }
-  - { offset: 0xFB69, size: 0x8, addend: 0x0, symName: _KeyEOMessageOffset, symObjAddr: 0x2D8, symBinAddr: 0x204F0, symSize: 0x0 }
-  - { offset: 0xFBE1, size: 0x8, addend: 0x0, symName: _KeyEOMessageLogLevel, symObjAddr: 0x2E0, symBinAddr: 0x204F8, symSize: 0x0 }
-  - { offset: 0xFBF6, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextType, symObjAddr: 0x2E8, symBinAddr: 0x20500, symSize: 0x0 }
-  - { offset: 0xFC0B, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextName, symObjAddr: 0x2F0, symBinAddr: 0x20508, symSize: 0x0 }
-  - { offset: 0xFC20, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextReferrer, symObjAddr: 0x2F8, symBinAddr: 0x20510, symSize: 0x0 }
-  - { offset: 0xFC35, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextKlassName, symObjAddr: 0x300, symBinAddr: 0x20518, symSize: 0x0 }
-  - { offset: 0xFC4A, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextReferrerKlassName, symObjAddr: 0x308, symBinAddr: 0x20520, symSize: 0x0 }
-  - { offset: 0xFC5F, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextCurrentScreenId, symObjAddr: 0x310, symBinAddr: 0x20528, symSize: 0x0 }
-  - { offset: 0xFC74, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextCurrentScreenIdSetDate, symObjAddr: 0x318, symBinAddr: 0x20530, symSize: 0x0 }
-  - { offset: 0xFC89, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextPreviousScreenId, symObjAddr: 0x320, symBinAddr: 0x20538, symSize: 0x0 }
-  - { offset: 0xFC9E, size: 0x8, addend: 0x0, symName: _KeyEOApplicaitonContextPreviousScreenIdSetDate, symObjAddr: 0x328, symBinAddr: 0x20540, symSize: 0x0 }
-  - { offset: 0xFCD5, size: 0x8, addend: 0x0, symName: '+[EOCoreDLogAnnounceFunctionNamesLineNumbers announceFunction:line:]', symObjAddr: 0x0, symBinAddr: 0xD684, symSize: 0x4 }
-  - { offset: 0xFD0C, size: 0x8, addend: 0x0, symName: '+[EOCoreDLogAnnounceFunctionNamesLineNumbers announceFunction:line:]', symObjAddr: 0x0, symBinAddr: 0xD684, symSize: 0x4 }
-  - { offset: 0xFF3E, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0xD688, symSize: 0x58 }
-  - { offset: 0x10790, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0xD688, symSize: 0x58 }
-  - { offset: 0x107D3, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager startMonitoringOrientationChanges]', symObjAddr: 0x58, symBinAddr: 0xD6E0, symSize: 0x88 }
-  - { offset: 0x10816, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager startListeningToOrientationNotifications]', symObjAddr: 0xE0, symBinAddr: 0xD768, symSize: 0x90 }
-  - { offset: 0x10846, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager resetOrientationValues]', symObjAddr: 0x170, symBinAddr: 0xD7F8, symSize: 0x15C }
-  - { offset: 0x10885, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager orientationMonitoringRunning]', symObjAddr: 0x2CC, symBinAddr: 0xD954, symSize: 0x54 }
-  - { offset: 0x108B9, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager stopMonitoringOrientationChanges]', symObjAddr: 0x320, symBinAddr: 0xD9A8, symSize: 0x5C }
-  - { offset: 0x108ED, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager orientationDidChange]', symObjAddr: 0x37C, symBinAddr: 0xDA04, symSize: 0x1D8 }
-  - { offset: 0x10949, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager notifyDeviceOrienationChanged:]', symObjAddr: 0x554, symBinAddr: 0xDBDC, symSize: 0x34 }
-  - { offset: 0x10988, size: 0x8, addend: 0x0, symName: '+[EOOrientationManager getOrientationName:]', symObjAddr: 0x588, symBinAddr: 0xDC10, symSize: 0x28 }
-  - { offset: 0x109D4, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentScreenDimensions]', symObjAddr: 0x5B0, symBinAddr: 0xDC38, symSize: 0x54 }
-  - { offset: 0x10A0F, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager getAdjustedDeviceOrientation:andUIOrientation:]', symObjAddr: 0x604, symBinAddr: 0xDC8C, symSize: 0x114 }
-  - { offset: 0x10A6C, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager getAdjustedUIOrientationForDeviceOrientation:andUIOrientation:]', symObjAddr: 0x718, symBinAddr: 0xDDA0, symSize: 0x130 }
-  - { offset: 0x10AC9, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager delegate]', symObjAddr: 0x848, symBinAddr: 0xDED0, symSize: 0x18 }
-  - { offset: 0x10AFD, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager setDelegate:]', symObjAddr: 0x860, symBinAddr: 0xDEE8, symSize: 0xC }
-  - { offset: 0x10B3A, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentDeviceOrientation]', symObjAddr: 0x86C, symBinAddr: 0xDEF4, symSize: 0x8 }
-  - { offset: 0x10B6E, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentUIOrientation]', symObjAddr: 0x874, symBinAddr: 0xDEFC, symSize: 0x8 }
-  - { offset: 0x10BA2, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentUIOrientationInDegrees]', symObjAddr: 0x87C, symBinAddr: 0xDF04, symSize: 0x8 }
-  - { offset: 0x10BD6, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentDeviceOrientationInDegrees]', symObjAddr: 0x884, symBinAddr: 0xDF0C, symSize: 0x8 }
-  - { offset: 0x10C0A, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager .cxx_destruct]', symObjAddr: 0x88C, symBinAddr: 0xDF14, symSize: 0x38 }
-  - { offset: 0x12512, size: 0x8, addend: 0x0, symName: '+[EOEnvironmentalSerivce sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xDF4C, symSize: 0x88 }
-  - { offset: 0x1252B, size: 0x8, addend: 0x0, symName: _webViewForGettingUA, symObjAddr: 0x1C418, symBinAddr: 0x280E0, symSize: 0x0 }
-  - { offset: 0x152B6, size: 0x8, addend: 0x0, symName: '+[EOEnvironmentalSerivce sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xDF4C, symSize: 0x88 }
-  - { offset: 0x152DF, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x1C420, symBinAddr: 0x280C0, symSize: 0x0 }
-  - { offset: 0x152F4, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1C428, symBinAddr: 0x280C8, symSize: 0x0 }
-  - { offset: 0x15ABC, size: 0x8, addend: 0x0, symName: '___40+[EOEnvironmentalSerivce sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0xDFD4, symSize: 0x28 }
-  - { offset: 0x15AF8, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce init]', symObjAddr: 0xB0, symBinAddr: 0xDFFC, symSize: 0x18C }
-  - { offset: 0x15BAD, size: 0x8, addend: 0x0, symName: '___30-[EOEnvironmentalSerivce init]_block_invoke', symObjAddr: 0x23C, symBinAddr: 0xE188, symSize: 0x20 }
-  - { offset: 0x15BE9, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce enable]', symObjAddr: 0x26C, symBinAddr: 0xE1A8, symSize: 0x9C }
-  - { offset: 0x15C1D, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce disable]', symObjAddr: 0x308, symBinAddr: 0xE244, symSize: 0x28 }
-  - { offset: 0x15C60, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce sleepSystem]', symObjAddr: 0x330, symBinAddr: 0xE26C, symSize: 0x64 }
-  - { offset: 0x15CA3, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce addAsDeviceIDObserver]', symObjAddr: 0x394, symBinAddr: 0xE2D0, symSize: 0x54 }
-  - { offset: 0x15CD3, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce removeAsDeviceIDObserver]', symObjAddr: 0x3E8, symBinAddr: 0xE324, symSize: 0x4C }
-  - { offset: 0x15D03, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceIDChanged:]', symObjAddr: 0x434, symBinAddr: 0xE370, symSize: 0x180 }
-  - { offset: 0x15D42, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce settingsBundlePath]', symObjAddr: 0x5B4, symBinAddr: 0xE4F0, symSize: 0xC }
-  - { offset: 0x15D72, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce dealloc]', symObjAddr: 0x5C0, symBinAddr: 0xE4FC, symSize: 0x44 }
-  - { offset: 0x15DA2, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startMonitoringOrientationChanges]', symObjAddr: 0x604, symBinAddr: 0xE540, symSize: 0x8 }
-  - { offset: 0x15DD6, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce stopMonitoringOrientationChanges]', symObjAddr: 0x60C, symBinAddr: 0xE548, symSize: 0x8 }
-  - { offset: 0x15E0A, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce eoOrientationChanged:]', symObjAddr: 0x614, symBinAddr: 0xE550, symSize: 0x204 }
-  - { offset: 0x15E62, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentUIOrientation]', symObjAddr: 0x818, symBinAddr: 0xE754, symSize: 0x8 }
-  - { offset: 0x15E96, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentUIOrientationInDegrees]', symObjAddr: 0x820, symBinAddr: 0xE75C, symSize: 0x8 }
-  - { offset: 0x15ECA, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentDeviceOrientation]', symObjAddr: 0x828, symBinAddr: 0xE764, symSize: 0x8 }
-  - { offset: 0x15EFE, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentDeviceOrientationInDegrees]', symObjAddr: 0x830, symBinAddr: 0xE76C, symSize: 0x8 }
-  - { offset: 0x15F32, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentScreenDimensions]', symObjAddr: 0x838, symBinAddr: 0xE774, symSize: 0x8 }
-  - { offset: 0x15F66, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentOrientationName]', symObjAddr: 0x840, symBinAddr: 0xE77C, symSize: 0x30 }
-  - { offset: 0x15F9A, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startMonitoringNetworkStatus]', symObjAddr: 0x870, symBinAddr: 0xE7AC, symSize: 0x78 }
-  - { offset: 0x15FFA, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce stopMonitoringNetworkStatus]', symObjAddr: 0x8E8, symBinAddr: 0xE824, symSize: 0x8 }
-  - { offset: 0x1602E, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce stringForNetworkStatus:]', symObjAddr: 0x8F0, symBinAddr: 0xE82C, symSize: 0x8 }
-  - { offset: 0x1606F, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce isConnectedViaWifi]', symObjAddr: 0x8F8, symBinAddr: 0xE834, symSize: 0x8 }
-  - { offset: 0x160A3, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce postNotificationForKey:value:name:]', symObjAddr: 0x900, symBinAddr: 0xE83C, symSize: 0x118 }
-  - { offset: 0x1610F, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startMonitoringApplicationChanges]', symObjAddr: 0xA18, symBinAddr: 0xE954, symSize: 0x44 }
-  - { offset: 0x16144, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce stopMonitoringApplicationChanges]', symObjAddr: 0xA5C, symBinAddr: 0xE998, symSize: 0x14 }
-  - { offset: 0x16189, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentNetworkStatus]', symObjAddr: 0xA70, symBinAddr: 0xE9AC, symSize: 0x8 }
-  - { offset: 0x161BE, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentNetworkReachabilityName]', symObjAddr: 0xA78, symBinAddr: 0xE9B4, symSize: 0x8 }
-  - { offset: 0x161F3, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentConnectionType]', symObjAddr: 0xA80, symBinAddr: 0xE9BC, symSize: 0x8 }
-  - { offset: 0x16228, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce loadCarrierDetails]', symObjAddr: 0xA88, symBinAddr: 0xE9C4, symSize: 0x38C }
-  - { offset: 0x16315, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkIPAddressWithPrefIP4:]', symObjAddr: 0xE14, symBinAddr: 0xED50, symSize: 0x248 }
-  - { offset: 0x163D0, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkIPAddress]', symObjAddr: 0x105C, symBinAddr: 0xEF98, symSize: 0x7C }
-  - { offset: 0x16405, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkIPV6Address]', symObjAddr: 0x10D8, symBinAddr: 0xF014, symSize: 0x68 }
-  - { offset: 0x1643A, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce getIPAddressesDict]', symObjAddr: 0x1140, symBinAddr: 0xF07C, symSize: 0x21C }
-  - { offset: 0x16675, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkWiFiIPAddress]', symObjAddr: 0x135C, symBinAddr: 0xF298, symSize: 0x120 }
-  - { offset: 0x1674C, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce appVersion]', symObjAddr: 0x147C, symBinAddr: 0xF3B8, symSize: 0xB0 }
-  - { offset: 0x167A7, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce appVersionMajorMinor]', symObjAddr: 0x152C, symBinAddr: 0xF468, symSize: 0x168 }
-  - { offset: 0x1684A, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce appName]', symObjAddr: 0x1694, symBinAddr: 0xF5D0, symSize: 0xB0 }
-  - { offset: 0x168A5, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce applicationState]', symObjAddr: 0x1744, symBinAddr: 0xF680, symSize: 0x9C }
-  - { offset: 0x16916, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceID]', symObjAddr: 0x17E0, symBinAddr: 0xF71C, symSize: 0xB8 }
-  - { offset: 0x1694B, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce generateDeviceId]', symObjAddr: 0x1898, symBinAddr: 0xF7D4, symSize: 0x28C }
-  - { offset: 0x16A56, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce generateUDID]', symObjAddr: 0x1B24, symBinAddr: 0xFA60, symSize: 0xEC }
-  - { offset: 0x16BAE, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceTotalStorageCapacity]', symObjAddr: 0x1C10, symBinAddr: 0xFB4C, symSize: 0xE8 }
-  - { offset: 0x16C3B, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceTotalStorageFreeCapacity]', symObjAddr: 0x1CF8, symBinAddr: 0xFC34, symSize: 0xE8 }
-  - { offset: 0x16CBD, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceTotalMemory]', symObjAddr: 0x1DE0, symBinAddr: 0xFD1C, symSize: 0x64 }
-  - { offset: 0x16D1C, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceUserMemory]', symObjAddr: 0x1E44, symBinAddr: 0xFD80, symSize: 0x64 }
-  - { offset: 0x16D7B, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce getSysInfo:]', symObjAddr: 0x1EA8, symBinAddr: 0xFDE4, symSize: 0xC8 }
-  - { offset: 0x16E7A, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce getCurrentBatteryLevel]', symObjAddr: 0x1F70, symBinAddr: 0xFEAC, symSize: 0x48 }
-  - { offset: 0x16EC8, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setUserAgentFromBrowser]', symObjAddr: 0x1FB8, symBinAddr: 0xFEF4, symSize: 0xFC }
-  - { offset: 0x16F17, size: 0x8, addend: 0x0, symName: '___49-[EOEnvironmentalSerivce setUserAgentFromBrowser]_block_invoke', symObjAddr: 0x20B4, symBinAddr: 0xFFF0, symSize: 0xA4 }
-  - { offset: 0x16F78, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setEOAdvertisingId:]', symObjAddr: 0x2158, symBinAddr: 0x10094, symSize: 0xA8 }
-  - { offset: 0x16FD7, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce carriers]', symObjAddr: 0x2200, symBinAddr: 0x1013C, symSize: 0x8 }
-  - { offset: 0x1700B, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce isEnabled]', symObjAddr: 0x2208, symBinAddr: 0x10144, symSize: 0x8 }
-  - { offset: 0x1703F, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startingDeviceOrientation]', symObjAddr: 0x2210, symBinAddr: 0x1014C, symSize: 0x8 }
-  - { offset: 0x17073, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startingUIOrientation]', symObjAddr: 0x2218, symBinAddr: 0x10154, symSize: 0x8 }
-  - { offset: 0x170A7, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startingOrientationName]', symObjAddr: 0x2220, symBinAddr: 0x1015C, symSize: 0x8 }
-  - { offset: 0x170DB, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce userAgentFromBrowser]', symObjAddr: 0x2228, symBinAddr: 0x10164, symSize: 0x8 }
-  - { offset: 0x1710F, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setUserAgentFromBrowser:]', symObjAddr: 0x2230, symBinAddr: 0x1016C, symSize: 0x30 }
-  - { offset: 0x1714C, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce cxaAdvertisingIdFromCustomer]', symObjAddr: 0x2260, symBinAddr: 0x1019C, symSize: 0x8 }
-  - { offset: 0x17180, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setCxaAdvertisingIdFromCustomer:]', symObjAddr: 0x2268, symBinAddr: 0x101A4, symSize: 0x30 }
-  - { offset: 0x171BD, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkCarrierName]', symObjAddr: 0x2298, symBinAddr: 0x101D4, symSize: 0x8 }
-  - { offset: 0x171F1, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentDeviceID]', symObjAddr: 0x22A0, symBinAddr: 0x101DC, symSize: 0x8 }
-  - { offset: 0x17225, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setCurrentDeviceID:]', symObjAddr: 0x22A8, symBinAddr: 0x101E4, symSize: 0x30 }
-  - { offset: 0x17262, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce .cxx_destruct]', symObjAddr: 0x22D8, symBinAddr: 0x10214, symSize: 0xC0 }
-  - { offset: 0x186F1, size: 0x8, addend: 0x0, symName: '-[EOMessage init]', symObjAddr: 0x0, symBinAddr: 0x102D4, symSize: 0x44 }
-  - { offset: 0x187A8, size: 0x8, addend: 0x0, symName: '-[EOMessage init]', symObjAddr: 0x0, symBinAddr: 0x102D4, symSize: 0x44 }
-  - { offset: 0x187DC, size: 0x8, addend: 0x0, symName: '-[EOMessage jsonDictionary]', symObjAddr: 0x44, symBinAddr: 0x10318, symSize: 0x70 }
-  - { offset: 0x1881F, size: 0x8, addend: 0x0, symName: '-[EOMessage toJson]', symObjAddr: 0xB4, symBinAddr: 0x10388, symSize: 0x44 }
-  - { offset: 0x18853, size: 0x8, addend: 0x0, symName: '-[EOMessage encodeWithCoder:]', symObjAddr: 0xF8, symBinAddr: 0x103CC, symSize: 0xF4 }
-  - { offset: 0x188AB, size: 0x8, addend: 0x0, symName: '-[EOMessage initWithCoder:]', symObjAddr: 0x1EC, symBinAddr: 0x104C0, symSize: 0x11C }
-  - { offset: 0x18907, size: 0x8, addend: 0x0, symName: '-[EOMessage offset]', symObjAddr: 0x308, symBinAddr: 0x105DC, symSize: 0x8 }
-  - { offset: 0x1893B, size: 0x8, addend: 0x0, symName: '-[EOMessage setOffset:]', symObjAddr: 0x310, symBinAddr: 0x105E4, symSize: 0x8 }
-  - { offset: 0x18974, size: 0x8, addend: 0x0, symName: '-[EOMessage logLevel]', symObjAddr: 0x318, symBinAddr: 0x105EC, symSize: 0x8 }
-  - { offset: 0x189A8, size: 0x8, addend: 0x0, symName: '-[EOMessage setLogLevel:]', symObjAddr: 0x320, symBinAddr: 0x105F4, symSize: 0x8 }
-  - { offset: 0x18B8A, size: 0x8, addend: 0x0, symName: '+[EODataCompression load]', symObjAddr: 0x0, symBinAddr: 0x105FC, symSize: 0x40 }
-  - { offset: 0x18BB1, size: 0x8, addend: 0x0, symName: _deflateInitEODCFunctor, symBinAddr: 0x280F8, symSize: 0x0 }
-  - { offset: 0x18D7D, size: 0x8, addend: 0x0, symName: _deflateEODCFunctor, symBinAddr: 0x280E8, symSize: 0x0 }
-  - { offset: 0x18DA7, size: 0x8, addend: 0x0, symName: _deflateEndEODCFunctor, symBinAddr: 0x280F0, symSize: 0x0 }
-  - { offset: 0x18DEA, size: 0x8, addend: 0x0, symName: '+[EODataCompression load]', symObjAddr: 0x0, symBinAddr: 0x105FC, symSize: 0x40 }
-  - { offset: 0x18E16, size: 0x8, addend: 0x0, symName: '+[EODataCompression compressData:]', symObjAddr: 0x40, symBinAddr: 0x1063C, symSize: 0x1D8 }
-  - { offset: 0x19110, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x10814, symSize: 0x88 }
-  - { offset: 0x1911D, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x10814, symSize: 0x88 }
-  - { offset: 0x19146, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0xCA90, symBinAddr: 0x280D0, symSize: 0x0 }
-  - { offset: 0x1915B, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xCA98, symBinAddr: 0x280D8, symSize: 0x0 }
-  - { offset: 0x19357, size: 0x8, addend: 0x0, symName: '___33+[EOConfigService sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x1089C, symSize: 0x28 }
-  - { offset: 0x19393, size: 0x8, addend: 0x0, symName: '-[EOConfigService init]', symObjAddr: 0xB0, symBinAddr: 0x108C4, symSize: 0x80 }
-  - { offset: 0x193C7, size: 0x8, addend: 0x0, symName: '-[EOConfigService enable]', symObjAddr: 0x130, symBinAddr: 0x10944, symSize: 0x10 }
-  - { offset: 0x193FB, size: 0x8, addend: 0x0, symName: '-[EOConfigService disable]', symObjAddr: 0x140, symBinAddr: 0x10954, symSize: 0xC }
-  - { offset: 0x1942F, size: 0x8, addend: 0x0, symName: '-[EOConfigService settingsBundlePath]', symObjAddr: 0x14C, symBinAddr: 0x10960, symSize: 0xD8 }
-  - { offset: 0x1948B, size: 0x8, addend: 0x0, symName: '-[EOConfigService isManualPostingEnabled]', symObjAddr: 0x224, symBinAddr: 0x10A38, symSize: 0x5C }
-  - { offset: 0x194BF, size: 0x8, addend: 0x0, symName: '-[EOConfigService isCompressPostMessageEnabled]', symObjAddr: 0x280, symBinAddr: 0x10A94, symSize: 0xDC }
-  - { offset: 0x1952C, size: 0x8, addend: 0x0, symName: '-[EOConfigService cachingLevel]', symObjAddr: 0x35C, symBinAddr: 0x10B70, symSize: 0x90 }
-  - { offset: 0x19560, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostOnIntervalsEnabled]', symObjAddr: 0x3EC, symBinAddr: 0x10C00, symSize: 0x5C }
-  - { offset: 0x19594, size: 0x8, addend: 0x0, symName: '-[EOConfigService isHasToPersistLocalCacheEnabled]', symObjAddr: 0x448, symBinAddr: 0x10C5C, symSize: 0x5C }
-  - { offset: 0x195C8, size: 0x8, addend: 0x0, symName: '-[EOConfigService loggingLevel]', symObjAddr: 0x4A4, symBinAddr: 0x10CB8, symSize: 0x90 }
-  - { offset: 0x195FC, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageLevelCellular]', symObjAddr: 0x534, symBinAddr: 0x10D48, symSize: 0x90 }
-  - { offset: 0x19630, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageLevelWifi]', symObjAddr: 0x5C4, symBinAddr: 0x10DD8, symSize: 0x90 }
-  - { offset: 0x19664, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageTimeIntervals]', symObjAddr: 0x654, symBinAddr: 0x10E68, symSize: 0x90 }
-  - { offset: 0x19698, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppComesFromBackgroundEnabled]', symObjAddr: 0x6E4, symBinAddr: 0x10EF8, symSize: 0x5C }
-  - { offset: 0x196CC, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppGoesToBackgroundEnabled]', symObjAddr: 0x740, symBinAddr: 0x10F54, symSize: 0x5C }
-  - { offset: 0x19700, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppGoesToCloseEnabled]', symObjAddr: 0x79C, symBinAddr: 0x10FB0, symSize: 0x5C }
-  - { offset: 0x19734, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppIsLaunchedEnabled]', symObjAddr: 0x7F8, symBinAddr: 0x1100C, symSize: 0x5C }
-  - { offset: 0x19768, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostOnScreenChangeEnabled]', symObjAddr: 0x854, symBinAddr: 0x11068, symSize: 0x5C }
-  - { offset: 0x1979C, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDynamicConfigurationEnabled]', symObjAddr: 0x8B0, symBinAddr: 0x110C4, symSize: 0x5C }
-  - { offset: 0x197D0, size: 0x8, addend: 0x0, symName: '-[EOConfigService cachedFileMaxBytesSize]', symObjAddr: 0x90C, symBinAddr: 0x11120, symSize: 0x94 }
-  - { offset: 0x19804, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageMaxBytesSize]', symObjAddr: 0x9A0, symBinAddr: 0x111B4, symSize: 0x94 }
-  - { offset: 0x19838, size: 0x8, addend: 0x0, symName: '-[EOConfigService maxNumberOfFilesToCache]', symObjAddr: 0xA34, symBinAddr: 0x11248, symSize: 0x90 }
-  - { offset: 0x1986C, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageTimeout]', symObjAddr: 0xAC4, symBinAddr: 0x112D8, symSize: 0x90 }
-  - { offset: 0x198A0, size: 0x8, addend: 0x0, symName: '-[EOConfigService criticalBatteryLevel]', symObjAddr: 0xB54, symBinAddr: 0x11368, symSize: 0x94 }
-  - { offset: 0x198D4, size: 0x8, addend: 0x0, symName: '-[EOConfigService libraryVersion]', symObjAddr: 0xBE8, symBinAddr: 0x113FC, symSize: 0x60 }
-  - { offset: 0x19908, size: 0x8, addend: 0x0, symName: '-[EOConfigService messageVersion]', symObjAddr: 0xC48, symBinAddr: 0x1145C, symSize: 0x60 }
-  - { offset: 0x1993C, size: 0x8, addend: 0x0, symName: '-[EOConfigService turnOffCorrectOrientationUpdates]', symObjAddr: 0xCA8, symBinAddr: 0x114BC, symSize: 0x5C }
-  - { offset: 0x19970, size: 0x8, addend: 0x0, symName: '-[EOConfigService defaultOrientation]', symObjAddr: 0xD04, symBinAddr: 0x11518, symSize: 0x90 }
-  - { offset: 0x199A4, size: 0x8, addend: 0x0, symName: '-[EOConfigService loadConfig:]', symObjAddr: 0xD94, symBinAddr: 0x115A8, symSize: 0x55C }
-  - { offset: 0x19AE2, size: 0x8, addend: 0x0, symName: '-[EOConfigService unloadConfig:]', symObjAddr: 0x12F0, symBinAddr: 0x11B04, symSize: 0x9C }
-  - { offset: 0x19B37, size: 0x8, addend: 0x0, symName: '-[EOConfigService plistConfigForBundle:]', symObjAddr: 0x138C, symBinAddr: 0x11BA0, symSize: 0x164 }
-  - { offset: 0x19BDC, size: 0x8, addend: 0x0, symName: '-[EOConfigService jsonConfigForBundle:]', symObjAddr: 0x14F0, symBinAddr: 0x11D04, symSize: 0x188 }
-  - { offset: 0x19CA7, size: 0x8, addend: 0x0, symName: '-[EOConfigService layoutJsonConfigForBundle:]', symObjAddr: 0x1678, symBinAddr: 0x11E8C, symSize: 0x1FC }
-  - { offset: 0x19D72, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfig:]', symObjAddr: 0x1874, symBinAddr: 0x12088, symSize: 0x18C }
-  - { offset: 0x19E22, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfigItem:forLifecycleObject:]', symObjAddr: 0x1A00, symBinAddr: 0x12214, symSize: 0x144 }
-  - { offset: 0x19EB7, size: 0x8, addend: 0x0, symName: '-[EOConfigService updateConfig:withData:]', symObjAddr: 0x1B44, symBinAddr: 0x12358, symSize: 0xBC }
-  - { offset: 0x19F2C, size: 0x8, addend: 0x0, symName: '-[EOConfigService currentConfigurableItemsForLifecycleObject:]', symObjAddr: 0x1C00, symBinAddr: 0x12414, symSize: 0x4 }
-  - { offset: 0x19F6D, size: 0x8, addend: 0x0, symName: '-[EOConfigService saveCurrentConfigurableItems:ForLifeCycleObject:]', symObjAddr: 0x1C04, symBinAddr: 0x12418, symSize: 0x180 }
-  - { offset: 0x1A00F, size: 0x8, addend: 0x0, symName: '-[EOConfigService prefixForModuleBundleName:]', symObjAddr: 0x1D84, symBinAddr: 0x12598, symSize: 0xE8 }
-  - { offset: 0x1A07A, size: 0x8, addend: 0x0, symName: '-[EOConfigService fileExistsAtFullPath:]', symObjAddr: 0x1E6C, symBinAddr: 0x12680, symSize: 0xB0 }
-  - { offset: 0x1A0FB, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfigItemAsBool:withDefault:forModuleName:]', symObjAddr: 0x1F1C, symBinAddr: 0x12730, symSize: 0xFC }
-  - { offset: 0x1A1A0, size: 0x8, addend: 0x0, symName: '-[EOConfigService getNumberItemFor:withDefault:forModule:]', symObjAddr: 0x2018, symBinAddr: 0x1282C, symSize: 0x10C }
-  - { offset: 0x1A245, size: 0x8, addend: 0x0, symName: '-[EOConfigService setConfigItemForKey:WithValue:forModule:]', symObjAddr: 0x2124, symBinAddr: 0x12938, symSize: 0x1D0 }
-  - { offset: 0x1A322, size: 0x8, addend: 0x0, symName: '-[EOConfigService isEnabled]', symObjAddr: 0x22F4, symBinAddr: 0x12B08, symSize: 0x8 }
-  - { offset: 0x1A356, size: 0x8, addend: 0x0, symName: '-[EOConfigService configurations]', symObjAddr: 0x22FC, symBinAddr: 0x12B10, symSize: 0x8 }
-  - { offset: 0x1A38A, size: 0x8, addend: 0x0, symName: '-[EOConfigService setConfigurations:]', symObjAddr: 0x2304, symBinAddr: 0x12B18, symSize: 0x30 }
-  - { offset: 0x1A3C7, size: 0x8, addend: 0x0, symName: '-[EOConfigService .cxx_destruct]', symObjAddr: 0x2334, symBinAddr: 0x12B48, symSize: 0xC }
+  - { offset: 0xE6A3, size: 0x8, addend: 0x0, symName: '-[EOServerConnection performUploadTaskWithRequest:forAsync:]', symObjAddr: 0x88C, symBinAddr: 0xC8DC, symSize: 0x1FC }
+  - { offset: 0xE751, size: 0x8, addend: 0x0, symName: '___60-[EOServerConnection performUploadTaskWithRequest:forAsync:]_block_invoke', symObjAddr: 0xA88, symBinAddr: 0xCAD8, symSize: 0xC }
+  - { offset: 0xE7B2, size: 0x8, addend: 0x0, symName: '-[EOServerConnection performSynchronousUploadTaskWithRequest:session:]', symObjAddr: 0xA94, symBinAddr: 0xCAE4, symSize: 0x350 }
+  - { offset: 0xE981, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xDE4, symBinAddr: 0xCE34, symSize: 0x10 }
+  - { offset: 0xE9A3, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xDF4, symBinAddr: 0xCE44, symSize: 0x8 }
+  - { offset: 0xE9C0, size: 0x8, addend: 0x0, symName: '___70-[EOServerConnection performSynchronousUploadTaskWithRequest:session:]_block_invoke', symObjAddr: 0xDFC, symBinAddr: 0xCE4C, symSize: 0xF8 }
+  - { offset: 0xEABA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r64r72r80r, symObjAddr: 0xEF4, symBinAddr: 0xCF44, symSize: 0x74 }
+  - { offset: 0xEAE0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r64r72r80r, symObjAddr: 0xF68, symBinAddr: 0xCFB8, symSize: 0x60 }
+  - { offset: 0xEAFD, size: 0x8, addend: 0x0, symName: '-[EOServerConnection urlConnectionCompletionHandler:andError:forAsync:]', symObjAddr: 0xFC8, symBinAddr: 0xD018, symSize: 0xC8 }
+  - { offset: 0xEB73, size: 0x8, addend: 0x0, symName: '-[EOServerConnection postJSONString:toURL:withSessionId:forAsync:]', symObjAddr: 0x1090, symBinAddr: 0xD0E0, symSize: 0xD4 }
+  - { offset: 0xEC14, size: 0x8, addend: 0x0, symName: '-[EOServerConnection requestForURL:andJson:withSessionId:]', symObjAddr: 0x1164, symBinAddr: 0xD1B4, symSize: 0x32C }
+  - { offset: 0xECF9, size: 0x8, addend: 0x0, symName: '-[EOServerConnection urlEncodeAndPostJSONString:toURL:withSessionId:forAsync:]', symObjAddr: 0x1490, symBinAddr: 0xD4E0, symSize: 0xD4 }
+  - { offset: 0xED9A, size: 0x8, addend: 0x0, symName: '-[EOServerConnection urlEncodedRequestForURL:andJson:withSessionId:]', symObjAddr: 0x1564, symBinAddr: 0xD5B4, symSize: 0x320 }
+  - { offset: 0xEE8F, size: 0x8, addend: 0x0, symName: '-[EOServerConnection flushFailed:forAsync:]', symObjAddr: 0x1884, symBinAddr: 0xD8D4, symSize: 0xA8 }
+  - { offset: 0xEEFA, size: 0x8, addend: 0x0, symName: '-[EOServerConnection flushSucceeded:]', symObjAddr: 0x192C, symBinAddr: 0xD97C, symSize: 0x9C }
+  - { offset: 0xEF55, size: 0x8, addend: 0x0, symName: '-[EOServerConnection delegate]', symObjAddr: 0x19C8, symBinAddr: 0xDA18, symSize: 0x18 }
+  - { offset: 0xEF89, size: 0x8, addend: 0x0, symName: '-[EOServerConnection setDelegate:]', symObjAddr: 0x19E0, symBinAddr: 0xDA30, symSize: 0xC }
+  - { offset: 0xEFC6, size: 0x8, addend: 0x0, symName: '-[EOServerConnection isBusy]', symObjAddr: 0x19EC, symBinAddr: 0xDA3C, symSize: 0x8 }
+  - { offset: 0xEFFA, size: 0x8, addend: 0x0, symName: '-[EOServerConnection setBusy:]', symObjAddr: 0x19F4, symBinAddr: 0xDA44, symSize: 0x8 }
+  - { offset: 0xF031, size: 0x8, addend: 0x0, symName: '-[EOServerConnection currentQueue]', symObjAddr: 0x19FC, symBinAddr: 0xDA4C, symSize: 0x18 }
+  - { offset: 0xF065, size: 0x8, addend: 0x0, symName: '-[EOServerConnection setCurrentQueue:]', symObjAddr: 0x1A14, symBinAddr: 0xDA64, symSize: 0xC }
+  - { offset: 0xF0A2, size: 0x8, addend: 0x0, symName: '-[EOServerConnection .cxx_destruct]', symObjAddr: 0x1A20, symBinAddr: 0xDA70, symSize: 0x28 }
+  - { offset: 0xFEFF, size: 0x8, addend: 0x0, symName: _KeyEOMessageOffset, symObjAddr: 0x2D8, symBinAddr: 0x24520, symSize: 0x0 }
+  - { offset: 0xFF77, size: 0x8, addend: 0x0, symName: _KeyEOMessageLogLevel, symObjAddr: 0x2E0, symBinAddr: 0x24528, symSize: 0x0 }
+  - { offset: 0xFF8C, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextType, symObjAddr: 0x2E8, symBinAddr: 0x24530, symSize: 0x0 }
+  - { offset: 0xFFA1, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextName, symObjAddr: 0x2F0, symBinAddr: 0x24538, symSize: 0x0 }
+  - { offset: 0xFFB6, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextReferrer, symObjAddr: 0x2F8, symBinAddr: 0x24540, symSize: 0x0 }
+  - { offset: 0xFFCB, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextKlassName, symObjAddr: 0x300, symBinAddr: 0x24548, symSize: 0x0 }
+  - { offset: 0xFFE0, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextReferrerKlassName, symObjAddr: 0x308, symBinAddr: 0x24550, symSize: 0x0 }
+  - { offset: 0xFFF5, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextCurrentScreenId, symObjAddr: 0x310, symBinAddr: 0x24558, symSize: 0x0 }
+  - { offset: 0x1000A, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextCurrentScreenIdSetDate, symObjAddr: 0x318, symBinAddr: 0x24560, symSize: 0x0 }
+  - { offset: 0x1001F, size: 0x8, addend: 0x0, symName: _KeyEOApplicationContextPreviousScreenId, symObjAddr: 0x320, symBinAddr: 0x24568, symSize: 0x0 }
+  - { offset: 0x10034, size: 0x8, addend: 0x0, symName: _KeyEOApplicaitonContextPreviousScreenIdSetDate, symObjAddr: 0x328, symBinAddr: 0x24570, symSize: 0x0 }
+  - { offset: 0x1006B, size: 0x8, addend: 0x0, symName: '+[EOCoreDLogAnnounceFunctionNamesLineNumbers announceFunction:line:]', symObjAddr: 0x0, symBinAddr: 0xDA98, symSize: 0x4 }
+  - { offset: 0x100A2, size: 0x8, addend: 0x0, symName: '+[EOCoreDLogAnnounceFunctionNamesLineNumbers announceFunction:line:]', symObjAddr: 0x0, symBinAddr: 0xDA98, symSize: 0x4 }
+  - { offset: 0x102D4, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0xDA9C, symSize: 0x58 }
+  - { offset: 0x10B26, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0xDA9C, symSize: 0x58 }
+  - { offset: 0x10B69, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager startMonitoringOrientationChanges]', symObjAddr: 0x58, symBinAddr: 0xDAF4, symSize: 0x88 }
+  - { offset: 0x10BAC, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager startListeningToOrientationNotifications]', symObjAddr: 0xE0, symBinAddr: 0xDB7C, symSize: 0x90 }
+  - { offset: 0x10BDC, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager resetOrientationValues]', symObjAddr: 0x170, symBinAddr: 0xDC0C, symSize: 0x15C }
+  - { offset: 0x10C1B, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager orientationMonitoringRunning]', symObjAddr: 0x2CC, symBinAddr: 0xDD68, symSize: 0x54 }
+  - { offset: 0x10C4F, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager stopMonitoringOrientationChanges]', symObjAddr: 0x320, symBinAddr: 0xDDBC, symSize: 0x5C }
+  - { offset: 0x10C83, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager orientationDidChange]', symObjAddr: 0x37C, symBinAddr: 0xDE18, symSize: 0x1D8 }
+  - { offset: 0x10CDF, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager notifyDeviceOrienationChanged:]', symObjAddr: 0x554, symBinAddr: 0xDFF0, symSize: 0x34 }
+  - { offset: 0x10D1E, size: 0x8, addend: 0x0, symName: '+[EOOrientationManager getOrientationName:]', symObjAddr: 0x588, symBinAddr: 0xE024, symSize: 0x28 }
+  - { offset: 0x10D6A, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentScreenDimensions]', symObjAddr: 0x5B0, symBinAddr: 0xE04C, symSize: 0x54 }
+  - { offset: 0x10DA5, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager getAdjustedDeviceOrientation:andUIOrientation:]', symObjAddr: 0x604, symBinAddr: 0xE0A0, symSize: 0x114 }
+  - { offset: 0x10E02, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager getAdjustedUIOrientationForDeviceOrientation:andUIOrientation:]', symObjAddr: 0x718, symBinAddr: 0xE1B4, symSize: 0x130 }
+  - { offset: 0x10E5F, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager delegate]', symObjAddr: 0x848, symBinAddr: 0xE2E4, symSize: 0x18 }
+  - { offset: 0x10E93, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager setDelegate:]', symObjAddr: 0x860, symBinAddr: 0xE2FC, symSize: 0xC }
+  - { offset: 0x10ED0, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentDeviceOrientation]', symObjAddr: 0x86C, symBinAddr: 0xE308, symSize: 0x8 }
+  - { offset: 0x10F04, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentUIOrientation]', symObjAddr: 0x874, symBinAddr: 0xE310, symSize: 0x8 }
+  - { offset: 0x10F38, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentUIOrientationInDegrees]', symObjAddr: 0x87C, symBinAddr: 0xE318, symSize: 0x8 }
+  - { offset: 0x10F6C, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager currentDeviceOrientationInDegrees]', symObjAddr: 0x884, symBinAddr: 0xE320, symSize: 0x8 }
+  - { offset: 0x10FA0, size: 0x8, addend: 0x0, symName: '-[EOOrientationManager .cxx_destruct]', symObjAddr: 0x88C, symBinAddr: 0xE328, symSize: 0x38 }
+  - { offset: 0x128A8, size: 0x8, addend: 0x0, symName: '+[EOEnvironmentalSerivce sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xE360, symSize: 0x88 }
+  - { offset: 0x128C1, size: 0x8, addend: 0x0, symName: _webViewForGettingUA, symObjAddr: 0x1C418, symBinAddr: 0x2C0F0, symSize: 0x0 }
+  - { offset: 0x1564C, size: 0x8, addend: 0x0, symName: '+[EOEnvironmentalSerivce sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xE360, symSize: 0x88 }
+  - { offset: 0x15675, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0x1C420, symBinAddr: 0x2C0D0, symSize: 0x0 }
+  - { offset: 0x1568A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1C428, symBinAddr: 0x2C0D8, symSize: 0x0 }
+  - { offset: 0x15E52, size: 0x8, addend: 0x0, symName: '___40+[EOEnvironmentalSerivce sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0xE3E8, symSize: 0x28 }
+  - { offset: 0x15E8E, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce init]', symObjAddr: 0xB0, symBinAddr: 0xE410, symSize: 0x18C }
+  - { offset: 0x15F43, size: 0x8, addend: 0x0, symName: '___30-[EOEnvironmentalSerivce init]_block_invoke', symObjAddr: 0x23C, symBinAddr: 0xE59C, symSize: 0x20 }
+  - { offset: 0x15F7F, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce enable]', symObjAddr: 0x26C, symBinAddr: 0xE5BC, symSize: 0x9C }
+  - { offset: 0x15FB3, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce disable]', symObjAddr: 0x308, symBinAddr: 0xE658, symSize: 0x28 }
+  - { offset: 0x15FF6, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce sleepSystem]', symObjAddr: 0x330, symBinAddr: 0xE680, symSize: 0x64 }
+  - { offset: 0x16039, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce addAsDeviceIDObserver]', symObjAddr: 0x394, symBinAddr: 0xE6E4, symSize: 0x54 }
+  - { offset: 0x16069, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce removeAsDeviceIDObserver]', symObjAddr: 0x3E8, symBinAddr: 0xE738, symSize: 0x4C }
+  - { offset: 0x16099, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceIDChanged:]', symObjAddr: 0x434, symBinAddr: 0xE784, symSize: 0x180 }
+  - { offset: 0x160D8, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce settingsBundlePath]', symObjAddr: 0x5B4, symBinAddr: 0xE904, symSize: 0xC }
+  - { offset: 0x16108, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce dealloc]', symObjAddr: 0x5C0, symBinAddr: 0xE910, symSize: 0x44 }
+  - { offset: 0x16138, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startMonitoringOrientationChanges]', symObjAddr: 0x604, symBinAddr: 0xE954, symSize: 0x8 }
+  - { offset: 0x1616C, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce stopMonitoringOrientationChanges]', symObjAddr: 0x60C, symBinAddr: 0xE95C, symSize: 0x8 }
+  - { offset: 0x161A0, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce eoOrientationChanged:]', symObjAddr: 0x614, symBinAddr: 0xE964, symSize: 0x204 }
+  - { offset: 0x161F8, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentUIOrientation]', symObjAddr: 0x818, symBinAddr: 0xEB68, symSize: 0x8 }
+  - { offset: 0x1622C, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentUIOrientationInDegrees]', symObjAddr: 0x820, symBinAddr: 0xEB70, symSize: 0x8 }
+  - { offset: 0x16260, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentDeviceOrientation]', symObjAddr: 0x828, symBinAddr: 0xEB78, symSize: 0x8 }
+  - { offset: 0x16294, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentDeviceOrientationInDegrees]', symObjAddr: 0x830, symBinAddr: 0xEB80, symSize: 0x8 }
+  - { offset: 0x162C8, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentScreenDimensions]', symObjAddr: 0x838, symBinAddr: 0xEB88, symSize: 0x8 }
+  - { offset: 0x162FC, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentOrientationName]', symObjAddr: 0x840, symBinAddr: 0xEB90, symSize: 0x30 }
+  - { offset: 0x16330, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startMonitoringNetworkStatus]', symObjAddr: 0x870, symBinAddr: 0xEBC0, symSize: 0x78 }
+  - { offset: 0x16390, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce stopMonitoringNetworkStatus]', symObjAddr: 0x8E8, symBinAddr: 0xEC38, symSize: 0x8 }
+  - { offset: 0x163C4, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce stringForNetworkStatus:]', symObjAddr: 0x8F0, symBinAddr: 0xEC40, symSize: 0x8 }
+  - { offset: 0x16405, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce isConnectedViaWifi]', symObjAddr: 0x8F8, symBinAddr: 0xEC48, symSize: 0x8 }
+  - { offset: 0x16439, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce postNotificationForKey:value:name:]', symObjAddr: 0x900, symBinAddr: 0xEC50, symSize: 0x118 }
+  - { offset: 0x164A5, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startMonitoringApplicationChanges]', symObjAddr: 0xA18, symBinAddr: 0xED68, symSize: 0x44 }
+  - { offset: 0x164DA, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce stopMonitoringApplicationChanges]', symObjAddr: 0xA5C, symBinAddr: 0xEDAC, symSize: 0x14 }
+  - { offset: 0x1651F, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentNetworkStatus]', symObjAddr: 0xA70, symBinAddr: 0xEDC0, symSize: 0x8 }
+  - { offset: 0x16554, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentNetworkReachabilityName]', symObjAddr: 0xA78, symBinAddr: 0xEDC8, symSize: 0x8 }
+  - { offset: 0x16589, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentConnectionType]', symObjAddr: 0xA80, symBinAddr: 0xEDD0, symSize: 0x8 }
+  - { offset: 0x165BE, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce loadCarrierDetails]', symObjAddr: 0xA88, symBinAddr: 0xEDD8, symSize: 0x38C }
+  - { offset: 0x166AB, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkIPAddressWithPrefIP4:]', symObjAddr: 0xE14, symBinAddr: 0xF164, symSize: 0x248 }
+  - { offset: 0x16766, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkIPAddress]', symObjAddr: 0x105C, symBinAddr: 0xF3AC, symSize: 0x7C }
+  - { offset: 0x1679B, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkIPV6Address]', symObjAddr: 0x10D8, symBinAddr: 0xF428, symSize: 0x68 }
+  - { offset: 0x167D0, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce getIPAddressesDict]', symObjAddr: 0x1140, symBinAddr: 0xF490, symSize: 0x21C }
+  - { offset: 0x16A0B, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkWiFiIPAddress]', symObjAddr: 0x135C, symBinAddr: 0xF6AC, symSize: 0x120 }
+  - { offset: 0x16AE2, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce appVersion]', symObjAddr: 0x147C, symBinAddr: 0xF7CC, symSize: 0xB0 }
+  - { offset: 0x16B3D, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce appVersionMajorMinor]', symObjAddr: 0x152C, symBinAddr: 0xF87C, symSize: 0x168 }
+  - { offset: 0x16BE0, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce appName]', symObjAddr: 0x1694, symBinAddr: 0xF9E4, symSize: 0xB0 }
+  - { offset: 0x16C3B, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce applicationState]', symObjAddr: 0x1744, symBinAddr: 0xFA94, symSize: 0x9C }
+  - { offset: 0x16CAC, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceID]', symObjAddr: 0x17E0, symBinAddr: 0xFB30, symSize: 0xB8 }
+  - { offset: 0x16CE1, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce generateDeviceId]', symObjAddr: 0x1898, symBinAddr: 0xFBE8, symSize: 0x28C }
+  - { offset: 0x16DEC, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce generateUDID]', symObjAddr: 0x1B24, symBinAddr: 0xFE74, symSize: 0xEC }
+  - { offset: 0x16F44, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceTotalStorageCapacity]', symObjAddr: 0x1C10, symBinAddr: 0xFF60, symSize: 0xE8 }
+  - { offset: 0x16FD1, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceTotalStorageFreeCapacity]', symObjAddr: 0x1CF8, symBinAddr: 0x10048, symSize: 0xE8 }
+  - { offset: 0x17053, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceTotalMemory]', symObjAddr: 0x1DE0, symBinAddr: 0x10130, symSize: 0x64 }
+  - { offset: 0x170B2, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce deviceUserMemory]', symObjAddr: 0x1E44, symBinAddr: 0x10194, symSize: 0x64 }
+  - { offset: 0x17111, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce getSysInfo:]', symObjAddr: 0x1EA8, symBinAddr: 0x101F8, symSize: 0xC8 }
+  - { offset: 0x17210, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce getCurrentBatteryLevel]', symObjAddr: 0x1F70, symBinAddr: 0x102C0, symSize: 0x48 }
+  - { offset: 0x1725E, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setUserAgentFromBrowser]', symObjAddr: 0x1FB8, symBinAddr: 0x10308, symSize: 0xFC }
+  - { offset: 0x172AD, size: 0x8, addend: 0x0, symName: '___49-[EOEnvironmentalSerivce setUserAgentFromBrowser]_block_invoke', symObjAddr: 0x20B4, symBinAddr: 0x10404, symSize: 0xA4 }
+  - { offset: 0x1730E, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setEOAdvertisingId:]', symObjAddr: 0x2158, symBinAddr: 0x104A8, symSize: 0xA8 }
+  - { offset: 0x1736D, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce carriers]', symObjAddr: 0x2200, symBinAddr: 0x10550, symSize: 0x8 }
+  - { offset: 0x173A1, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce isEnabled]', symObjAddr: 0x2208, symBinAddr: 0x10558, symSize: 0x8 }
+  - { offset: 0x173D5, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startingDeviceOrientation]', symObjAddr: 0x2210, symBinAddr: 0x10560, symSize: 0x8 }
+  - { offset: 0x17409, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startingUIOrientation]', symObjAddr: 0x2218, symBinAddr: 0x10568, symSize: 0x8 }
+  - { offset: 0x1743D, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce startingOrientationName]', symObjAddr: 0x2220, symBinAddr: 0x10570, symSize: 0x8 }
+  - { offset: 0x17471, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce userAgentFromBrowser]', symObjAddr: 0x2228, symBinAddr: 0x10578, symSize: 0x8 }
+  - { offset: 0x174A5, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setUserAgentFromBrowser:]', symObjAddr: 0x2230, symBinAddr: 0x10580, symSize: 0x30 }
+  - { offset: 0x174E2, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce cxaAdvertisingIdFromCustomer]', symObjAddr: 0x2260, symBinAddr: 0x105B0, symSize: 0x8 }
+  - { offset: 0x17516, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setCxaAdvertisingIdFromCustomer:]', symObjAddr: 0x2268, symBinAddr: 0x105B8, symSize: 0x30 }
+  - { offset: 0x17553, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce networkCarrierName]', symObjAddr: 0x2298, symBinAddr: 0x105E8, symSize: 0x8 }
+  - { offset: 0x17587, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce currentDeviceID]', symObjAddr: 0x22A0, symBinAddr: 0x105F0, symSize: 0x8 }
+  - { offset: 0x175BB, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce setCurrentDeviceID:]', symObjAddr: 0x22A8, symBinAddr: 0x105F8, symSize: 0x30 }
+  - { offset: 0x175F8, size: 0x8, addend: 0x0, symName: '-[EOEnvironmentalSerivce .cxx_destruct]', symObjAddr: 0x22D8, symBinAddr: 0x10628, symSize: 0xC0 }
+  - { offset: 0x18A87, size: 0x8, addend: 0x0, symName: '-[EOMessage init]', symObjAddr: 0x0, symBinAddr: 0x106E8, symSize: 0x44 }
+  - { offset: 0x18B3E, size: 0x8, addend: 0x0, symName: '-[EOMessage init]', symObjAddr: 0x0, symBinAddr: 0x106E8, symSize: 0x44 }
+  - { offset: 0x18B72, size: 0x8, addend: 0x0, symName: '-[EOMessage jsonDictionary]', symObjAddr: 0x44, symBinAddr: 0x1072C, symSize: 0x70 }
+  - { offset: 0x18BB5, size: 0x8, addend: 0x0, symName: '-[EOMessage toJson]', symObjAddr: 0xB4, symBinAddr: 0x1079C, symSize: 0x44 }
+  - { offset: 0x18BE9, size: 0x8, addend: 0x0, symName: '-[EOMessage encodeWithCoder:]', symObjAddr: 0xF8, symBinAddr: 0x107E0, symSize: 0xF4 }
+  - { offset: 0x18C41, size: 0x8, addend: 0x0, symName: '-[EOMessage initWithCoder:]', symObjAddr: 0x1EC, symBinAddr: 0x108D4, symSize: 0x11C }
+  - { offset: 0x18C9D, size: 0x8, addend: 0x0, symName: '-[EOMessage offset]', symObjAddr: 0x308, symBinAddr: 0x109F0, symSize: 0x8 }
+  - { offset: 0x18CD1, size: 0x8, addend: 0x0, symName: '-[EOMessage setOffset:]', symObjAddr: 0x310, symBinAddr: 0x109F8, symSize: 0x8 }
+  - { offset: 0x18D0A, size: 0x8, addend: 0x0, symName: '-[EOMessage logLevel]', symObjAddr: 0x318, symBinAddr: 0x10A00, symSize: 0x8 }
+  - { offset: 0x18D3E, size: 0x8, addend: 0x0, symName: '-[EOMessage setLogLevel:]', symObjAddr: 0x320, symBinAddr: 0x10A08, symSize: 0x8 }
+  - { offset: 0x18F20, size: 0x8, addend: 0x0, symName: '+[EODataCompression load]', symObjAddr: 0x0, symBinAddr: 0x10A10, symSize: 0x40 }
+  - { offset: 0x18F47, size: 0x8, addend: 0x0, symName: _deflateInitEODCFunctor, symBinAddr: 0x2C108, symSize: 0x0 }
+  - { offset: 0x19113, size: 0x8, addend: 0x0, symName: _deflateEODCFunctor, symBinAddr: 0x2C0F8, symSize: 0x0 }
+  - { offset: 0x1913D, size: 0x8, addend: 0x0, symName: _deflateEndEODCFunctor, symBinAddr: 0x2C100, symSize: 0x0 }
+  - { offset: 0x19180, size: 0x8, addend: 0x0, symName: '+[EODataCompression load]', symObjAddr: 0x0, symBinAddr: 0x10A10, symSize: 0x40 }
+  - { offset: 0x191AC, size: 0x8, addend: 0x0, symName: '+[EODataCompression compressData:]', symObjAddr: 0x40, symBinAddr: 0x10A50, symSize: 0x1D8 }
+  - { offset: 0x194A6, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x10C28, symSize: 0x88 }
+  - { offset: 0x194B3, size: 0x8, addend: 0x0, symName: '+[EOConfigService sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x10C28, symSize: 0x88 }
+  - { offset: 0x194DC, size: 0x8, addend: 0x0, symName: _sharedInstance._singletonPredicate, symObjAddr: 0xCA90, symBinAddr: 0x2C0E0, symSize: 0x0 }
+  - { offset: 0x194F1, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xCA98, symBinAddr: 0x2C0E8, symSize: 0x0 }
+  - { offset: 0x196ED, size: 0x8, addend: 0x0, symName: '___33+[EOConfigService sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x10CB0, symSize: 0x28 }
+  - { offset: 0x19729, size: 0x8, addend: 0x0, symName: '-[EOConfigService init]', symObjAddr: 0xB0, symBinAddr: 0x10CD8, symSize: 0x80 }
+  - { offset: 0x1975D, size: 0x8, addend: 0x0, symName: '-[EOConfigService enable]', symObjAddr: 0x130, symBinAddr: 0x10D58, symSize: 0x10 }
+  - { offset: 0x19791, size: 0x8, addend: 0x0, symName: '-[EOConfigService disable]', symObjAddr: 0x140, symBinAddr: 0x10D68, symSize: 0xC }
+  - { offset: 0x197C5, size: 0x8, addend: 0x0, symName: '-[EOConfigService settingsBundlePath]', symObjAddr: 0x14C, symBinAddr: 0x10D74, symSize: 0xD8 }
+  - { offset: 0x19821, size: 0x8, addend: 0x0, symName: '-[EOConfigService isManualPostingEnabled]', symObjAddr: 0x224, symBinAddr: 0x10E4C, symSize: 0x5C }
+  - { offset: 0x19855, size: 0x8, addend: 0x0, symName: '-[EOConfigService isCompressPostMessageEnabled]', symObjAddr: 0x280, symBinAddr: 0x10EA8, symSize: 0xDC }
+  - { offset: 0x198C2, size: 0x8, addend: 0x0, symName: '-[EOConfigService cachingLevel]', symObjAddr: 0x35C, symBinAddr: 0x10F84, symSize: 0x90 }
+  - { offset: 0x198F6, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostOnIntervalsEnabled]', symObjAddr: 0x3EC, symBinAddr: 0x11014, symSize: 0x5C }
+  - { offset: 0x1992A, size: 0x8, addend: 0x0, symName: '-[EOConfigService isHasToPersistLocalCacheEnabled]', symObjAddr: 0x448, symBinAddr: 0x11070, symSize: 0x5C }
+  - { offset: 0x1995E, size: 0x8, addend: 0x0, symName: '-[EOConfigService loggingLevel]', symObjAddr: 0x4A4, symBinAddr: 0x110CC, symSize: 0x90 }
+  - { offset: 0x19992, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageLevelCellular]', symObjAddr: 0x534, symBinAddr: 0x1115C, symSize: 0x90 }
+  - { offset: 0x199C6, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageLevelWifi]', symObjAddr: 0x5C4, symBinAddr: 0x111EC, symSize: 0x90 }
+  - { offset: 0x199FA, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageTimeIntervals]', symObjAddr: 0x654, symBinAddr: 0x1127C, symSize: 0x90 }
+  - { offset: 0x19A2E, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppComesFromBackgroundEnabled]', symObjAddr: 0x6E4, symBinAddr: 0x1130C, symSize: 0x5C }
+  - { offset: 0x19A62, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppGoesToBackgroundEnabled]', symObjAddr: 0x740, symBinAddr: 0x11368, symSize: 0x5C }
+  - { offset: 0x19A96, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppGoesToCloseEnabled]', symObjAddr: 0x79C, symBinAddr: 0x113C4, symSize: 0x5C }
+  - { offset: 0x19ACA, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostAppIsLaunchedEnabled]', symObjAddr: 0x7F8, symBinAddr: 0x11420, symSize: 0x5C }
+  - { offset: 0x19AFE, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDoPostOnScreenChangeEnabled]', symObjAddr: 0x854, symBinAddr: 0x1147C, symSize: 0x5C }
+  - { offset: 0x19B32, size: 0x8, addend: 0x0, symName: '-[EOConfigService isDynamicConfigurationEnabled]', symObjAddr: 0x8B0, symBinAddr: 0x114D8, symSize: 0x5C }
+  - { offset: 0x19B66, size: 0x8, addend: 0x0, symName: '-[EOConfigService cachedFileMaxBytesSize]', symObjAddr: 0x90C, symBinAddr: 0x11534, symSize: 0x94 }
+  - { offset: 0x19B9A, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageMaxBytesSize]', symObjAddr: 0x9A0, symBinAddr: 0x115C8, symSize: 0x94 }
+  - { offset: 0x19BCE, size: 0x8, addend: 0x0, symName: '-[EOConfigService maxNumberOfFilesToCache]', symObjAddr: 0xA34, symBinAddr: 0x1165C, symSize: 0x90 }
+  - { offset: 0x19C02, size: 0x8, addend: 0x0, symName: '-[EOConfigService postMessageTimeout]', symObjAddr: 0xAC4, symBinAddr: 0x116EC, symSize: 0x90 }
+  - { offset: 0x19C36, size: 0x8, addend: 0x0, symName: '-[EOConfigService criticalBatteryLevel]', symObjAddr: 0xB54, symBinAddr: 0x1177C, symSize: 0x94 }
+  - { offset: 0x19C6A, size: 0x8, addend: 0x0, symName: '-[EOConfigService libraryVersion]', symObjAddr: 0xBE8, symBinAddr: 0x11810, symSize: 0x60 }
+  - { offset: 0x19C9E, size: 0x8, addend: 0x0, symName: '-[EOConfigService messageVersion]', symObjAddr: 0xC48, symBinAddr: 0x11870, symSize: 0x60 }
+  - { offset: 0x19CD2, size: 0x8, addend: 0x0, symName: '-[EOConfigService turnOffCorrectOrientationUpdates]', symObjAddr: 0xCA8, symBinAddr: 0x118D0, symSize: 0x5C }
+  - { offset: 0x19D06, size: 0x8, addend: 0x0, symName: '-[EOConfigService defaultOrientation]', symObjAddr: 0xD04, symBinAddr: 0x1192C, symSize: 0x90 }
+  - { offset: 0x19D3A, size: 0x8, addend: 0x0, symName: '-[EOConfigService loadConfig:]', symObjAddr: 0xD94, symBinAddr: 0x119BC, symSize: 0x55C }
+  - { offset: 0x19E78, size: 0x8, addend: 0x0, symName: '-[EOConfigService unloadConfig:]', symObjAddr: 0x12F0, symBinAddr: 0x11F18, symSize: 0x9C }
+  - { offset: 0x19ECD, size: 0x8, addend: 0x0, symName: '-[EOConfigService plistConfigForBundle:]', symObjAddr: 0x138C, symBinAddr: 0x11FB4, symSize: 0x164 }
+  - { offset: 0x19F72, size: 0x8, addend: 0x0, symName: '-[EOConfigService jsonConfigForBundle:]', symObjAddr: 0x14F0, symBinAddr: 0x12118, symSize: 0x188 }
+  - { offset: 0x1A03D, size: 0x8, addend: 0x0, symName: '-[EOConfigService layoutJsonConfigForBundle:]', symObjAddr: 0x1678, symBinAddr: 0x122A0, symSize: 0x1FC }
+  - { offset: 0x1A108, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfig:]', symObjAddr: 0x1874, symBinAddr: 0x1249C, symSize: 0x18C }
+  - { offset: 0x1A1B8, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfigItem:forLifecycleObject:]', symObjAddr: 0x1A00, symBinAddr: 0x12628, symSize: 0x144 }
+  - { offset: 0x1A24D, size: 0x8, addend: 0x0, symName: '-[EOConfigService updateConfig:withData:]', symObjAddr: 0x1B44, symBinAddr: 0x1276C, symSize: 0xBC }
+  - { offset: 0x1A2C2, size: 0x8, addend: 0x0, symName: '-[EOConfigService currentConfigurableItemsForLifecycleObject:]', symObjAddr: 0x1C00, symBinAddr: 0x12828, symSize: 0x4 }
+  - { offset: 0x1A303, size: 0x8, addend: 0x0, symName: '-[EOConfigService saveCurrentConfigurableItems:ForLifeCycleObject:]', symObjAddr: 0x1C04, symBinAddr: 0x1282C, symSize: 0x180 }
+  - { offset: 0x1A3A5, size: 0x8, addend: 0x0, symName: '-[EOConfigService prefixForModuleBundleName:]', symObjAddr: 0x1D84, symBinAddr: 0x129AC, symSize: 0xE8 }
+  - { offset: 0x1A410, size: 0x8, addend: 0x0, symName: '-[EOConfigService fileExistsAtFullPath:]', symObjAddr: 0x1E6C, symBinAddr: 0x12A94, symSize: 0xB0 }
+  - { offset: 0x1A491, size: 0x8, addend: 0x0, symName: '-[EOConfigService getConfigItemAsBool:withDefault:forModuleName:]', symObjAddr: 0x1F1C, symBinAddr: 0x12B44, symSize: 0xFC }
+  - { offset: 0x1A536, size: 0x8, addend: 0x0, symName: '-[EOConfigService getNumberItemFor:withDefault:forModule:]', symObjAddr: 0x2018, symBinAddr: 0x12C40, symSize: 0x10C }
+  - { offset: 0x1A5DB, size: 0x8, addend: 0x0, symName: '-[EOConfigService setConfigItemForKey:WithValue:forModule:]', symObjAddr: 0x2124, symBinAddr: 0x12D4C, symSize: 0x1D0 }
+  - { offset: 0x1A6B8, size: 0x8, addend: 0x0, symName: '-[EOConfigService isEnabled]', symObjAddr: 0x22F4, symBinAddr: 0x12F1C, symSize: 0x8 }
+  - { offset: 0x1A6EC, size: 0x8, addend: 0x0, symName: '-[EOConfigService configurations]', symObjAddr: 0x22FC, symBinAddr: 0x12F24, symSize: 0x8 }
+  - { offset: 0x1A720, size: 0x8, addend: 0x0, symName: '-[EOConfigService setConfigurations:]', symObjAddr: 0x2304, symBinAddr: 0x12F2C, symSize: 0x30 }
+  - { offset: 0x1A75D, size: 0x8, addend: 0x0, symName: '-[EOConfigService .cxx_destruct]', symObjAddr: 0x2334, symBinAddr: 0x12F5C, symSize: 0xC }
 ...

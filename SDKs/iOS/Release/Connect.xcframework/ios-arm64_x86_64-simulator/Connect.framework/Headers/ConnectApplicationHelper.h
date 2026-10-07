@@ -73,7 +73,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)isReactNative:(BOOL)isReactN wrapNavigationContainer:(BOOL)usesWrapNavCon;
 
 /*!
- * @abstract Set current logical page name.
+ * @abstract Set the logical page name of the current screen: the one that is appearing or, when
+ * none is, the one on display. It never names the next screen. Call it while the screen appears
+ * (viewWillAppear: or viewDidAppear:); a call from viewDidAppear: renames the screen view just logged.
  * @param logicalPageName - Logical page name.
  * @return Returns YES or NO it was able to update.
  * @note Deprecated. Use ConnectSDK.shared.setCurrentScreen(pageName:) instead.
