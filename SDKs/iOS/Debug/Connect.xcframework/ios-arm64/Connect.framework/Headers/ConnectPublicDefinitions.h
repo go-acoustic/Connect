@@ -19,7 +19,7 @@
 //#import "Tealeaf/ConnectPublicDefinitions.h"
 
 // Version
-#define CONNECT_FRAMEWORK_VER @"2.2.4" //ReleaseVersion.SprintVersion.MinorVersion
+#define CONNECT_FRAMEWORK_VER @"2.2.5" //ReleaseVersion.SprintVersion.MinorVersion
 #define kConnectCoreModule                              @"ConnectCoreModule"
 //#define kConfigurableItemEventLevels                    @"EventLevels"
 //#define kConfigurableItemTreatJsonDictionariesAsString  @"TreatJsonDictionariesAsString"
