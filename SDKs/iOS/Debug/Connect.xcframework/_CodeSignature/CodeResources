@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/Connect.framework/Connect</key>
 		<data>
-		wNZ5SYuvaH04Q8UoSHFEfZa4MYM=
+		3JzZVrW36NJbWbmuAQVpcoVJAtc=
 		</data>
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		jGyf/JrUhiY90S88bRYZROKj7gk=
+		dT7yDUh6AwUlRM/ATYiMPN9mw2I=
 		</data>
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>ios-arm64/Connect.framework/Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		Yi9yLM5RQl11Byxli3hWsJWCO2w=
+		qyE+Z9qQOrVcbrmkKl5Fqumdzkw=
 		</data>
 		<key>ios-arm64/Connect.framework/Info.plist</key>
 		<data>
-		l+ydblP4+Q/MVl2o5AsHlj/DEjM=
+		JuXJtTgSOgB8BKfs+mCtGQqx7co=
 		</data>
 		<key>ios-arm64/Connect.framework/Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		mc+fV5A/mvOHNKW+PxJHjfLIk3U=
+		vxGLwZIpV4YuW5GnI9+Nl1BbbOM=
 		</data>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Resources/DWARF/Connect</key>
 		<data>
-		8cItUw3Q6RtR3XA1UrTO8aiuO8s=
+		Tj+R2L6fLXHbNK08ur/hroNTt6Q=
 		</data>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Resources/Relocations/aarch64/Connect.yml</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Connect</key>
 		<data>
-		vS/zJFNtqpTM/B5ba/L2rd3dOOU=
+		brWRCLGbMuQkbhYnL3BbJ7O6pW4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<data>
-		jGyf/JrUhiY90S88bRYZROKj7gk=
+		dT7yDUh6AwUlRM/ATYiMPN9mw2I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Headers/ConnectPublicDefinitions.h</key>
 		<data>
-		Yi9yLM5RQl11Byxli3hWsJWCO2w=
+		qyE+Z9qQOrVcbrmkKl5Fqumdzkw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Info.plist</key>
 		<data>
-		kpOu4rG8wKIu5LxlkJuo0+YEs7c=
+		FkjInn79DcsByTwjIJbWGcLleDA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		mc+fV5A/mvOHNKW+PxJHjfLIk3U=
+		vxGLwZIpV4YuW5GnI9+Nl1BbbOM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Resources/DWARF/Connect</key>
 		<data>
-		5S9zO2UkQeW+LkHGGUZ7H7w7g2U=
+		xdMBr6D6tDPKRj4XYfWcEmKY7F8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Resources/Relocations/aarch64/Connect.yml</key>
 		<data>
@@ -199,14 +199,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UGnh2C3C5uOdSwOmXgAi3hYQtHgFlSr9bn+oIuKgpe4=
+			EfMGR7b8ED7TUEH41BcoVByEEQnwfbDIMFrKNJGoRUo=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVOkkUvNChJ3R36VVe7JACnL1WL07aafuSd8qCaaMZY=
+			cyErqW04X/zGdmxBRSKGcapxLzMXVH32BGzZvSfrvg8=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -269,14 +269,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hkeranABBP+HTjOXEVE8jAHDqZ9yu4RY021S6Q9iqnc=
+			Yb9ebZwnXDttiwmfZ5sBrXwsCAQ2LtgqAgVnlmL0/rM=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NqtXQDgSACU7WlDnlDNr18nOzTTF2ors8LiGx3uDtQY=
+			tmPeEVGlIdosZDxvZKDDdr9+2zk5oB9igH1zjNLYtYU=
 			</data>
 		</dict>
 		<key>ios-arm64/Connect.framework/Modules/Connect.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -325,14 +325,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ijpIhUVlfAc1/RZvtQBfeGG4iDVYjD1+aBa/ER4euuA=
+			LyU/u8Lkn57nT8oGKTjPCoaoj7TCwUksVQclGs2I7io=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Resources/DWARF/Connect</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ummg8KfC/wV8sPz6OplKJPijkamlO0NO1XqxRKGuYlQ=
+			5DKohMZhYw8P1hCU2XQ3lXlqvr3TC+czmtC6qljCMvU=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/Connect.framework.dSYM/Contents/Resources/Relocations/aarch64/Connect.yml</key>
@@ -346,14 +346,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fo0knehDBarbkO1mb1YezPjakvfpSemvIWE1CavR+Vw=
+			eokILEWlrd6RMYIFu1KXz6C+/PHnmD9uT36X/SMh+ds=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectAdvancedConfig.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVOkkUvNChJ3R36VVe7JACnL1WL07aafuSd8qCaaMZY=
+			cyErqW04X/zGdmxBRSKGcapxLzMXVH32BGzZvSfrvg8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/ConnectResources.bundle/ConnectBasicConfig.plist</key>
@@ -416,14 +416,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hkeranABBP+HTjOXEVE8jAHDqZ9yu4RY021S6Q9iqnc=
+			Yb9ebZwnXDttiwmfZ5sBrXwsCAQ2LtgqAgVnlmL0/rM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/R1Y+Nkab9aCz9mfupAU3vx60uo+gaSQGJ2XG3UJzGc=
+			iy1hwbWPiGkDdY4PJitLseDdvBF+51DoDfv9Az6RLeY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Connect.framework/Modules/Connect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -500,14 +500,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ijpIhUVlfAc1/RZvtQBfeGG4iDVYjD1+aBa/ER4euuA=
+			LyU/u8Lkn57nT8oGKTjPCoaoj7TCwUksVQclGs2I7io=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Resources/DWARF/Connect</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nigHLPVx1Rdz5utZTTG/tyNgdIXC+/XrnW+Fng3efNM=
+			44hkmAvZMi/2w2oH/2fYBjGHRb0tlN42CQEwpwfSbds=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/Connect.framework.dSYM/Contents/Resources/Relocations/aarch64/Connect.yml</key>
