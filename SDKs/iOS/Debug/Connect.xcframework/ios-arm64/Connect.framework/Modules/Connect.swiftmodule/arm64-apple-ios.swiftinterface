@@ -280,6 +280,21 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func connectCapture(identifier: Swift.String) -> some SwiftUICore.View
   
 }
+extension SwiftUICore.Text {
+  public func connectMaskable() -> some SwiftUICore.View
+  
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func connectMaskable(_ text: Swift.String) -> some SwiftUICore.View
+  
+}
+@_Concurrency.MainActor @preconcurrency public struct ConnectText : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init<S>(_ content: S) where S : Swift.StringProtocol
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7Connect0A4TextV4bodyQrvp", 0) __
+}
 extension Connect.ConnectPushActionIdentifier : Swift.Equatable {}
 extension Connect.ConnectPushActionIdentifier : Swift.Hashable {}
 extension Connect.ConnectPushActionIdentifier : Swift.RawRepresentable {}
@@ -289,3 +304,4 @@ extension Connect.ConnectPush : Swift.Sendable {}
 extension Connect.ConnectSDK : Swift.Sendable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Equatable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Hashable {}
+extension Connect.ConnectText : Swift.Sendable {}

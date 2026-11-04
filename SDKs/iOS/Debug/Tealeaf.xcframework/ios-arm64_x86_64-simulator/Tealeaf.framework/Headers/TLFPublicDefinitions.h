@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2023 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2023, 2026 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -192,4 +192,12 @@ extern NSString* kTLFMobileStateEvent;
 - (BOOL)logEvent:(NSString*)eventName values:(NSDictionary*)values;
 - (BOOL)logPrintScreenEvent;
 - (BOOL)logJSONMessagePayloadStr:(NSString*)payload;
+@end
+
+/// A view standing for SwiftUI text that screenshot masking checks against the value rules:
+/// Connect's marker behind a view marked with `connectMaskable`.
+NS_SWIFT_UI_ACTOR
+@protocol TLFMaskableTextProviding <NSObject>
+/// The strings the text is built from, or nil when they could not be read.
+@property (nonatomic, readonly) NSArray<NSString *> *connectMaskableTexts;
 @end
