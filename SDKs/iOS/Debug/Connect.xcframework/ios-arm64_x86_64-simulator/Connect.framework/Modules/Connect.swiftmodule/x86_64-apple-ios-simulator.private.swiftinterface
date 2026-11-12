@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 @_exported import Connect
 import Foundation
+import ObjectiveC
 import Swift
 import SwiftUI
 import UIKit
@@ -44,6 +45,20 @@ public enum ConnectError : Swift.Error {
   public var hashValue: Swift.Int {
     get
   }
+}
+@_spi(ConnectPlugins) public struct ConnectWebTarget : Swift.Sendable {
+  @_spi(ConnectPlugins) public let id: Swift.String
+  @_spi(ConnectPlugins) public let isDomId: Swift.Bool
+  @_spi(ConnectPlugins) public let type: Swift.String
+  @_spi(ConnectPlugins) public let tlType: Swift.String
+  @_spi(ConnectPlugins) public let bounds: CoreFoundation.CGRect
+  @_spi(ConnectPlugins) public init(id: Swift.String, isDomId: Swift.Bool, type: Swift.String, tlType: Swift.String, bounds: CoreFoundation.CGRect)
+}
+extension Connect.ConnectSDK {
+  @_spi(ConnectPlugins) @discardableResult
+  @_Concurrency.MainActor final public func logWebClick(in webView: UIKit.UIView, viewportWidth: Swift.Double, target: Connect.ConnectWebTarget, at touch: CoreFoundation.CGPoint, touchedAt: Foundation.Date) -> Swift.Bool
+  @_spi(ConnectPlugins) @discardableResult
+  @_Concurrency.MainActor final public func logWebGesture(in webView: UIKit.UIView, viewportWidth: Swift.Double, tlEvent: Swift.String, target: Connect.ConnectWebTarget, touches: [[CoreFoundation.CGPoint]], direction: Swift.String?, velocity: CoreFoundation.CGPoint?, touchedAt: Foundation.Date) -> Swift.Bool
 }
 public struct ConnectPushAuthorizationOptions : Swift.OptionSet, Swift.Sendable {
   public let rawValue: Swift.UInt
@@ -300,8 +315,8 @@ extension Connect.ConnectPushActionIdentifier : Swift.Hashable {}
 extension Connect.ConnectPushActionIdentifier : Swift.RawRepresentable {}
 extension Connect.ConnectError : Swift.Equatable {}
 extension Connect.ConnectError : Swift.Hashable {}
-extension Connect.ConnectPush : Swift.Sendable {}
 extension Connect.ConnectSDK : Swift.Sendable {}
+extension Connect.ConnectPush : Swift.Sendable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Equatable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Hashable {}
 extension Connect.ConnectText : Swift.Sendable {}

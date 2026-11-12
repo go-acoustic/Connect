@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 @_exported import Connect
 import Foundation
+import ObjectiveC
 import Swift
 import SwiftUI
 import UIKit
@@ -300,8 +301,8 @@ extension Connect.ConnectPushActionIdentifier : Swift.Hashable {}
 extension Connect.ConnectPushActionIdentifier : Swift.RawRepresentable {}
 extension Connect.ConnectError : Swift.Equatable {}
 extension Connect.ConnectError : Swift.Hashable {}
-extension Connect.ConnectPush : Swift.Sendable {}
 extension Connect.ConnectSDK : Swift.Sendable {}
+extension Connect.ConnectPush : Swift.Sendable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Equatable {}
 extension Connect.ConnectPushConfig.Mode : Swift.Hashable {}
 extension Connect.ConnectText : Swift.Sendable {}
