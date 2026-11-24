@@ -22032,13 +22032,21 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Tealeaf",
+        "printedName": "Tealeaf",
         "declKind": "Import",
         "moduleName": "Connect",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Connect"
       },
       {
         "kind": "TypeDecl",

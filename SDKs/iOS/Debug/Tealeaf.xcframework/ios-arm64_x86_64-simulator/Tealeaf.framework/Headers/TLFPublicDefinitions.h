@@ -194,6 +194,11 @@ extern NSString* kTLFMobileStateEvent;
 - (BOOL)logJSONMessagePayloadStr:(NSString*)payload;
 @end
 
+/// A view Connect places behind a SwiftUI view to carry its accessibility identifier into layout capture.
+NS_SWIFT_UI_ACTOR
+@protocol TLFCaptureMarking <NSObject>
+@end
+
 /// A view standing for SwiftUI text that screenshot masking checks against the value rules:
 /// Connect's marker behind a view marked with `connectMaskable`.
 NS_SWIFT_UI_ACTOR
